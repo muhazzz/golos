@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structsteemit_1_1follow_1_1detail_1_1post__operation__visitor" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::follow::detail::post_operation_visitor</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structsteemit_1_1follow_1_1detail_1_1post__operation__visitor_1a6071386fde28662fe0a7e328a221a819" prot="public" static="no">
+        <type>void</type>
+        <definition>typedef void steemit::follow::detail::post_operation_visitor::result_type</definition>
+        <argsstring></argsstring>
+        <name>result_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/follow/follow_plugin.cpp" line="146" column="1" bodyfile="libraries/plugins/follow/follow_plugin.cpp" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsteemit_1_1follow_1_1detail_1_1post__operation__visitor_1a4dba941867e6564a0ab033f15a0577f7" prot="public" static="no" mutable="no">
+        <type><ref refid="classsteemit_1_1follow_1_1follow__plugin" kindref="compound">follow_plugin</ref> &amp;</type>
+        <definition>follow_plugin&amp; steemit::follow::detail::post_operation_visitor::_plugin</definition>
+        <argsstring></argsstring>
+        <name>_plugin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/follow/follow_plugin.cpp" line="140" column="1" bodyfile="libraries/plugins/follow/follow_plugin.cpp" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsteemit_1_1follow_1_1detail_1_1post__operation__visitor_1ac1662b54e6e7a9b58d031b2e53d1be74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::follow::detail::post_operation_visitor::post_operation_visitor</definition>
+        <argsstring>(follow_plugin &amp;plugin)</argsstring>
+        <name>post_operation_visitor</name>
+        <param>
+          <type><ref refid="classsteemit_1_1follow_1_1follow__plugin" kindref="compound">follow_plugin</ref> &amp;</type>
+          <declname>plugin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/follow/follow_plugin.cpp" line="142" column="1" bodyfile="libraries/plugins/follow/follow_plugin.cpp" bodystart="142" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1follow_1_1detail_1_1post__operation__visitor_1a6172b4c62eea1f50c27f1edf5d8376c4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void steemit::follow::detail::post_operation_visitor::operator()</definition>
+        <argsstring>(const T &amp;) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const T &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/follow/follow_plugin.cpp" line="149" column="1" bodyfile="libraries/plugins/follow/follow_plugin.cpp" bodystart="149" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1follow_1_1detail_1_1post__operation__visitor_1a48dbc533aee2149fab40cdd6a4ee8d4e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::follow::detail::post_operation_visitor::operator()</definition>
+        <argsstring>(const custom_json_operation &amp;op) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const custom_json_operation &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/follow/follow_plugin.cpp" line="152" column="1" bodyfile="libraries/plugins/follow/follow_plugin.cpp" bodystart="152" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1follow_1_1detail_1_1post__operation__visitor_1a0ce13ae4108b85259c3fe71e2d29fca4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::follow::detail::post_operation_visitor::operator()</definition>
+        <argsstring>(const comment_operation &amp;op) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const comment_operation &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/follow/follow_plugin.cpp" line="178" column="1" bodyfile="libraries/plugins/follow/follow_plugin.cpp" bodystart="178" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1follow_1_1detail_1_1post__operation__visitor_1aca2665f07558fdafeb79b0e2b3feba13" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::follow::detail::post_operation_visitor::operator()</definition>
+        <argsstring>(const vote_operation &amp;op) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const vote_operation &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/follow/follow_plugin.cpp" line="262" column="1" bodyfile="libraries/plugins/follow/follow_plugin.cpp" bodystart="262" bodyend="315"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="864">
+        <label>steemit::app::abstract_plugin</label>
+        <link refid="classsteemit_1_1app_1_1abstract__plugin"/>
+      </node>
+      <node id="862">
+        <label>steemit::follow::follow_plugin</label>
+        <link refid="classsteemit_1_1follow_1_1follow__plugin"/>
+        <childnode refid="863" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="861">
+        <label>steemit::follow::detail::post_operation_visitor</label>
+        <link refid="structsteemit_1_1follow_1_1detail_1_1post__operation__visitor"/>
+        <childnode refid="862" relation="usage">
+          <edgelabel>_plugin</edgelabel>
+        </childnode>
+      </node>
+      <node id="863">
+        <label>steemit::app::plugin</label>
+        <link refid="classsteemit_1_1app_1_1plugin"/>
+        <childnode refid="864" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/follow/follow_plugin.cpp" line="139" column="1" bodyfile="libraries/plugins/follow/follow_plugin.cpp" bodystart="139" bodyend="316"/>
+    <listofallmembers>
+      <member refid="structsteemit_1_1follow_1_1detail_1_1post__operation__visitor_1a4dba941867e6564a0ab033f15a0577f7" prot="public" virt="non-virtual"><scope>steemit::follow::detail::post_operation_visitor</scope><name>_plugin</name></member>
+      <member refid="structsteemit_1_1follow_1_1detail_1_1post__operation__visitor_1a6172b4c62eea1f50c27f1edf5d8376c4" prot="public" virt="non-virtual"><scope>steemit::follow::detail::post_operation_visitor</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1follow_1_1detail_1_1post__operation__visitor_1a48dbc533aee2149fab40cdd6a4ee8d4e" prot="public" virt="non-virtual"><scope>steemit::follow::detail::post_operation_visitor</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1follow_1_1detail_1_1post__operation__visitor_1a0ce13ae4108b85259c3fe71e2d29fca4" prot="public" virt="non-virtual"><scope>steemit::follow::detail::post_operation_visitor</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1follow_1_1detail_1_1post__operation__visitor_1aca2665f07558fdafeb79b0e2b3feba13" prot="public" virt="non-virtual"><scope>steemit::follow::detail::post_operation_visitor</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1follow_1_1detail_1_1post__operation__visitor_1ac1662b54e6e7a9b58d031b2e53d1be74" prot="public" virt="non-virtual"><scope>steemit::follow::detail::post_operation_visitor</scope><name>post_operation_visitor</name></member>
+      <member refid="structsteemit_1_1follow_1_1detail_1_1post__operation__visitor_1a6071386fde28662fe0a7e328a221a819" prot="public" virt="non-virtual"><scope>steemit::follow::detail::post_operation_visitor</scope><name>result_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structsteemit_1_1follow_1_1comment__blog__entry" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::follow::comment_blog_entry</compoundname>
+    <includes refid="follow__api_8hpp" local="no">follow_api.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsteemit_1_1follow_1_1comment__blog__entry_1a4e7c681cd003ec06fa613d8835e0630a" prot="public" static="no" mutable="no">
+        <type><ref refid="structsteemit_1_1app_1_1comment__api__obj" kindref="compound">comment_api_obj</ref></type>
+        <definition>comment_api_obj steemit::follow::comment_blog_entry::comment</definition>
+        <argsstring></argsstring>
+        <name>comment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/follow/include/steemit/follow/follow_api.hpp" line="41" column="1" bodyfile="libraries/plugins/follow/include/steemit/follow/follow_api.hpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1follow_1_1comment__blog__entry_1a6e50d75cb95559482ebbe2ccc1fc0447" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string steemit::follow::comment_blog_entry::blog</definition>
+        <argsstring></argsstring>
+        <name>blog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/follow/include/steemit/follow/follow_api.hpp" line="42" column="1" bodyfile="libraries/plugins/follow/include/steemit/follow/follow_api.hpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1follow_1_1comment__blog__entry_1a428c7c442e8ca4f9c5959ddb2fa82e50" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::follow::comment_blog_entry::reblog_on</definition>
+        <argsstring></argsstring>
+        <name>reblog_on</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/follow/include/steemit/follow/follow_api.hpp" line="43" column="1" bodyfile="libraries/plugins/follow/include/steemit/follow/follow_api.hpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1follow_1_1comment__blog__entry_1ad8a4cb428c4825e0fd4a3cc5c8bd4feb" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::follow::comment_blog_entry::entry_id</definition>
+        <argsstring></argsstring>
+        <name>entry_id</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/follow/include/steemit/follow/follow_api.hpp" line="44" column="1" bodyfile="libraries/plugins/follow/include/steemit/follow/follow_api.hpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="329">
+        <label>asset</label>
+      </node>
+      <node id="324">
+        <label>time_point_sec</label>
+      </node>
+      <node id="328">
+        <label>oid&lt; comment_object &gt;</label>
+      </node>
+      <node id="325">
+        <label>string</label>
+      </node>
+      <node id="330">
+        <label>account_name_type</label>
+      </node>
+      <node id="326">
+        <label>steemit::app::comment_api_obj</label>
+        <link refid="structsteemit_1_1app_1_1comment__api__obj"/>
+        <childnode refid="327" relation="usage">
+          <edgelabel>children_abs_rshares</edgelabel>
+          <edgelabel>author_rewards</edgelabel>
+          <edgelabel>vote_rshares</edgelabel>
+          <edgelabel>abs_rshares</edgelabel>
+          <edgelabel>net_rshares</edgelabel>
+        </childnode>
+        <childnode refid="324" relation="usage">
+          <edgelabel>last_payout</edgelabel>
+          <edgelabel>max_cashout_time</edgelabel>
+          <edgelabel>cashout_time</edgelabel>
+          <edgelabel>last_update</edgelabel>
+          <edgelabel>created</edgelabel>
+          <edgelabel>active</edgelabel>
+        </childnode>
+        <childnode refid="328" relation="usage">
+          <edgelabel>root_comment</edgelabel>
+          <edgelabel>id</edgelabel>
+        </childnode>
+        <childnode refid="329" relation="usage">
+          <edgelabel>max_accepted_payout</edgelabel>
+          <edgelabel>curator_payout_value</edgelabel>
+          <edgelabel>total_payout_value</edgelabel>
+        </childnode>
+        <childnode refid="330" relation="usage">
+          <edgelabel>parent_author</edgelabel>
+          <edgelabel>author</edgelabel>
+        </childnode>
+        <childnode refid="325" relation="usage">
+          <edgelabel>body</edgelabel>
+          <edgelabel>json_metadata</edgelabel>
+          <edgelabel>title</edgelabel>
+          <edgelabel>category</edgelabel>
+          <edgelabel>permlink</edgelabel>
+          <edgelabel>parent_permlink</edgelabel>
+        </childnode>
+        <childnode refid="331" relation="usage">
+          <edgelabel>children_rshares2</edgelabel>
+        </childnode>
+      </node>
+      <node id="323">
+        <label>steemit::follow::comment_blog_entry</label>
+        <link refid="structsteemit_1_1follow_1_1comment__blog__entry"/>
+        <childnode refid="324" relation="usage">
+          <edgelabel>reblog_on</edgelabel>
+        </childnode>
+        <childnode refid="325" relation="usage">
+          <edgelabel>blog</edgelabel>
+        </childnode>
+        <childnode refid="326" relation="usage">
+          <edgelabel>comment</edgelabel>
+        </childnode>
+      </node>
+      <node id="327">
+        <label>share_type</label>
+      </node>
+      <node id="331">
+        <label>uint128_t</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/follow/include/steemit/follow/follow_api.hpp" line="40" column="1" bodyfile="libraries/plugins/follow/include/steemit/follow/follow_api.hpp" bodystart="40" bodyend="45"/>
+    <listofallmembers>
+      <member refid="structsteemit_1_1follow_1_1comment__blog__entry_1a6e50d75cb95559482ebbe2ccc1fc0447" prot="public" virt="non-virtual"><scope>steemit::follow::comment_blog_entry</scope><name>blog</name></member>
+      <member refid="structsteemit_1_1follow_1_1comment__blog__entry_1a4e7c681cd003ec06fa613d8835e0630a" prot="public" virt="non-virtual"><scope>steemit::follow::comment_blog_entry</scope><name>comment</name></member>
+      <member refid="structsteemit_1_1follow_1_1comment__blog__entry_1ad8a4cb428c4825e0fd4a3cc5c8bd4feb" prot="public" virt="non-virtual"><scope>steemit::follow::comment_blog_entry</scope><name>entry_id</name></member>
+      <member refid="structsteemit_1_1follow_1_1comment__blog__entry_1a428c7c442e8ca4f9c5959ddb2fa82e50" prot="public" virt="non-virtual"><scope>steemit::follow::comment_blog_entry</scope><name>reblog_on</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

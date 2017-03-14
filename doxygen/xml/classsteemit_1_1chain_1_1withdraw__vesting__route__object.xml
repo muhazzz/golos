@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsteemit_1_1chain_1_1withdraw__vesting__route__object" kind="class" language="C++" prot="public">
+    <compoundname>steemit::chain::withdraw_vesting_route_object</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">chainbase::object&lt; withdraw_vesting_route_object_type, withdraw_vesting_route_object &gt;</basecompoundref>
+    <includes refid="steem__objects_8hpp" local="no">steem_objects.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1withdraw__vesting__route__object_1a48596617a906e398e34da6269c041935" prot="public" static="no" mutable="no">
+        <type>id_type</type>
+        <definition>id_type steemit::chain::withdraw_vesting_route_object::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="225" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1withdraw__vesting__route__object_1a93c647ab89e17198bdc1a8f5ce1f090f" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacesteemit_1_1chain_1aa381fbe5f22b4abc90a719e5f59c842f" kindref="member">account_id_type</ref></type>
+        <definition>account_id_type steemit::chain::withdraw_vesting_route_object::from_account</definition>
+        <argsstring></argsstring>
+        <name>from_account</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="227" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1withdraw__vesting__route__object_1af0edf25e5f6e54200f283bf89356a8a8" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacesteemit_1_1chain_1aa381fbe5f22b4abc90a719e5f59c842f" kindref="member">account_id_type</ref></type>
+        <definition>account_id_type steemit::chain::withdraw_vesting_route_object::to_account</definition>
+        <argsstring></argsstring>
+        <name>to_account</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="228" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1withdraw__vesting__route__object_1a08407e373fa8be27098e7fa79336dc09" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t steemit::chain::withdraw_vesting_route_object::percent</definition>
+        <argsstring></argsstring>
+        <name>percent</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="229" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1withdraw__vesting__route__object_1ab59695334777c0987a5dd67e567d9737" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool steemit::chain::withdraw_vesting_route_object::auto_vest</definition>
+        <argsstring></argsstring>
+        <name>auto_vest</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="230" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1withdraw__vesting__route__object_1ad73c7c9fb380addaa6b86267fca8d4fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Constructor</type>
+          </param>
+          <param>
+            <type>typename Allocator</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>steemit::chain::withdraw_vesting_route_object::withdraw_vesting_route_object</definition>
+        <argsstring>(Constructor &amp;&amp;c, allocator&lt; Allocator &gt; a)</argsstring>
+        <name>withdraw_vesting_route_object</name>
+        <param>
+          <type>Constructor &amp;&amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>allocator&lt; Allocator &gt;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="218" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="218" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1withdraw__vesting__route__object_1a55ff82812b5b5cf9011df468522d5ead" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::chain::withdraw_vesting_route_object::withdraw_vesting_route_object</definition>
+        <argsstring>()</argsstring>
+        <name>withdraw_vesting_route_object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="222" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="222" bodyend="223"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>a route to send withdrawn vesting shares. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1071">
+        <label>chainbase::object&lt; withdraw_vesting_route_object_type, withdraw_vesting_route_object &gt;</label>
+      </node>
+      <node id="1070">
+        <label>steemit::chain::withdraw_vesting_route_object</label>
+        <link refid="classsteemit_1_1chain_1_1withdraw__vesting__route__object"/>
+        <childnode refid="1071" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1073">
+        <label>chainbase::object&lt; withdraw_vesting_route_object_type, withdraw_vesting_route_object &gt;</label>
+      </node>
+      <node id="1074">
+        <label>oid&lt; account_object &gt;</label>
+      </node>
+      <node id="1072">
+        <label>steemit::chain::withdraw_vesting_route_object</label>
+        <link refid="classsteemit_1_1chain_1_1withdraw__vesting__route__object"/>
+        <childnode refid="1073" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1074" relation="usage">
+          <edgelabel>to_account</edgelabel>
+          <edgelabel>from_account</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="215" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="214" bodyend="231"/>
+    <listofallmembers>
+      <member refid="classsteemit_1_1chain_1_1withdraw__vesting__route__object_1ab59695334777c0987a5dd67e567d9737" prot="public" virt="non-virtual"><scope>steemit::chain::withdraw_vesting_route_object</scope><name>auto_vest</name></member>
+      <member refid="classsteemit_1_1chain_1_1withdraw__vesting__route__object_1a93c647ab89e17198bdc1a8f5ce1f090f" prot="public" virt="non-virtual"><scope>steemit::chain::withdraw_vesting_route_object</scope><name>from_account</name></member>
+      <member refid="classsteemit_1_1chain_1_1withdraw__vesting__route__object_1a48596617a906e398e34da6269c041935" prot="public" virt="non-virtual"><scope>steemit::chain::withdraw_vesting_route_object</scope><name>id</name></member>
+      <member refid="classsteemit_1_1chain_1_1withdraw__vesting__route__object_1a08407e373fa8be27098e7fa79336dc09" prot="public" virt="non-virtual"><scope>steemit::chain::withdraw_vesting_route_object</scope><name>percent</name></member>
+      <member refid="classsteemit_1_1chain_1_1withdraw__vesting__route__object_1af0edf25e5f6e54200f283bf89356a8a8" prot="public" virt="non-virtual"><scope>steemit::chain::withdraw_vesting_route_object</scope><name>to_account</name></member>
+      <member refid="classsteemit_1_1chain_1_1withdraw__vesting__route__object_1ad73c7c9fb380addaa6b86267fca8d4fe" prot="public" virt="non-virtual"><scope>steemit::chain::withdraw_vesting_route_object</scope><name>withdraw_vesting_route_object</name></member>
+      <member refid="classsteemit_1_1chain_1_1withdraw__vesting__route__object_1a55ff82812b5b5cf9011df468522d5ead" prot="public" virt="non-virtual"><scope>steemit::chain::withdraw_vesting_route_object</scope><name>withdraw_vesting_route_object</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacesteemit_1_1private__message" kind="namespace" language="C++">
+    <compoundname>steemit::private_message</compoundname>
+    <innerclass refid="structsteemit_1_1private__message_1_1extended__message__object" prot="public">steemit::private_message::extended_message_object</innerclass>
+    <innerclass refid="structsteemit_1_1private__message_1_1message__api__obj" prot="public">steemit::private_message::message_api_obj</innerclass>
+    <innerclass refid="structsteemit_1_1private__message_1_1message__body" prot="public">steemit::private_message::message_body</innerclass>
+    <innerclass refid="classsteemit_1_1private__message_1_1message__object" prot="public">steemit::private_message::message_object</innerclass>
+    <innerclass refid="classsteemit_1_1private__message_1_1private__message__api" prot="public">steemit::private_message::private_message_api</innerclass>
+    <innerclass refid="structsteemit_1_1private__message_1_1private__message__operation" prot="public">steemit::private_message::private_message_operation</innerclass>
+    <innerclass refid="classsteemit_1_1private__message_1_1private__message__plugin" prot="public">steemit::private_message::private_message_plugin</innerclass>
+    <innernamespace refid="namespacesteemit_1_1private__message_1_1detail">steemit::private_message::detail</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespacesteemit_1_1private__message_1a962c06a591cd76a755621a01de81eb39" prot="public" static="no">
+        <name>private_message_object_type</name>
+        <enumvalue id="namespacesteemit_1_1private__message_1a962c06a591cd76a755621a01de81eb39a80255e7ba708220ddb862649e1f27eb4" prot="public">
+          <name>message_object_type</name>
+          <initializer>= (PRIVATE_MESSAGE_SPACE_ID &lt;&lt; 8)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" line="55" column="1" bodyfile="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" bodystart="55" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacesteemit_1_1private__message_1a99f39cdf53f4620ef5e770a5579ae5a2" prot="public" static="no">
+        <type>fc::static_variant&lt; <ref refid="structsteemit_1_1private__message_1_1private__message__operation" kindref="compound">private_message_operation</ref> &gt;</type>
+        <definition>typedef fc::static_variant&lt;private_message_operation&gt; steemit::private_message::private_message_plugin_operation</definition>
+        <argsstring></argsstring>
+        <name>private_message_plugin_operation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/private_message/include/steemit/private_message/private_message_operations.hpp" line="27" column="1" bodyfile="libraries/plugins/private_message/include/steemit/private_message/private_message_operations.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacesteemit_1_1private__message_1a1df3667a1a5202c9b0a48217ae1c27ce" prot="public" static="no">
+        <type>message_object::id_type</type>
+        <definition>typedef message_object::id_type steemit::private_message::message_id_type</definition>
+        <argsstring></argsstring>
+        <name>message_id_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" line="94" column="1" bodyfile="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacesteemit_1_1private__message_1ada5d783c2de89d533051048b589b646c" prot="public" static="no">
+        <type>multi_index_container&lt; <ref refid="classsteemit_1_1private__message_1_1message__object" kindref="compound">message_object</ref>, indexed_by&lt; ordered_unique&lt; tag&lt; by_id &gt;, member&lt; <ref refid="classsteemit_1_1private__message_1_1message__object" kindref="compound">message_object</ref>, <ref refid="namespacesteemit_1_1private__message_1a1df3667a1a5202c9b0a48217ae1c27ce" kindref="member">message_id_type</ref>, &amp;<ref refid="classsteemit_1_1private__message_1_1message__object_1aa6f535a174d150b2da78c5eb5dfe5922" kindref="member">message_object::id</ref> &gt; &gt;, ordered_unique&lt; tag&lt; by_to_date &gt;, composite_key&lt; <ref refid="classsteemit_1_1private__message_1_1message__object" kindref="compound">message_object</ref>, member&lt; <ref refid="classsteemit_1_1private__message_1_1message__object" kindref="compound">message_object</ref>, account_name_type, &amp;<ref refid="classsteemit_1_1private__message_1_1message__object_1ad4c69a8e0ad685a883e04577ea30010c" kindref="member">message_object::to</ref> &gt;, member&lt; <ref refid="classsteemit_1_1private__message_1_1message__object" kindref="compound">message_object</ref>, time_point_sec, &amp;<ref refid="classsteemit_1_1private__message_1_1message__object_1ad6d193d6c396cceb3c44695ce057327d" kindref="member">message_object::receive_time</ref> &gt;, member&lt; <ref refid="classsteemit_1_1private__message_1_1message__object" kindref="compound">message_object</ref>, <ref refid="namespacesteemit_1_1private__message_1a1df3667a1a5202c9b0a48217ae1c27ce" kindref="member">message_id_type</ref>, &amp;<ref refid="classsteemit_1_1private__message_1_1message__object_1aa6f535a174d150b2da78c5eb5dfe5922" kindref="member">message_object::id</ref> &gt; &gt;, composite_key_compare&lt; std::less&lt; string &gt;, std::greater&lt; time_point_sec &gt;, std::less&lt; <ref refid="namespacesteemit_1_1private__message_1a1df3667a1a5202c9b0a48217ae1c27ce" kindref="member">message_id_type</ref> &gt; &gt; &gt;, ordered_unique&lt; tag&lt; by_from_date &gt;, composite_key&lt; <ref refid="classsteemit_1_1private__message_1_1message__object" kindref="compound">message_object</ref>, member&lt; <ref refid="classsteemit_1_1private__message_1_1message__object" kindref="compound">message_object</ref>, account_name_type, &amp;<ref refid="classsteemit_1_1private__message_1_1message__object_1affabad06dbd3fb58854db1a5ced988ff" kindref="member">message_object::from</ref> &gt;, member&lt; <ref refid="classsteemit_1_1private__message_1_1message__object" kindref="compound">message_object</ref>, time_point_sec, &amp;<ref refid="classsteemit_1_1private__message_1_1message__object_1ad6d193d6c396cceb3c44695ce057327d" kindref="member">message_object::receive_time</ref> &gt;, member&lt; <ref refid="classsteemit_1_1private__message_1_1message__object" kindref="compound">message_object</ref>, <ref refid="namespacesteemit_1_1private__message_1a1df3667a1a5202c9b0a48217ae1c27ce" kindref="member">message_id_type</ref>, &amp;<ref refid="classsteemit_1_1private__message_1_1message__object_1aa6f535a174d150b2da78c5eb5dfe5922" kindref="member">message_object::id</ref> &gt; &gt;, composite_key_compare&lt; std::less&lt; string &gt;, std::greater&lt; time_point_sec &gt;, std::less&lt; <ref refid="namespacesteemit_1_1private__message_1a1df3667a1a5202c9b0a48217ae1c27ce" kindref="member">message_id_type</ref> &gt; &gt; &gt; &gt;, allocator&lt; <ref refid="classsteemit_1_1private__message_1_1message__object" kindref="compound">message_object</ref> &gt; &gt;</type>
+        <definition>typedef multi_index_container&lt; message_object, indexed_by&lt; ordered_unique&lt;tag&lt;by_id&gt;, member&lt;message_object, message_id_type, &amp;message_object::id&gt; &gt;, ordered_unique&lt;tag&lt;by_to_date&gt;, composite_key&lt;message_object, member&lt;message_object, account_name_type, &amp;message_object::to&gt;, member&lt;message_object, time_point_sec, &amp;message_object::receive_time&gt;, member&lt;message_object, message_id_type, &amp;message_object::id&gt; &gt;, composite_key_compare&lt;std::less&lt;string&gt;, std::greater&lt;time_point_sec&gt;, std::less&lt;message_id_type&gt; &gt; &gt;, ordered_unique&lt;tag&lt;by_from_date&gt;, composite_key&lt;message_object, member&lt;message_object, account_name_type, &amp;message_object::from&gt;, member&lt;message_object, time_point_sec, &amp;message_object::receive_time&gt;, member&lt;message_object, message_id_type, &amp;message_object::id&gt; &gt;, composite_key_compare&lt;std::less&lt;string&gt;, std::greater&lt;time_point_sec&gt;, std::less&lt;message_id_type&gt; &gt; &gt; &gt;, allocator&lt;message_object&gt; &gt; steemit::private_message::message_index</definition>
+        <argsstring></argsstring>
+        <name>message_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" line="161" column="1" bodyfile="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/private_message/include/steemit/private_message/private_message_evaluators.hpp" line="9" column="1"/>
+  </compounddef>
+</doxygen>

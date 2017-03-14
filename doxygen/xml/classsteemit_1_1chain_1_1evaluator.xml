@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsteemit_1_1chain_1_1evaluator" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>steemit::chain::evaluator</compoundname>
+    <derivedcompoundref refid="classsteemit_1_1chain_1_1evaluator__impl" prot="public" virt="non-virtual">steemit::chain::evaluator_impl&lt; EvaluatorType, OperationType &gt;</derivedcompoundref>
+    <includes refid="evaluator_8hpp" local="no">evaluator.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename OperationType</type>
+        <defval>steemit::protocol::operation</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1evaluator_1ab313a38402999a1ad99f9f44ad0b1250" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void steemit::chain::evaluator&lt; OperationType &gt;::apply</definition>
+        <argsstring>(const OperationType &amp;op)=0</argsstring>
+        <name>apply</name>
+        <reimplementedby refid="classsteemit_1_1chain_1_1evaluator__impl_1a488139e79b0e95d28264afce5eed2b05">apply</reimplementedby>
+        <param>
+          <type>const OperationType &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/evaluator.hpp" line="14" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1evaluator_1a9c1c352cfb0363d0b22a9b8cc59a2b19" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>int</type>
+        <definition>virtual int steemit::chain::evaluator&lt; OperationType &gt;::get_type</definition>
+        <argsstring>() const =0</argsstring>
+        <name>get_type</name>
+        <reimplementedby refid="classsteemit_1_1chain_1_1evaluator__impl_1a380a20b3b55657011be0120d5df50970">get_type</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/evaluator.hpp" line="16" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="473">
+        <label>steemit::chain::evaluator_impl&lt; OperationType &gt;</label>
+        <link refid="classsteemit_1_1chain_1_1evaluator__impl"/>
+        <childnode refid="472" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="472">
+        <label>steemit::chain::evaluator&lt; OperationType &gt;</label>
+        <link refid="classsteemit_1_1chain_1_1evaluator"/>
+      </node>
+    </inheritancegraph>
+    <location file="libraries/chain/include/steemit/chain/evaluator.hpp" line="12" column="1" bodyfile="libraries/chain/include/steemit/chain/evaluator.hpp" bodystart="12" bodyend="17"/>
+    <listofallmembers>
+      <member refid="classsteemit_1_1chain_1_1evaluator_1ab313a38402999a1ad99f9f44ad0b1250" prot="public" virt="pure-virtual"><scope>steemit::chain::evaluator</scope><name>apply</name></member>
+      <member refid="classsteemit_1_1chain_1_1evaluator_1a9c1c352cfb0363d0b22a9b8cc59a2b19" prot="public" virt="pure-virtual"><scope>steemit::chain::evaluator</scope><name>get_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

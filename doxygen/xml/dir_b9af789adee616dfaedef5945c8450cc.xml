@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_b9af789adee616dfaedef5945c8450cc" kind="dir">
+    <compoundname>libraries/plugins/account_by_key</compoundname>
+    <innerdir refid="dir_946141d5d2bb35e1e9ab51934157ef94">libraries/plugins/account_by_key/include</innerdir>
+    <innerfile refid="account__by__key__api_8cpp">account_by_key_api.cpp</innerfile>
+    <innerfile refid="account__by__key__plugin_8cpp">account_by_key_plugin.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/account_by_key/"/>
+  </compounddef>
+</doxygen>

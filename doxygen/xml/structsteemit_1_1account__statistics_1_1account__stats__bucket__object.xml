@@ -1,0 +1,1061 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::account_statistics::account_stats_bucket_object</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">chainbase::object&lt; account_stats_bucket_object_type, account_stats_bucket_object &gt;</basecompoundref>
+    <includes refid="account__statistics__plugin_8hpp" local="no">account_statistics_plugin.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1acbf7a69709bbd7755b102b5ab4944111" prot="public" static="no" mutable="no">
+        <type>id_type</type>
+        <definition>id_type steemit::account_statistics::account_stats_bucket_object::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="46" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1ae6eaa0c6fccfbd81a4d479f0e26d0c7c" prot="public" static="no" mutable="no">
+        <type>fc::time_point_sec</type>
+        <definition>fc::time_point_sec steemit::account_statistics::account_stats_bucket_object::open</definition>
+        <argsstring></argsstring>
+        <name>open</name>
+        <briefdescription>
+<para>Open time of the bucket. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="48" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a20f4c54b7ede119ecb52635ac6f82a66" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::seconds</definition>
+        <argsstring></argsstring>
+        <name>seconds</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Seconds accounted for in the bucket. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="49" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1ab33d531369473ed7575242c9f640d919" prot="public" static="no" mutable="no">
+        <type>account_name_type</type>
+        <definition>account_name_type steemit::account_statistics::account_stats_bucket_object::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+<para>Account name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="50" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1ab26cf035a213bf66898dd7c27362d689" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::transactions</definition>
+        <argsstring></argsstring>
+        <name>transactions</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Transactions this account signed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="51" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1abdd7aeddda8727c828957696384482fd" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::market_bandwidth</definition>
+        <argsstring></argsstring>
+        <name>market_bandwidth</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Charged bandwidth for market transactions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="52" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a64b25e39fd81a593fe798538b64e68ec" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::non_market_bandwidth</definition>
+        <argsstring></argsstring>
+        <name>non_market_bandwidth</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Charged bandwidth for non-market transactions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="53" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1afc957734bfc25661fcbddaa3306a0bcd" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::total_ops</definition>
+        <argsstring></argsstring>
+        <name>total_ops</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Ops this account was an authority on. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="54" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a34246541ef998568aba7238262bd915c" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::market_ops</definition>
+        <argsstring></argsstring>
+        <name>market_ops</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Market operations. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="55" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a9f9a61d0ccb74f9bc1315a5bd92bec64" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::forum_ops</definition>
+        <argsstring></argsstring>
+        <name>forum_ops</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Forum operations. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="56" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a7c70078ff63c7461941314737c5bae50" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::root_comments</definition>
+        <argsstring></argsstring>
+        <name>root_comments</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Top level root comments. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="57" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1aa359230432ec6746d71dc670373ab48a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::root_comment_edits</definition>
+        <argsstring></argsstring>
+        <name>root_comment_edits</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Edits to root comments. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="58" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a38de56524f2e4ecc4a04104b71c2b46b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::root_comments_deleted</definition>
+        <argsstring></argsstring>
+        <name>root_comments_deleted</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Root comments deleted. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="59" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1adf3d21fe672447ede71ad378183a52aa" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::replies</definition>
+        <argsstring></argsstring>
+        <name>replies</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Replies to comments. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="60" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1af614230b58e4ab852a6decfbd427b849" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::reply_edits</definition>
+        <argsstring></argsstring>
+        <name>reply_edits</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Edits to replies. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="61" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a245ef2e14d4261cdc5edeaf99ae9f38b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::replies_deleted</definition>
+        <argsstring></argsstring>
+        <name>replies_deleted</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Replies deleted. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="62" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a1cee71a86d33a56da601a4cef8d0f432" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::new_root_votes</definition>
+        <argsstring></argsstring>
+        <name>new_root_votes</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>New votes on root comments. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="63" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1af52eeef031718cf48c5cd33c8543daab" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::changed_root_votes</definition>
+        <argsstring></argsstring>
+        <name>changed_root_votes</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Changed votes for root comments. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="64" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a74d68b8851e655bfbb3fb021fd98261e" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::new_reply_votes</definition>
+        <argsstring></argsstring>
+        <name>new_reply_votes</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>New votes on replies. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="65" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1aadcc7565ae5e461e7ba118b48789259a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::changed_reply_votes</definition>
+        <argsstring></argsstring>
+        <name>changed_reply_votes</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Changed votes for replies. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="66" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a14b31cfab4ca5e9debfa8343de78b4ac" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::author_reward_payouts</definition>
+        <argsstring></argsstring>
+        <name>author_reward_payouts</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Number of author reward payouts. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="67" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a855e98b382be535b41a516e9f6ac4912" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::account_statistics::account_stats_bucket_object::author_rewards_sbd</definition>
+        <argsstring></argsstring>
+        <name>author_rewards_sbd</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>SBD paid for author rewards. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="68" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1ac08f7d1d297dc0ce133ebb59bb7454e8" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::account_statistics::account_stats_bucket_object::author_rewards_vests</definition>
+        <argsstring></argsstring>
+        <name>author_rewards_vests</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>VESTS paid for author rewards. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="69" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1acf670706a8645f719bd41608994a95a3" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::account_statistics::account_stats_bucket_object::author_rewards_total_steem_value</definition>
+        <argsstring></argsstring>
+        <name>author_rewards_total_steem_value</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>STEEM Value of author rewards. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="70" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a53b91015b103bfeee3b1bfe705384c6f" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::account_statistics::account_stats_bucket_object::author_rewards_payout_sbd_value</definition>
+        <argsstring></argsstring>
+        <name>author_rewards_payout_sbd_value</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>SBD Value of author rewards at time of payout. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="71" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a07c2c64d30415ea933153dc10a926fca" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::curation_reward_payouts</definition>
+        <argsstring></argsstring>
+        <name>curation_reward_payouts</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Number of curation reward payouts. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="72" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a9685f3fb5382e8ce38fe396a527e1802" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::account_statistics::account_stats_bucket_object::curation_rewards_vests</definition>
+        <argsstring></argsstring>
+        <name>curation_rewards_vests</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>VESTS paid for curation rewards. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="73" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1ab216cdb6a94d11b31211098dfd034155" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::account_statistics::account_stats_bucket_object::curation_rewards_steem_value</definition>
+        <argsstring></argsstring>
+        <name>curation_rewards_steem_value</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>STEEM Value of curation rewards. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="74" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a3a190810b617e9f1ab171a7d82338cd8" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::account_statistics::account_stats_bucket_object::curation_rewards_payout_sbd_value</definition>
+        <argsstring></argsstring>
+        <name>curation_rewards_payout_sbd_value</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>SBD Value of curation rewards at time of payout. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="75" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a6463da6dedef2c47c1d1dd4603ba14b5" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::liquidity_reward_payouts</definition>
+        <argsstring></argsstring>
+        <name>liquidity_reward_payouts</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Number of liquidity reward payouts. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="76" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a3f7c7e679c9eacdc7589c53b1834ef70" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::account_statistics::account_stats_bucket_object::liquidity_rewards</definition>
+        <argsstring></argsstring>
+        <name>liquidity_rewards</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Amount of STEEM paid as liquidity rewards. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="77" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a4a9305c73d349bcc73f4172fb180b978" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::transfers_to</definition>
+        <argsstring></argsstring>
+        <name>transfers_to</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Account to account transfers to this account. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="78" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a188510bf108cfd4c405ed8c41129acf5" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::transfers_from</definition>
+        <argsstring></argsstring>
+        <name>transfers_from</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Account to account transfers from this account. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="79" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1ab0ed0b890afd19e97289a5fd87870dd8" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::account_statistics::account_stats_bucket_object::steem_sent</definition>
+        <argsstring></argsstring>
+        <name>steem_sent</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>STEEM sent from this account. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="80" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a0349912a87cbaa397351cca384011593" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::account_statistics::account_stats_bucket_object::steem_received</definition>
+        <argsstring></argsstring>
+        <name>steem_received</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>STEEM received by this account. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="81" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a225fc64ea193cf20030f5f4a1409e042" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::account_statistics::account_stats_bucket_object::sbd_sent</definition>
+        <argsstring></argsstring>
+        <name>sbd_sent</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>SBD sent from this account. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="82" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a4dccec90209877a8423b7d7fb3f03b5b" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::account_statistics::account_stats_bucket_object::sbd_received</definition>
+        <argsstring></argsstring>
+        <name>sbd_received</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>SBD received by this account. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="83" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a3667c09a8d8bcd23be1f098a62cde4f9" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::sbd_interest_payments</definition>
+        <argsstring></argsstring>
+        <name>sbd_interest_payments</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Number of times interest was paid to SBD. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="84" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a47b6dc05a363e2eb174359158d8844a0" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::account_statistics::account_stats_bucket_object::sbd_paid_as_interest</definition>
+        <argsstring></argsstring>
+        <name>sbd_paid_as_interest</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Amount of SBD paid as interest. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="85" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a7902bfdadc5f3acb34356157a0a80fed" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::transfers_to_vesting</definition>
+        <argsstring></argsstring>
+        <name>transfers_to_vesting</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Transfers to vesting by this account. Note: Transfer to vesting from A to B counts as a transfer from A to B followed by a vesting deposit by B. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="86" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1af94f507d7aaced58f753f100c96c93ee" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::account_statistics::account_stats_bucket_object::steem_vested</definition>
+        <argsstring></argsstring>
+        <name>steem_vested</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>STEEM vested by the account. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="87" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1ac45c155f69590dca9d8b3b8e63f94519" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::account_statistics::account_stats_bucket_object::new_vests</definition>
+        <argsstring></argsstring>
+        <name>new_vests</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>New VESTS by vesting transfers. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="88" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a50e12326df71a0928aa6f39e548aa201" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::new_vesting_withdrawal_requests</definition>
+        <argsstring></argsstring>
+        <name>new_vesting_withdrawal_requests</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>New vesting withdrawal requests. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="89" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a481609f028cb189012ec32ee88b4899c" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::modified_vesting_withdrawal_requests</definition>
+        <argsstring></argsstring>
+        <name>modified_vesting_withdrawal_requests</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Changes to vesting withdraw requests. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="90" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a49ffe6518d0db221ceb1d2bc766a5432" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::vesting_withdrawals_processed</definition>
+        <argsstring></argsstring>
+        <name>vesting_withdrawals_processed</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Vesting withdrawals processed for this account. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="91" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1aa9644c4b9f58eb970b20f4d61f8f33bf" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::finished_vesting_withdrawals</definition>
+        <argsstring></argsstring>
+        <name>finished_vesting_withdrawals</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Processed vesting withdrawals that are now finished. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="92" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a9b7a0b7c03f77a98328be8d0a454b7b3" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::account_statistics::account_stats_bucket_object::vests_withdrawn</definition>
+        <argsstring></argsstring>
+        <name>vests_withdrawn</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>VESTS withdrawn from the account. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="93" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1ab914698a8c4b56a7e161bb75bb9d24b4" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::account_statistics::account_stats_bucket_object::steem_received_from_withdrawls</definition>
+        <argsstring></argsstring>
+        <name>steem_received_from_withdrawls</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>STEEM received from this account&apos;s vesting withdrawals. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="94" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a1b89a2cbfffd263a7efc9591d8d74bbd" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::account_statistics::account_stats_bucket_object::steem_received_from_routes</definition>
+        <argsstring></argsstring>
+        <name>steem_received_from_routes</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>STEEM received from another account&apos;s vesting withdrawals. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="95" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a9c3747a2066dc9a5ebd2126b5a1f99b1" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::account_statistics::account_stats_bucket_object::vests_received_from_routes</definition>
+        <argsstring></argsstring>
+        <name>vests_received_from_routes</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>VESTS received from another account&apos;s vesting withdrawals. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="96" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a81c5a6fdd079399ecfbf1cfe8452a91c" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::sbd_conversion_requests_created</definition>
+        <argsstring></argsstring>
+        <name>sbd_conversion_requests_created</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>SBD conversion requests created. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="97" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1af515d3454fa732b8931532e8ff5a8af0" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::account_statistics::account_stats_bucket_object::sbd_to_be_converted</definition>
+        <argsstring></argsstring>
+        <name>sbd_to_be_converted</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Amount of SBD to be converted. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="98" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a696cdfff4e8a74afbf995026e42eab52" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::sbd_conversion_requests_filled</definition>
+        <argsstring></argsstring>
+        <name>sbd_conversion_requests_filled</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>SBD conversion requests filled. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="99" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a52e59d1371ec274675c02566e452c765" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::account_statistics::account_stats_bucket_object::steem_converted</definition>
+        <argsstring></argsstring>
+        <name>steem_converted</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Amount of STEEM that was converted. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="100" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a60e92dd215fd2929dcc5e88c490e7aac" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::limit_orders_created</definition>
+        <argsstring></argsstring>
+        <name>limit_orders_created</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Limit orders created by this account. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="101" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a9d677aacec3c6cc00cee142f53fcebb9" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::limit_orders_filled</definition>
+        <argsstring></argsstring>
+        <name>limit_orders_filled</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Limit orders filled by this account. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="102" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1af2e269f7be33ad880c8aaf110dbe1aef" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::limit_orders_cancelled</definition>
+        <argsstring></argsstring>
+        <name>limit_orders_cancelled</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Limit orders cancelled by this account. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="103" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1af83ae834ae56e7303af3ec3d2281462d" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::account_statistics::account_stats_bucket_object::limit_order_steem_paid</definition>
+        <argsstring></argsstring>
+        <name>limit_order_steem_paid</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>STEEM paid by limit orders. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="104" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1ade44ee8c2794416ac36a108d6145acea" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::account_statistics::account_stats_bucket_object::limit_order_steem_received</definition>
+        <argsstring></argsstring>
+        <name>limit_order_steem_received</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>STEEM received from limit orders. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="105" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a4ed12fb6b86b34a2215d510f03f02a6a" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::account_statistics::account_stats_bucket_object::limit_order_sbd_paid</definition>
+        <argsstring></argsstring>
+        <name>limit_order_sbd_paid</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>SBD paid by limit orders. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="106" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1ac66f01e57e8f7645c9aaa6d01cdf778a" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::account_statistics::account_stats_bucket_object::limit_order_sbd_received</definition>
+        <argsstring></argsstring>
+        <name>limit_order_sbd_received</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>SBD received by limit orders. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="107" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a5abd946505398735d05676ad26504bcf" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_stats_bucket_object::total_pow</definition>
+        <argsstring></argsstring>
+        <name>total_pow</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>POW completed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="108" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1abf3b1aad49ef1a120fbf0fc5075a72fc" prot="public" static="no" mutable="no">
+        <type>uint128_t</type>
+        <definition>uint128_t steemit::account_statistics::account_stats_bucket_object::estimated_hashpower</definition>
+        <argsstring></argsstring>
+        <name>estimated_hashpower</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Estimated hashpower. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="109" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a84f503741896888b7b71fdca13edf09b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Constructor</type>
+          </param>
+          <param>
+            <type>typename Allocator</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>steemit::account_statistics::account_stats_bucket_object::account_stats_bucket_object</definition>
+        <argsstring>(Constructor &amp;&amp;c, allocator&lt; Allocator &gt; a)</argsstring>
+        <name>account_stats_bucket_object</name>
+        <param>
+          <type>Constructor &amp;&amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>allocator&lt; Allocator &gt;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="39" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="39" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a2bf8a4b4f531661e4c38eeba5885173e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::account_statistics::account_stats_bucket_object::account_stats_bucket_object</definition>
+        <argsstring>()</argsstring>
+        <name>account_stats_bucket_object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="43" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="43" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="138">
+        <label>chainbase::object&lt; account_stats_bucket_object_type, account_stats_bucket_object &gt;</label>
+      </node>
+      <node id="137">
+        <label>steemit::account_statistics::account_stats_bucket_object</label>
+        <link refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object"/>
+        <childnode refid="138" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="142">
+        <label>time_point_sec</label>
+      </node>
+      <node id="140">
+        <label>chainbase::object&lt; account_stats_bucket_object_type, account_stats_bucket_object &gt;</label>
+      </node>
+      <node id="143">
+        <label>account_name_type</label>
+      </node>
+      <node id="139">
+        <label>steemit::account_statistics::account_stats_bucket_object</label>
+        <link refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object"/>
+        <childnode refid="140" relation="public-inheritance">
+        </childnode>
+        <childnode refid="141" relation="usage">
+          <edgelabel>sbd_received</edgelabel>
+          <edgelabel>sbd_sent</edgelabel>
+          <edgelabel>curation_rewards_payout_sbd_value</edgelabel>
+          <edgelabel>new_vests</edgelabel>
+          <edgelabel>steem_vested</edgelabel>
+          <edgelabel>curation_rewards_steem_value</edgelabel>
+          <edgelabel>sbd_to_be_converted</edgelabel>
+          <edgelabel>author_rewards_total_steem_value</edgelabel>
+          <edgelabel>limit_order_steem_paid</edgelabel>
+          <edgelabel>curation_rewards_vests</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="142" relation="usage">
+          <edgelabel>open</edgelabel>
+        </childnode>
+        <childnode refid="143" relation="usage">
+          <edgelabel>name</edgelabel>
+        </childnode>
+        <childnode refid="144" relation="usage">
+          <edgelabel>estimated_hashpower</edgelabel>
+        </childnode>
+      </node>
+      <node id="141">
+        <label>share_type</label>
+      </node>
+      <node id="144">
+        <label>uint128_t</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="37" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="36" bodyend="110"/>
+    <listofallmembers>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a84f503741896888b7b71fdca13edf09b" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>account_stats_bucket_object</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a2bf8a4b4f531661e4c38eeba5885173e" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>account_stats_bucket_object</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a14b31cfab4ca5e9debfa8343de78b4ac" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>author_reward_payouts</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a53b91015b103bfeee3b1bfe705384c6f" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>author_rewards_payout_sbd_value</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a855e98b382be535b41a516e9f6ac4912" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>author_rewards_sbd</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1acf670706a8645f719bd41608994a95a3" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>author_rewards_total_steem_value</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1ac08f7d1d297dc0ce133ebb59bb7454e8" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>author_rewards_vests</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1aadcc7565ae5e461e7ba118b48789259a" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>changed_reply_votes</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1af52eeef031718cf48c5cd33c8543daab" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>changed_root_votes</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a07c2c64d30415ea933153dc10a926fca" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>curation_reward_payouts</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a3a190810b617e9f1ab171a7d82338cd8" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>curation_rewards_payout_sbd_value</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1ab216cdb6a94d11b31211098dfd034155" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>curation_rewards_steem_value</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a9685f3fb5382e8ce38fe396a527e1802" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>curation_rewards_vests</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1abf3b1aad49ef1a120fbf0fc5075a72fc" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>estimated_hashpower</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1aa9644c4b9f58eb970b20f4d61f8f33bf" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>finished_vesting_withdrawals</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a9f9a61d0ccb74f9bc1315a5bd92bec64" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>forum_ops</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1acbf7a69709bbd7755b102b5ab4944111" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>id</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a4ed12fb6b86b34a2215d510f03f02a6a" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>limit_order_sbd_paid</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1ac66f01e57e8f7645c9aaa6d01cdf778a" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>limit_order_sbd_received</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1af83ae834ae56e7303af3ec3d2281462d" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>limit_order_steem_paid</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1ade44ee8c2794416ac36a108d6145acea" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>limit_order_steem_received</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1af2e269f7be33ad880c8aaf110dbe1aef" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>limit_orders_cancelled</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a60e92dd215fd2929dcc5e88c490e7aac" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>limit_orders_created</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a9d677aacec3c6cc00cee142f53fcebb9" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>limit_orders_filled</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a6463da6dedef2c47c1d1dd4603ba14b5" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>liquidity_reward_payouts</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a3f7c7e679c9eacdc7589c53b1834ef70" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>liquidity_rewards</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1abdd7aeddda8727c828957696384482fd" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>market_bandwidth</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a34246541ef998568aba7238262bd915c" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>market_ops</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a481609f028cb189012ec32ee88b4899c" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>modified_vesting_withdrawal_requests</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1ab33d531369473ed7575242c9f640d919" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>name</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a74d68b8851e655bfbb3fb021fd98261e" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>new_reply_votes</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a1cee71a86d33a56da601a4cef8d0f432" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>new_root_votes</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a50e12326df71a0928aa6f39e548aa201" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>new_vesting_withdrawal_requests</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1ac45c155f69590dca9d8b3b8e63f94519" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>new_vests</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a64b25e39fd81a593fe798538b64e68ec" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>non_market_bandwidth</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1ae6eaa0c6fccfbd81a4d479f0e26d0c7c" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>open</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1adf3d21fe672447ede71ad378183a52aa" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>replies</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a245ef2e14d4261cdc5edeaf99ae9f38b" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>replies_deleted</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1af614230b58e4ab852a6decfbd427b849" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>reply_edits</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1aa359230432ec6746d71dc670373ab48a" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>root_comment_edits</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a7c70078ff63c7461941314737c5bae50" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>root_comments</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a38de56524f2e4ecc4a04104b71c2b46b" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>root_comments_deleted</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a81c5a6fdd079399ecfbf1cfe8452a91c" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>sbd_conversion_requests_created</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a696cdfff4e8a74afbf995026e42eab52" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>sbd_conversion_requests_filled</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a3667c09a8d8bcd23be1f098a62cde4f9" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>sbd_interest_payments</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a47b6dc05a363e2eb174359158d8844a0" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>sbd_paid_as_interest</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a4dccec90209877a8423b7d7fb3f03b5b" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>sbd_received</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a225fc64ea193cf20030f5f4a1409e042" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>sbd_sent</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1af515d3454fa732b8931532e8ff5a8af0" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>sbd_to_be_converted</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a20f4c54b7ede119ecb52635ac6f82a66" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>seconds</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a52e59d1371ec274675c02566e452c765" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>steem_converted</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a0349912a87cbaa397351cca384011593" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>steem_received</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a1b89a2cbfffd263a7efc9591d8d74bbd" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>steem_received_from_routes</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1ab914698a8c4b56a7e161bb75bb9d24b4" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>steem_received_from_withdrawls</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1ab0ed0b890afd19e97289a5fd87870dd8" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>steem_sent</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1af94f507d7aaced58f753f100c96c93ee" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>steem_vested</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1afc957734bfc25661fcbddaa3306a0bcd" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>total_ops</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a5abd946505398735d05676ad26504bcf" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>total_pow</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1ab26cf035a213bf66898dd7c27362d689" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>transactions</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a188510bf108cfd4c405ed8c41129acf5" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>transfers_from</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a4a9305c73d349bcc73f4172fb180b978" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>transfers_to</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a7902bfdadc5f3acb34356157a0a80fed" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>transfers_to_vesting</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a49ffe6518d0db221ceb1d2bc766a5432" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>vesting_withdrawals_processed</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a9c3747a2066dc9a5ebd2126b5a1f99b1" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>vests_received_from_routes</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object_1a9b7a0b7c03f77a98328be8d0a454b7b3" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_stats_bucket_object</scope><name>vests_withdrawn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,385 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsteemit_1_1chain_1_1fork__database" kind="class" language="C++" prot="public">
+    <compoundname>steemit::chain::fork_database</compoundname>
+    <includes refid="fork__database_8hpp" local="no">fork_database.hpp</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classsteemit_1_1chain_1_1fork__database_1ad5e29250c27b267d9ab6d09b1f350182" prot="public" static="no">
+        <type>vector&lt; <ref refid="namespacesteemit_1_1chain_1a2e8fdf0812bc34e53874d3c27a688147" kindref="member">item_ptr</ref> &gt;</type>
+        <definition>typedef vector&lt;item_ptr&gt; steemit::chain::fork_database::branch_type</definition>
+        <argsstring></argsstring>
+        <name>branch_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/fork_database.hpp" line="55" column="1" bodyfile="libraries/chain/include/steemit/chain/fork_database.hpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classsteemit_1_1chain_1_1fork__database_1ae759f72752f3463c2c18b4148627abc4" prot="public" static="no">
+        <type>multi_index_container&lt; <ref refid="namespacesteemit_1_1chain_1a2e8fdf0812bc34e53874d3c27a688147" kindref="member">item_ptr</ref>, indexed_by&lt; hashed_unique&lt; tag&lt; block_id &gt;, member&lt; <ref refid="structsteemit_1_1chain_1_1fork__item" kindref="compound">fork_item</ref>, block_id_type, &amp;<ref refid="structsteemit_1_1chain_1_1fork__item_1ad6b01d6dfea264d2e7f58e0e034deb48" kindref="member">fork_item::id</ref> &gt;, std::hash&lt; fc::ripemd160 &gt; &gt;, hashed_non_unique&lt; tag&lt; by_previous &gt;, const_mem_fun&lt; <ref refid="structsteemit_1_1chain_1_1fork__item" kindref="compound">fork_item</ref>, block_id_type, &amp;<ref refid="structsteemit_1_1chain_1_1fork__item_1a3e1660a6602e7058750ea0f555a8c617" kindref="member">fork_item::previous_id</ref> &gt;, std::hash&lt; fc::ripemd160 &gt; &gt;, ordered_non_unique&lt; tag&lt; block_num &gt;, member&lt; <ref refid="structsteemit_1_1chain_1_1fork__item" kindref="compound">fork_item</ref>, uint32_t, &amp;<ref refid="structsteemit_1_1chain_1_1fork__item_1a872b2f21376f8f05acc0e37ebf879cd9" kindref="member">fork_item::num</ref> &gt; &gt; &gt; &gt;</type>
+        <definition>typedef multi_index_container&lt; item_ptr, indexed_by&lt; hashed_unique&lt;tag&lt;block_id&gt;, member&lt;fork_item, block_id_type, &amp;fork_item::id&gt;, std::hash&lt;fc::ripemd160&gt; &gt;, hashed_non_unique&lt;tag&lt;by_previous&gt;, const_mem_fun&lt;fork_item, block_id_type, &amp;fork_item::previous_id&gt;, std::hash&lt;fc::ripemd160&gt; &gt;, ordered_non_unique&lt;tag&lt;block_num&gt;, member&lt;fork_item, uint32_t, &amp;fork_item::num&gt; &gt; &gt; &gt; steemit::chain::fork_database::fork_multi_index_type</definition>
+        <argsstring></argsstring>
+        <name>fork_multi_index_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/fork_database.hpp" line="103" column="1" bodyfile="libraries/chain/include/steemit/chain/fork_database.hpp" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1fork__database_1a2fc500d6a9646a2156b8e2bbbaa66d6c" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int steemit::chain::fork_database::MAX_BLOCK_REORDERING</definition>
+        <argsstring></argsstring>
+        <name>MAX_BLOCK_REORDERING</name>
+        <initializer>= 1024</initializer>
+        <briefdescription>
+<para>The maximum number of blocks that may be skipped in an out-of-order push. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/fork_database.hpp" line="57" column="1" bodyfile="libraries/chain/include/steemit/chain/fork_database.hpp" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1fork__database_1a0754477d8566128e8996dbf150cafe84" prot="private" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::chain::fork_database::_max_size</definition>
+        <argsstring></argsstring>
+        <name>_max_size</name>
+        <initializer>= 1024</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/fork_database.hpp" line="113" column="1" bodyfile="libraries/chain/include/steemit/chain/fork_database.hpp" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1fork__database_1a4134cde779062d5d5f77fcb320c0bf0e" prot="private" static="no" mutable="no">
+        <type><ref refid="classsteemit_1_1chain_1_1fork__database_1ae759f72752f3463c2c18b4148627abc4" kindref="member">fork_multi_index_type</ref></type>
+        <definition>fork_multi_index_type steemit::chain::fork_database::_unlinked_index</definition>
+        <argsstring></argsstring>
+        <name>_unlinked_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/fork_database.hpp" line="115" column="1" bodyfile="libraries/chain/include/steemit/chain/fork_database.hpp" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1fork__database_1a62f99c315b89fc0aa7eaf8732e8fcb38" prot="private" static="no" mutable="no">
+        <type><ref refid="classsteemit_1_1chain_1_1fork__database_1ae759f72752f3463c2c18b4148627abc4" kindref="member">fork_multi_index_type</ref></type>
+        <definition>fork_multi_index_type steemit::chain::fork_database::_index</definition>
+        <argsstring></argsstring>
+        <name>_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/fork_database.hpp" line="116" column="1" bodyfile="libraries/chain/include/steemit/chain/fork_database.hpp" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1fork__database_1a5ab86ece9edceadc0c460538615d945a" prot="private" static="no" mutable="no">
+        <type>shared_ptr&lt; <ref refid="structsteemit_1_1chain_1_1fork__item" kindref="compound">fork_item</ref> &gt;</type>
+        <definition>shared_ptr&lt;fork_item&gt; steemit::chain::fork_database::_head</definition>
+        <argsstring></argsstring>
+        <name>_head</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/fork_database.hpp" line="117" column="1" bodyfile="libraries/chain/include/steemit/chain/fork_database.hpp" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1fork__database_1ad2ef574c701febf3d662298def53f262" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>steemit::chain::fork_database::fork_database</definition>
+        <argsstring>()</argsstring>
+        <name>fork_database</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/fork_database.hpp" line="59" column="1" bodyfile="libraries/chain/fork_database.cpp" bodystart="8" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1fork__database_1a26a995d855601f48a6c462b7b3ba7b61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::chain::fork_database::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/fork_database.hpp" line="61" column="1" bodyfile="libraries/chain/fork_database.cpp" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1fork__database_1a001458c0b29db51a6b1e257c3f3decf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::chain::fork_database::start_block</definition>
+        <argsstring>(signed_block b)</argsstring>
+        <name>start_block</name>
+        <param>
+          <type>signed_block</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/fork_database.hpp" line="63" column="1" bodyfile="libraries/chain/fork_database.cpp" bodystart="23" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1fork__database_1ac8cf37dc567229fa3c127d6a78d8eafa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::chain::fork_database::remove</definition>
+        <argsstring>(block_id_type b)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>block_id_type</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/fork_database.hpp" line="65" column="1" bodyfile="libraries/chain/fork_database.cpp" bodystart="214" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1fork__database_1a6484b81c99a3e3d7c64e72a07da94d09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::chain::fork_database::set_head</definition>
+        <argsstring>(shared_ptr&lt; fork_item &gt; h)</argsstring>
+        <name>set_head</name>
+        <param>
+          <type>shared_ptr&lt; <ref refid="structsteemit_1_1chain_1_1fork__item" kindref="compound">fork_item</ref> &gt;</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/fork_database.hpp" line="67" column="1" bodyfile="libraries/chain/fork_database.cpp" bodystart="210" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1fork__database_1ab49cba5e546bbe645db1cff94eb6c95c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool steemit::chain::fork_database::is_known_block</definition>
+        <argsstring>(const block_id_type &amp;id) const</argsstring>
+        <name>is_known_block</name>
+        <param>
+          <type>const block_id_type &amp;</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/fork_database.hpp" line="69" column="1" bodyfile="libraries/chain/fork_database.cpp" bodystart="124" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1fork__database_1a8cb5b7aef5668d6842f267ec0ec26be3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>shared_ptr&lt; <ref refid="structsteemit_1_1chain_1_1fork__item" kindref="compound">fork_item</ref> &gt;</type>
+        <definition>item_ptr steemit::chain::fork_database::fetch_block</definition>
+        <argsstring>(const block_id_type &amp;id) const</argsstring>
+        <name>fetch_block</name>
+        <param>
+          <type>const block_id_type &amp;</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/fork_database.hpp" line="71" column="1" bodyfile="libraries/chain/fork_database.cpp" bodystart="135" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1fork__database_1a5072644a783a35d25775dbdcd8ba8b7e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="namespacesteemit_1_1chain_1a2e8fdf0812bc34e53874d3c27a688147" kindref="member">item_ptr</ref> &gt;</type>
+        <definition>vector&lt; item_ptr &gt; steemit::chain::fork_database::fetch_block_by_number</definition>
+        <argsstring>(uint32_t n) const</argsstring>
+        <name>fetch_block_by_number</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/fork_database.hpp" line="73" column="1" bodyfile="libraries/chain/fork_database.cpp" bodystart="149" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1fork__database_1a99b2bf701c81b2ace67aad8b2f92701b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>shared_ptr&lt; <ref refid="structsteemit_1_1chain_1_1fork__item" kindref="compound">fork_item</ref> &gt;</type>
+        <definition>shared_ptr&lt; fork_item &gt; steemit::chain::fork_database::push_block</definition>
+        <argsstring>(const signed_block &amp;b)</argsstring>
+        <name>push_block</name>
+        <param>
+          <type>const signed_block &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the new head block ( the longest fork )</para></simplesect>
+Pushes the block into the fork database and caches it if it doesn&apos;t link </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/fork_database.hpp" line="78" column="1" bodyfile="libraries/chain/fork_database.cpp" bodystart="33" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1fork__database_1a0c31bff72c5ab967e470346e8f220e15" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>shared_ptr&lt; <ref refid="structsteemit_1_1chain_1_1fork__item" kindref="compound">fork_item</ref> &gt;</type>
+        <definition>shared_ptr&lt;fork_item&gt; steemit::chain::fork_database::head</definition>
+        <argsstring>() const</argsstring>
+        <name>head</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/fork_database.hpp" line="80" column="1" bodyfile="libraries/chain/include/steemit/chain/fork_database.hpp" bodystart="80" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1fork__database_1a6c7a47f75b1999be4d0ccf77a220332b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::chain::fork_database::pop_block</definition>
+        <argsstring>()</argsstring>
+        <name>pop_block</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/fork_database.hpp" line="84" column="1" bodyfile="libraries/chain/fork_database.cpp" bodystart="16" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1fork__database_1a448d2c524de99fe096bab6fc778e12a5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>pair&lt; <ref refid="classsteemit_1_1chain_1_1fork__database_1ad5e29250c27b267d9ab6d09b1f350182" kindref="member">branch_type</ref>, <ref refid="classsteemit_1_1chain_1_1fork__database_1ad5e29250c27b267d9ab6d09b1f350182" kindref="member">branch_type</ref> &gt;</type>
+        <definition>pair&lt; fork_database::branch_type, fork_database::branch_type &gt; steemit::chain::fork_database::fetch_branch_from</definition>
+        <argsstring>(block_id_type first, block_id_type second) const</argsstring>
+        <name>fetch_branch_from</name>
+        <param>
+          <type>block_id_type</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>block_id_type</type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Given two head blocks, return two branches of the fork graph that end with a common ancestor (same prior block) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/fork_database.hpp" line="90" column="1" bodyfile="libraries/chain/fork_database.cpp" bodystart="167" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1fork__database_1a75e5e6bed6468640cee380edce38bd4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::chain::fork_database::set_max_size</definition>
+        <argsstring>(uint32_t s)</argsstring>
+        <name>set_max_size</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>index</para><para>unlinked_index </para>        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/fork_database.hpp" line="105" column="1" bodyfile="libraries/chain/fork_database.cpp" bodystart="90" bodyend="122"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1fork__database_1a48a38038d653d968d22926a809a08184" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::chain::fork_database::_push_block</definition>
+        <argsstring>(const item_ptr &amp;b)</argsstring>
+        <name>_push_block</name>
+        <param>
+          <type>const <ref refid="namespacesteemit_1_1chain_1a2e8fdf0812bc34e53874d3c27a688147" kindref="member">item_ptr</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a pointer to the newly pushed item </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/fork_database.hpp" line="109" column="1" bodyfile="libraries/chain/fork_database.cpp" bodystart="47" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1fork__database_1ad4451322c865cecd3147d25758d60bfb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::chain::fork_database::_push_next</definition>
+        <argsstring>(const item_ptr &amp;newly_inserted)</argsstring>
+        <name>_push_next</name>
+        <param>
+          <type>const <ref refid="namespacesteemit_1_1chain_1a2e8fdf0812bc34e53874d3c27a688147" kindref="member">item_ptr</ref> &amp;</type>
+          <declname>newly_inserted</declname>
+          <defname>new_item</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Iterate through the unlinked cache and insert anything that links to the newly inserted item. This will start a recursive set of calls performing a depth-first insertion of pending blocks as _push_next(..) calls _push_block(...) which will in turn call _push_next </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/fork_database.hpp" line="111" column="1" bodyfile="libraries/chain/fork_database.cpp" bodystart="77" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>As long as blocks are pushed in order the fork database will maintain a linked tree of all blocks that branch from the start_block. The tree will have a maximum depth of 1024 blocks after which the database will start lopping off forks.</para><para>Every time a block is pushed into the fork DB the block with the highest block_num will be returned. </para>    </detaileddescription>
+    <location file="libraries/chain/include/steemit/chain/fork_database.hpp" line="53" column="1" bodyfile="libraries/chain/include/steemit/chain/fork_database.hpp" bodystart="53" bodyend="118"/>
+    <listofallmembers>
+      <member refid="classsteemit_1_1chain_1_1fork__database_1a5ab86ece9edceadc0c460538615d945a" prot="private" virt="non-virtual"><scope>steemit::chain::fork_database</scope><name>_head</name></member>
+      <member refid="classsteemit_1_1chain_1_1fork__database_1a62f99c315b89fc0aa7eaf8732e8fcb38" prot="private" virt="non-virtual"><scope>steemit::chain::fork_database</scope><name>_index</name></member>
+      <member refid="classsteemit_1_1chain_1_1fork__database_1a0754477d8566128e8996dbf150cafe84" prot="private" virt="non-virtual"><scope>steemit::chain::fork_database</scope><name>_max_size</name></member>
+      <member refid="classsteemit_1_1chain_1_1fork__database_1a48a38038d653d968d22926a809a08184" prot="private" virt="non-virtual"><scope>steemit::chain::fork_database</scope><name>_push_block</name></member>
+      <member refid="classsteemit_1_1chain_1_1fork__database_1ad4451322c865cecd3147d25758d60bfb" prot="private" virt="non-virtual"><scope>steemit::chain::fork_database</scope><name>_push_next</name></member>
+      <member refid="classsteemit_1_1chain_1_1fork__database_1a4134cde779062d5d5f77fcb320c0bf0e" prot="private" virt="non-virtual"><scope>steemit::chain::fork_database</scope><name>_unlinked_index</name></member>
+      <member refid="classsteemit_1_1chain_1_1fork__database_1ad5e29250c27b267d9ab6d09b1f350182" prot="public" virt="non-virtual"><scope>steemit::chain::fork_database</scope><name>branch_type</name></member>
+      <member refid="classsteemit_1_1chain_1_1fork__database_1a8cb5b7aef5668d6842f267ec0ec26be3" prot="public" virt="non-virtual"><scope>steemit::chain::fork_database</scope><name>fetch_block</name></member>
+      <member refid="classsteemit_1_1chain_1_1fork__database_1a5072644a783a35d25775dbdcd8ba8b7e" prot="public" virt="non-virtual"><scope>steemit::chain::fork_database</scope><name>fetch_block_by_number</name></member>
+      <member refid="classsteemit_1_1chain_1_1fork__database_1a448d2c524de99fe096bab6fc778e12a5" prot="public" virt="non-virtual"><scope>steemit::chain::fork_database</scope><name>fetch_branch_from</name></member>
+      <member refid="classsteemit_1_1chain_1_1fork__database_1ad2ef574c701febf3d662298def53f262" prot="public" virt="non-virtual"><scope>steemit::chain::fork_database</scope><name>fork_database</name></member>
+      <member refid="classsteemit_1_1chain_1_1fork__database_1ae759f72752f3463c2c18b4148627abc4" prot="public" virt="non-virtual"><scope>steemit::chain::fork_database</scope><name>fork_multi_index_type</name></member>
+      <member refid="classsteemit_1_1chain_1_1fork__database_1a0c31bff72c5ab967e470346e8f220e15" prot="public" virt="non-virtual"><scope>steemit::chain::fork_database</scope><name>head</name></member>
+      <member refid="classsteemit_1_1chain_1_1fork__database_1ab49cba5e546bbe645db1cff94eb6c95c" prot="public" virt="non-virtual"><scope>steemit::chain::fork_database</scope><name>is_known_block</name></member>
+      <member refid="classsteemit_1_1chain_1_1fork__database_1a2fc500d6a9646a2156b8e2bbbaa66d6c" prot="public" virt="non-virtual"><scope>steemit::chain::fork_database</scope><name>MAX_BLOCK_REORDERING</name></member>
+      <member refid="classsteemit_1_1chain_1_1fork__database_1a6c7a47f75b1999be4d0ccf77a220332b" prot="public" virt="non-virtual"><scope>steemit::chain::fork_database</scope><name>pop_block</name></member>
+      <member refid="classsteemit_1_1chain_1_1fork__database_1a99b2bf701c81b2ace67aad8b2f92701b" prot="public" virt="non-virtual"><scope>steemit::chain::fork_database</scope><name>push_block</name></member>
+      <member refid="classsteemit_1_1chain_1_1fork__database_1ac8cf37dc567229fa3c127d6a78d8eafa" prot="public" virt="non-virtual"><scope>steemit::chain::fork_database</scope><name>remove</name></member>
+      <member refid="classsteemit_1_1chain_1_1fork__database_1a26a995d855601f48a6c462b7b3ba7b61" prot="public" virt="non-virtual"><scope>steemit::chain::fork_database</scope><name>reset</name></member>
+      <member refid="classsteemit_1_1chain_1_1fork__database_1a6484b81c99a3e3d7c64e72a07da94d09" prot="public" virt="non-virtual"><scope>steemit::chain::fork_database</scope><name>set_head</name></member>
+      <member refid="classsteemit_1_1chain_1_1fork__database_1a75e5e6bed6468640cee380edce38bd4d" prot="public" virt="non-virtual"><scope>steemit::chain::fork_database</scope><name>set_max_size</name></member>
+      <member refid="classsteemit_1_1chain_1_1fork__database_1a001458c0b29db51a6b1e257c3f3decf4" prot="public" virt="non-virtual"><scope>steemit::chain::fork_database</scope><name>start_block</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

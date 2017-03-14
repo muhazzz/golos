@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_42a8cd1a873f64fa25581404d9183ed8" kind="dir">
+    <compoundname>libraries/plugins/raw_block</compoundname>
+    <innerdir refid="dir_5c8c227a7d7c03e510237ad3f2933cfd">libraries/plugins/raw_block/include</innerdir>
+    <innerfile refid="raw__block__api_8cpp">raw_block_api.cpp</innerfile>
+    <innerfile refid="raw__block__plugin_8cpp">raw_block_plugin.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/raw_block/"/>
+  </compounddef>
+</doxygen>

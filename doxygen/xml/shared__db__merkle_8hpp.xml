@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="shared__db__merkle_8hpp" kind="file" language="C++">
+    <compoundname>shared_db_merkle.hpp</compoundname>
+    <includes local="no">steemit/protocol/types.hpp</includes>
+    <includedby refid="database_8cpp" local="no">libraries/chain/database.cpp</includedby>
+    <incdepgraph>
+      <node id="1851">
+        <label>steemit/protocol/types.hpp</label>
+      </node>
+      <node id="1850">
+        <label>libraries/chain/include/steemit/chain/shared_db_merkle.hpp</label>
+        <link refid="shared__db__merkle_8hpp"/>
+        <childnode refid="1851" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1852">
+        <label>libraries/chain/include/steemit/chain/shared_db_merkle.hpp</label>
+        <link refid="shared__db__merkle_8hpp"/>
+        <childnode refid="1853" relation="include">
+        </childnode>
+      </node>
+      <node id="1853">
+        <label>libraries/chain/database.cpp</label>
+        <link refid="database_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacesteemit">steemit</innernamespace>
+    <innernamespace refid="namespacesteemit_1_1chain">steemit::chain</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/chain/include/steemit/chain/shared_db_merkle.hpp"/>
+  </compounddef>
+</doxygen>

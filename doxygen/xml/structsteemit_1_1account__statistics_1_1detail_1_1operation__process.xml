@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structsteemit_1_1account__statistics_1_1detail_1_1operation__process" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::account_statistics::detail::operation_process</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structsteemit_1_1account__statistics_1_1detail_1_1operation__process_1ad3b64184a273fbd6ed481f933ac72d6a" prot="public" static="no">
+        <type>void</type>
+        <definition>typedef void steemit::account_statistics::detail::operation_process::result_type</definition>
+        <argsstring></argsstring>
+        <name>result_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/account_statistics_plugin.cpp" line="41" column="1" bodyfile="libraries/plugins/account_statistics/account_statistics_plugin.cpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1detail_1_1operation__process_1a39705c6c98c6139a76bd1a346b900adc" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classsteemit_1_1account__statistics_1_1account__statistics__plugin" kindref="compound">account_statistics_plugin</ref> &amp;</type>
+        <definition>const account_statistics_plugin&amp; steemit::account_statistics::detail::operation_process::_plugin</definition>
+        <argsstring></argsstring>
+        <name>_plugin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/account_statistics_plugin.cpp" line="31" column="1" bodyfile="libraries/plugins/account_statistics/account_statistics_plugin.cpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1detail_1_1operation__process_1a533ac62ed053860821f7d22e918f2f48" prot="public" static="no" mutable="no">
+        <type>const <ref refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object" kindref="compound">account_stats_bucket_object</ref> &amp;</type>
+        <definition>const account_stats_bucket_object&amp; steemit::account_statistics::detail::operation_process::_stats</definition>
+        <argsstring></argsstring>
+        <name>_stats</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/account_statistics_plugin.cpp" line="32" column="1" bodyfile="libraries/plugins/account_statistics/account_statistics_plugin.cpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1detail_1_1operation__process_1ae4353117bd1901abf1cf58ad23bc448b" prot="public" static="no" mutable="no">
+        <type>const <ref refid="structsteemit_1_1account__statistics_1_1account__activity__bucket__object" kindref="compound">account_activity_bucket_object</ref> &amp;</type>
+        <definition>const account_activity_bucket_object&amp; steemit::account_statistics::detail::operation_process::_activity</definition>
+        <argsstring></argsstring>
+        <name>_activity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/account_statistics_plugin.cpp" line="33" column="1" bodyfile="libraries/plugins/account_statistics/account_statistics_plugin.cpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1account__statistics_1_1detail_1_1operation__process_1a1eeb5ab9bc9b6ac20302b84217947abd" prot="public" static="no" mutable="no">
+        <type><ref refid="classsteemit_1_1chain_1_1database" kindref="compound">chain::database</ref> &amp;</type>
+        <definition>chain::database&amp; steemit::account_statistics::detail::operation_process::_db</definition>
+        <argsstring></argsstring>
+        <name>_db</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/account_statistics_plugin.cpp" line="34" column="1" bodyfile="libraries/plugins/account_statistics/account_statistics_plugin.cpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsteemit_1_1account__statistics_1_1detail_1_1operation__process_1a72a138a410b5c79a56c7786ec8aa8923" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::account_statistics::detail::operation_process::operation_process</definition>
+        <argsstring>(account_statistics_plugin &amp;asp, const account_stats_bucket_object &amp;s, const account_activity_bucket_object &amp;a)</argsstring>
+        <name>operation_process</name>
+        <param>
+          <type><ref refid="classsteemit_1_1account__statistics_1_1account__statistics__plugin" kindref="compound">account_statistics_plugin</ref> &amp;</type>
+          <declname>asp</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object" kindref="compound">account_stats_bucket_object</ref> &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structsteemit_1_1account__statistics_1_1account__activity__bucket__object" kindref="compound">account_activity_bucket_object</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/account_statistics_plugin.cpp" line="36" column="1" bodyfile="libraries/plugins/account_statistics/account_statistics_plugin.cpp" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__statistics_1_1detail_1_1operation__process_1a170a205635bf4683e4ddeb74681cf3dc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void steemit::account_statistics::detail::operation_process::operator()</definition>
+        <argsstring>(const T &amp;) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const T &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/account_statistics_plugin.cpp" line="44" column="1" bodyfile="libraries/plugins/account_statistics/account_statistics_plugin.cpp" bodystart="44" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="736">
+        <label>time_point_sec</label>
+      </node>
+      <node id="737">
+        <label>steemit::account_statistics::account_statistics_plugin</label>
+        <link refid="classsteemit_1_1account__statistics_1_1account__statistics__plugin"/>
+        <childnode refid="738" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="735">
+        <label>chainbase::object&lt; account_activity_bucket_object_type, account_activity_bucket_object &gt;</label>
+      </node>
+      <node id="741">
+        <label>chainbase::object&lt; account_stats_bucket_object_type, account_stats_bucket_object &gt;</label>
+      </node>
+      <node id="732">
+        <label>steemit::chain::database</label>
+        <link refid="classsteemit_1_1chain_1_1database"/>
+        <childnode refid="733" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="733">
+        <label>chainbase::database</label>
+      </node>
+      <node id="743">
+        <label>account_name_type</label>
+      </node>
+      <node id="739">
+        <label>steemit::app::abstract_plugin</label>
+        <link refid="classsteemit_1_1app_1_1abstract__plugin"/>
+      </node>
+      <node id="740">
+        <label>steemit::account_statistics::account_stats_bucket_object</label>
+        <link refid="structsteemit_1_1account__statistics_1_1account__stats__bucket__object"/>
+        <childnode refid="741" relation="public-inheritance">
+        </childnode>
+        <childnode refid="742" relation="usage">
+          <edgelabel>sbd_received</edgelabel>
+          <edgelabel>sbd_sent</edgelabel>
+          <edgelabel>curation_rewards_payout_sbd_value</edgelabel>
+          <edgelabel>new_vests</edgelabel>
+          <edgelabel>steem_vested</edgelabel>
+          <edgelabel>curation_rewards_steem_value</edgelabel>
+          <edgelabel>sbd_to_be_converted</edgelabel>
+          <edgelabel>author_rewards_total_steem_value</edgelabel>
+          <edgelabel>limit_order_steem_paid</edgelabel>
+          <edgelabel>curation_rewards_vests</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="736" relation="usage">
+          <edgelabel>open</edgelabel>
+        </childnode>
+        <childnode refid="743" relation="usage">
+          <edgelabel>name</edgelabel>
+        </childnode>
+        <childnode refid="744" relation="usage">
+          <edgelabel>estimated_hashpower</edgelabel>
+        </childnode>
+      </node>
+      <node id="738">
+        <label>steemit::app::plugin</label>
+        <link refid="classsteemit_1_1app_1_1plugin"/>
+        <childnode refid="739" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="742">
+        <label>share_type</label>
+      </node>
+      <node id="731">
+        <label>steemit::account_statistics::detail::operation_process</label>
+        <link refid="structsteemit_1_1account__statistics_1_1detail_1_1operation__process"/>
+        <childnode refid="732" relation="usage">
+          <edgelabel>_db</edgelabel>
+        </childnode>
+        <childnode refid="734" relation="usage">
+          <edgelabel>_activity</edgelabel>
+        </childnode>
+        <childnode refid="737" relation="usage">
+          <edgelabel>_plugin</edgelabel>
+        </childnode>
+        <childnode refid="740" relation="usage">
+          <edgelabel>_stats</edgelabel>
+        </childnode>
+      </node>
+      <node id="734">
+        <label>steemit::account_statistics::account_activity_bucket_object</label>
+        <link refid="structsteemit_1_1account__statistics_1_1account__activity__bucket__object"/>
+        <childnode refid="735" relation="public-inheritance">
+        </childnode>
+        <childnode refid="736" relation="usage">
+          <edgelabel>open</edgelabel>
+        </childnode>
+      </node>
+      <node id="744">
+        <label>uint128_t</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/account_statistics/account_statistics_plugin.cpp" line="30" column="1" bodyfile="libraries/plugins/account_statistics/account_statistics_plugin.cpp" bodystart="30" bodyend="46"/>
+    <listofallmembers>
+      <member refid="structsteemit_1_1account__statistics_1_1detail_1_1operation__process_1ae4353117bd1901abf1cf58ad23bc448b" prot="public" virt="non-virtual"><scope>steemit::account_statistics::detail::operation_process</scope><name>_activity</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1detail_1_1operation__process_1a1eeb5ab9bc9b6ac20302b84217947abd" prot="public" virt="non-virtual"><scope>steemit::account_statistics::detail::operation_process</scope><name>_db</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1detail_1_1operation__process_1a39705c6c98c6139a76bd1a346b900adc" prot="public" virt="non-virtual"><scope>steemit::account_statistics::detail::operation_process</scope><name>_plugin</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1detail_1_1operation__process_1a533ac62ed053860821f7d22e918f2f48" prot="public" virt="non-virtual"><scope>steemit::account_statistics::detail::operation_process</scope><name>_stats</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1detail_1_1operation__process_1a72a138a410b5c79a56c7786ec8aa8923" prot="public" virt="non-virtual"><scope>steemit::account_statistics::detail::operation_process</scope><name>operation_process</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1detail_1_1operation__process_1a170a205635bf4683e4ddeb74681cf3dc" prot="public" virt="non-virtual"><scope>steemit::account_statistics::detail::operation_process</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__statistics_1_1detail_1_1operation__process_1ad3b64184a273fbd6ed481f933ac72d6a" prot="public" virt="non-virtual"><scope>steemit::account_statistics::detail::operation_process</scope><name>result_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

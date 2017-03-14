@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structsteemit_1_1account__by__key_1_1detail_1_1pre__operation__visitor" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::account_by_key::detail::pre_operation_visitor</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structsteemit_1_1account__by__key_1_1detail_1_1pre__operation__visitor_1aaa678c0dbc28c99aa8167ff830c77896" prot="public" static="no">
+        <type>void</type>
+        <definition>typedef void steemit::account_by_key::detail::pre_operation_visitor::result_type</definition>
+        <argsstring></argsstring>
+        <name>result_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_by_key/account_by_key_plugin.cpp" line="43" column="1" bodyfile="libraries/plugins/account_by_key/account_by_key_plugin.cpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsteemit_1_1account__by__key_1_1detail_1_1pre__operation__visitor_1ab97a5d22c9e7766c34cb1b8e5c59ea20" prot="public" static="no" mutable="no">
+        <type><ref refid="classsteemit_1_1account__by__key_1_1account__by__key__plugin" kindref="compound">account_by_key_plugin</ref> &amp;</type>
+        <definition>account_by_key_plugin&amp; steemit::account_by_key::detail::pre_operation_visitor::_plugin</definition>
+        <argsstring></argsstring>
+        <name>_plugin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_by_key/account_by_key_plugin.cpp" line="37" column="1" bodyfile="libraries/plugins/account_by_key/account_by_key_plugin.cpp" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsteemit_1_1account__by__key_1_1detail_1_1pre__operation__visitor_1aa4f7d6a07da5ee280eb809744c7ead28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::account_by_key::detail::pre_operation_visitor::pre_operation_visitor</definition>
+        <argsstring>(account_by_key_plugin &amp;plugin)</argsstring>
+        <name>pre_operation_visitor</name>
+        <param>
+          <type><ref refid="classsteemit_1_1account__by__key_1_1account__by__key__plugin" kindref="compound">account_by_key_plugin</ref> &amp;</type>
+          <declname>plugin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_by_key/account_by_key_plugin.cpp" line="39" column="1" bodyfile="libraries/plugins/account_by_key/account_by_key_plugin.cpp" bodystart="39" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__by__key_1_1detail_1_1pre__operation__visitor_1a9c8034546c756e6163dc9a2e386ee2f8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void steemit::account_by_key::detail::pre_operation_visitor::operator()</definition>
+        <argsstring>(const T &amp;) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const T &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_by_key/account_by_key_plugin.cpp" line="46" column="1" bodyfile="libraries/plugins/account_by_key/account_by_key_plugin.cpp" bodystart="46" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__by__key_1_1detail_1_1pre__operation__visitor_1a170f2b93c430205fca1a15f5b13aa5fb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::account_by_key::detail::pre_operation_visitor::operator()</definition>
+        <argsstring>(const account_create_operation &amp;op) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const account_create_operation &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_by_key/account_by_key_plugin.cpp" line="49" column="1" bodyfile="libraries/plugins/account_by_key/account_by_key_plugin.cpp" bodystart="49" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__by__key_1_1detail_1_1pre__operation__visitor_1a212f7b54a74e47987e390942ae92a323" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::account_by_key::detail::pre_operation_visitor::operator()</definition>
+        <argsstring>(const account_update_operation &amp;op) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const account_update_operation &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_by_key/account_by_key_plugin.cpp" line="53" column="1" bodyfile="libraries/plugins/account_by_key/account_by_key_plugin.cpp" bodystart="53" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__by__key_1_1detail_1_1pre__operation__visitor_1af5776b7b79b663f42765c105d3239e40" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::account_by_key::detail::pre_operation_visitor::operator()</definition>
+        <argsstring>(const recover_account_operation &amp;op) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const recover_account_operation &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_by_key/account_by_key_plugin.cpp" line="61" column="1" bodyfile="libraries/plugins/account_by_key/account_by_key_plugin.cpp" bodystart="61" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__by__key_1_1detail_1_1pre__operation__visitor_1ad21189b19885af383569184ac575e74b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::account_by_key::detail::pre_operation_visitor::operator()</definition>
+        <argsstring>(const pow_operation &amp;op) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const pow_operation &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_by_key/account_by_key_plugin.cpp" line="69" column="1" bodyfile="libraries/plugins/account_by_key/account_by_key_plugin.cpp" bodystart="69" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__by__key_1_1detail_1_1pre__operation__visitor_1aa73676c0939cddee846dec32373237de" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::account_by_key::detail::pre_operation_visitor::operator()</definition>
+        <argsstring>(const pow2_operation &amp;op) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const pow2_operation &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_by_key/account_by_key_plugin.cpp" line="73" column="1" bodyfile="libraries/plugins/account_by_key/account_by_key_plugin.cpp" bodystart="73" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="869">
+        <label>steemit::account_by_key::account_by_key_plugin</label>
+        <link refid="classsteemit_1_1account__by__key_1_1account__by__key__plugin"/>
+        <childnode refid="870" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="868">
+        <label>steemit::account_by_key::detail::pre_operation_visitor</label>
+        <link refid="structsteemit_1_1account__by__key_1_1detail_1_1pre__operation__visitor"/>
+        <childnode refid="869" relation="usage">
+          <edgelabel>_plugin</edgelabel>
+        </childnode>
+      </node>
+      <node id="871">
+        <label>steemit::app::abstract_plugin</label>
+        <link refid="classsteemit_1_1app_1_1abstract__plugin"/>
+      </node>
+      <node id="870">
+        <label>steemit::app::plugin</label>
+        <link refid="classsteemit_1_1app_1_1plugin"/>
+        <childnode refid="871" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/account_by_key/account_by_key_plugin.cpp" line="36" column="1" bodyfile="libraries/plugins/account_by_key/account_by_key_plugin.cpp" bodystart="36" bodyend="76"/>
+    <listofallmembers>
+      <member refid="structsteemit_1_1account__by__key_1_1detail_1_1pre__operation__visitor_1ab97a5d22c9e7766c34cb1b8e5c59ea20" prot="public" virt="non-virtual"><scope>steemit::account_by_key::detail::pre_operation_visitor</scope><name>_plugin</name></member>
+      <member refid="structsteemit_1_1account__by__key_1_1detail_1_1pre__operation__visitor_1a9c8034546c756e6163dc9a2e386ee2f8" prot="public" virt="non-virtual"><scope>steemit::account_by_key::detail::pre_operation_visitor</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__by__key_1_1detail_1_1pre__operation__visitor_1a170f2b93c430205fca1a15f5b13aa5fb" prot="public" virt="non-virtual"><scope>steemit::account_by_key::detail::pre_operation_visitor</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__by__key_1_1detail_1_1pre__operation__visitor_1a212f7b54a74e47987e390942ae92a323" prot="public" virt="non-virtual"><scope>steemit::account_by_key::detail::pre_operation_visitor</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__by__key_1_1detail_1_1pre__operation__visitor_1af5776b7b79b663f42765c105d3239e40" prot="public" virt="non-virtual"><scope>steemit::account_by_key::detail::pre_operation_visitor</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__by__key_1_1detail_1_1pre__operation__visitor_1ad21189b19885af383569184ac575e74b" prot="public" virt="non-virtual"><scope>steemit::account_by_key::detail::pre_operation_visitor</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__by__key_1_1detail_1_1pre__operation__visitor_1aa73676c0939cddee846dec32373237de" prot="public" virt="non-virtual"><scope>steemit::account_by_key::detail::pre_operation_visitor</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__by__key_1_1detail_1_1pre__operation__visitor_1aa4f7d6a07da5ee280eb809744c7ead28" prot="public" virt="non-virtual"><scope>steemit::account_by_key::detail::pre_operation_visitor</scope><name>pre_operation_visitor</name></member>
+      <member refid="structsteemit_1_1account__by__key_1_1detail_1_1pre__operation__visitor_1aaa678c0dbc28c99aa8167ff830c77896" prot="public" virt="non-virtual"><scope>steemit::account_by_key::detail::pre_operation_visitor</scope><name>result_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

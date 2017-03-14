@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacesteemit_1_1plugin" kind="namespace" language="C++">
+    <compoundname>steemit::plugin</compoundname>
+    <innernamespace refid="namespacesteemit_1_1plugin_1_1auth__util">steemit::plugin::auth_util</innernamespace>
+    <innernamespace refid="namespacesteemit_1_1plugin_1_1block__info">steemit::plugin::block_info</innernamespace>
+    <innernamespace refid="namespacesteemit_1_1plugin_1_1debug__node">steemit::plugin::debug_node</innernamespace>
+    <innernamespace refid="namespacesteemit_1_1plugin_1_1raw__block">steemit::plugin::raw_block</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/auth_util/auth_util_api.cpp" line="13" column="1"/>
+  </compounddef>
+</doxygen>

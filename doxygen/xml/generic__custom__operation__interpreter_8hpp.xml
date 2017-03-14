@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="generic__custom__operation__interpreter_8hpp" kind="file" language="C++">
+    <compoundname>generic_custom_operation_interpreter.hpp</compoundname>
+    <includes local="no">steemit/protocol/steem_operations.hpp</includes>
+    <includes local="no">steemit/protocol/operation_util_impl.hpp</includes>
+    <includes refid="evaluator_8hpp" local="no">steemit/chain/evaluator.hpp</includes>
+    <includes refid="evaluator__registry_8hpp" local="no">steemit/chain/evaluator_registry.hpp</includes>
+    <includes refid="custom__operation__interpreter_8hpp" local="no">steemit/chain/custom_operation_interpreter.hpp</includes>
+    <includes local="no">graphene/schema/schema.hpp</includes>
+    <includes local="no">fc/variant.hpp</includes>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includedby refid="follow__plugin_8cpp" local="no">libraries/plugins/follow/follow_plugin.cpp</includedby>
+    <includedby refid="private__message__plugin_8cpp" local="no">libraries/plugins/private_message/private_message_plugin.cpp</includedby>
+    <incdepgraph>
+      <node id="1568">
+        <label>steemit/chain/evaluator_registry.hpp</label>
+        <link refid="evaluator__registry_8hpp"/>
+        <childnode refid="1565" relation="include">
+        </childnode>
+      </node>
+      <node id="1573">
+        <label>string</label>
+      </node>
+      <node id="1572">
+        <label>fc/variant.hpp</label>
+      </node>
+      <node id="1563">
+        <label>steemit/protocol/steem_operations.hpp</label>
+      </node>
+      <node id="1564">
+        <label>steemit/protocol/operation_util_impl.hpp</label>
+      </node>
+      <node id="1567">
+        <label>steemit/protocol/operations.hpp</label>
+      </node>
+      <node id="1562">
+        <label>libraries/chain/include/steemit/chain/generic_custom_operation_interpreter.hpp</label>
+        <link refid="generic__custom__operation__interpreter_8hpp"/>
+        <childnode refid="1563" relation="include">
+        </childnode>
+        <childnode refid="1564" relation="include">
+        </childnode>
+        <childnode refid="1565" relation="include">
+        </childnode>
+        <childnode refid="1568" relation="include">
+        </childnode>
+        <childnode refid="1569" relation="include">
+        </childnode>
+        <childnode refid="1571" relation="include">
+        </childnode>
+        <childnode refid="1572" relation="include">
+        </childnode>
+        <childnode refid="1573" relation="include">
+        </childnode>
+        <childnode refid="1574" relation="include">
+        </childnode>
+      </node>
+      <node id="1569">
+        <label>steemit/chain/custom_operation_interpreter.hpp</label>
+        <link refid="custom__operation__interpreter_8hpp"/>
+        <childnode refid="1570" relation="include">
+        </childnode>
+      </node>
+      <node id="1565">
+        <label>steemit/chain/evaluator.hpp</label>
+        <link refid="evaluator_8hpp"/>
+        <childnode refid="1566" relation="include">
+        </childnode>
+        <childnode refid="1567" relation="include">
+        </childnode>
+      </node>
+      <node id="1574">
+        <label>vector</label>
+      </node>
+      <node id="1571">
+        <label>graphene/schema/schema.hpp</label>
+      </node>
+      <node id="1570">
+        <label>memory</label>
+      </node>
+      <node id="1566">
+        <label>steemit/protocol/exceptions.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1576">
+        <label>libraries/plugins/follow/follow_plugin.cpp</label>
+        <link refid="follow__plugin_8cpp"/>
+      </node>
+      <node id="1577">
+        <label>libraries/plugins/private_message/private_message_plugin.cpp</label>
+        <link refid="private__message__plugin_8cpp"/>
+      </node>
+      <node id="1575">
+        <label>libraries/chain/include/steemit/chain/generic_custom_operation_interpreter.hpp</label>
+        <link refid="generic__custom__operation__interpreter_8hpp"/>
+        <childnode refid="1576" relation="include">
+        </childnode>
+        <childnode refid="1577" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classsteemit_1_1chain_1_1generic__custom__operation__interpreter" prot="public">steemit::chain::generic_custom_operation_interpreter</innerclass>
+    <innernamespace refid="namespacesteemit">steemit</innernamespace>
+    <innernamespace refid="namespacesteemit_1_1chain">steemit::chain</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/chain/include/steemit/chain/generic_custom_operation_interpreter.hpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsteemit_1_1chain_1_1block__summary__object" kind="class" language="C++" prot="public">
+    <compoundname>steemit::chain::block_summary_object</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">chainbase::object&lt; block_summary_object_type, block_summary_object &gt;</basecompoundref>
+    <includes refid="block__summary__object_8hpp" local="no">block_summary_object.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1block__summary__object_1aefa455e31bbcf4d4c6c67cc3a6661da5" prot="public" static="no" mutable="no">
+        <type>id_type</type>
+        <definition>id_type steemit::chain::block_summary_object::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/block_summary_object.hpp" line="30" column="1" bodyfile="libraries/chain/include/steemit/chain/block_summary_object.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1block__summary__object_1a131e288666e1e14c6c50027f288f53bc" prot="public" static="no" mutable="no">
+        <type>block_id_type</type>
+        <definition>block_id_type steemit::chain::block_summary_object::block_id</definition>
+        <argsstring></argsstring>
+        <name>block_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/block_summary_object.hpp" line="31" column="1" bodyfile="libraries/chain/include/steemit/chain/block_summary_object.hpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1block__summary__object_1ae6fbbd22523e86f22eaa2d750d0796bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Constructor</type>
+          </param>
+          <param>
+            <type>typename Allocator</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>steemit::chain::block_summary_object::block_summary_object</definition>
+        <argsstring>(Constructor &amp;&amp;c, allocator&lt; Allocator &gt; a)</argsstring>
+        <name>block_summary_object</name>
+        <param>
+          <type>Constructor &amp;&amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>allocator&lt; Allocator &gt;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/block_summary_object.hpp" line="23" column="1" bodyfile="libraries/chain/include/steemit/chain/block_summary_object.hpp" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1block__summary__object_1a9b1e741c9c6c24d51bdd5f2642a31ead" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::chain::block_summary_object::block_summary_object</definition>
+        <argsstring>()</argsstring>
+        <name>block_summary_object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/block_summary_object.hpp" line="27" column="1" bodyfile="libraries/chain/include/steemit/chain/block_summary_object.hpp" bodystart="27" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>tracks minimal information about past blocks to implement TaPOS</para><para>When attempting to calculate the validity of a transaction we need to lookup a past block and check its block hash and the time it occurred so we can calculate whether the current transaction is valid and at what time it should expire. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="221">
+        <label>chainbase::object&lt; block_summary_object_type, block_summary_object &gt;</label>
+      </node>
+      <node id="220">
+        <label>steemit::chain::block_summary_object</label>
+        <link refid="classsteemit_1_1chain_1_1block__summary__object"/>
+        <childnode refid="221" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="223">
+        <label>chainbase::object&lt; block_summary_object_type, block_summary_object &gt;</label>
+      </node>
+      <node id="224">
+        <label>block_id_type</label>
+      </node>
+      <node id="222">
+        <label>steemit::chain::block_summary_object</label>
+        <link refid="classsteemit_1_1chain_1_1block__summary__object"/>
+        <childnode refid="223" relation="public-inheritance">
+        </childnode>
+        <childnode refid="224" relation="usage">
+          <edgelabel>block_id</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/chain/include/steemit/chain/block_summary_object.hpp" line="20" column="1" bodyfile="libraries/chain/include/steemit/chain/block_summary_object.hpp" bodystart="19" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classsteemit_1_1chain_1_1block__summary__object_1a131e288666e1e14c6c50027f288f53bc" prot="public" virt="non-virtual"><scope>steemit::chain::block_summary_object</scope><name>block_id</name></member>
+      <member refid="classsteemit_1_1chain_1_1block__summary__object_1ae6fbbd22523e86f22eaa2d750d0796bb" prot="public" virt="non-virtual"><scope>steemit::chain::block_summary_object</scope><name>block_summary_object</name></member>
+      <member refid="classsteemit_1_1chain_1_1block__summary__object_1a9b1e741c9c6c24d51bdd5f2642a31ead" prot="public" virt="non-virtual"><scope>steemit::chain::block_summary_object</scope><name>block_summary_object</name></member>
+      <member refid="classsteemit_1_1chain_1_1block__summary__object_1aefa455e31bbcf4d4c6c67cc3a6661da5" prot="public" virt="non-virtual"><scope>steemit::chain::block_summary_object</scope><name>id</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

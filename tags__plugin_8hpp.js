@@ -1,0 +1,28 @@
+var tags__plugin_8hpp =
+[
+    [ "tag_object", "classsteemit_1_1tags_1_1tag__object.html", "classsteemit_1_1tags_1_1tag__object" ],
+    [ "tag_stats_object", "classsteemit_1_1tags_1_1tag__stats__object.html", "classsteemit_1_1tags_1_1tag__stats__object" ],
+    [ "peer_stats_object", "classsteemit_1_1tags_1_1peer__stats__object.html", "classsteemit_1_1tags_1_1peer__stats__object" ],
+    [ "author_tag_stats_object", "classsteemit_1_1tags_1_1author__tag__stats__object.html", "classsteemit_1_1tags_1_1author__tag__stats__object" ],
+    [ "comment_metadata", "structsteemit_1_1tags_1_1comment__metadata.html", "structsteemit_1_1tags_1_1comment__metadata" ],
+    [ "tags_plugin", "classsteemit_1_1tags_1_1tags__plugin.html", "classsteemit_1_1tags_1_1tags__plugin" ],
+    [ "tag_api", "classsteemit_1_1tags_1_1tag__api.html", "classsteemit_1_1tags_1_1tag__api" ],
+    [ "TAG_SPACE_ID", "tags__plugin_8hpp.html#aa7db9fec0bcddc312490b1bf5248d0d5", null ],
+    [ "TAGS_PLUGIN_NAME", "tags__plugin_8hpp.html#a55204160ac4647ae7e181eb3f6cfbc58", null ],
+    [ "author_tag_stats_id_type", "tags__plugin_8hpp.html#a6afae309ba7e2c0a54e71ffb72e3ed4d", null ],
+    [ "author_tag_stats_index", "tags__plugin_8hpp.html#abc65ccb2706c945a6f16aae56abca281", null ],
+    [ "peer_stats_id_type", "tags__plugin_8hpp.html#ad618583bc06ea8500b1eab78d7fb680c", null ],
+    [ "peer_stats_index", "tags__plugin_8hpp.html#a5986a2589e0c681657d096873c3aa09a", null ],
+    [ "tag_id_type", "tags__plugin_8hpp.html#a392a014bfdc1cb5348ff0a688407e541", null ],
+    [ "tag_index", "tags__plugin_8hpp.html#ae8840243a3b708c2c994cd3898c256d0", null ],
+    [ "tag_name_type", "tags__plugin_8hpp.html#a7ee1c11245b697eca23b79aff8487d0b", null ],
+    [ "tag_stats_id_type", "tags__plugin_8hpp.html#af5560ce4e72ed21cc013159a111d336a", null ],
+    [ "tag_stats_index", "tags__plugin_8hpp.html#a544e3bf8f008432e649629b83d310b8a", null ],
+    [ "tag_object_type", "tags__plugin_8hpp.html#ac4bed77ea33e4c39c8a4689d8f6121c9aa01e953edd8c4297bfcd2736b5316116", null ],
+    [ "tag_stats_object_type", "tags__plugin_8hpp.html#ac4bed77ea33e4c39c8a4689d8f6121c9adb4020f49f51d4f41ec7ce898d24c8e2", null ],
+    [ "peer_stats_object_type", "tags__plugin_8hpp.html#ac4bed77ea33e4c39c8a4689d8f6121c9af023ac48ba1dd3c6cbd658e0eeacd5e0", null ],
+    [ "author_tag_stats_object_type", "tags__plugin_8hpp.html#ac4bed77ea33e4c39c8a4689d8f6121c9afe226ab86a3f8e346f1715b4a5a00e4b", null ],
+    [ "FC_API", "tags__plugin_8hpp.html#a86e826caae56fbc631d00d509694a9d6", null ],
+    [ "FC_REFLECT", "tags__plugin_8hpp.html#ab1a25bfdc0eac83b842aa5c093bef2d6", null ],
+    [ "FC_REFLECT", "tags__plugin_8hpp.html#a65cc4ece65629dfbb541436f3132c605", null ]
+];

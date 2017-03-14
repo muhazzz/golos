@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structsteemit_1_1app_1_1candle__stick" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::app::candle_stick</compoundname>
+    <includes refid="state_8hpp" local="no">state.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1candle__stick_1a19f6381f1eda23e62b5f99893c52b715" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::app::candle_stick::open_time</definition>
+        <argsstring></argsstring>
+        <name>open_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="124" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1candle__stick_1ad8601355d6c86bf24afae862a92b9e4e" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::app::candle_stick::period</definition>
+        <argsstring></argsstring>
+        <name>period</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="125" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1candle__stick_1a33fd0f1ca19e21db8932b076de69ff22" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double steemit::app::candle_stick::high</definition>
+        <argsstring></argsstring>
+        <name>high</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="126" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1candle__stick_1a2a99b287044683f0f8e33a0408373cda" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double steemit::app::candle_stick::low</definition>
+        <argsstring></argsstring>
+        <name>low</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="127" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1candle__stick_1a9162a94b414c1622a14f3f8999b84b51" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double steemit::app::candle_stick::open</definition>
+        <argsstring></argsstring>
+        <name>open</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="128" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1candle__stick_1a47a9f25ed5922be89ea86a241627c463" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double steemit::app::candle_stick::close</definition>
+        <argsstring></argsstring>
+        <name>close</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="129" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1candle__stick_1a690f70d3d9851e58853fb21a05265023" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double steemit::app::candle_stick::steem_volume</definition>
+        <argsstring></argsstring>
+        <name>steem_volume</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="130" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1candle__stick_1ad6f701a9a7ac63b50909a432d9f219d7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double steemit::app::candle_stick::dollar_volume</definition>
+        <argsstring></argsstring>
+        <name>dollar_volume</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="131" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="283">
+        <label>time_point_sec</label>
+      </node>
+      <node id="282">
+        <label>steemit::app::candle_stick</label>
+        <link refid="structsteemit_1_1app_1_1candle__stick"/>
+        <childnode refid="283" relation="usage">
+          <edgelabel>open_time</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/app/include/steemit/app/state.hpp" line="123" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="123" bodyend="132"/>
+    <listofallmembers>
+      <member refid="structsteemit_1_1app_1_1candle__stick_1a47a9f25ed5922be89ea86a241627c463" prot="public" virt="non-virtual"><scope>steemit::app::candle_stick</scope><name>close</name></member>
+      <member refid="structsteemit_1_1app_1_1candle__stick_1ad6f701a9a7ac63b50909a432d9f219d7" prot="public" virt="non-virtual"><scope>steemit::app::candle_stick</scope><name>dollar_volume</name></member>
+      <member refid="structsteemit_1_1app_1_1candle__stick_1a33fd0f1ca19e21db8932b076de69ff22" prot="public" virt="non-virtual"><scope>steemit::app::candle_stick</scope><name>high</name></member>
+      <member refid="structsteemit_1_1app_1_1candle__stick_1a2a99b287044683f0f8e33a0408373cda" prot="public" virt="non-virtual"><scope>steemit::app::candle_stick</scope><name>low</name></member>
+      <member refid="structsteemit_1_1app_1_1candle__stick_1a9162a94b414c1622a14f3f8999b84b51" prot="public" virt="non-virtual"><scope>steemit::app::candle_stick</scope><name>open</name></member>
+      <member refid="structsteemit_1_1app_1_1candle__stick_1a19f6381f1eda23e62b5f99893c52b715" prot="public" virt="non-virtual"><scope>steemit::app::candle_stick</scope><name>open_time</name></member>
+      <member refid="structsteemit_1_1app_1_1candle__stick_1ad8601355d6c86bf24afae862a92b9e4e" prot="public" virt="non-virtual"><scope>steemit::app::candle_stick</scope><name>period</name></member>
+      <member refid="structsteemit_1_1app_1_1candle__stick_1a690f70d3d9851e58853fb21a05265023" prot="public" virt="non-virtual"><scope>steemit::app::candle_stick</scope><name>steem_volume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

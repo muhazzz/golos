@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsteemit_1_1chain_1_1account__recovery__request__object" kind="class" language="C++" prot="public">
+    <compoundname>steemit::chain::account_recovery_request_object</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">chainbase::object&lt; account_recovery_request_object_type, account_recovery_request_object &gt;</basecompoundref>
+    <includes refid="account__object_8hpp" local="no">account_object.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__recovery__request__object_1a5a8e3257246ad044a28ef00a4d6bfaf2" prot="public" static="no" mutable="no">
+        <type>id_type</type>
+        <definition>id_type steemit::chain::account_recovery_request_object::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="190" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__recovery__request__object_1a61add63c29bf3aa17b749e23c720afce" prot="public" static="no" mutable="no">
+        <type>account_name_type</type>
+        <definition>account_name_type steemit::chain::account_recovery_request_object::account_to_recover</definition>
+        <argsstring></argsstring>
+        <name>account_to_recover</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="192" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__recovery__request__object_1a6eca1c7f96e6dec1773d693d18a30b0d" prot="public" static="no" mutable="no">
+        <type><ref refid="structsteemit_1_1chain_1_1shared__authority" kindref="compound">shared_authority</ref></type>
+        <definition>shared_authority steemit::chain::account_recovery_request_object::new_owner_authority</definition>
+        <argsstring></argsstring>
+        <name>new_owner_authority</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="193" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__recovery__request__object_1a3230464ee32d14844928ba7ecca5d3c7" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::account_recovery_request_object::expires</definition>
+        <argsstring></argsstring>
+        <name>expires</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="194" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1account__recovery__request__object_1a7edd577d9a6804bff04265811fd746d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>steemit::chain::account_recovery_request_object::account_recovery_request_object</definition>
+        <argsstring>()=delete</argsstring>
+        <name>account_recovery_request_object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="182" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1account__recovery__request__object_1ab5fd3c1dcba9f73dd89617caa60cfee5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Constructor</type>
+          </param>
+          <param>
+            <type>typename Allocator</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>steemit::chain::account_recovery_request_object::account_recovery_request_object</definition>
+        <argsstring>(Constructor &amp;&amp;c, allocator&lt; Allocator &gt; a)</argsstring>
+        <name>account_recovery_request_object</name>
+        <param>
+          <type>Constructor &amp;&amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>allocator&lt; Allocator &gt;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="185" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="185" bodyend="188"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="108">
+        <label>steemit::chain::account_recovery_request_object</label>
+        <link refid="classsteemit_1_1chain_1_1account__recovery__request__object"/>
+        <childnode refid="109" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="109">
+        <label>chainbase::object&lt; account_recovery_request_object_type, account_recovery_request_object &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="112">
+        <label>time_point_sec</label>
+      </node>
+      <node id="113">
+        <label>steemit::chain::shared_authority</label>
+        <link refid="structsteemit_1_1chain_1_1shared__authority"/>
+      </node>
+      <node id="110">
+        <label>steemit::chain::account_recovery_request_object</label>
+        <link refid="classsteemit_1_1chain_1_1account__recovery__request__object"/>
+        <childnode refid="111" relation="public-inheritance">
+        </childnode>
+        <childnode refid="112" relation="usage">
+          <edgelabel>expires</edgelabel>
+        </childnode>
+        <childnode refid="113" relation="usage">
+          <edgelabel>new_owner_authority</edgelabel>
+        </childnode>
+        <childnode refid="114" relation="usage">
+          <edgelabel>account_to_recover</edgelabel>
+        </childnode>
+      </node>
+      <node id="111">
+        <label>chainbase::object&lt; account_recovery_request_object_type, account_recovery_request_object &gt;</label>
+      </node>
+      <node id="114">
+        <label>account_name_type</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="180" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="179" bodyend="195"/>
+    <listofallmembers>
+      <member refid="classsteemit_1_1chain_1_1account__recovery__request__object_1a7edd577d9a6804bff04265811fd746d6" prot="public" virt="non-virtual"><scope>steemit::chain::account_recovery_request_object</scope><name>account_recovery_request_object</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__recovery__request__object_1ab5fd3c1dcba9f73dd89617caa60cfee5" prot="public" virt="non-virtual"><scope>steemit::chain::account_recovery_request_object</scope><name>account_recovery_request_object</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__recovery__request__object_1a61add63c29bf3aa17b749e23c720afce" prot="public" virt="non-virtual"><scope>steemit::chain::account_recovery_request_object</scope><name>account_to_recover</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__recovery__request__object_1a3230464ee32d14844928ba7ecca5d3c7" prot="public" virt="non-virtual"><scope>steemit::chain::account_recovery_request_object</scope><name>expires</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__recovery__request__object_1a5a8e3257246ad044a28ef00a4d6bfaf2" prot="public" virt="non-virtual"><scope>steemit::chain::account_recovery_request_object</scope><name>id</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__recovery__request__object_1a6eca1c7f96e6dec1773d693d18a30b0d" prot="public" virt="non-virtual"><scope>steemit::chain::account_recovery_request_object</scope><name>new_owner_authority</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structsteemit_1_1wallet_1_1detail_1_1help__visitor" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::wallet::detail::help_visitor</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsteemit_1_1wallet_1_1detail_1_1help__visitor_1ac3be1aa9df19ff0ea2e2cbcfd8ce7028" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structsteemit_1_1wallet_1_1method__description" kindref="compound">method_description</ref> &gt;</type>
+        <definition>std::vector&lt;method_description&gt; steemit::wallet::detail::help_visitor::method_descriptions</definition>
+        <argsstring></argsstring>
+        <name>method_descriptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/api_documentation_standin.cpp" line="59" column="1" bodyfile="libraries/wallet/api_documentation_standin.cpp" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsteemit_1_1wallet_1_1detail_1_1help__visitor_1a1fe131010e1d2693d5bc716580b4fc41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename R</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void steemit::wallet::detail::help_visitor::operator()</definition>
+        <argsstring>(const char *name, std::function&lt; R(Args...)&gt; &amp;memb)</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>std::function&lt; R(Args...)&gt; &amp;</type>
+          <declname>memb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/api_documentation_standin.cpp" line="62" column="1" bodyfile="libraries/wallet/api_documentation_standin.cpp" bodystart="62" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/wallet/api_documentation_standin.cpp" line="58" column="1" bodyfile="libraries/wallet/api_documentation_standin.cpp" bodystart="58" bodyend="74"/>
+    <listofallmembers>
+      <member refid="structsteemit_1_1wallet_1_1detail_1_1help__visitor_1ac3be1aa9df19ff0ea2e2cbcfd8ce7028" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::help_visitor</scope><name>method_descriptions</name></member>
+      <member refid="structsteemit_1_1wallet_1_1detail_1_1help__visitor_1a1fe131010e1d2693d5bc716580b4fc41" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::help_visitor</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_fa747a2b75a3ddbe4d03330f0b80e290" kind="dir">
+    <compoundname>libraries/plugins/follow</compoundname>
+    <innerdir refid="dir_e9020f3d093b3fca63035044be341088">libraries/plugins/follow/include</innerdir>
+    <innerfile refid="follow__api_8cpp">follow_api.cpp</innerfile>
+    <innerfile refid="follow__evaluators_8cpp">follow_evaluators.cpp</innerfile>
+    <innerfile refid="follow__operations_8cpp">follow_operations.cpp</innerfile>
+    <innerfile refid="follow__plugin_8cpp">follow_plugin.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/follow/"/>
+  </compounddef>
+</doxygen>

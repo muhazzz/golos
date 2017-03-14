@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="block__info__api_8hpp" kind="file" language="C++">
+    <compoundname>block_info_api.hpp</compoundname>
+    <includes local="no">fc/api.hpp</includes>
+    <includes refid="block__info_8hpp" local="no">steemit/plugins/block_info/block_info.hpp</includes>
+    <includedby refid="block__info__api_8cpp" local="no">libraries/plugins/block_info/block_info_api.cpp</includedby>
+    <includedby refid="block__info__plugin_8cpp" local="no">libraries/plugins/block_info/block_info_plugin.cpp</includedby>
+    <incdepgraph>
+      <node id="2951">
+        <label>boost/multi_index/ordered_index.hpp</label>
+      </node>
+      <node id="2954">
+        <label>steemit/protocol/types.hpp</label>
+      </node>
+      <node id="2955">
+        <label>steemit/protocol/authority.hpp</label>
+      </node>
+      <node id="2945">
+        <label>libraries/plugins/block_info/include/steemit/plugins/block_info/block_info_api.hpp</label>
+        <link refid="block__info__api_8hpp"/>
+        <childnode refid="2946" relation="include">
+        </childnode>
+        <childnode refid="2947" relation="include">
+        </childnode>
+      </node>
+      <node id="2948">
+        <label>steemit/chain/steem_object_types.hpp</label>
+        <link refid="steem__object__types_8hpp"/>
+        <childnode refid="2949" relation="include">
+        </childnode>
+        <childnode refid="2950" relation="include">
+        </childnode>
+        <childnode refid="2951" relation="include">
+        </childnode>
+        <childnode refid="2952" relation="include">
+        </childnode>
+        <childnode refid="2953" relation="include">
+        </childnode>
+        <childnode refid="2954" relation="include">
+        </childnode>
+        <childnode refid="2955" relation="include">
+        </childnode>
+      </node>
+      <node id="2953">
+        <label>chainbase/chainbase.hpp</label>
+      </node>
+      <node id="2947">
+        <label>steemit/plugins/block_info/block_info.hpp</label>
+        <link refid="block__info_8hpp"/>
+        <childnode refid="2948" relation="include">
+        </childnode>
+      </node>
+      <node id="2950">
+        <label>boost/multi_index/member.hpp</label>
+      </node>
+      <node id="2949">
+        <label>boost/multi_index_container.hpp</label>
+      </node>
+      <node id="2952">
+        <label>boost/multi_index/mem_fun.hpp</label>
+      </node>
+      <node id="2946">
+        <label>fc/api.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2956">
+        <label>libraries/plugins/block_info/include/steemit/plugins/block_info/block_info_api.hpp</label>
+        <link refid="block__info__api_8hpp"/>
+        <childnode refid="2957" relation="include">
+        </childnode>
+        <childnode refid="2958" relation="include">
+        </childnode>
+      </node>
+      <node id="2958">
+        <label>libraries/plugins/block_info/block_info_plugin.cpp</label>
+        <link refid="block__info__plugin_8cpp"/>
+      </node>
+      <node id="2957">
+        <label>libraries/plugins/block_info/block_info_api.cpp</label>
+        <link refid="block__info__api_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structsteemit_1_1plugin_1_1block__info_1_1get__block__info__args" prot="public">steemit::plugin::block_info::get_block_info_args</innerclass>
+    <innerclass refid="classsteemit_1_1plugin_1_1block__info_1_1block__info__api" prot="public">steemit::plugin::block_info::block_info_api</innerclass>
+    <innernamespace refid="namespacesteemit">steemit</innernamespace>
+    <innernamespace refid="namespacesteemit_1_1app">steemit::app</innernamespace>
+    <innernamespace refid="namespacesteemit_1_1plugin">steemit::plugin</innernamespace>
+    <innernamespace refid="namespacesteemit_1_1plugin_1_1block__info">steemit::plugin::block_info</innernamespace>
+    <innernamespace refid="namespacesteemit_1_1plugin_1_1block__info_1_1detail">steemit::plugin::block_info::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info_api.hpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsteemit_1_1app_1_1network__node__api" kind="class" language="C++" prot="public">
+    <compoundname>steemit::app::network_node_api</compoundname>
+    <includes refid="api_8hpp" local="no">api.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsteemit_1_1app_1_1network__node__api_1a890d3b0e5a7f916f3904de8e3dabe0ef" prot="private" static="no" mutable="no">
+        <type><ref refid="classsteemit_1_1app_1_1application" kindref="compound">application</ref> &amp;</type>
+        <definition>application&amp; steemit::app::network_node_api::_app</definition>
+        <argsstring></argsstring>
+        <name>_app</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/api.hpp" line="171" column="1" bodyfile="libraries/app/include/steemit/app/api.hpp" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsteemit_1_1app_1_1network__node__api_1a5ff05de6fecf1f8d488f3738ddc589d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>steemit::app::network_node_api::network_node_api</definition>
+        <argsstring>(const api_context &amp;a)</argsstring>
+        <name>network_node_api</name>
+        <param>
+          <type>const <ref refid="structsteemit_1_1app_1_1api__context" kindref="compound">api_context</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/api.hpp" line="131" column="1" bodyfile="libraries/app/api.cpp" bodystart="245" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1app_1_1network__node__api_1a2c83a75862ee711a2c06399de95f550b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>fc::variant_object</type>
+        <definition>fc::variant_object steemit::app::network_node_api::get_info</definition>
+        <argsstring>() const</argsstring>
+        <name>get_info</name>
+        <briefdescription>
+<para>Return general network information, such as p2p port. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/api.hpp" line="136" column="1" bodyfile="libraries/app/api.cpp" bodystart="251" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1app_1_1network__node__api_1af998b4bb074651ab00a60e2925aab67b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::app::network_node_api::add_node</definition>
+        <argsstring>(const fc::ip::endpoint &amp;ep)</argsstring>
+        <name>add_node</name>
+        <param>
+          <type>const fc::ip::endpoint &amp;</type>
+          <declname>ep</declname>
+        </param>
+        <briefdescription>
+<para>add_node Connect to a new peer </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ep</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The IP/Port of the peer to connect to </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/api.hpp" line="142" column="1" bodyfile="libraries/app/api.cpp" bodystart="257" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1app_1_1network__node__api_1a8e621530b499a469f2745a6b1bcca993" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; graphene::net::peer_status &gt;</type>
+        <definition>std::vector&lt; graphene::net::peer_status &gt; steemit::app::network_node_api::get_connected_peers</definition>
+        <argsstring>() const</argsstring>
+        <name>get_connected_peers</name>
+        <briefdescription>
+<para>Get status of all current connections to peers. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/api.hpp" line="147" column="1" bodyfile="libraries/app/api.cpp" bodystart="261" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1app_1_1network__node__api_1a9bda69b9d42a6acff183950461a7bf86" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>fc::variant_object</type>
+        <definition>fc::variant_object steemit::app::network_node_api::get_advanced_node_parameters</definition>
+        <argsstring>() const</argsstring>
+        <name>get_advanced_node_parameters</name>
+        <briefdescription>
+<para>Get advanced node parameters, such as desired and max number of connections. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/api.hpp" line="153" column="1" bodyfile="libraries/app/api.cpp" bodystart="269" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1app_1_1network__node__api_1a1a9a80de67a38b0bccc1e1b377f2246e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::app::network_node_api::set_advanced_node_parameters</definition>
+        <argsstring>(const fc::variant_object &amp;params)</argsstring>
+        <name>set_advanced_node_parameters</name>
+        <param>
+          <type>const fc::variant_object &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Set advanced node parameters, such as desired and max number of connections. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a JSON object containing the name/value pairs for the parameters to set </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/api.hpp" line="160" column="1" bodyfile="libraries/app/api.cpp" bodystart="273" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1app_1_1network__node__api_1aa79fa92d16a712c2ddbc6c386c11166e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; graphene::net::potential_peer_record &gt;</type>
+        <definition>std::vector&lt; graphene::net::potential_peer_record &gt; steemit::app::network_node_api::get_potential_peers</definition>
+        <argsstring>() const</argsstring>
+        <name>get_potential_peers</name>
+        <briefdescription>
+<para>Return list of potential peers. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/api.hpp" line="165" column="1" bodyfile="libraries/app/api.cpp" bodystart="265" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1app_1_1network__node__api_1added0c22f991fe749e9d455982315620" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::app::network_node_api::on_api_startup</definition>
+        <argsstring>()</argsstring>
+        <name>on_api_startup</name>
+        <briefdescription>
+<para>internal method, not exposed via JSON RPC </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/api.hpp" line="168" column="1" bodyfile="libraries/app/api.cpp" bodystart="248" bodyend="249"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="classsteemit_1_1app_1_1network__node__api" kindref="compound">network_node_api</ref> class allows maintenance of p2p connections. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/app/include/steemit/app/api.hpp" line="129" column="1" bodyfile="libraries/app/include/steemit/app/api.hpp" bodystart="129" bodyend="172"/>
+    <listofallmembers>
+      <member refid="classsteemit_1_1app_1_1network__node__api_1a890d3b0e5a7f916f3904de8e3dabe0ef" prot="private" virt="non-virtual"><scope>steemit::app::network_node_api</scope><name>_app</name></member>
+      <member refid="classsteemit_1_1app_1_1network__node__api_1af998b4bb074651ab00a60e2925aab67b" prot="public" virt="non-virtual"><scope>steemit::app::network_node_api</scope><name>add_node</name></member>
+      <member refid="classsteemit_1_1app_1_1network__node__api_1a9bda69b9d42a6acff183950461a7bf86" prot="public" virt="non-virtual"><scope>steemit::app::network_node_api</scope><name>get_advanced_node_parameters</name></member>
+      <member refid="classsteemit_1_1app_1_1network__node__api_1a8e621530b499a469f2745a6b1bcca993" prot="public" virt="non-virtual"><scope>steemit::app::network_node_api</scope><name>get_connected_peers</name></member>
+      <member refid="classsteemit_1_1app_1_1network__node__api_1a2c83a75862ee711a2c06399de95f550b" prot="public" virt="non-virtual"><scope>steemit::app::network_node_api</scope><name>get_info</name></member>
+      <member refid="classsteemit_1_1app_1_1network__node__api_1aa79fa92d16a712c2ddbc6c386c11166e" prot="public" virt="non-virtual"><scope>steemit::app::network_node_api</scope><name>get_potential_peers</name></member>
+      <member refid="classsteemit_1_1app_1_1network__node__api_1a5ff05de6fecf1f8d488f3738ddc589d5" prot="public" virt="non-virtual"><scope>steemit::app::network_node_api</scope><name>network_node_api</name></member>
+      <member refid="classsteemit_1_1app_1_1network__node__api_1added0c22f991fe749e9d455982315620" prot="public" virt="non-virtual"><scope>steemit::app::network_node_api</scope><name>on_api_startup</name></member>
+      <member refid="classsteemit_1_1app_1_1network__node__api_1a1a9a80de67a38b0bccc1e1b377f2246e" prot="public" virt="non-virtual"><scope>steemit::app::network_node_api</scope><name>set_advanced_node_parameters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

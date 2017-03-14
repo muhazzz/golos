@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structsteemit_1_1market__history_1_1market__volume" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::market_history::market_volume</compoundname>
+    <includes refid="market__history__api_8hpp" local="no">market_history_api.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsteemit_1_1market__history_1_1market__volume_1ab5581108e9b9645ad13d37428c8d0317" prot="public" static="no" mutable="no">
+        <type>asset</type>
+        <definition>asset steemit::market_history::market_volume::steem_volume</definition>
+        <argsstring></argsstring>
+        <name>steem_volume</name>
+        <initializer>= asset(0, STEEM_SYMBOL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" line="35" column="1" bodyfile="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1market__history_1_1market__volume_1af23c2f90d795feebcc99fcbd839f0c0f" prot="public" static="no" mutable="no">
+        <type>asset</type>
+        <definition>asset steemit::market_history::market_volume::sbd_volume</definition>
+        <argsstring></argsstring>
+        <name>sbd_volume</name>
+        <initializer>= asset(0, SBD_SYMBOL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" line="36" column="1" bodyfile="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="681">
+        <label>asset</label>
+      </node>
+      <node id="680">
+        <label>steemit::market_history::market_volume</label>
+        <link refid="structsteemit_1_1market__history_1_1market__volume"/>
+        <childnode refid="681" relation="usage">
+          <edgelabel>sbd_volume</edgelabel>
+          <edgelabel>steem_volume</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" line="34" column="1" bodyfile="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" bodystart="34" bodyend="37"/>
+    <listofallmembers>
+      <member refid="structsteemit_1_1market__history_1_1market__volume_1af23c2f90d795feebcc99fcbd839f0c0f" prot="public" virt="non-virtual"><scope>steemit::market_history::market_volume</scope><name>sbd_volume</name></member>
+      <member refid="structsteemit_1_1market__history_1_1market__volume_1ab5581108e9b9645ad13d37428c8d0317" prot="public" virt="non-virtual"><scope>steemit::market_history::market_volume</scope><name>steem_volume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

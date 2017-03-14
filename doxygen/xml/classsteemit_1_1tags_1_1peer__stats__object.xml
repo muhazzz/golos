@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsteemit_1_1tags_1_1peer__stats__object" kind="class" language="C++" prot="public">
+    <compoundname>steemit::tags::peer_stats_object</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">chainbase::object&lt; peer_stats_object_type, peer_stats_object &gt;</basecompoundref>
+    <includes refid="tags__plugin_8hpp" local="no">tags_plugin.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsteemit_1_1tags_1_1peer__stats__object_1a61aae1a9805f07581ae1a1daae5bdb88" prot="public" static="no" mutable="no">
+        <type>id_type</type>
+        <definition>id_type steemit::tags::peer_stats_object::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="324" column="1" bodyfile="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" bodystart="324" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1tags_1_1peer__stats__object_1ad47584bef92367ea7a2db955c8a6319a" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacesteemit_1_1chain_1aa381fbe5f22b4abc90a719e5f59c842f" kindref="member">account_id_type</ref></type>
+        <definition>account_id_type steemit::tags::peer_stats_object::voter</definition>
+        <argsstring></argsstring>
+        <name>voter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="326" column="1" bodyfile="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" bodystart="326" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1tags_1_1peer__stats__object_1acb4889dc14b975e56040558ecd23b6b8" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacesteemit_1_1chain_1aa381fbe5f22b4abc90a719e5f59c842f" kindref="member">account_id_type</ref></type>
+        <definition>account_id_type steemit::tags::peer_stats_object::peer</definition>
+        <argsstring></argsstring>
+        <name>peer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="327" column="1" bodyfile="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" bodystart="327" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1tags_1_1peer__stats__object_1a3767b08489fdf6c10ebdcde459b16d37" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t steemit::tags::peer_stats_object::direct_positive_votes</definition>
+        <argsstring></argsstring>
+        <name>direct_positive_votes</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="328" column="1" bodyfile="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" bodystart="328" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1tags_1_1peer__stats__object_1a6a1fc5a39f74a4d22c8adad9e69adbc9" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t steemit::tags::peer_stats_object::direct_votes</definition>
+        <argsstring></argsstring>
+        <name>direct_votes</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="329" column="1" bodyfile="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1tags_1_1peer__stats__object_1ae54e4287f723633ebb637e4e44263480" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t steemit::tags::peer_stats_object::indirect_positive_votes</definition>
+        <argsstring></argsstring>
+        <name>indirect_positive_votes</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="331" column="1" bodyfile="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" bodystart="331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1tags_1_1peer__stats__object_1aafadffcf0c5cd22e46b8912325660353" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t steemit::tags::peer_stats_object::indirect_votes</definition>
+        <argsstring></argsstring>
+        <name>indirect_votes</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="332" column="1" bodyfile="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" bodystart="332" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1tags_1_1peer__stats__object_1aec782d715b6155998bb3f39948cfeb7f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float steemit::tags::peer_stats_object::rank</definition>
+        <argsstring></argsstring>
+        <name>rank</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="334" column="1" bodyfile="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" bodystart="334" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsteemit_1_1tags_1_1peer__stats__object_1a3e8d93e9486841a131355d50ef361655" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Constructor</type>
+          </param>
+          <param>
+            <type>typename Allocator</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>steemit::tags::peer_stats_object::peer_stats_object</definition>
+        <argsstring>(Constructor &amp;&amp;c, allocator&lt; Allocator &gt; a)</argsstring>
+        <name>peer_stats_object</name>
+        <param>
+          <type>Constructor &amp;&amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>allocator&lt; Allocator &gt;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="317" column="1" bodyfile="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" bodystart="317" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1tags_1_1peer__stats__object_1a2c8381276121334acc1fd20656303e2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::tags::peer_stats_object::peer_stats_object</definition>
+        <argsstring>()</argsstring>
+        <name>peer_stats_object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="321" column="1" bodyfile="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" bodystart="321" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1tags_1_1peer__stats__object_1a4f00acb62d5c205238869dd244fd7890" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::tags::peer_stats_object::update_rank</definition>
+        <argsstring>()</argsstring>
+        <name>update_rank</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="336" column="1" bodyfile="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" bodystart="336" bodyend="354"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The purpose of this object is to track the relationship between accounts based upon how a user votes. Every time a user votes on a post, the relationship between voter and author increases direct rshares. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="826">
+        <label>steemit::tags::peer_stats_object</label>
+        <link refid="classsteemit_1_1tags_1_1peer__stats__object"/>
+        <childnode refid="827" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="827">
+        <label>chainbase::object&lt; peer_stats_object_type, peer_stats_object &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="828">
+        <label>steemit::tags::peer_stats_object</label>
+        <link refid="classsteemit_1_1tags_1_1peer__stats__object"/>
+        <childnode refid="829" relation="public-inheritance">
+        </childnode>
+        <childnode refid="830" relation="usage">
+          <edgelabel>voter</edgelabel>
+          <edgelabel>peer</edgelabel>
+        </childnode>
+      </node>
+      <node id="830">
+        <label>oid&lt; account_object &gt;</label>
+      </node>
+      <node id="829">
+        <label>chainbase::object&lt; peer_stats_object_type, peer_stats_object &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="314" column="1" bodyfile="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" bodystart="313" bodyend="355"/>
+    <listofallmembers>
+      <member refid="classsteemit_1_1tags_1_1peer__stats__object_1a3767b08489fdf6c10ebdcde459b16d37" prot="public" virt="non-virtual"><scope>steemit::tags::peer_stats_object</scope><name>direct_positive_votes</name></member>
+      <member refid="classsteemit_1_1tags_1_1peer__stats__object_1a6a1fc5a39f74a4d22c8adad9e69adbc9" prot="public" virt="non-virtual"><scope>steemit::tags::peer_stats_object</scope><name>direct_votes</name></member>
+      <member refid="classsteemit_1_1tags_1_1peer__stats__object_1a61aae1a9805f07581ae1a1daae5bdb88" prot="public" virt="non-virtual"><scope>steemit::tags::peer_stats_object</scope><name>id</name></member>
+      <member refid="classsteemit_1_1tags_1_1peer__stats__object_1ae54e4287f723633ebb637e4e44263480" prot="public" virt="non-virtual"><scope>steemit::tags::peer_stats_object</scope><name>indirect_positive_votes</name></member>
+      <member refid="classsteemit_1_1tags_1_1peer__stats__object_1aafadffcf0c5cd22e46b8912325660353" prot="public" virt="non-virtual"><scope>steemit::tags::peer_stats_object</scope><name>indirect_votes</name></member>
+      <member refid="classsteemit_1_1tags_1_1peer__stats__object_1acb4889dc14b975e56040558ecd23b6b8" prot="public" virt="non-virtual"><scope>steemit::tags::peer_stats_object</scope><name>peer</name></member>
+      <member refid="classsteemit_1_1tags_1_1peer__stats__object_1a3e8d93e9486841a131355d50ef361655" prot="public" virt="non-virtual"><scope>steemit::tags::peer_stats_object</scope><name>peer_stats_object</name></member>
+      <member refid="classsteemit_1_1tags_1_1peer__stats__object_1a2c8381276121334acc1fd20656303e2c" prot="public" virt="non-virtual"><scope>steemit::tags::peer_stats_object</scope><name>peer_stats_object</name></member>
+      <member refid="classsteemit_1_1tags_1_1peer__stats__object_1aec782d715b6155998bb3f39948cfeb7f" prot="public" virt="non-virtual"><scope>steemit::tags::peer_stats_object</scope><name>rank</name></member>
+      <member refid="classsteemit_1_1tags_1_1peer__stats__object_1a4f00acb62d5c205238869dd244fd7890" prot="public" virt="non-virtual"><scope>steemit::tags::peer_stats_object</scope><name>update_rank</name></member>
+      <member refid="classsteemit_1_1tags_1_1peer__stats__object_1ad47584bef92367ea7a2db955c8a6319a" prot="public" virt="non-virtual"><scope>steemit::tags::peer_stats_object</scope><name>voter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

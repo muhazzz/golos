@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="auth__util__api_8hpp" kind="file" language="C++">
+    <compoundname>auth_util_api.hpp</compoundname>
+    <includes local="no">fc/api.hpp</includes>
+    <includes local="no">fc/crypto/sha256.hpp</includes>
+    <includes local="no">steemit/protocol/types.hpp</includes>
+    <includes local="no">string</includes>
+    <includedby refid="auth__util__api_8cpp" local="no">libraries/plugins/auth_util/auth_util_api.cpp</includedby>
+    <includedby refid="auth__util__plugin_8cpp" local="no">libraries/plugins/auth_util/auth_util_plugin.cpp</includedby>
+    <incdepgraph>
+      <node id="2780">
+        <label>steemit/protocol/types.hpp</label>
+      </node>
+      <node id="2781">
+        <label>string</label>
+      </node>
+      <node id="2779">
+        <label>fc/crypto/sha256.hpp</label>
+      </node>
+      <node id="2777">
+        <label>libraries/plugins/auth_util/include/steemit/plugins/auth_util/auth_util_api.hpp</label>
+        <link refid="auth__util__api_8hpp"/>
+        <childnode refid="2778" relation="include">
+        </childnode>
+        <childnode refid="2779" relation="include">
+        </childnode>
+        <childnode refid="2780" relation="include">
+        </childnode>
+        <childnode refid="2781" relation="include">
+        </childnode>
+      </node>
+      <node id="2778">
+        <label>fc/api.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2782">
+        <label>libraries/plugins/auth_util/include/steemit/plugins/auth_util/auth_util_api.hpp</label>
+        <link refid="auth__util__api_8hpp"/>
+        <childnode refid="2783" relation="include">
+        </childnode>
+        <childnode refid="2784" relation="include">
+        </childnode>
+      </node>
+      <node id="2784">
+        <label>libraries/plugins/auth_util/auth_util_plugin.cpp</label>
+        <link refid="auth__util__plugin_8cpp"/>
+      </node>
+      <node id="2783">
+        <label>libraries/plugins/auth_util/auth_util_api.cpp</label>
+        <link refid="auth__util__api_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structsteemit_1_1plugin_1_1auth__util_1_1check__authority__signature__params" prot="public">steemit::plugin::auth_util::check_authority_signature_params</innerclass>
+    <innerclass refid="structsteemit_1_1plugin_1_1auth__util_1_1check__authority__signature__result" prot="public">steemit::plugin::auth_util::check_authority_signature_result</innerclass>
+    <innerclass refid="classsteemit_1_1plugin_1_1auth__util_1_1auth__util__api" prot="public">steemit::plugin::auth_util::auth_util_api</innerclass>
+    <innernamespace refid="namespacesteemit">steemit</innernamespace>
+    <innernamespace refid="namespacesteemit_1_1app">steemit::app</innernamespace>
+    <innernamespace refid="namespacesteemit_1_1plugin">steemit::plugin</innernamespace>
+    <innernamespace refid="namespacesteemit_1_1plugin_1_1auth__util">steemit::plugin::auth_util</innernamespace>
+    <innernamespace refid="namespacesteemit_1_1plugin_1_1auth__util_1_1detail">steemit::plugin::auth_util::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/auth_util/include/steemit/plugins/auth_util/auth_util_api.hpp"/>
+  </compounddef>
+</doxygen>

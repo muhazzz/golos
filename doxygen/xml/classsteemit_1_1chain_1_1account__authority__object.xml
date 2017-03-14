@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsteemit_1_1chain_1_1account__authority__object" kind="class" language="C++" prot="public">
+    <compoundname>steemit::chain::account_authority_object</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">chainbase::object&lt; account_authority_object_type, account_authority_object &gt;</basecompoundref>
+    <includes refid="account__object_8hpp" local="no">account_object.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__authority__object_1a012da573e0bef7d8ac50762676917660" prot="public" static="no" mutable="no">
+        <type>id_type</type>
+        <definition>id_type steemit::chain::account_authority_object::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="130" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__authority__object_1ac950bf99ae8f657db31f9bed52d2a6fc" prot="public" static="no" mutable="no">
+        <type>account_name_type</type>
+        <definition>account_name_type steemit::chain::account_authority_object::account</definition>
+        <argsstring></argsstring>
+        <name>account</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="132" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__authority__object_1a714b7e4616b1fc02a9d6c8012cbc452f" prot="public" static="no" mutable="no">
+        <type><ref refid="structsteemit_1_1chain_1_1shared__authority" kindref="compound">shared_authority</ref></type>
+        <definition>shared_authority steemit::chain::account_authority_object::owner</definition>
+        <argsstring></argsstring>
+        <name>owner</name>
+        <briefdescription>
+<para>used for backup control, can set owner or active </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="134" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__authority__object_1a43911caea8e1b545208ec37bf809f4f0" prot="public" static="no" mutable="no">
+        <type><ref refid="structsteemit_1_1chain_1_1shared__authority" kindref="compound">shared_authority</ref></type>
+        <definition>shared_authority steemit::chain::account_authority_object::active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <briefdescription>
+<para>used for all monetary operations, can set active or posting </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="135" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__authority__object_1a21780048864365a3b7bc2dc06daafff9" prot="public" static="no" mutable="no">
+        <type><ref refid="structsteemit_1_1chain_1_1shared__authority" kindref="compound">shared_authority</ref></type>
+        <definition>shared_authority steemit::chain::account_authority_object::posting</definition>
+        <argsstring></argsstring>
+        <name>posting</name>
+        <briefdescription>
+<para>used for voting and posting </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="136" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__authority__object_1ac6055dd20f41919820efd1713f7e59fe" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::account_authority_object::last_owner_update</definition>
+        <argsstring></argsstring>
+        <name>last_owner_update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="138" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1account__authority__object_1a46a4b433979ed40a2dcf8df142949d45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>steemit::chain::account_authority_object::account_authority_object</definition>
+        <argsstring>()=delete</argsstring>
+        <name>account_authority_object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="122" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1account__authority__object_1a574e9c1be82cfc2679f94ce7c02d3719" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Constructor</type>
+          </param>
+          <param>
+            <type>typename Allocator</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>steemit::chain::account_authority_object::account_authority_object</definition>
+        <argsstring>(Constructor &amp;&amp;c, allocator&lt; Allocator &gt; a)</argsstring>
+        <name>account_authority_object</name>
+        <param>
+          <type>Constructor &amp;&amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>allocator&lt; Allocator &gt;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="125" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="125" bodyend="128"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="36">
+        <label>chainbase::object&lt; account_authority_object_type, account_authority_object &gt;</label>
+      </node>
+      <node id="35">
+        <label>steemit::chain::account_authority_object</label>
+        <link refid="classsteemit_1_1chain_1_1account__authority__object"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="39">
+        <label>time_point_sec</label>
+      </node>
+      <node id="40">
+        <label>steemit::chain::shared_authority</label>
+        <link refid="structsteemit_1_1chain_1_1shared__authority"/>
+      </node>
+      <node id="41">
+        <label>account_name_type</label>
+      </node>
+      <node id="38">
+        <label>chainbase::object&lt; account_authority_object_type, account_authority_object &gt;</label>
+      </node>
+      <node id="37">
+        <label>steemit::chain::account_authority_object</label>
+        <link refid="classsteemit_1_1chain_1_1account__authority__object"/>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+        <childnode refid="39" relation="usage">
+          <edgelabel>last_owner_update</edgelabel>
+        </childnode>
+        <childnode refid="40" relation="usage">
+          <edgelabel>posting</edgelabel>
+          <edgelabel>active</edgelabel>
+          <edgelabel>owner</edgelabel>
+        </childnode>
+        <childnode refid="41" relation="usage">
+          <edgelabel>account</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="120" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="119" bodyend="139"/>
+    <listofallmembers>
+      <member refid="classsteemit_1_1chain_1_1account__authority__object_1ac950bf99ae8f657db31f9bed52d2a6fc" prot="public" virt="non-virtual"><scope>steemit::chain::account_authority_object</scope><name>account</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__authority__object_1a46a4b433979ed40a2dcf8df142949d45" prot="public" virt="non-virtual"><scope>steemit::chain::account_authority_object</scope><name>account_authority_object</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__authority__object_1a574e9c1be82cfc2679f94ce7c02d3719" prot="public" virt="non-virtual"><scope>steemit::chain::account_authority_object</scope><name>account_authority_object</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__authority__object_1a43911caea8e1b545208ec37bf809f4f0" prot="public" virt="non-virtual"><scope>steemit::chain::account_authority_object</scope><name>active</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__authority__object_1a012da573e0bef7d8ac50762676917660" prot="public" virt="non-virtual"><scope>steemit::chain::account_authority_object</scope><name>id</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__authority__object_1ac6055dd20f41919820efd1713f7e59fe" prot="public" virt="non-virtual"><scope>steemit::chain::account_authority_object</scope><name>last_owner_update</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__authority__object_1a714b7e4616b1fc02a9d6c8012cbc452f" prot="public" virt="non-virtual"><scope>steemit::chain::account_authority_object</scope><name>owner</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__authority__object_1a21780048864365a3b7bc2dc06daafff9" prot="public" virt="non-virtual"><scope>steemit::chain::account_authority_object</scope><name>posting</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

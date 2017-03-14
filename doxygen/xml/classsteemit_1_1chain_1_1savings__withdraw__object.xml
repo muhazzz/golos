@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsteemit_1_1chain_1_1savings__withdraw__object" kind="class" language="C++" prot="public">
+    <compoundname>steemit::chain::savings_withdraw_object</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">chainbase::object&lt; savings_withdraw_object_type, savings_withdraw_object &gt;</basecompoundref>
+    <includes refid="steem__objects_8hpp" local="no">steem_objects.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1savings__withdraw__object_1aba8ed95f1346bafab3e23f7b9f509240" prot="public" static="no" mutable="no">
+        <type>id_type</type>
+        <definition>id_type steemit::chain::savings_withdraw_object::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="84" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1savings__withdraw__object_1acff5d2415bd87b1782bfd8ab8f93287e" prot="public" static="no" mutable="no">
+        <type>account_name_type</type>
+        <definition>account_name_type steemit::chain::savings_withdraw_object::from</definition>
+        <argsstring></argsstring>
+        <name>from</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="86" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1savings__withdraw__object_1adebaeefecde2c1e2f235f126f79ba215" prot="public" static="no" mutable="no">
+        <type>account_name_type</type>
+        <definition>account_name_type steemit::chain::savings_withdraw_object::to</definition>
+        <argsstring></argsstring>
+        <name>to</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="87" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1savings__withdraw__object_1aa65bdecfc1e71ffe4c9a661c63036230" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacesteemit_1_1chain_1a8e2d955447720336a4deaae60ad49519" kindref="member">shared_string</ref></type>
+        <definition>shared_string steemit::chain::savings_withdraw_object::memo</definition>
+        <argsstring></argsstring>
+        <name>memo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="88" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1savings__withdraw__object_1a349b4c96292d5ed14225d0d1abefa31b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::chain::savings_withdraw_object::request_id</definition>
+        <argsstring></argsstring>
+        <name>request_id</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="89" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1savings__withdraw__object_1ac0143e22f3c12b714fc9ffad33efbeca" prot="public" static="no" mutable="no">
+        <type>asset</type>
+        <definition>asset steemit::chain::savings_withdraw_object::amount</definition>
+        <argsstring></argsstring>
+        <name>amount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="90" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1savings__withdraw__object_1afbfcf4388430f676f0a17c8eb77254a9" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::savings_withdraw_object::complete</definition>
+        <argsstring></argsstring>
+        <name>complete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="91" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1savings__withdraw__object_1a2ac2c3532ed06197f63014d5a9529bf2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>steemit::chain::savings_withdraw_object::savings_withdraw_object</definition>
+        <argsstring>()=delete</argsstring>
+        <name>savings_withdraw_object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="75" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1savings__withdraw__object_1aad063a8215be9c8957a847398a333307" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Constructor</type>
+          </param>
+          <param>
+            <type>typename Allocator</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>steemit::chain::savings_withdraw_object::savings_withdraw_object</definition>
+        <argsstring>(Constructor &amp;&amp;c, allocator&lt; Allocator &gt; a)</argsstring>
+        <name>savings_withdraw_object</name>
+        <param>
+          <type>Constructor &amp;&amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>allocator&lt; Allocator &gt;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="79" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="79" bodyend="82"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="930">
+        <label>steemit::chain::savings_withdraw_object</label>
+        <link refid="classsteemit_1_1chain_1_1savings__withdraw__object"/>
+        <childnode refid="931" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="931">
+        <label>chainbase::object&lt; savings_withdraw_object_type, savings_withdraw_object &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="935">
+        <label>asset</label>
+      </node>
+      <node id="934">
+        <label>time_point_sec</label>
+      </node>
+      <node id="932">
+        <label>steemit::chain::savings_withdraw_object</label>
+        <link refid="classsteemit_1_1chain_1_1savings__withdraw__object"/>
+        <childnode refid="933" relation="public-inheritance">
+        </childnode>
+        <childnode refid="934" relation="usage">
+          <edgelabel>complete</edgelabel>
+        </childnode>
+        <childnode refid="935" relation="usage">
+          <edgelabel>amount</edgelabel>
+        </childnode>
+        <childnode refid="936" relation="usage">
+          <edgelabel>from</edgelabel>
+          <edgelabel>to</edgelabel>
+        </childnode>
+      </node>
+      <node id="936">
+        <label>account_name_type</label>
+      </node>
+      <node id="933">
+        <label>chainbase::object&lt; savings_withdraw_object_type, savings_withdraw_object &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="74" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="73" bodyend="92"/>
+    <listofallmembers>
+      <member refid="classsteemit_1_1chain_1_1savings__withdraw__object_1ac0143e22f3c12b714fc9ffad33efbeca" prot="public" virt="non-virtual"><scope>steemit::chain::savings_withdraw_object</scope><name>amount</name></member>
+      <member refid="classsteemit_1_1chain_1_1savings__withdraw__object_1afbfcf4388430f676f0a17c8eb77254a9" prot="public" virt="non-virtual"><scope>steemit::chain::savings_withdraw_object</scope><name>complete</name></member>
+      <member refid="classsteemit_1_1chain_1_1savings__withdraw__object_1acff5d2415bd87b1782bfd8ab8f93287e" prot="public" virt="non-virtual"><scope>steemit::chain::savings_withdraw_object</scope><name>from</name></member>
+      <member refid="classsteemit_1_1chain_1_1savings__withdraw__object_1aba8ed95f1346bafab3e23f7b9f509240" prot="public" virt="non-virtual"><scope>steemit::chain::savings_withdraw_object</scope><name>id</name></member>
+      <member refid="classsteemit_1_1chain_1_1savings__withdraw__object_1aa65bdecfc1e71ffe4c9a661c63036230" prot="public" virt="non-virtual"><scope>steemit::chain::savings_withdraw_object</scope><name>memo</name></member>
+      <member refid="classsteemit_1_1chain_1_1savings__withdraw__object_1a349b4c96292d5ed14225d0d1abefa31b" prot="public" virt="non-virtual"><scope>steemit::chain::savings_withdraw_object</scope><name>request_id</name></member>
+      <member refid="classsteemit_1_1chain_1_1savings__withdraw__object_1a2ac2c3532ed06197f63014d5a9529bf2" prot="private" virt="non-virtual"><scope>steemit::chain::savings_withdraw_object</scope><name>savings_withdraw_object</name></member>
+      <member refid="classsteemit_1_1chain_1_1savings__withdraw__object_1aad063a8215be9c8957a847398a333307" prot="public" virt="non-virtual"><scope>steemit::chain::savings_withdraw_object</scope><name>savings_withdraw_object</name></member>
+      <member refid="classsteemit_1_1chain_1_1savings__withdraw__object_1adebaeefecde2c1e2f235f126f79ba215" prot="public" virt="non-virtual"><scope>steemit::chain::savings_withdraw_object</scope><name>to</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

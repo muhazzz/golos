@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structsteemit_1_1wallet_1_1plain__keys" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::wallet::plain_keys</compoundname>
+    <includes refid="wallet_8hpp" local="no">wallet.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsteemit_1_1wallet_1_1plain__keys_1ade657098232ee7eb2f5ea06cc5175d9b" prot="public" static="no" mutable="no">
+        <type>fc::sha512</type>
+        <definition>fc::sha512 steemit::wallet::plain_keys::checksum</definition>
+        <argsstring></argsstring>
+        <name>checksum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="930" column="1" bodyfile="libraries/wallet/include/steemit/wallet/wallet.hpp" bodystart="930" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1wallet_1_1plain__keys_1a42ef8b7f92a45d4c7b12f8a0f8b870b5" prot="public" static="no" mutable="no">
+        <type>map&lt; public_key_type, string &gt;</type>
+        <definition>map&lt;public_key_type, string&gt; steemit::wallet::plain_keys::keys</definition>
+        <argsstring></argsstring>
+        <name>keys</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="931" column="1" bodyfile="libraries/wallet/include/steemit/wallet/wallet.hpp" bodystart="931" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="929" column="1" bodyfile="libraries/wallet/include/steemit/wallet/wallet.hpp" bodystart="929" bodyend="932"/>
+    <listofallmembers>
+      <member refid="structsteemit_1_1wallet_1_1plain__keys_1ade657098232ee7eb2f5ea06cc5175d9b" prot="public" virt="non-virtual"><scope>steemit::wallet::plain_keys</scope><name>checksum</name></member>
+      <member refid="structsteemit_1_1wallet_1_1plain__keys_1a42ef8b7f92a45d4c7b12f8a0f8b870b5" prot="public" virt="non-virtual"><scope>steemit::wallet::plain_keys</scope><name>keys</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

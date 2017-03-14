@@ -1,0 +1,3568 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsteemit_1_1wallet_1_1wallet__api" kind="class" language="C++" prot="public">
+    <compoundname>steemit::wallet::wallet_api</compoundname>
+    <includes refid="wallet_8hpp" local="no">wallet.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsteemit_1_1wallet_1_1wallet__api_1aac0abdccd95951709868262e32787221" prot="public" static="no" mutable="no">
+        <type>fc::signal&lt; void(bool)&gt;</type>
+        <definition>fc::signal&lt;void(bool)&gt; steemit::wallet::wallet_api::lock_changed</definition>
+        <argsstring></argsstring>
+        <name>lock_changed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="911" column="1" bodyfile="libraries/wallet/include/steemit/wallet/wallet.hpp" bodystart="911" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1wallet_1_1wallet__api_1a7e6c32863ccf3811f83ca1699a1563ee" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl" kindref="compound">detail::wallet_api_impl</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;detail::wallet_api_impl&gt; steemit::wallet::wallet_api::my</definition>
+        <argsstring></argsstring>
+        <name>my</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="912" column="1" bodyfile="libraries/wallet/include/steemit/wallet/wallet.hpp" bodystart="912" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1ac355212a8b6a6235e870d1aa3294b3f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>steemit::wallet::wallet_api::wallet_api</definition>
+        <argsstring>(const wallet_data &amp;initial_data, fc::api&lt; login_api &gt; rapi)</argsstring>
+        <name>wallet_api</name>
+        <param>
+          <type>const <ref refid="structsteemit_1_1wallet_1_1wallet__data" kindref="compound">wallet_data</ref> &amp;</type>
+          <declname>initial_data</declname>
+        </param>
+        <param>
+          <type>fc::api&lt; <ref refid="classsteemit_1_1app_1_1login__api" kindref="compound">login_api</ref> &gt;</type>
+          <declname>rapi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="95" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1037" bodyend="1039"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a62462a79b2cd1c9d843437bd948431d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>steemit::wallet::wallet_api::~wallet_api</definition>
+        <argsstring>()</argsstring>
+        <name>~wallet_api</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="97" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1041" bodyend="1042"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1ae0fa6bf4c74bd0ffaaaff67754df29a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool steemit::wallet::wallet_api::copy_wallet_file</definition>
+        <argsstring>(string destination_filename)</argsstring>
+        <name>copy_wallet_file</name>
+        <param>
+          <type>string</type>
+          <declname>destination_filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="99" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1044" bodyend="1046"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1ace42159bfa3ff4e86e901d384d6dd1e2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string steemit::wallet::wallet_api::help</definition>
+        <argsstring>() const</argsstring>
+        <name>help</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a list of all commands supported by the wallet API.</para><para>This lists each command, along with its arguments and return types. For more detailed help on a single command, use <computeroutput>get_help()</computeroutput> </para><para><simplesect kind="return"><para>a multi-line string suitable for displaying on a terminal </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="109" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1216" bodyend="1229"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1abe5a4710851827ffc678e82cd5e8c031" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>variant</type>
+        <definition>variant steemit::wallet::wallet_api::info</definition>
+        <argsstring>()</argsstring>
+        <name>info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns info about the current state of the blockchain </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="114" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1167" bodyend="1169"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a38c35c0ea7ea7a57cb9ca0cfc27b0eb2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>variant_object</type>
+        <definition>variant_object steemit::wallet::wallet_api::about</definition>
+        <argsstring>() const</argsstring>
+        <name>about</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns info such as client version, git version of graphene/fc, version of boost, openssl. <simplesect kind="return"><para>compile time info and client and dependencies versions </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="119" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1171" bodyend="1173"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1aec75a93f9315e8c60dd1351bd67d1473" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>optional&lt; <ref refid="structsteemit_1_1wallet_1_1signed__block__with__info" kindref="compound">signed_block_with_info</ref> &gt;</type>
+        <definition>optional&lt; signed_block_with_info &gt; steemit::wallet::wallet_api::get_block</definition>
+        <argsstring>(uint32_t num)</argsstring>
+        <name>get_block</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the information about a block</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Block num</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Public block data on the blockchain </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="127" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1048" bodyend="1050"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1acabdf4d6106231c8610b6f48778c73f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="structsteemit_1_1app_1_1applied__operation" kindref="compound">applied_operation</ref> &gt;</type>
+        <definition>vector&lt; applied_operation &gt; steemit::wallet::wallet_api::get_ops_in_block</definition>
+        <argsstring>(uint32_t block_num, bool only_virtual=true)</argsstring>
+        <name>get_ops_in_block</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>block_num</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>only_virtual</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns sequence of operations included/generated in a specified block</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block_num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Block height of specified block </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>only_virtual</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether to only return virtual operations </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="134" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1052" bodyend="1054"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a12b6826afbe2376dd66e9a3bdbe49181" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structsteemit_1_1app_1_1feed__history__api__obj" kindref="compound">feed_history_api_obj</ref></type>
+        <definition>feed_history_api_obj steemit::wallet::wallet_api::get_feed_history</definition>
+        <argsstring>() const</argsstring>
+        <name>get_feed_history</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the current price feed history</para><para><simplesect kind="return"><para>Price feed history data on the blockchain </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="140" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1331" bodyend="1333"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a94769ed1a0a53027d4fc1b5f5323ad3e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; account_name_type &gt;</type>
+        <definition>std::vector&lt; account_name_type &gt; steemit::wallet::wallet_api::get_active_witnesses</definition>
+        <argsstring>() const</argsstring>
+        <name>get_active_witnesses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the list of witnesses producing blocks in the current round (21 Blocks) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="145" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1100" bodyend="1102"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1ab686694c5cda4cf7ccd673b874e91a64" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; account_name_type &gt;</type>
+        <definition>vector&lt; account_name_type &gt; steemit::wallet::wallet_api::get_miner_queue</definition>
+        <argsstring>() const</argsstring>
+        <name>get_miner_queue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the queue of pow miners waiting to produce blocks. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="150" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1096" bodyend="1098"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a788a4a6c937a9dc3f737f43e3348bd54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structsteemit_1_1app_1_1state" kindref="compound">app::state</ref></type>
+        <definition>app::state steemit::wallet::wallet_api::get_state</definition>
+        <argsstring>(string url)</argsstring>
+        <name>get_state</name>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the state info associated with the URL </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="155" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="2083" bodyend="2085"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a849e6fb22a5a4e7c5b9663a9187aad25" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="structsteemit_1_1app_1_1withdraw__route" kindref="compound">withdraw_route</ref> &gt;</type>
+        <definition>vector&lt; withdraw_route &gt; steemit::wallet::wallet_api::get_withdraw_routes</definition>
+        <argsstring>(string account, withdraw_route_type type=all) const</argsstring>
+        <name>get_withdraw_routes</name>
+        <param>
+          <type>string</type>
+          <declname>account</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacesteemit_1_1app_1a169ccb6eef4850f6e45149ccd7f13e7a" kindref="member">withdraw_route_type</ref></type>
+          <declname>type</declname>
+          <defval>all</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns vesting withdraw routes for an account.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>account</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Account to query routes </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Withdraw type type [incoming, outgoing, all] </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="163" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="2087" bodyend="2089"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1ad8ec2e19d71ae8059d546b0156187d3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="structsteemit_1_1app_1_1account__api__obj" kindref="compound">account_api_obj</ref> &gt;</type>
+        <definition>vector&lt; account_api_obj &gt; steemit::wallet::wallet_api::list_my_accounts</definition>
+        <argsstring>()</argsstring>
+        <name>list_my_accounts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the account information for all accounts for which this wallet has a private key </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="168" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1056" bodyend="1090"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a3a4ff84ccefb770672ef8056b34ee0bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>set&lt; string &gt;</type>
+        <definition>set&lt; string &gt; steemit::wallet::wallet_api::list_accounts</definition>
+        <argsstring>(const string &amp;lowerbound, uint32_t limit)</argsstring>
+        <name>list_accounts</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>lowerbound</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Lists all accounts registered in the blockchain. This returns a list of all account names and their account ids, sorted by account name.</para><para>Use the <computeroutput>lowerbound</computeroutput> and limit parameters to page through the list. To retrieve all accounts, start by setting <computeroutput>lowerbound</computeroutput> to the empty string <computeroutput>&quot;&quot;</computeroutput>, and then each iteration, pass the last account name returned as the <computeroutput>lowerbound</computeroutput> for the next <computeroutput><ref refid="classsteemit_1_1wallet_1_1wallet__api_1a3a4ff84ccefb770672ef8056b34ee0bc" kindref="member">list_accounts()</ref></computeroutput> call.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lowerbound</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the first account to return. If the named account does not exist, the list will start at the account that comes after <computeroutput>lowerbound</computeroutput> </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>limit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the maximum number of accounts to return (max: 1000) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a list of accounts mapping account names to account ids </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="182" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1092" bodyend="1094"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a1ace637c9709c71144ead228cf915239" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacesteemit_1_1app_1ae11bc8c13f6f1de6f093122ce6a22c50" kindref="member">dynamic_global_property_api_obj</ref></type>
+        <definition>dynamic_global_property_api_obj steemit::wallet::wallet_api::get_dynamic_global_properties</definition>
+        <argsstring>() const</argsstring>
+        <name>get_dynamic_global_properties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the block chain&apos;s rapidly-changing properties. The returned object contains information that changes every block interval such as the head block number, the next witness, etc. <simplesect kind="see"><para><computeroutput>get_global_properties()</computeroutput> for less-frequently changing properties </para></simplesect>
+<simplesect kind="return"><para>the dynamic global properties </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="190" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1adc75444345514279070bc4c6ce884f4c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structsteemit_1_1app_1_1account__api__obj" kindref="compound">account_api_obj</ref></type>
+        <definition>account_api_obj steemit::wallet::wallet_api::get_account</definition>
+        <argsstring>(string account_name) const</argsstring>
+        <name>get_account</name>
+        <param>
+          <type>string</type>
+          <declname>account_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns information about the given account.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>account_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the account to provide information about </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the public account data stored in the blockchain </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="197" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1142" bodyend="1144"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1ae3bd957862afb1cc3111ffba221c83a3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string steemit::wallet::wallet_api::get_wallet_filename</definition>
+        <argsstring>() const</argsstring>
+        <name>get_wallet_filename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the current wallet filename.</para><para>This is the filename that will be used when automatically saving the wallet.</para><para><simplesect kind="see"><para><ref refid="classsteemit_1_1wallet_1_1wallet__api_1a6fc228a36ba7dba981556bab90742cc2" kindref="member">set_wallet_filename()</ref> </para></simplesect>
+<simplesect kind="return"><para>the wallet filename </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="206" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1137" bodyend="1139"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a5d9368300d5d03bdc2637b750d50c511" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string steemit::wallet::wallet_api::get_private_key</definition>
+        <argsstring>(public_key_type pubkey) const</argsstring>
+        <name>get_private_key</name>
+        <param>
+          <type>public_key_type</type>
+          <declname>pubkey</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the WIF private key corresponding to a public key. The private key must already be in the wallet. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="212" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1309" bodyend="1311"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a06bee76f0a3dbdc5aedeb2da568b4b1e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>pair&lt; public_key_type, string &gt;</type>
+        <definition>pair&lt; public_key_type, string &gt; steemit::wallet::wallet_api::get_private_key_from_password</definition>
+        <argsstring>(string account, string role, string password) const</argsstring>
+        <name>get_private_key_from_password</name>
+        <param>
+          <type>string</type>
+          <declname>account</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>role</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>role</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- active | owner | posting | memo </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="217" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1313" bodyend="1319"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a71329de3d6e66b5c0f7e8bf942c15397" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::get_transaction</definition>
+        <argsstring>(transaction_id_type trx_id) const</argsstring>
+        <name>get_transaction</name>
+        <param>
+          <type>transaction_id_type</type>
+          <declname>trx_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns transaction by ID. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="223" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="2202" bodyend="2204"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a936523eade12be4aa8be6f0faa10039a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool steemit::wallet::wallet_api::is_new</definition>
+        <argsstring>() const</argsstring>
+        <name>is_new</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks whether the wallet has just been created and has not yet had a password set.</para><para>Calling <computeroutput>set_password</computeroutput> will transition the wallet to the locked state. <simplesect kind="return"><para>true if the wallet is new </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="231" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1263" bodyend="1265"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a6537be1d38905d5376a90ab331bb2909" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool steemit::wallet::wallet_api::is_locked</definition>
+        <argsstring>() const</argsstring>
+        <name>is_locked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks whether the wallet is locked (is unable to use its private keys).</para><para>This state can be changed by calling <computeroutput><ref refid="classsteemit_1_1wallet_1_1wallet__api_1a6d4518bb7dd0f0b92dbb26d265a3eff9" kindref="member">lock()</ref></computeroutput> or <computeroutput><ref refid="classsteemit_1_1wallet_1_1wallet__api_1a742c5533d4f486d3ccdb467ddd93f04d" kindref="member">unlock()</ref></computeroutput>. <simplesect kind="return"><para>true if the wallet is locked </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="239" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1259" bodyend="1261"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a6d4518bb7dd0f0b92dbb26d265a3eff9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::wallet::wallet_api::lock</definition>
+        <argsstring>()</argsstring>
+        <name>lock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Locks the wallet immediately. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="244" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1271" bodyend="1282"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a742c5533d4f486d3ccdb467ddd93f04d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::wallet::wallet_api::unlock</definition>
+        <argsstring>(string password)</argsstring>
+        <name>unlock</name>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Unlocks the wallet.</para><para>The wallet remain unlocked until the <computeroutput>lock</computeroutput> is called or the program exits. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the password previously set with <computeroutput><ref refid="classsteemit_1_1wallet_1_1wallet__api_1a1cf62114600aed1b2666aa285a9fe56a" kindref="member">set_password()</ref></computeroutput> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="253" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1284" bodyend="1295"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a1cf62114600aed1b2666aa285a9fe56a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::wallet::wallet_api::set_password</definition>
+        <argsstring>(string password)</argsstring>
+        <name>set_password</name>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets a new password on the wallet.</para><para>The wallet must be either &apos;new&apos; or &apos;unlocked&apos; to execute this command. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="261" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1297" bodyend="1302"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a2f28816c8075348403403d6b2e46ec0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>map&lt; public_key_type, string &gt;</type>
+        <definition>map&lt; public_key_type, string &gt; steemit::wallet::wallet_api::list_keys</definition>
+        <argsstring>()</argsstring>
+        <name>list_keys</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dumps all private keys owned by the wallet.</para><para>The keys are printed in WIF format. You can import these keys into another wallet using <computeroutput><ref refid="classsteemit_1_1wallet_1_1wallet__api_1a04e0d3ce3671ecbf3df598671ed642fc" kindref="member">import_key()</ref></computeroutput> <simplesect kind="return"><para>a map containing the private keys, indexed by their public key </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="269" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1304" bodyend="1307"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1ae0fabd00773a6e5c6fc10ae94d85bd52" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string steemit::wallet::wallet_api::gethelp</definition>
+        <argsstring>(const string &amp;method) const</argsstring>
+        <name>gethelp</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns detailed help on a single API command. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>method</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the API command you want help with </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a multi-line string suitable for displaying on a terminal </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="275" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1231" bodyend="1244"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a1b9eeaddaae356c5186dcf10773a87cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool steemit::wallet::wallet_api::load_wallet_file</definition>
+        <argsstring>(string wallet_filename=&quot;&quot;)</argsstring>
+        <name>load_wallet_file</name>
+        <param>
+          <type>string</type>
+          <declname>wallet_filename</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Loads a specified Graphene wallet.</para><para>The current wallet is closed before the new wallet is loaded.</para><para><simplesect kind="warning"><para>This does not change the filename that will be used for future wallet writes, so this may cause you to overwrite your original wallet unless you also call <computeroutput><ref refid="classsteemit_1_1wallet_1_1wallet__api_1a6fc228a36ba7dba981556bab90742cc2" kindref="member">set_wallet_filename()</ref></computeroutput> </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>wallet_filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the filename of the wallet JSON file to load. If <computeroutput>wallet_filename</computeroutput> is empty, it reloads the existing wallet file </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if the specified wallet is loaded </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="290" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1246" bodyend="1248"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a19bc7d15bc0b3978b83b233a44d07b9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::wallet::wallet_api::save_wallet_file</definition>
+        <argsstring>(string wallet_filename=&quot;&quot;)</argsstring>
+        <name>save_wallet_file</name>
+        <param>
+          <type>string</type>
+          <declname>wallet_filename</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Saves the current wallet to the given filename.</para><para><simplesect kind="warning"><para>This does not change the wallet filename that will be used for future writes, so think of this function as &apos;Save a Copy As...&apos; instead of &apos;Save As...&apos;. Use <computeroutput><ref refid="classsteemit_1_1wallet_1_1wallet__api_1a6fc228a36ba7dba981556bab90742cc2" kindref="member">set_wallet_filename()</ref></computeroutput> to make the filename persist. </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>wallet_filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the filename of the new wallet JSON file to create or overwrite. If <computeroutput>wallet_filename</computeroutput> is empty, save to the current filename. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="302" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1250" bodyend="1252"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a6fc228a36ba7dba981556bab90742cc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::wallet::wallet_api::set_wallet_filename</definition>
+        <argsstring>(string wallet_filename)</argsstring>
+        <name>set_wallet_filename</name>
+        <param>
+          <type>string</type>
+          <declname>wallet_filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the wallet filename used for future writes.</para><para>This does not trigger a save, it only changes the default filename that will be used the next time a save is triggered.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>wallet_filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new filename to use for future saves </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="311" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1194" bodyend="1196"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1aef8b0d7528f3e0752d91ff53e35489c2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structsteemit_1_1wallet_1_1brain__key__info" kindref="compound">brain_key_info</ref></type>
+        <definition>brain_key_info steemit::wallet::wallet_api::suggest_brain_key</definition>
+        <argsstring>() const</argsstring>
+        <name>suggest_brain_key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Suggests a safe brain key to use for creating your account. <computeroutput>create_account_with_brain_key()</computeroutput> requires you to specify a &apos;brain key&apos;, a long passphrase that provides enough entropy to generate cyrptographic keys. This function will suggest a suitably random string that should be easy to write down (and, with effort, memorize). <simplesect kind="return"><para>a suggested brain_key </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="320" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1104" bodyend="1131"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a35225cf7e7d5b954e577096e864e135c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string steemit::wallet::wallet_api::serialize_transaction</definition>
+        <argsstring>(signed_transaction tx) const</argsstring>
+        <name>serialize_transaction</name>
+        <param>
+          <type>signed_transaction</type>
+          <declname>tx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Converts a signed_transaction in JSON form to its binary representation.</para><para>TODO: I don&apos;t see a broadcast_transaction() function, do we need one?</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the transaction to serialize </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the binary form of the transaction. It will not be hex encoded, this returns a raw string that may have null characters embedded in it </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="331" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1133" bodyend="1135"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a04e0d3ce3671ecbf3df598671ed642fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool steemit::wallet::wallet_api::import_key</definition>
+        <argsstring>(string wif_key)</argsstring>
+        <name>import_key</name>
+        <param>
+          <type>string</type>
+          <declname>wif_key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Imports a WIF Private Key into the wallet to be used to sign transactions by an account.</para><para>example: import_key 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>wif_key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the WIF Private Key to import </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="339" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1146" bodyend="1161"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1aef1950c52020911b3fc10c03c21f6823" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string steemit::wallet::wallet_api::normalize_brain_key</definition>
+        <argsstring>(string s) const</argsstring>
+        <name>normalize_brain_key</name>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Transforms a brain key to reduce the chance of errors when re-entering the key from memory.</para><para>This takes a user-supplied brain key and normalizes it into the form used for generating private keys. In particular, this upper-cases all ASCII characters and collapses multiple spaces into one. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the brain key as supplied by the user </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the brain key in its normalized form </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="349" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1163" bodyend="1165"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1aa5f1141f04bbb802f30ae91bd07f446d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::create_account</definition>
+        <argsstring>(string creator, string new_account_name, string json_meta, bool broadcast)</argsstring>
+        <name>create_account</name>
+        <param>
+          <type>string</type>
+          <declname>creator</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>new_account_name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>json_meta</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method will genrate new owner, active, and memo keys for the new account which will be controlable by this wallet. There is a fee associated with account creation that is paid by the creator. The current account creation fee can be found with the &apos;info&apos; wallet command.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>creator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account creating the new account </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>new_account_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the new account </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>json_meta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>JSON Metadata associated with the new account </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+This method will genrate new owner, active, and memo keys for the new account which will be controlable by this wallet. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="362" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1666" bodyend="1679"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a8c1a08a889c727ee5072ee0248fec548" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::create_account_with_keys</definition>
+        <argsstring>(string creator, string newname, string json_meta, public_key_type owner, public_key_type active, public_key_type posting, public_key_type memo, bool broadcast) const</argsstring>
+        <name>create_account_with_keys</name>
+        <param>
+          <type>string</type>
+          <declname>creator</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>newname</declname>
+          <defname>new_account_name</defname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>json_meta</declname>
+        </param>
+        <param>
+          <type>public_key_type</type>
+          <declname>owner</declname>
+        </param>
+        <param>
+          <type>public_key_type</type>
+          <declname>active</declname>
+        </param>
+        <param>
+          <type>public_key_type</type>
+          <declname>posting</declname>
+        </param>
+        <param>
+          <type>public_key_type</type>
+          <declname>memo</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method is used by faucets to create new accounts for other users which must provide their desired keys. The resulting account may not be controllable by this wallet. There is a fee associated with account creation that is paid by the creator. The current account creation fee can be found with the &apos;info&apos; wallet command.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>creator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account creating the new account </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newname</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the new account </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>json_meta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>JSON Metadata associated with the new account </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>owner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>public owner key of the new account </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>public active key of the new account </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>posting</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>public posting key of the new account </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>memo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>public memo key of the new account </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+This method is used by faucets to create new accounts for other users which must provide their desired keys. The resulting account may not be controllable by this wallet. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="379" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1340" bodyend="1366"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1accba8076ffe5d42444af3ebb46de2f47" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::update_account</definition>
+        <argsstring>(string accountname, string json_meta, public_key_type owner, public_key_type active, public_key_type posting, public_key_type memo, bool broadcast) const</argsstring>
+        <name>update_account</name>
+        <param>
+          <type>string</type>
+          <declname>accountname</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>json_meta</declname>
+        </param>
+        <param>
+          <type>public_key_type</type>
+          <declname>owner</declname>
+        </param>
+        <param>
+          <type>public_key_type</type>
+          <declname>active</declname>
+        </param>
+        <param>
+          <type>public_key_type</type>
+          <declname>posting</declname>
+        </param>
+        <param>
+          <type>public_key_type</type>
+          <declname>memo</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method updates the keys of an existing account.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>accountname</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the account </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>json_meta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New JSON Metadata to be associated with the account </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>owner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New public owner key for the account </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New public active key for the account </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>posting</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New public posting key for the account </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>memo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New public memo key for the account </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="399" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1415" bodyend="1441"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1ac4298e5fadf27850795e3cec31ecf683" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::update_account_auth_key</definition>
+        <argsstring>(string account_name, authority_type type, public_key_type key, weight_type weight, bool broadcast)</argsstring>
+        <name>update_account_auth_key</name>
+        <param>
+          <type>string</type>
+          <declname>account_name</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacesteemit_1_1wallet_1a28bce069325a7cccd96530a491aa2594" kindref="member">authority_type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>public_key_type</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>weight_type</type>
+          <declname>weight</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method updates the key of an authority for an exisiting account. Warning: You can create impossible authorities using this method. The method will fail if you create an impossible owner authority, but will allow impossible active and posting authorities.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>account_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the account whose authority you wish to update </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The authority type. e.g. owner, active, or posting </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The public key to add to the authority </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>weight</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The weight the key should have in the authority. A weight of 0 indicates the removal of the key. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="419" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1443" bodyend="1502"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a71ca499f1767c64120ea798b87f0ebb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::update_account_auth_account</definition>
+        <argsstring>(string account_name, authority_type type, string auth_account, weight_type weight, bool broadcast)</argsstring>
+        <name>update_account_auth_account</name>
+        <param>
+          <type>string</type>
+          <declname>account_name</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacesteemit_1_1wallet_1a28bce069325a7cccd96530a491aa2594" kindref="member">authority_type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>auth_account</declname>
+        </param>
+        <param>
+          <type>weight_type</type>
+          <declname>weight</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method updates the account of an authority for an exisiting account. Warning: You can create impossible authorities using this method. The method will fail if you create an impossible owner authority, but will allow impossible active and posting authorities.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>account_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the account whose authority you wish to update </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The authority type. e.g. owner, active, or posting </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>auth_account</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account to add the the authority </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>weight</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The weight the account should have in the authority. A weight of 0 indicates the removal of the account. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="433" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1504" bodyend="1563"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1ae3adaf25c89478308257e8f28917de04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::update_account_auth_threshold</definition>
+        <argsstring>(string account_name, authority_type type, uint32_t threshold, bool broadcast)</argsstring>
+        <name>update_account_auth_threshold</name>
+        <param>
+          <type>string</type>
+          <declname>account_name</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacesteemit_1_1wallet_1a28bce069325a7cccd96530a491aa2594" kindref="member">authority_type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>threshold</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method updates the weight threshold of an authority for an account. Warning: You can create impossible authorities using this method as well as implicitly met authorities. The method will fail if you create an implicitly true authority and if you create an impossible owner authoroty, but will allow impossible active and posting authorities.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>account_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the account whose authority you wish to update </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The authority type. e.g. owner, active, or posting </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>threshold</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The weight threshold required for the authority to be met </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="447" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1565" bodyend="1620"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a981ecbe63338d4a04f6395e993ff5b8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::update_account_meta</definition>
+        <argsstring>(string account_name, string json_meta, bool broadcast)</argsstring>
+        <name>update_account_meta</name>
+        <param>
+          <type>string</type>
+          <declname>account_name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>json_meta</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method updates the account JSON metadata</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>account_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the account you wish to update </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>json_meta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new JSON metadata for the account. This overrides existing metadata </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ture if you wish to broadcast the transaction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="456" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1622" bodyend="1640"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a96b9feb50c5f15675458490d669daa9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::update_account_memo_key</definition>
+        <argsstring>(string account_name, public_key_type key, bool broadcast)</argsstring>
+        <name>update_account_memo_key</name>
+        <param>
+          <type>string</type>
+          <declname>account_name</declname>
+        </param>
+        <param>
+          <type>public_key_type</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method updates the memo key of an account</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>account_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the account you wish to update </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new memo public key </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="465" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1642" bodyend="1660"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1acd1228e06b2921a6a72366104241033a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>transaction_id_type</type>
+        <definition>transaction_id_type steemit::wallet::wallet_api::get_transaction_id</definition>
+        <argsstring>(const signed_transaction &amp;trx) const</argsstring>
+        <name>get_transaction_id</name>
+        <param>
+          <type>const signed_transaction &amp;</type>
+          <declname>trx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method is used to convert a JSON transaction to its transaction ID. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="470" column="1" bodyfile="libraries/wallet/include/steemit/wallet/wallet.hpp" bodystart="470" bodyend="472"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1ad06c51db5f261c1b19e2f2b23d6907b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>set&lt; account_name_type &gt;</type>
+        <definition>set&lt; account_name_type &gt; steemit::wallet::wallet_api::list_witnesses</definition>
+        <argsstring>(const string &amp;lowerbound, uint32_t limit)</argsstring>
+        <name>list_witnesses</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>lowerbound</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Lists all witnesses registered in the blockchain. This returns a list of all account names that own witnesses, and the associated witness id, sorted by name. This lists witnesses whether they are currently voted in or not.</para><para>Use the <computeroutput>lowerbound</computeroutput> and limit parameters to page through the list. To retrieve all witnesss, start by setting <computeroutput>lowerbound</computeroutput> to the empty string <computeroutput>&quot;&quot;</computeroutput>, and then each iteration, pass the last witness name returned as the <computeroutput>lowerbound</computeroutput> for the next <computeroutput>list_witnesss()</computeroutput> call.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lowerbound</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the first witness to return. If the named witness does not exist, the list will start at the witness that comes after <computeroutput>lowerbound</computeroutput> </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>limit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the maximum number of witnesss to return (max: 1000) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a list of witnesss mapping witness names to witness ids </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="487" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1182" bodyend="1184"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a059e4b8dc3cd11114c89a9d4720fe0f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>optional&lt; <ref refid="structsteemit_1_1app_1_1witness__api__obj" kindref="compound">witness_api_obj</ref> &gt;</type>
+        <definition>optional&lt; witness_api_obj &gt; steemit::wallet::wallet_api::get_witness</definition>
+        <argsstring>(string owner_account)</argsstring>
+        <name>get_witness</name>
+        <param>
+          <type>string</type>
+          <declname>owner_account</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns information about the given witness. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>owner_account</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name or id of the witness account owner, or the id of the witness </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the information about the witness stored in the block chain </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="493" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1186" bodyend="1188"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a3b5be237e6555f6822137ceba20fb562" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="namespacesteemit_1_1app_1a3e53bb2f500c98f7090b2df885ca07fe" kindref="member">convert_request_api_obj</ref> &gt;</type>
+        <definition>vector&lt; convert_request_api_obj &gt; steemit::wallet::wallet_api::get_conversion_requests</definition>
+        <argsstring>(string owner)</argsstring>
+        <name>get_conversion_requests</name>
+        <param>
+          <type>string</type>
+          <declname>owner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns conversion requests by an account</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>owner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Account name of the account owning the requests</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>All pending conversion requests by account </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="501" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="2005" bodyend="2007"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a67199f6f8e521f94bd330dcd5c250891" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::update_witness</definition>
+        <argsstring>(string witness_name, string url, public_key_type block_signing_key, const chain_properties &amp;props, bool broadcast=false)</argsstring>
+        <name>update_witness</name>
+        <param>
+          <type>string</type>
+          <declname>witness_name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>public_key_type</type>
+          <declname>block_signing_key</declname>
+        </param>
+        <param>
+          <type>const chain_properties &amp;</type>
+          <declname>props</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update a witness object owned by the given account.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>witness_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the witness account. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A URL containing some information about the witness. The empty string makes it remain the same. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>block_signing_key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new block signing public key. The empty string disables block production. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>props</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The chain properties the witness is voting on. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="513" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1682" bodyend="1711"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a329f2867d662e340be851340d6aa644d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::set_voting_proxy</definition>
+        <argsstring>(string account_to_modify, string proxy, bool broadcast=false)</argsstring>
+        <name>set_voting_proxy</name>
+        <param>
+          <type>string</type>
+          <declname>account_to_modify</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>proxy</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the voting proxy for an account.</para><para>If a user does not wish to take an active part in voting, they can choose to allow another account to vote their stake.</para><para>Setting a vote proxy does not remove your previous votes from the blockchain, they remain there but are ignored. If you later null out your vote proxy, your previous votes will take effect again.</para><para>This setting can be changed at any time.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>account_to_modify</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name or id of the account to update </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>proxy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of account that should proxy to, or empty string to have no proxy </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="534" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1190" bodyend="1192"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1ab3f8cb8f7dfc8ba7fecae38ade548469" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::vote_for_witness</definition>
+        <argsstring>(string account_to_vote_with, string witness_to_vote_for, bool approve=true, bool broadcast=false)</argsstring>
+        <name>vote_for_witness</name>
+        <param>
+          <type>string</type>
+          <declname>account_to_vote_with</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>witness_to_vote_for</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>approve</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Vote for a witness to become a block producer. By default an account has not voted positively or negatively for a witness. The account can either vote for with positively votes or against with negative votes. The vote will remain until updated with another vote. Vote strength is determined by the accounts vesting shares.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>account_to_vote_with</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account voting for a witness </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>witness_to_vote_for</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The witness that is being voted for </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>approve</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the account is voting for the account to be able to be a block produce </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="549" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1713" bodyend="1727"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1ac2eaf732f4513f221812052fe5ce45a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::transfer</definition>
+        <argsstring>(string from, string to, asset amount, string memo, bool broadcast=false)</argsstring>
+        <name>transfer</name>
+        <param>
+          <type>string</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>asset</type>
+          <declname>amount</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>memo</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Transfer funds from one account to another. STEEM and SBD can be transferred.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account the funds are coming from </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account the funds are going to </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>amount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The funds being transferred. i.e. &quot;100.000 STEEM&quot; </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>memo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A memo for the transactionm, encrypted with the to account&apos;s public memo key </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="563" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1757" bodyend="1773"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a55900e51c215d436e67ba33dbbd80f07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::escrow_transfer</definition>
+        <argsstring>(string from, string to, string agent, uint32_t escrow_id, asset sbd_amount, asset steem_amount, asset fee, time_point_sec ratification_deadline, time_point_sec escrow_expiration, string json_meta, bool broadcast=false)</argsstring>
+        <name>escrow_transfer</name>
+        <param>
+          <type>string</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>agent</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>escrow_id</declname>
+        </param>
+        <param>
+          <type>asset</type>
+          <declname>sbd_amount</declname>
+        </param>
+        <param>
+          <type>asset</type>
+          <declname>steem_amount</declname>
+        </param>
+        <param>
+          <type>asset</type>
+          <declname>fee</declname>
+        </param>
+        <param>
+          <type>time_point_sec</type>
+          <declname>ratification_deadline</declname>
+        </param>
+        <param>
+          <type>time_point_sec</type>
+          <declname>escrow_expiration</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>json_meta</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Transfer funds from one account to another using escrow. STEEM and SBD can be transferred.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account the funds are coming from </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account the funds are going to </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>agent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account acting as the agent in case of dispute </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>escrow_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A unique id for the escrow transfer. (from, escrow_id) must be a unique pair </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sbd_amount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The amount of SBD to transfer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>steem_amount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The amount of STEEM to transfer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fee</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The fee paid to the agent </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ratification_deadline</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The deadline for &apos;to&apos; and &apos;agent&apos; to approve the escrow transfer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>escrow_expiration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The expiration of the escrow transfer, after which either party can claim the funds </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>json_meta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>JSON encoded meta data </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="580" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1775" bodyend="1806"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a2f13ba3c3af695df82508f70bc18c044" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::escrow_approve</definition>
+        <argsstring>(string from, string to, string agent, string who, uint32_t escrow_id, bool approve, bool broadcast=false)</argsstring>
+        <name>escrow_approve</name>
+        <param>
+          <type>string</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>agent</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>who</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>escrow_id</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>approve</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Approve a proposed escrow transfer. Funds cannot be released until after approval. This is in lieu of requiring multi-sig on escrow_transfer</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account that funded the escrow </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The destination of the escrow </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>agent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account acting as the agent in case of dispute </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>who</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account approving the escrow transfer (either &apos;to&apos; or &apos;agent) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>escrow_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A unique id for the escrow transfer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>approve</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true to approve the escrow transfer, otherwise cancels it and refunds &apos;from&apos; </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="606" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1808" bodyend="1830"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a1a0e3d35da557c56aa3e06c2030700d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::escrow_dispute</definition>
+        <argsstring>(string from, string to, string agent, string who, uint32_t escrow_id, bool broadcast=false)</argsstring>
+        <name>escrow_dispute</name>
+        <param>
+          <type>string</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>agent</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>who</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>escrow_id</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raise a dispute on the escrow transfer before it expires</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account that funded the escrow </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The destination of the escrow </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>agent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account acting as the agent in case of dispute </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>who</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account raising the dispute (either &apos;from&apos; or &apos;to&apos;) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>escrow_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A unique id for the escrow transfer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="626" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1832" bodyend="1853"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1af811be133f995220b3949b745204e03c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::escrow_release</definition>
+        <argsstring>(string from, string to, string agent, string who, string receiver, uint32_t escrow_id, asset sbd_amount, asset steem_amount, bool broadcast=false)</argsstring>
+        <name>escrow_release</name>
+        <param>
+          <type>string</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>agent</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>who</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>receiver</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>escrow_id</declname>
+        </param>
+        <param>
+          <type>asset</type>
+          <declname>sbd_amount</declname>
+        </param>
+        <param>
+          <type>asset</type>
+          <declname>steem_amount</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Release funds help in escrow</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account that funded the escrow </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account the funds are originally going to </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>agent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account acting as the agent in case of dispute </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>who</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account authorizing the release </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>receiver</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account that will receive funds being released </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>escrow_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A unique id for the escrow transfer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sbd_amount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The amount of SBD that will be released </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>steem_amount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The amount of STEEM that will be released </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="648" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1855" bodyend="1881"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a605bdd56111d6184e6bbc78e09cb0d4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::transfer_to_vesting</definition>
+        <argsstring>(string from, string to, asset amount, bool broadcast=false)</argsstring>
+        <name>transfer_to_vesting</name>
+        <param>
+          <type>string</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>asset</type>
+          <declname>amount</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Transfer STEEM into a vesting fund represented by vesting shares (VESTS). VESTS are required to vesting for a minimum of one coin year and can be withdrawn once a week over a two year withdraw period. VESTS are protected against dilution up until 90% of STEEM is vesting.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account the STEEM is coming from </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account getting the VESTS </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>amount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The amount of STEEM to vest i.e. &quot;100.00 STEEM&quot; </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="670" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1936" bodyend="1948"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1aafa13d4488ef52cf586c84ab352366f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::transfer_to_savings</definition>
+        <argsstring>(string from, string to, asset amount, string memo, bool broadcast=false)</argsstring>
+        <name>transfer_to_savings</name>
+        <param>
+          <type>string</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>asset</type>
+          <declname>amount</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>memo</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Transfers into savings happen immediately, transfers from savings take 72 hours </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="675" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1886" bodyend="1899"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1afcd2197693702e4fec0a528bfba31d6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::transfer_from_savings</definition>
+        <argsstring>(string from, uint32_t request_id, string to, asset amount, string memo, bool broadcast=false)</argsstring>
+        <name>transfer_from_savings</name>
+        <param>
+          <type>string</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>request_id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>asset</type>
+          <declname>amount</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>memo</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>request_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- an unique ID assigned by from account, the id is used to cancel the operation and can be reused after the transfer completes </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="680" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1904" bodyend="1918"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a65cf1df376d8ef05175dd3ea59c0854d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::cancel_transfer_from_savings</definition>
+        <argsstring>(string from, uint32_t request_id, bool broadcast=false)</argsstring>
+        <name>cancel_transfer_from_savings</name>
+        <param>
+          <type>string</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>request_id</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>request_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the id used in transfer_from_savings </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the account that initiated the transfer </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="686" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1924" bodyend="1934"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1ae1a2b13d283f0ba45e9efd8247a80a7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::withdraw_vesting</definition>
+        <argsstring>(string from, asset vesting_shares, bool broadcast=false)</argsstring>
+        <name>withdraw_vesting</name>
+        <param>
+          <type>string</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>asset</type>
+          <declname>vesting_shares</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set up a vesting withdraw request. The request is fulfilled once a week over the next two year (104 weeks).</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account the VESTS are withdrawn from </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>vesting_shares</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The amount of VESTS to withdraw over the next two years. Each week (amount/104) shares are withdrawn and deposited back as STEEM. i.e. &quot;10.000000 VESTS&quot; </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="697" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1950" bodyend="1961"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a1cf4e448878d8a4e44c5bc826d566ed4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::set_withdraw_vesting_route</definition>
+        <argsstring>(string from, string to, uint16_t percent, bool auto_vest, bool broadcast=false)</argsstring>
+        <name>set_withdraw_vesting_route</name>
+        <param>
+          <type>string</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>percent</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>auto_vest</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set up a vesting withdraw route. When vesting shares are withdrawn, they will be routed to these accounts based on the specified weights.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account the VESTS are withdrawn from. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account receiving either VESTS or STEEM. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>percent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The percent of the withdraw to go to the &apos;to&apos; account. This is denoted in hundreths of a percent. i.e. 100 is 1% and 10000 is 100%. This value must be between 1 and 100000 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>auto_vest</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Set to true if the from account should receive the VESTS as VESTS, or false if it should receive them as STEEM. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="711" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1963" bodyend="1976"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a30af81651a33a265e4b1961fa1b8903b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::convert_sbd</definition>
+        <argsstring>(string from, asset amount, bool broadcast=false)</argsstring>
+        <name>convert_sbd</name>
+        <param>
+          <type>string</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>asset</type>
+          <declname>amount</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method will convert SBD to STEEM at the current_median_history price one week from the time it is executed. This method depends upon there being a valid price feed.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account requesting conversion of its SBD i.e. &quot;1.000 SBD&quot; </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>amount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The amount of SBD to convert </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="721" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1978" bodyend="1990"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1aade0ca5084c90d037ffd09af40595220" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::publish_feed</definition>
+        <argsstring>(string witness, price exchange_rate, bool broadcast)</argsstring>
+        <name>publish_feed</name>
+        <param>
+          <type>string</type>
+          <declname>witness</declname>
+        </param>
+        <param>
+          <type>price</type>
+          <declname>exchange_rate</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A witness can public a price feed for the STEEM:SBD market. The median price feed is used to process conversion requests from SBD to STEEM.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>witness</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The witness publishing the price feed </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>exchange_rate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The desired exchange rate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="731" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1992" bodyend="2003"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a54166e03a97ba8026cd70cbd98995b99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::sign_transaction</definition>
+        <argsstring>(signed_transaction tx, bool broadcast=false)</argsstring>
+        <name>sign_transaction</name>
+        <param>
+          <type>signed_transaction</type>
+          <declname>tx</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Signs a transaction.</para><para>Given a fully-formed transaction that is only lacking signatures, this signs the transaction with the necessary keys and optionally broadcasts the transaction <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the unsigned transaction </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the signed version of the transaction </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="741" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1198" bodyend="1202"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1ab1aca5b99a9c458ecc7c757cb52f2993" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>operation</type>
+        <definition>operation steemit::wallet::wallet_api::get_prototype_operation</definition>
+        <argsstring>(string operation_type)</argsstring>
+        <name>get_prototype_operation</name>
+        <param>
+          <type>string</type>
+          <declname>operation_type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns an uninitialized object representing a given blockchain operation.</para><para>This returns a default-initialized object of the given type; it can be used during early development of the wallet when we don&apos;t yet have custom commands for creating all of the operations the blockchain supports.</para><para>Any operation the blockchain supports can be created using the transaction builder&apos;s <computeroutput>add_operation_to_builder_transaction()</computeroutput> , but to do that from the CLI you need to know what the JSON form of the operation looks like. This will give you a template you can fill in. It&apos;s better than nothing.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>operation_type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the type of operation to return, must be one of the operations defined in <computeroutput>steemit/chain/operations.hpp</computeroutput> (e.g., &quot;global_parameters_update_operation&quot;) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a default-constructed operation of the given type </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="759" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1204" bodyend="1206"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1afdc84e23fb7f2ae3a3d1054e87aea08e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::wallet::wallet_api::network_add_nodes</definition>
+        <argsstring>(const vector&lt; string &gt; &amp;nodes)</argsstring>
+        <name>network_add_nodes</name>
+        <param>
+          <type>const vector&lt; string &gt; &amp;</type>
+          <declname>nodes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="761" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1208" bodyend="1210"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1ae730ea2c4a42614ac5d1118cfd6dc9a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; variant &gt;</type>
+        <definition>vector&lt; variant &gt; steemit::wallet::wallet_api::network_get_connected_peers</definition>
+        <argsstring>()</argsstring>
+        <name>network_get_connected_peers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="763" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1212" bodyend="1214"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1abb67dcb26be76b43ca65c08b835da71f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structsteemit_1_1app_1_1order__book" kindref="compound">order_book</ref></type>
+        <definition>order_book steemit::wallet::wallet_api::get_order_book</definition>
+        <argsstring>(uint32_t limit=1000)</argsstring>
+        <name>get_order_book</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>limit</declname>
+          <defval>1000</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the current order book for STEEM:SBD</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>limit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Maximum number of orders to return for bids and asks. Max is 1000. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="770" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="2091" bodyend="2094"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a5cd5ca4db8b5bd1514024bbad6b59823" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="structsteemit_1_1app_1_1extended__limit__order" kindref="compound">extended_limit_order</ref> &gt;</type>
+        <definition>vector&lt; extended_limit_order &gt; steemit::wallet::wallet_api::get_open_orders</definition>
+        <argsstring>(string accountname)</argsstring>
+        <name>get_open_orders</name>
+        <param>
+          <type>string</type>
+          <declname>accountname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="772" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="2096" bodyend="2098"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a0dc94b3f25ae632c1542385923efc36d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::create_order</definition>
+        <argsstring>(string owner, uint32_t order_id, asset amount_to_sell, asset min_to_receive, bool fill_or_kill, uint32_t expiration, bool broadcast)</argsstring>
+        <name>create_order</name>
+        <param>
+          <type>string</type>
+          <declname>owner</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>order_id</declname>
+        </param>
+        <param>
+          <type>asset</type>
+          <declname>amount_to_sell</declname>
+        </param>
+        <param>
+          <type>asset</type>
+          <declname>min_to_receive</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>fill_or_kill</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>expiration</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a limit order at the price amount_to_sell / min_to_receive and will deduct amount_to_sell from account</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>owner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the account creating the order </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>order_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a unique identifier assigned by the creator of the order, it can be reused after the order has been filled </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>amount_to_sell</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The amount of either SBD or STEEM you wish to sell </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>min_to_receive</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The amount of the other asset you will receive at a minimum </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fill_or_kill</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you want the order to be killed if it cannot immediately be filled </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>expiration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the time the order should expire if it has not been filled </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="785" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="2100" bodyend="2117"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a3b12ebf1dde4b9629da7e7b0e260d528" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::cancel_order</definition>
+        <argsstring>(string owner, uint32_t orderid, bool broadcast)</argsstring>
+        <name>cancel_order</name>
+        <param>
+          <type>string</type>
+          <declname>owner</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>orderid</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Cancel an order created with create_order</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>owner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the account owning the order to cancel_order </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>orderid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The unique identifier assigned to the order by its creator </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="794" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="2119" bodyend="2130"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a232b607bf77cdbafebaa215395347bfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::post_comment</definition>
+        <argsstring>(string author, string permlink, string parent_author, string parent_permlink, string title, string body, string json, bool broadcast)</argsstring>
+        <name>post_comment</name>
+        <param>
+          <type>string</type>
+          <declname>author</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>permlink</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>parent_author</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>parent_permlink</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>body</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>json</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Post or update a comment.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>author</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the account authoring the comment </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>permlink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the accountwide unique permlink for the comment </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parent_author</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>can be null if this is a top level comment </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parent_permlink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>becomes category if parent_author is &quot;&quot; </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the title of the comment </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>body</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the body of the comment </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>json</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the json metadata of the comment </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="808" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="2132" bodyend="2148"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a56b64ae54f2cb41215d3a6e8b91a2303" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::send_private_message</definition>
+        <argsstring>(string from, string to, string subject, string body, bool broadcast)</argsstring>
+        <name>send_private_message</name>
+        <param>
+          <type>string</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>subject</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>body</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="810" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="2235" bodyend="2284"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a919061dbf7910e94d5bef3ee5d702c2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="structsteemit_1_1private__message_1_1extended__message__object" kindref="compound">extended_message_object</ref> &gt;</type>
+        <definition>vector&lt; extended_message_object &gt; steemit::wallet::wallet_api::get_inbox</definition>
+        <argsstring>(string account, fc::time_point newest, uint32_t limit)</argsstring>
+        <name>get_inbox</name>
+        <param>
+          <type>string</type>
+          <declname>account</declname>
+        </param>
+        <param>
+          <type>fc::time_point</type>
+          <declname>newest</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="812" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="2331" bodyend="2340"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1abfd2fb55c85ef4533564676d7daa5128" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="structsteemit_1_1private__message_1_1extended__message__object" kindref="compound">extended_message_object</ref> &gt;</type>
+        <definition>vector&lt; extended_message_object &gt; steemit::wallet::wallet_api::get_outbox</definition>
+        <argsstring>(string account, fc::time_point newest, uint32_t limit)</argsstring>
+        <name>get_outbox</name>
+        <param>
+          <type>string</type>
+          <declname>account</declname>
+        </param>
+        <param>
+          <type>fc::time_point</type>
+          <declname>newest</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="814" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="2342" bodyend="2351"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a2d166bcffb350103f86c57e30587a5bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structsteemit_1_1private__message_1_1message__body" kindref="compound">message_body</ref></type>
+        <definition>message_body steemit::wallet::wallet_api::try_decrypt_message</definition>
+        <argsstring>(const message_api_obj &amp;mo)</argsstring>
+        <name>try_decrypt_message</name>
+        <param>
+          <type>const <ref refid="structsteemit_1_1private__message_1_1message__api__obj" kindref="compound">message_api_obj</ref> &amp;</type>
+          <declname>mo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="816" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="2286" bodyend="2329"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1aa94b13c5a2c6c220431e89d1122fe35b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::vote</definition>
+        <argsstring>(string voter, string author, string permlink, int16_t weight, bool broadcast)</argsstring>
+        <name>vote</name>
+        <param>
+          <type>string</type>
+          <declname>voter</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>author</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>permlink</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>weight</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Vote on a comment to be paid STEEM</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>voter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account voting </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>author</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The author of the comment to be voted on </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>permlink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The permlink of the comment to be voted on. (author, permlink) is a unique pair </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>weight</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The weight [-100,100] of the vote </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="827" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="2150" bodyend="2166"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a4ac83a8d3566d051dbf21285c674ee82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::wallet::wallet_api::set_transaction_expiration</definition>
+        <argsstring>(uint32_t seconds)</argsstring>
+        <name>set_transaction_expiration</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>seconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the amount of time in the future until a transaction expires. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="832" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="2168" bodyend="2170"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a10c01ffaff129b22db9f4f7668b48b06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::challenge</definition>
+        <argsstring>(string challenger, string challenged, bool broadcast)</argsstring>
+        <name>challenge</name>
+        <param>
+          <type>string</type>
+          <declname>challenger</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>challenged</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Challenge a user&apos;s authority. The challenger pays a fee to the challenged which is depositted as Golos Power. Until the challenged proves their active key, all posting rights are revoked.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>challenger</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account issuing the challenge </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>challenged</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account being challenged </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="842" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="2172" bodyend="2185"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1aa885e618bf0c1c266399b866552b8e8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::request_account_recovery</definition>
+        <argsstring>(string recovery_account, string account_to_recover, authority new_authority, bool broadcast)</argsstring>
+        <name>request_account_recovery</name>
+        <param>
+          <type>string</type>
+          <declname>recovery_account</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>account_to_recover</declname>
+        </param>
+        <param>
+          <type>authority</type>
+          <declname>new_authority</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create an account recovery request as a recover account. The syntax for this command contains a serialized authority object so there is an example below on how to pass in the authority.</para><para>request_account_recovery &quot;your_account&quot; &quot;account_to_recover&quot; {&quot;weight_threshold&quot;: 1,&quot;account_auths&quot;: [], &quot;key_auths&quot;: [[&quot;new_public_key&quot;,1]]} true</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recovery_account</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of your account </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>account_to_recover</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the account you are trying to recover </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>new_authority</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new owner authority for the recovered account. This should be given to you by the holder of the compromised or lost account. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="855" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1368" bodyend="1380"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a64e423ce8fdce0ac8ebc3387e3191618" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::recover_account</definition>
+        <argsstring>(string account_to_recover, authority recent_authority, authority new_authority, bool broadcast)</argsstring>
+        <name>recover_account</name>
+        <param>
+          <type>string</type>
+          <declname>account_to_recover</declname>
+        </param>
+        <param>
+          <type>authority</type>
+          <declname>recent_authority</declname>
+        </param>
+        <param>
+          <type>authority</type>
+          <declname>new_authority</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Recover your account using a recovery request created by your recovery account. The syntax for this commain contains a serialized authority object, so there is an example below on how to pass in the authority.</para><para>recover_account &quot;your_account&quot; {&quot;weight_threshold&quot;: 1,&quot;account_auths&quot;: [], &quot;key_auths&quot;: [[&quot;old_public_key&quot;,1]]} {&quot;weight_threshold&quot;: 1,&quot;account_auths&quot;: [], &quot;key_auths&quot;: [[&quot;new_public_key&quot;,1]]} true</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>account_to_recover</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of your account </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>recent_authority</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A recent owner authority on your account </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>new_authority</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new authority that your recovery account used in the account recover request. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="868" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1382" bodyend="1395"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a41ee184d61ae4a9a6ce853df434dc1b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::change_recovery_account</definition>
+        <argsstring>(string owner, string new_recovery_account, bool broadcast)</argsstring>
+        <name>change_recovery_account</name>
+        <param>
+          <type>string</type>
+          <declname>owner</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>new_recovery_account</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Change your recovery account after a 30 day delay.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>owner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of your account </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>new_recovery_account</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the recovery account you wish to have </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="877" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1397" bodyend="1409"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a22a7eaf3c63fe4bb77687b4f4c83c8c6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="structsteemit_1_1app_1_1owner__authority__history__api__obj" kindref="compound">owner_authority_history_api_obj</ref> &gt;</type>
+        <definition>vector&lt; owner_authority_history_api_obj &gt; steemit::wallet::wallet_api::get_owner_history</definition>
+        <argsstring>(string account) const</argsstring>
+        <name>get_owner_history</name>
+        <param>
+          <type>string</type>
+          <declname>account</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="879" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1411" bodyend="1413"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a2ed7f2a3413e856a38e1635586356042" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::prove</definition>
+        <argsstring>(string challenged, bool broadcast)</argsstring>
+        <name>prove</name>
+        <param>
+          <type>string</type>
+          <declname>challenged</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Prove an account&apos;s active authority, fulfilling a challenge, restoring posting rights, and making the account immune to challenge for 24 hours.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>challenged</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The account that was challenged and is proving its authority. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>broadcast</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if you wish to broadcast the transaction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="888" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="2187" bodyend="2199"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1ac55e19276aae7e867b59b650b12f959a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>map&lt; uint32_t, <ref refid="structsteemit_1_1app_1_1applied__operation" kindref="compound">applied_operation</ref> &gt;</type>
+        <definition>map&lt; uint32_t, applied_operation &gt; steemit::wallet::wallet_api::get_account_history</definition>
+        <argsstring>(string account, uint32_t from, uint32_t limit)</argsstring>
+        <name>get_account_history</name>
+        <param>
+          <type>string</type>
+          <declname>account</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Account operations have sequence numbers from 0 to N where N is the most recent operation. This method returns operations in the range [from-limit, from]</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>account</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- account whose history will be returned </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the absolute sequence number, -1 means most recent, limit is the number of operations before from. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>limit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- the maximum number of items that can be queried (0 to 1000], must be less than from </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="898" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="2061" bodyend="2081"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a46f2d06f9dfd4fcfa29643f890f26271" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::follow</definition>
+        <argsstring>(string follower, string following, set&lt; string &gt; what, bool broadcast)</argsstring>
+        <name>follow</name>
+        <param>
+          <type>string</type>
+          <declname>follower</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>following</declname>
+        </param>
+        <param>
+          <type>set&lt; string &gt;</type>
+          <declname>what</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Marks one account as following another account. Requires the posting authority of the follower.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>what</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- a set of things to follow: posts, comments, votes, ignore </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="906" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="2206" bodyend="2233"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1aa7ae62c0dd98b8a8f54bf54546a1fd2a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::map&lt; string, std::function&lt; string(fc::variant, const fc::variants &amp;)&gt; &gt;</type>
+        <definition>std::map&lt; string, std::function&lt; string(fc::variant, const fc::variants &amp;)&gt; &gt; steemit::wallet::wallet_api::get_result_formatters</definition>
+        <argsstring>() const</argsstring>
+        <name>get_result_formatters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="909" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1255" bodyend="1257"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a777c6d04d04a32d25b2cd10cf8e354b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::wallet::wallet_api::encrypt_keys</definition>
+        <argsstring>()</argsstring>
+        <name>encrypt_keys</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="914" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1267" bodyend="1269"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a0049bbd44d403fec063a84c8c9e7d6a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string steemit::wallet::wallet_api::get_encrypted_memo</definition>
+        <argsstring>(string from, string to, string memo)</argsstring>
+        <name>get_encrypted_memo</name>
+        <param>
+          <type>string</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>memo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the encrypted memo if memo starts with &apos;#&apos; otherwise returns memo </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="919" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1729" bodyend="1755"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1a9867fff0d31796fa438dfdb2d31414a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string steemit::wallet::wallet_api::decrypt_memo</definition>
+        <argsstring>(string memo)</argsstring>
+        <name>decrypt_memo</name>
+        <param>
+          <type>string</type>
+          <declname>memo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the decrypted memo if possible given wallet&apos;s known private keys </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="924" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="2009" bodyend="2046"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1wallet_1_1wallet__api_1abc218c0309db0c9c95ba4456d5927953" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::wallet_api::decline_voting_rights</definition>
+        <argsstring>(string account, bool decline, bool broadcast)</argsstring>
+        <name>decline_voting_rights</name>
+        <param>
+          <type>string</type>
+          <declname>account</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>decline</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="926" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="2048" bodyend="2059"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This wallet assumes it is connected to the database server with a high-bandwidth, low-latency connection and performs minimal caching. This API could be provided locally to be used by a web interface. </para>    </detaileddescription>
+    <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="93" column="1" bodyfile="libraries/wallet/include/steemit/wallet/wallet.hpp" bodystart="93" bodyend="927"/>
+    <listofallmembers>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a38c35c0ea7ea7a57cb9ca0cfc27b0eb2" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>about</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a3b12ebf1dde4b9629da7e7b0e260d528" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>cancel_order</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a65cf1df376d8ef05175dd3ea59c0854d" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>cancel_transfer_from_savings</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a10c01ffaff129b22db9f4f7668b48b06" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>challenge</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a41ee184d61ae4a9a6ce853df434dc1b4" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>change_recovery_account</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a30af81651a33a265e4b1961fa1b8903b" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>convert_sbd</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1ae0fa6bf4c74bd0ffaaaff67754df29a8" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>copy_wallet_file</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1aa5f1141f04bbb802f30ae91bd07f446d" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>create_account</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a8c1a08a889c727ee5072ee0248fec548" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>create_account_with_keys</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a0dc94b3f25ae632c1542385923efc36d" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>create_order</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1abc218c0309db0c9c95ba4456d5927953" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>decline_voting_rights</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a9867fff0d31796fa438dfdb2d31414a9" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>decrypt_memo</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a777c6d04d04a32d25b2cd10cf8e354b1" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>encrypt_keys</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a2f13ba3c3af695df82508f70bc18c044" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>escrow_approve</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a1a0e3d35da557c56aa3e06c2030700d3" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>escrow_dispute</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1af811be133f995220b3949b745204e03c" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>escrow_release</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a55900e51c215d436e67ba33dbbd80f07" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>escrow_transfer</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a46f2d06f9dfd4fcfa29643f890f26271" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>follow</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1adc75444345514279070bc4c6ce884f4c" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>get_account</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1ac55e19276aae7e867b59b650b12f959a" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>get_account_history</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a94769ed1a0a53027d4fc1b5f5323ad3e" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>get_active_witnesses</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1aec75a93f9315e8c60dd1351bd67d1473" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>get_block</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a3b5be237e6555f6822137ceba20fb562" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>get_conversion_requests</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a1ace637c9709c71144ead228cf915239" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>get_dynamic_global_properties</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a0049bbd44d403fec063a84c8c9e7d6a8" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>get_encrypted_memo</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a12b6826afbe2376dd66e9a3bdbe49181" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>get_feed_history</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a919061dbf7910e94d5bef3ee5d702c2a" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>get_inbox</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1ab686694c5cda4cf7ccd673b874e91a64" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>get_miner_queue</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a5cd5ca4db8b5bd1514024bbad6b59823" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>get_open_orders</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1acabdf4d6106231c8610b6f48778c73f2" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>get_ops_in_block</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1abb67dcb26be76b43ca65c08b835da71f" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>get_order_book</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1abfd2fb55c85ef4533564676d7daa5128" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>get_outbox</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a22a7eaf3c63fe4bb77687b4f4c83c8c6" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>get_owner_history</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a5d9368300d5d03bdc2637b750d50c511" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>get_private_key</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a06bee76f0a3dbdc5aedeb2da568b4b1e" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>get_private_key_from_password</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1ab1aca5b99a9c458ecc7c757cb52f2993" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>get_prototype_operation</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1aa7ae62c0dd98b8a8f54bf54546a1fd2a" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>get_result_formatters</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a788a4a6c937a9dc3f737f43e3348bd54" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>get_state</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a71329de3d6e66b5c0f7e8bf942c15397" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>get_transaction</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1acd1228e06b2921a6a72366104241033a" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>get_transaction_id</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1ae3bd957862afb1cc3111ffba221c83a3" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>get_wallet_filename</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a849e6fb22a5a4e7c5b9663a9187aad25" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>get_withdraw_routes</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a059e4b8dc3cd11114c89a9d4720fe0f6" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>get_witness</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1ae0fabd00773a6e5c6fc10ae94d85bd52" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>gethelp</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1ace42159bfa3ff4e86e901d384d6dd1e2" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>help</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a04e0d3ce3671ecbf3df598671ed642fc" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>import_key</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1abe5a4710851827ffc678e82cd5e8c031" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>info</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a6537be1d38905d5376a90ab331bb2909" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>is_locked</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a936523eade12be4aa8be6f0faa10039a" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>is_new</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a3a4ff84ccefb770672ef8056b34ee0bc" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>list_accounts</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a2f28816c8075348403403d6b2e46ec0f" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>list_keys</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1ad8ec2e19d71ae8059d546b0156187d3e" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>list_my_accounts</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1ad06c51db5f261c1b19e2f2b23d6907b3" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>list_witnesses</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a1b9eeaddaae356c5186dcf10773a87cb" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>load_wallet_file</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a6d4518bb7dd0f0b92dbb26d265a3eff9" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>lock</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1aac0abdccd95951709868262e32787221" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>lock_changed</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a7e6c32863ccf3811f83ca1699a1563ee" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>my</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1afdc84e23fb7f2ae3a3d1054e87aea08e" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>network_add_nodes</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1ae730ea2c4a42614ac5d1118cfd6dc9a2" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>network_get_connected_peers</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1aef1950c52020911b3fc10c03c21f6823" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>normalize_brain_key</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a232b607bf77cdbafebaa215395347bfa" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>post_comment</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a2ed7f2a3413e856a38e1635586356042" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>prove</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1aade0ca5084c90d037ffd09af40595220" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>publish_feed</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a64e423ce8fdce0ac8ebc3387e3191618" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>recover_account</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1aa885e618bf0c1c266399b866552b8e8e" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>request_account_recovery</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a19bc7d15bc0b3978b83b233a44d07b9e" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>save_wallet_file</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a56b64ae54f2cb41215d3a6e8b91a2303" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>send_private_message</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a35225cf7e7d5b954e577096e864e135c" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>serialize_transaction</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a1cf62114600aed1b2666aa285a9fe56a" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>set_password</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a4ac83a8d3566d051dbf21285c674ee82" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>set_transaction_expiration</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a329f2867d662e340be851340d6aa644d" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>set_voting_proxy</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a6fc228a36ba7dba981556bab90742cc2" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>set_wallet_filename</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a1cf4e448878d8a4e44c5bc826d566ed4" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>set_withdraw_vesting_route</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a54166e03a97ba8026cd70cbd98995b99" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>sign_transaction</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1aef8b0d7528f3e0752d91ff53e35489c2" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>suggest_brain_key</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1ac2eaf732f4513f221812052fe5ce45a7" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>transfer</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1afcd2197693702e4fec0a528bfba31d6c" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>transfer_from_savings</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1aafa13d4488ef52cf586c84ab352366f7" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>transfer_to_savings</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a605bdd56111d6184e6bbc78e09cb0d4f" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>transfer_to_vesting</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a2d166bcffb350103f86c57e30587a5bf" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>try_decrypt_message</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a742c5533d4f486d3ccdb467ddd93f04d" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>unlock</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1accba8076ffe5d42444af3ebb46de2f47" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>update_account</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a71ca499f1767c64120ea798b87f0ebb5" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>update_account_auth_account</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1ac4298e5fadf27850795e3cec31ecf683" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>update_account_auth_key</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1ae3adaf25c89478308257e8f28917de04" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>update_account_auth_threshold</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a96b9feb50c5f15675458490d669daa9d" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>update_account_memo_key</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a981ecbe63338d4a04f6395e993ff5b8f" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>update_account_meta</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a67199f6f8e521f94bd330dcd5c250891" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>update_witness</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1aa94b13c5a2c6c220431e89d1122fe35b" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>vote</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1ab3f8cb8f7dfc8ba7fecae38ade548469" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>vote_for_witness</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1ac355212a8b6a6235e870d1aa3294b3f2" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>wallet_api</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1ae1a2b13d283f0ba45e9efd8247a80a7d" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_api</scope><name>withdraw_vesting</name></member>
+      <member refid="classsteemit_1_1wallet_1_1wallet__api_1a62462a79b2cd1c9d843437bd948431d0" prot="public" virt="virtual"><scope>steemit::wallet::wallet_api</scope><name>~wallet_api</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

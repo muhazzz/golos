@@ -1,0 +1,26 @@
+var structsteemit_1_1chain_1_1shared__authority =
+[
+    [ "account_authority_map", "structsteemit_1_1chain_1_1shared__authority.html#a63deae9b91f07dcc010a6461cca86387", null ],
+    [ "account_pair_allocator_type", "structsteemit_1_1chain_1_1shared__authority.html#a2e13f7c5ef1e0a0f2f9681ac1d63be2f", null ],
+    [ "allocator_type", "structsteemit_1_1chain_1_1shared__authority.html#a3ac399c254cb017b78e116ef49123ece", null ],
+    [ "key_authority_map", "structsteemit_1_1chain_1_1shared__authority.html#ab2f050f92107b2f14947233a12e72569", null ],
+    [ "key_pair_allocator_type", "structsteemit_1_1chain_1_1shared__authority.html#ab06b78cbc835080395b87c972b33102b", null ],
+    [ "shared_authority", "structsteemit_1_1chain_1_1shared__authority.html#a92c43193b41abeffd3f817890b6441e5", null ],
+    [ "shared_authority", "structsteemit_1_1chain_1_1shared__authority.html#afc9efd7e63469f91deda5e71b857e261", null ],
+    [ "shared_authority", "structsteemit_1_1chain_1_1shared__authority.html#a55bf67660a4a826bc3bada2497d3519f", null ],
+    [ "shared_authority", "structsteemit_1_1chain_1_1shared__authority.html#a95d9d7bfbe8d26691cf77b33fab6b6af", null ],
+    [ "add_authorities", "structsteemit_1_1chain_1_1shared__authority.html#a42544dcdcde76860be753aa69c4f6497", null ],
+    [ "add_authorities", "structsteemit_1_1chain_1_1shared__authority.html#a06cd80c09f04849486eec1d46b2cc9ca", null ],
+    [ "add_authority", "structsteemit_1_1chain_1_1shared__authority.html#a1adc59c6869abd1f3bdbea555c91a271", null ],
+    [ "add_authority", "structsteemit_1_1chain_1_1shared__authority.html#a31403120802026cc970d918c68e3d344", null ],
+    [ "clear", "structsteemit_1_1chain_1_1shared__authority.html#ae9d045d176b571aa9d2ee6de621a9962", null ],
+    [ "get_keys", "structsteemit_1_1chain_1_1shared__authority.html#a1e13df7915ea51383b5155527208df56", null ],
+    [ "is_impossible", "structsteemit_1_1chain_1_1shared__authority.html#a0c20884fcf43d3702585c9d4dacd7418", null ],
+    [ "num_auths", "structsteemit_1_1chain_1_1shared__authority.html#a6dedaec9e1faa109a1da935197f67cf1", null ],
+    [ "operator authority", "structsteemit_1_1chain_1_1shared__authority.html#ae235c4751591c373532d43217ddca51a", null ],
+    [ "operator=", "structsteemit_1_1chain_1_1shared__authority.html#a0ef915291cac28d9cdf4f8ba295aa648", null ],
+    [ "validate", "structsteemit_1_1chain_1_1shared__authority.html#ace535e99db3fc0ca29f47ee142c42caf", null ],
+    [ "account_auths", "structsteemit_1_1chain_1_1shared__authority.html#afcb75895eab0dd8d50696ade529ae838", null ],
+    [ "key_auths", "structsteemit_1_1chain_1_1shared__authority.html#aa83e45d829441962af144f288e52be7e", null ],
+    [ "weight_threshold", "structsteemit_1_1chain_1_1shared__authority.html#a6d630e8fc9d77d1409c7ca7286527808", null ]
+];

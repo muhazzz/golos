@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_0e64cbf6630beda0e0eb22bb8800ea8c" kind="dir">
+    <compoundname>libraries/plugins/account_by_key/include/steemit/account_by_key</compoundname>
+    <innerfile refid="account__by__key__api_8hpp">account_by_key_api.hpp</innerfile>
+    <innerfile refid="account__by__key__objects_8hpp">account_by_key_objects.hpp</innerfile>
+    <innerfile refid="account__by__key__plugin_8hpp">account_by_key_plugin.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/account_by_key/include/steemit/account_by_key/"/>
+  </compounddef>
+</doxygen>

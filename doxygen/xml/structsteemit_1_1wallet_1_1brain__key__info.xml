@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structsteemit_1_1wallet_1_1brain__key__info" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::wallet::brain_key_info</compoundname>
+    <includes refid="wallet_8hpp" local="no">wallet.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsteemit_1_1wallet_1_1brain__key__info_1ad907d154b856ca236f4b4e70c781572b" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string steemit::wallet::brain_key_info::brain_priv_key</definition>
+        <argsstring></argsstring>
+        <name>brain_priv_key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="56" column="1" bodyfile="libraries/wallet/include/steemit/wallet/wallet.hpp" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1wallet_1_1brain__key__info_1a5ffb03bd60a2fa56d920624c4217973d" prot="public" static="no" mutable="no">
+        <type>public_key_type</type>
+        <definition>public_key_type steemit::wallet::brain_key_info::pub_key</definition>
+        <argsstring></argsstring>
+        <name>pub_key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="57" column="1" bodyfile="libraries/wallet/include/steemit/wallet/wallet.hpp" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1wallet_1_1brain__key__info_1a7a14df729aea4b4480f975e575be4406" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string steemit::wallet::brain_key_info::wif_priv_key</definition>
+        <argsstring></argsstring>
+        <name>wif_priv_key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="58" column="1" bodyfile="libraries/wallet/include/steemit/wallet/wallet.hpp" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="267">
+        <label>string</label>
+      </node>
+      <node id="266">
+        <label>public_key_type</label>
+      </node>
+      <node id="265">
+        <label>steemit::wallet::brain_key_info</label>
+        <link refid="structsteemit_1_1wallet_1_1brain__key__info"/>
+        <childnode refid="266" relation="usage">
+          <edgelabel>pub_key</edgelabel>
+        </childnode>
+        <childnode refid="267" relation="usage">
+          <edgelabel>wif_priv_key</edgelabel>
+          <edgelabel>brain_priv_key</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="55" column="1" bodyfile="libraries/wallet/include/steemit/wallet/wallet.hpp" bodystart="55" bodyend="59"/>
+    <listofallmembers>
+      <member refid="structsteemit_1_1wallet_1_1brain__key__info_1ad907d154b856ca236f4b4e70c781572b" prot="public" virt="non-virtual"><scope>steemit::wallet::brain_key_info</scope><name>brain_priv_key</name></member>
+      <member refid="structsteemit_1_1wallet_1_1brain__key__info_1a5ffb03bd60a2fa56d920624c4217973d" prot="public" virt="non-virtual"><scope>steemit::wallet::brain_key_info</scope><name>pub_key</name></member>
+      <member refid="structsteemit_1_1wallet_1_1brain__key__info_1a7a14df729aea4b4480f975e575be4406" prot="public" virt="non-virtual"><scope>steemit::wallet::brain_key_info</scope><name>wif_priv_key</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

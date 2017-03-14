@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsteemit_1_1chain_1_1evaluator__registry" kind="class" language="C++" prot="public">
+    <compoundname>steemit::chain::evaluator_registry</compoundname>
+    <includes refid="evaluator__registry_8hpp" local="no">evaluator_registry.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>OperationType</declname>
+        <defname>OperationType</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1evaluator__registry_1a191d31a5b3b85a6332adbcada04aa058" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::unique_ptr&lt; <ref refid="classsteemit_1_1chain_1_1evaluator" kindref="compound">evaluator</ref>&lt; OperationType &gt; &gt; &gt;</type>
+        <definition>std::vector&lt;std::unique_ptr&lt;evaluator&lt;OperationType&gt; &gt; &gt; steemit::chain::evaluator_registry&lt; OperationType &gt;::_op_evaluators</definition>
+        <argsstring></argsstring>
+        <name>_op_evaluators</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/evaluator_registry.hpp" line="38" column="1" bodyfile="libraries/chain/include/steemit/chain/evaluator_registry.hpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1evaluator__registry_1abae760838084f75acb572893b6113736" prot="public" static="no" mutable="no">
+        <type><ref refid="classsteemit_1_1chain_1_1database" kindref="compound">database</ref> &amp;</type>
+        <definition>database&amp; steemit::chain::evaluator_registry&lt; OperationType &gt;::_db</definition>
+        <argsstring></argsstring>
+        <name>_db</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/evaluator_registry.hpp" line="39" column="1" bodyfile="libraries/chain/include/steemit/chain/evaluator_registry.hpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1evaluator__registry_1a56c2c13997e28e561191d2f6c6ebdd39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::chain::evaluator_registry&lt; OperationType &gt;::evaluator_registry</definition>
+        <argsstring>(database &amp;d)</argsstring>
+        <name>evaluator_registry</name>
+        <param>
+          <type><ref refid="classsteemit_1_1chain_1_1database" kindref="compound">database</ref> &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/evaluator_registry.hpp" line="11" column="1" bodyfile="libraries/chain/include/steemit/chain/evaluator_registry.hpp" bodystart="11" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1evaluator__registry_1a36bb019b32eda8881057e443fb891938" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename EvaluatorType</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void steemit::chain::evaluator_registry&lt; OperationType &gt;::register_evaluator</definition>
+        <argsstring>(Args... args)</argsstring>
+        <name>register_evaluator</name>
+        <param>
+          <type>Args...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/evaluator_registry.hpp" line="19" column="1" bodyfile="libraries/chain/include/steemit/chain/evaluator_registry.hpp" bodystart="19" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1evaluator__registry_1ad2c86cbe12a46d3a9ea94e69f6b64d99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classsteemit_1_1chain_1_1evaluator" kindref="compound">evaluator</ref>&lt; OperationType &gt; &amp;</type>
+        <definition>evaluator&lt;OperationType&gt;&amp; steemit::chain::evaluator_registry&lt; OperationType &gt;::get_evaluator</definition>
+        <argsstring>(const OperationType &amp;op)</argsstring>
+        <name>get_evaluator</name>
+        <param>
+          <type>const OperationType &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/evaluator_registry.hpp" line="23" column="1" bodyfile="libraries/chain/include/steemit/chain/evaluator_registry.hpp" bodystart="23" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="483">
+        <label>steemit::chain::database</label>
+        <link refid="classsteemit_1_1chain_1_1database"/>
+        <childnode refid="484" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="484">
+        <label>chainbase::database</label>
+      </node>
+      <node id="482">
+        <label>steemit::chain::evaluator_registry&lt; OperationType &gt;</label>
+        <link refid="classsteemit_1_1chain_1_1evaluator__registry"/>
+        <childnode refid="483" relation="usage">
+          <edgelabel>_db</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/chain/include/steemit/chain/evaluator_registry.hpp" line="9" column="1" bodyfile="libraries/chain/include/steemit/chain/evaluator_registry.hpp" bodystart="9" bodyend="40"/>
+    <listofallmembers>
+      <member refid="classsteemit_1_1chain_1_1evaluator__registry_1abae760838084f75acb572893b6113736" prot="public" virt="non-virtual"><scope>steemit::chain::evaluator_registry</scope><name>_db</name></member>
+      <member refid="classsteemit_1_1chain_1_1evaluator__registry_1a191d31a5b3b85a6332adbcada04aa058" prot="public" virt="non-virtual"><scope>steemit::chain::evaluator_registry</scope><name>_op_evaluators</name></member>
+      <member refid="classsteemit_1_1chain_1_1evaluator__registry_1a56c2c13997e28e561191d2f6c6ebdd39" prot="public" virt="non-virtual"><scope>steemit::chain::evaluator_registry</scope><name>evaluator_registry</name></member>
+      <member refid="classsteemit_1_1chain_1_1evaluator__registry_1ad2c86cbe12a46d3a9ea94e69f6b64d99" prot="public" virt="non-virtual"><scope>steemit::chain::evaluator_registry</scope><name>get_evaluator</name></member>
+      <member refid="classsteemit_1_1chain_1_1evaluator__registry_1a36bb019b32eda8881057e443fb891938" prot="public" virt="non-virtual"><scope>steemit::chain::evaluator_registry</scope><name>register_evaluator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

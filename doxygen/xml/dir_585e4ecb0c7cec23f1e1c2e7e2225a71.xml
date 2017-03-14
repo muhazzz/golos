@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_585e4ecb0c7cec23f1e1c2e7e2225a71" kind="dir">
+    <compoundname>libraries/plugins/debug_node/include/steemit/plugins/debug_node</compoundname>
+    <innerfile refid="debug__node__api_8hpp">debug_node_api.hpp</innerfile>
+    <innerfile refid="debug__node__plugin_8hpp">debug_node_plugin.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/debug_node/include/steemit/plugins/debug_node/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structsteemit_1_1wallet_1_1wallet__data" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::wallet::wallet_data</compoundname>
+    <includes refid="wallet_8hpp" local="no">wallet.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsteemit_1_1wallet_1_1wallet__data_1aed6fcd263d0d474d9e2254353b6231be" prot="public" static="no" mutable="no">
+        <type>vector&lt; char &gt;</type>
+        <definition>vector&lt;char&gt; steemit::wallet::wallet_data::cipher_keys</definition>
+        <argsstring></argsstring>
+        <name>cipher_keys</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="62" column="1" bodyfile="libraries/wallet/include/steemit/wallet/wallet.hpp" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1wallet_1_1wallet__data_1a6c00c6995e7ab9fa0f1fc51ee88b43a2" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string steemit::wallet::wallet_data::ws_server</definition>
+        <argsstring></argsstring>
+        <name>ws_server</name>
+        <initializer>= &quot;ws://localhost:8090&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>encrypted keys </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="64" column="1" bodyfile="libraries/wallet/include/steemit/wallet/wallet.hpp" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1wallet_1_1wallet__data_1ac0db8cfc45fd66314c8db157cf31664a" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string steemit::wallet::wallet_data::ws_user</definition>
+        <argsstring></argsstring>
+        <name>ws_user</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="65" column="1" bodyfile="libraries/wallet/include/steemit/wallet/wallet.hpp" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1wallet_1_1wallet__data_1a5fd5b4811c43bc2cbaa794d4b1135f92" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string steemit::wallet::wallet_data::ws_password</definition>
+        <argsstring></argsstring>
+        <name>ws_password</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="66" column="1" bodyfile="libraries/wallet/include/steemit/wallet/wallet.hpp" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1065">
+        <label>vector&lt; char &gt;</label>
+      </node>
+      <node id="1066">
+        <label>string</label>
+      </node>
+      <node id="1064">
+        <label>steemit::wallet::wallet_data</label>
+        <link refid="structsteemit_1_1wallet_1_1wallet__data"/>
+        <childnode refid="1065" relation="usage">
+          <edgelabel>cipher_keys</edgelabel>
+        </childnode>
+        <childnode refid="1066" relation="usage">
+          <edgelabel>ws_password</edgelabel>
+          <edgelabel>ws_server</edgelabel>
+          <edgelabel>ws_user</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="61" column="1" bodyfile="libraries/wallet/include/steemit/wallet/wallet.hpp" bodystart="61" bodyend="67"/>
+    <listofallmembers>
+      <member refid="structsteemit_1_1wallet_1_1wallet__data_1aed6fcd263d0d474d9e2254353b6231be" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_data</scope><name>cipher_keys</name></member>
+      <member refid="structsteemit_1_1wallet_1_1wallet__data_1a5fd5b4811c43bc2cbaa794d4b1135f92" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_data</scope><name>ws_password</name></member>
+      <member refid="structsteemit_1_1wallet_1_1wallet__data_1a6c00c6995e7ab9fa0f1fc51ee88b43a2" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_data</scope><name>ws_server</name></member>
+      <member refid="structsteemit_1_1wallet_1_1wallet__data_1ac0db8cfc45fd66314c8db157cf31664a" prot="public" virt="non-virtual"><scope>steemit::wallet::wallet_data</scope><name>ws_user</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

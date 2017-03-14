@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsteemit_1_1chain_1_1node__property__object" kind="class" language="C++" prot="public">
+    <compoundname>steemit::chain::node_property_object</compoundname>
+    <includes refid="node__property__object_8hpp" local="no">node_property_object.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1node__property__object_1ae49837dfb5fa45e8a3e711b4f3783f27" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::chain::node_property_object::skip_flags</definition>
+        <argsstring></argsstring>
+        <name>skip_flags</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/node_property_object.hpp" line="24" column="1" bodyfile="libraries/chain/include/steemit/chain/node_property_object.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1node__property__object_1acea9198f48ee9cab3c72b09a570cc259" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::chain::node_property_object::node_property_object</definition>
+        <argsstring>()</argsstring>
+        <name>node_property_object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/node_property_object.hpp" line="18" column="1" bodyfile="libraries/chain/include/steemit/chain/node_property_object.hpp" bodystart="18" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1node__property__object_1a7a688aff7358658bdcd9d5f6c74919f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::chain::node_property_object::~node_property_object</definition>
+        <argsstring>()</argsstring>
+        <name>~node_property_object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/node_property_object.hpp" line="21" column="1" bodyfile="libraries/chain/include/steemit/chain/node_property_object.hpp" bodystart="21" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Contains per-node database configuration. </para>    </briefdescription>
+    <detaileddescription>
+<para>Transactions are evaluated differently based on per-node state. Settings here may change based on whether the node is syncing or up-to-date. Or whether the node is a witness node. Or if we&apos;re processing a transaction in a witness-signed block vs. a fresh transaction from the p2p network. Or configuration-specified tradeoffs of performance/hardfork resilience vs. paranoia. </para>    </detaileddescription>
+    <location file="libraries/chain/include/steemit/chain/node_property_object.hpp" line="16" column="1" bodyfile="libraries/chain/include/steemit/chain/node_property_object.hpp" bodystart="16" bodyend="25"/>
+    <listofallmembers>
+      <member refid="classsteemit_1_1chain_1_1node__property__object_1acea9198f48ee9cab3c72b09a570cc259" prot="public" virt="non-virtual"><scope>steemit::chain::node_property_object</scope><name>node_property_object</name></member>
+      <member refid="classsteemit_1_1chain_1_1node__property__object_1ae49837dfb5fa45e8a3e711b4f3783f27" prot="public" virt="non-virtual"><scope>steemit::chain::node_property_object</scope><name>skip_flags</name></member>
+      <member refid="classsteemit_1_1chain_1_1node__property__object_1a7a688aff7358658bdcd9d5f6c74919f0" prot="public" virt="non-virtual"><scope>steemit::chain::node_property_object</scope><name>~node_property_object</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

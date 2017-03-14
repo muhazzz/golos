@@ -1,0 +1,477 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="private__message__plugin_8hpp" kind="file" language="C++">
+    <compoundname>private_message_plugin.hpp</compoundname>
+    <includes refid="plugin_8hpp" local="no">steemit/app/plugin.hpp</includes>
+    <includes refid="database_8hpp" local="no">steemit/chain/database.hpp</includes>
+    <includes local="no">boost/multi_index/composite_key.hpp</includes>
+    <includes local="no">fc/thread/future.hpp</includes>
+    <includes local="no">fc/api.hpp</includes>
+    <includedby refid="wallet_8hpp" local="no">libraries/wallet/include/steemit/wallet/wallet.hpp</includedby>
+    <includedby refid="private__message__evaluators_8hpp" local="no">libraries/plugins/private_message/include/steemit/private_message/private_message_evaluators.hpp</includedby>
+    <incdepgraph>
+      <node id="4447">
+        <label>boost/multi_index/ordered_index.hpp</label>
+      </node>
+      <node id="4456">
+        <label>steemit/protocol/block.hpp</label>
+      </node>
+      <node id="4438">
+        <label>steemit/app/api_context.hpp</label>
+        <link refid="api__context_8hpp"/>
+        <childnode refid="4435" relation="include">
+        </childnode>
+        <childnode refid="4436" relation="include">
+        </childnode>
+        <childnode refid="4439" relation="include">
+        </childnode>
+        <childnode refid="4440" relation="include">
+        </childnode>
+      </node>
+      <node id="4434">
+        <label>fc/reflect/reflect.hpp</label>
+      </node>
+      <node id="4460">
+        <label>steemit/protocol/protocol.hpp</label>
+      </node>
+      <node id="4470">
+        <label>fc/io/json.hpp</label>
+      </node>
+      <node id="4454">
+        <label>steemit/chain/node_property_object.hpp</label>
+        <link refid="node__property__object_8hpp"/>
+      </node>
+      <node id="4450">
+        <label>steemit/protocol/types.hpp</label>
+      </node>
+      <node id="4451">
+        <label>steemit/protocol/authority.hpp</label>
+      </node>
+      <node id="4472">
+        <label>fc/unique_ptr.hpp</label>
+      </node>
+      <node id="4458">
+        <label>steemit/chain/block_log.hpp</label>
+        <link refid="block__log_8hpp"/>
+        <childnode refid="4459" relation="include">
+        </childnode>
+        <childnode refid="4456" relation="include">
+        </childnode>
+      </node>
+      <node id="4461">
+        <label>fc/signals.hpp</label>
+      </node>
+      <node id="4436">
+        <label>string</label>
+      </node>
+      <node id="4435">
+        <label>map</label>
+      </node>
+      <node id="4465">
+        <label>fc/rpc/websocket_api.hpp</label>
+      </node>
+      <node id="4453">
+        <label>steemit/chain/hardfork.hpp</label>
+      </node>
+      <node id="4459">
+        <label>fc/filesystem.hpp</label>
+      </node>
+      <node id="4444">
+        <label>steemit/chain/steem_object_types.hpp</label>
+        <link refid="steem__object__types_8hpp"/>
+        <childnode refid="4445" relation="include">
+        </childnode>
+        <childnode refid="4446" relation="include">
+        </childnode>
+        <childnode refid="4447" relation="include">
+        </childnode>
+        <childnode refid="4448" relation="include">
+        </childnode>
+        <childnode refid="4449" relation="include">
+        </childnode>
+        <childnode refid="4450" relation="include">
+        </childnode>
+        <childnode refid="4451" relation="include">
+        </childnode>
+      </node>
+      <node id="4455">
+        <label>steemit/chain/fork_database.hpp</label>
+        <link refid="fork__database_8hpp"/>
+        <childnode refid="4456" relation="include">
+        </childnode>
+        <childnode refid="4445" relation="include">
+        </childnode>
+        <childnode refid="4446" relation="include">
+        </childnode>
+        <childnode refid="4447" relation="include">
+        </childnode>
+        <childnode refid="4457" relation="include">
+        </childnode>
+        <childnode refid="4448" relation="include">
+        </childnode>
+      </node>
+      <node id="4466">
+        <label>boost/program_options.hpp</label>
+      </node>
+      <node id="4449">
+        <label>chainbase/chainbase.hpp</label>
+      </node>
+      <node id="4462">
+        <label>fc/log/logger.hpp</label>
+      </node>
+      <node id="4469">
+        <label>steemit/protocol/operations.hpp</label>
+      </node>
+      <node id="4471">
+        <label>fc/static_variant.hpp</label>
+      </node>
+      <node id="4473">
+        <label>fc/vector.hpp</label>
+      </node>
+      <node id="4463">
+        <label>graphene/net/node.hpp</label>
+      </node>
+      <node id="4433">
+        <label>steemit/app/api_access.hpp</label>
+        <link refid="api__access_8hpp"/>
+        <childnode refid="4434" relation="include">
+        </childnode>
+        <childnode refid="4435" relation="include">
+        </childnode>
+        <childnode refid="4436" relation="include">
+        </childnode>
+        <childnode refid="4437" relation="include">
+        </childnode>
+      </node>
+      <node id="4432">
+        <label>steemit/app/application.hpp</label>
+        <link refid="application_8hpp"/>
+        <childnode refid="4433" relation="include">
+        </childnode>
+        <childnode refid="4438" relation="include">
+        </childnode>
+        <childnode refid="4441" relation="include">
+        </childnode>
+        <childnode refid="4463" relation="include">
+        </childnode>
+        <childnode refid="4440" relation="include">
+        </childnode>
+        <childnode refid="4464" relation="include">
+        </childnode>
+        <childnode refid="4465" relation="include">
+        </childnode>
+        <childnode refid="4466" relation="include">
+        </childnode>
+      </node>
+      <node id="4467">
+        <label>steemit/chain/evaluator.hpp</label>
+        <link refid="evaluator_8hpp"/>
+        <childnode refid="4468" relation="include">
+        </childnode>
+        <childnode refid="4469" relation="include">
+        </childnode>
+      </node>
+      <node id="4437">
+        <label>vector</label>
+      </node>
+      <node id="4442">
+        <label>steemit/chain/global_property_object.hpp</label>
+        <link refid="global__property__object_8hpp"/>
+        <childnode refid="4443" relation="include">
+        </childnode>
+        <childnode refid="4444" relation="include">
+        </childnode>
+        <childnode refid="4452" relation="include">
+        </childnode>
+      </node>
+      <node id="4452">
+        <label>steemit/protocol/asset.hpp</label>
+      </node>
+      <node id="4439">
+        <label>utility</label>
+      </node>
+      <node id="4430">
+        <label>libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp</label>
+        <link refid="private__message__plugin_8hpp"/>
+        <childnode refid="4431" relation="include">
+        </childnode>
+        <childnode refid="4441" relation="include">
+        </childnode>
+        <childnode refid="4475" relation="include">
+        </childnode>
+        <childnode refid="4476" relation="include">
+        </childnode>
+        <childnode refid="4440" relation="include">
+        </childnode>
+      </node>
+      <node id="4457">
+        <label>boost/multi_index/hashed_index.hpp</label>
+      </node>
+      <node id="4475">
+        <label>boost/multi_index/composite_key.hpp</label>
+      </node>
+      <node id="4476">
+        <label>fc/thread/future.hpp</label>
+      </node>
+      <node id="4446">
+        <label>boost/multi_index/member.hpp</label>
+      </node>
+      <node id="4445">
+        <label>boost/multi_index_container.hpp</label>
+      </node>
+      <node id="4464">
+        <label>fc/rpc/api_connection.hpp</label>
+      </node>
+      <node id="4431">
+        <label>steemit/app/plugin.hpp</label>
+        <link refid="plugin_8hpp"/>
+        <childnode refid="4432" relation="include">
+        </childnode>
+        <childnode refid="4467" relation="include">
+        </childnode>
+        <childnode refid="4466" relation="include">
+        </childnode>
+        <childnode refid="4470" relation="include">
+        </childnode>
+        <childnode refid="4471" relation="include">
+        </childnode>
+        <childnode refid="4472" relation="include">
+        </childnode>
+        <childnode refid="4473" relation="include">
+        </childnode>
+        <childnode refid="4474" relation="include">
+        </childnode>
+      </node>
+      <node id="4443">
+        <label>fc/uint128.hpp</label>
+      </node>
+      <node id="4448">
+        <label>boost/multi_index/mem_fun.hpp</label>
+      </node>
+      <node id="4441">
+        <label>steemit/chain/database.hpp</label>
+        <link refid="database_8hpp"/>
+        <childnode refid="4442" relation="include">
+        </childnode>
+        <childnode refid="4453" relation="include">
+        </childnode>
+        <childnode refid="4454" relation="include">
+        </childnode>
+        <childnode refid="4455" relation="include">
+        </childnode>
+        <childnode refid="4458" relation="include">
+        </childnode>
+        <childnode refid="4460" relation="include">
+        </childnode>
+        <childnode refid="4461" relation="include">
+        </childnode>
+        <childnode refid="4462" relation="include">
+        </childnode>
+        <childnode refid="4435" relation="include">
+        </childnode>
+      </node>
+      <node id="4474">
+        <label>memory</label>
+      </node>
+      <node id="4440">
+        <label>fc/api.hpp</label>
+      </node>
+      <node id="4468">
+        <label>steemit/protocol/exceptions.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4482">
+        <label>libraries/plugins/private_message/private_message_plugin.cpp</label>
+        <link refid="private__message__plugin_8cpp"/>
+      </node>
+      <node id="4479">
+        <label>libraries/wallet/api_documentation_standin.cpp</label>
+        <link refid="api__documentation__standin_8cpp"/>
+      </node>
+      <node id="4481">
+        <label>libraries/plugins/private_message/include/steemit/private_message/private_message_evaluators.hpp</label>
+        <link refid="private__message__evaluators_8hpp"/>
+        <childnode refid="4482" relation="include">
+        </childnode>
+      </node>
+      <node id="4477">
+        <label>libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp</label>
+        <link refid="private__message__plugin_8hpp"/>
+        <childnode refid="4478" relation="include">
+        </childnode>
+        <childnode refid="4481" relation="include">
+        </childnode>
+      </node>
+      <node id="4478">
+        <label>libraries/wallet/include/steemit/wallet/wallet.hpp</label>
+        <link refid="wallet_8hpp"/>
+        <childnode refid="4479" relation="include">
+        </childnode>
+        <childnode refid="4480" relation="include">
+        </childnode>
+      </node>
+      <node id="4480">
+        <label>libraries/wallet/wallet.cpp</label>
+        <link refid="wallet_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structsteemit_1_1private__message_1_1message__body" prot="public">steemit::private_message::message_body</innerclass>
+    <innerclass refid="classsteemit_1_1private__message_1_1message__object" prot="public">steemit::private_message::message_object</innerclass>
+    <innerclass refid="structsteemit_1_1private__message_1_1message__api__obj" prot="public">steemit::private_message::message_api_obj</innerclass>
+    <innerclass refid="structsteemit_1_1private__message_1_1extended__message__object" prot="public">steemit::private_message::extended_message_object</innerclass>
+    <innerclass refid="classsteemit_1_1private__message_1_1private__message__plugin" prot="public">steemit::private_message::private_message_plugin</innerclass>
+    <innerclass refid="classsteemit_1_1private__message_1_1private__message__api" prot="public">steemit::private_message::private_message_api</innerclass>
+    <innernamespace refid="namespacesteemit">steemit</innernamespace>
+    <innernamespace refid="namespacesteemit_1_1private__message">steemit::private_message</innernamespace>
+    <innernamespace refid="namespacesteemit_1_1private__message_1_1detail">steemit::private_message::detail</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="private__message__plugin_8hpp_1ac40080ae59ff62b67e07bb741b05c95f" prot="public" static="no">
+        <name>PRIVATE_MESSAGE_SPACE_ID</name>
+        <initializer>6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" line="50" column="9" bodyfile="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="private__message__plugin_8hpp_1ae205414fbab4fcb3c89294e638342414" prot="public" static="no">
+        <name>STEEMIT_PRIVATE_MESSAGE_COP_ID</name>
+        <initializer>777</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" line="53" column="9" bodyfile="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="private__message__plugin_8hpp_1ad11bf14d36e6a419ff65a1aa75f25872" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FC_API</definition>
+        <argsstring>(steemit::private_message::private_message_api,(get_inbox)(get_outbox))</argsstring>
+        <name>FC_API</name>
+        <param>
+          <type><ref refid="classsteemit_1_1private__message_1_1private__message__api" kindref="compound">steemit::private_message::private_message_api</ref></type>
+        </param>
+        <param>
+          <type>(get_inbox)(get_outbox)</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" line="220" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="private__message__plugin_8hpp_1a7b10cb0cfaae43a20f30d13bf3742576" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FC_REFLECT</definition>
+        <argsstring>(steemit::private_message::message_body,(thread_start)(subject)(body)(json_meta)(cc))</argsstring>
+        <name>FC_REFLECT</name>
+        <param>
+          <type><ref refid="structsteemit_1_1private__message_1_1message__body" kindref="compound">steemit::private_message::message_body</ref></type>
+        </param>
+        <param>
+          <type>(thread_start)(subject)(body)(json_meta)(cc)</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" line="222" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="private__message__plugin_8hpp_1aed34a34e6c59b78f887c94ef2d15bc80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FC_REFLECT</definition>
+        <argsstring>(steemit::private_message::message_object,(id)(from)(to)(from_memo_key)(to_memo_key)(sent_time)(receive_time)(checksum)(encrypted_message))</argsstring>
+        <name>FC_REFLECT</name>
+        <param>
+          <type><ref refid="classsteemit_1_1private__message_1_1message__object" kindref="compound">steemit::private_message::message_object</ref></type>
+        </param>
+        <param>
+          <type>(id)(from)(to)(from_memo_key)(to_memo_key)(sent_time)(receive_time)(checksum)(encrypted_message)</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" line="224" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="private__message__plugin_8hpp_1a9306969d20fcdcce500e17c9b2ddac81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CHAINBASE_SET_INDEX_TYPE</definition>
+        <argsstring>(steemit::private_message::message_object, steemit::private_message::message_index)</argsstring>
+        <name>CHAINBASE_SET_INDEX_TYPE</name>
+        <param>
+          <type><ref refid="classsteemit_1_1private__message_1_1message__object" kindref="compound">steemit::private_message::message_object</ref></type>
+        </param>
+        <param>
+          <type><ref refid="namespacesteemit_1_1private__message_1ada5d783c2de89d533051048b589b646c" kindref="member">steemit::private_message::message_index</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" line="225" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="private__message__plugin_8hpp_1aca16982c4244bf61cb73e71ae18c746e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FC_REFLECT</definition>
+        <argsstring>(steemit::private_message::message_api_obj,(id)(from)(to)(from_memo_key)(to_memo_key)(sent_time)(receive_time)(checksum)(encrypted_message))</argsstring>
+        <name>FC_REFLECT</name>
+        <param>
+          <type><ref refid="structsteemit_1_1private__message_1_1message__api__obj" kindref="compound">steemit::private_message::message_api_obj</ref></type>
+        </param>
+        <param>
+          <type>(id)(from)(to)(from_memo_key)(to_memo_key)(sent_time)(receive_time)(checksum)(encrypted_message)</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" line="227" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="private__message__plugin_8hpp_1a0dacdeae7e6e73a43820753b39501e62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FC_REFLECT_DERIVED</definition>
+        <argsstring>(steemit::private_message::extended_message_object,(steemit::private_message::message_api_obj),(message))</argsstring>
+        <name>FC_REFLECT_DERIVED</name>
+        <param>
+          <type><ref refid="structsteemit_1_1private__message_1_1extended__message__object" kindref="compound">steemit::private_message::extended_message_object</ref></type>
+        </param>
+        <param>
+          <type>(<ref refid="structsteemit_1_1private__message_1_1message__api__obj" kindref="compound">steemit::private_message::message_api_obj</ref>)</type>
+        </param>
+        <param>
+          <type>(message)</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" line="229" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,404 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structsteemit_1_1app_1_1witness__api__obj" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::app::witness_api_obj</compoundname>
+    <includes refid="steem__api__objects_8hpp" local="no">steem_api_objects.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1witness__api__obj_1ab56ae5043aeb7554597385a5054e0736" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacesteemit_1_1chain_1aa0f93539a0ca722847f4c0aac79bd9a6" kindref="member">witness_id_type</ref></type>
+        <definition>witness_id_type steemit::app::witness_api_obj::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="459" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="459" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1witness__api__obj_1a00818dfd6357ef5959a881478bb4eca3" prot="public" static="no" mutable="no">
+        <type>account_name_type</type>
+        <definition>account_name_type steemit::app::witness_api_obj::owner</definition>
+        <argsstring></argsstring>
+        <name>owner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="460" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="460" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1witness__api__obj_1afc720c8450683673b365e45c2bcdbd3f" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::app::witness_api_obj::created</definition>
+        <argsstring></argsstring>
+        <name>created</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="461" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="461" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1witness__api__obj_1a0985a3a4ec03cfe70e723838eb05ae2c" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string steemit::app::witness_api_obj::url</definition>
+        <argsstring></argsstring>
+        <name>url</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="462" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="462" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1witness__api__obj_1af3bd95ed57b4728e1a70a80b44f11e77" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::app::witness_api_obj::total_missed</definition>
+        <argsstring></argsstring>
+        <name>total_missed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="463" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="463" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1witness__api__obj_1ad56fa775a7c001c96b4e6b024917bbeb" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t steemit::app::witness_api_obj::last_aslot</definition>
+        <argsstring></argsstring>
+        <name>last_aslot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="464" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="464" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1witness__api__obj_1a7eb4f80d5fdc87fe38253fbd1c4e5270" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t steemit::app::witness_api_obj::last_confirmed_block_num</definition>
+        <argsstring></argsstring>
+        <name>last_confirmed_block_num</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="465" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="465" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1witness__api__obj_1a89eecebe225fcdb94bf27faea944b1d3" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t steemit::app::witness_api_obj::pow_worker</definition>
+        <argsstring></argsstring>
+        <name>pow_worker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="466" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="466" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1witness__api__obj_1a5c9ed83d036c4fd0d60b63538350b726" prot="public" static="no" mutable="no">
+        <type>public_key_type</type>
+        <definition>public_key_type steemit::app::witness_api_obj::signing_key</definition>
+        <argsstring></argsstring>
+        <name>signing_key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="467" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="467" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1witness__api__obj_1a7f5326984feab0164ca4c4325db8d43e" prot="public" static="no" mutable="no">
+        <type>chain_properties</type>
+        <definition>chain_properties steemit::app::witness_api_obj::props</definition>
+        <argsstring></argsstring>
+        <name>props</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="468" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="468" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1witness__api__obj_1a7ae8b69b40f4f22f7c32d10dbc24a279" prot="public" static="no" mutable="no">
+        <type>price</type>
+        <definition>price steemit::app::witness_api_obj::sbd_exchange_rate</definition>
+        <argsstring></argsstring>
+        <name>sbd_exchange_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="469" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="469" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1witness__api__obj_1ac56f1c0cb972bb2e81c8349ad3f35b9b" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::app::witness_api_obj::last_sbd_exchange_update</definition>
+        <argsstring></argsstring>
+        <name>last_sbd_exchange_update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="470" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="470" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1witness__api__obj_1a4d725a239d7dd602527d1ecc872282be" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::app::witness_api_obj::votes</definition>
+        <argsstring></argsstring>
+        <name>votes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="471" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="471" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1witness__api__obj_1ae27dbb01e3089a52a81b59695eb23e41" prot="public" static="no" mutable="no">
+        <type>fc::uint128</type>
+        <definition>fc::uint128 steemit::app::witness_api_obj::virtual_last_update</definition>
+        <argsstring></argsstring>
+        <name>virtual_last_update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="472" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="472" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1witness__api__obj_1a7fb41ab1b528245222fb60280cde9458" prot="public" static="no" mutable="no">
+        <type>fc::uint128</type>
+        <definition>fc::uint128 steemit::app::witness_api_obj::virtual_position</definition>
+        <argsstring></argsstring>
+        <name>virtual_position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="473" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="473" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1witness__api__obj_1aaea99dde2438819171561c51c3409c75" prot="public" static="no" mutable="no">
+        <type>fc::uint128</type>
+        <definition>fc::uint128 steemit::app::witness_api_obj::virtual_scheduled_time</definition>
+        <argsstring></argsstring>
+        <name>virtual_scheduled_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="474" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="474" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1witness__api__obj_1ac97e0a711a576365eb267d641d2aab6a" prot="public" static="no" mutable="no">
+        <type>digest_type</type>
+        <definition>digest_type steemit::app::witness_api_obj::last_work</definition>
+        <argsstring></argsstring>
+        <name>last_work</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="475" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="475" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1witness__api__obj_1aeea6829dff1974df3a5d694d5fdfaed1" prot="public" static="no" mutable="no">
+        <type>version</type>
+        <definition>version steemit::app::witness_api_obj::running_version</definition>
+        <argsstring></argsstring>
+        <name>running_version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="476" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="476" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1witness__api__obj_1afdcf426065d043ed66a6a61321b0f2b6" prot="public" static="no" mutable="no">
+        <type>hardfork_version</type>
+        <definition>hardfork_version steemit::app::witness_api_obj::hardfork_version_vote</definition>
+        <argsstring></argsstring>
+        <name>hardfork_version_vote</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="477" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="477" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1witness__api__obj_1a9f4916d1014445c4867fb426a9e7b391" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::app::witness_api_obj::hardfork_time_vote</definition>
+        <argsstring></argsstring>
+        <name>hardfork_time_vote</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="478" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="478" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsteemit_1_1app_1_1witness__api__obj_1ac76f60cdbfa02755274e062cf3f164cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::app::witness_api_obj::witness_api_obj</definition>
+        <argsstring>(const chain::witness_object &amp;w)</argsstring>
+        <name>witness_api_obj</name>
+        <param>
+          <type>const <ref refid="classsteemit_1_1chain_1_1witness__object" kindref="compound">chain::witness_object</ref> &amp;</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="433" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="433" bodyend="454"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1app_1_1witness__api__obj_1a325eec998e9c41a7b8936b22a8213404" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::app::witness_api_obj::witness_api_obj</definition>
+        <argsstring>()</argsstring>
+        <name>witness_api_obj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="456" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="456" bodyend="457"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1080">
+        <label>time_point_sec</label>
+      </node>
+      <node id="1087">
+        <label>chain_properties</label>
+      </node>
+      <node id="1083">
+        <label>string</label>
+      </node>
+      <node id="1078">
+        <label>public_key_type</label>
+      </node>
+      <node id="1084">
+        <label>account_name_type</label>
+      </node>
+      <node id="1081">
+        <label>digest_type</label>
+      </node>
+      <node id="1082">
+        <label>oid&lt; witness_object &gt;</label>
+      </node>
+      <node id="1086">
+        <label>price</label>
+      </node>
+      <node id="1085">
+        <label>version</label>
+      </node>
+      <node id="1076">
+        <label>steemit::app::witness_api_obj</label>
+        <link refid="structsteemit_1_1app_1_1witness__api__obj"/>
+        <childnode refid="1077" relation="usage">
+          <edgelabel>votes</edgelabel>
+        </childnode>
+        <childnode refid="1078" relation="usage">
+          <edgelabel>signing_key</edgelabel>
+        </childnode>
+        <childnode refid="1079" relation="usage">
+          <edgelabel>hardfork_version_vote</edgelabel>
+        </childnode>
+        <childnode refid="1080" relation="usage">
+          <edgelabel>hardfork_time_vote</edgelabel>
+          <edgelabel>created</edgelabel>
+          <edgelabel>last_sbd_exchange_update</edgelabel>
+        </childnode>
+        <childnode refid="1081" relation="usage">
+          <edgelabel>last_work</edgelabel>
+        </childnode>
+        <childnode refid="1082" relation="usage">
+          <edgelabel>id</edgelabel>
+        </childnode>
+        <childnode refid="1083" relation="usage">
+          <edgelabel>url</edgelabel>
+        </childnode>
+        <childnode refid="1084" relation="usage">
+          <edgelabel>owner</edgelabel>
+        </childnode>
+        <childnode refid="1085" relation="usage">
+          <edgelabel>running_version</edgelabel>
+        </childnode>
+        <childnode refid="1086" relation="usage">
+          <edgelabel>sbd_exchange_rate</edgelabel>
+        </childnode>
+        <childnode refid="1087" relation="usage">
+          <edgelabel>props</edgelabel>
+        </childnode>
+      </node>
+      <node id="1077">
+        <label>share_type</label>
+      </node>
+      <node id="1079">
+        <label>hardfork_version</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="432" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="432" bodyend="479"/>
+    <listofallmembers>
+      <member refid="structsteemit_1_1app_1_1witness__api__obj_1afc720c8450683673b365e45c2bcdbd3f" prot="public" virt="non-virtual"><scope>steemit::app::witness_api_obj</scope><name>created</name></member>
+      <member refid="structsteemit_1_1app_1_1witness__api__obj_1a9f4916d1014445c4867fb426a9e7b391" prot="public" virt="non-virtual"><scope>steemit::app::witness_api_obj</scope><name>hardfork_time_vote</name></member>
+      <member refid="structsteemit_1_1app_1_1witness__api__obj_1afdcf426065d043ed66a6a61321b0f2b6" prot="public" virt="non-virtual"><scope>steemit::app::witness_api_obj</scope><name>hardfork_version_vote</name></member>
+      <member refid="structsteemit_1_1app_1_1witness__api__obj_1ab56ae5043aeb7554597385a5054e0736" prot="public" virt="non-virtual"><scope>steemit::app::witness_api_obj</scope><name>id</name></member>
+      <member refid="structsteemit_1_1app_1_1witness__api__obj_1ad56fa775a7c001c96b4e6b024917bbeb" prot="public" virt="non-virtual"><scope>steemit::app::witness_api_obj</scope><name>last_aslot</name></member>
+      <member refid="structsteemit_1_1app_1_1witness__api__obj_1a7eb4f80d5fdc87fe38253fbd1c4e5270" prot="public" virt="non-virtual"><scope>steemit::app::witness_api_obj</scope><name>last_confirmed_block_num</name></member>
+      <member refid="structsteemit_1_1app_1_1witness__api__obj_1ac56f1c0cb972bb2e81c8349ad3f35b9b" prot="public" virt="non-virtual"><scope>steemit::app::witness_api_obj</scope><name>last_sbd_exchange_update</name></member>
+      <member refid="structsteemit_1_1app_1_1witness__api__obj_1ac97e0a711a576365eb267d641d2aab6a" prot="public" virt="non-virtual"><scope>steemit::app::witness_api_obj</scope><name>last_work</name></member>
+      <member refid="structsteemit_1_1app_1_1witness__api__obj_1a00818dfd6357ef5959a881478bb4eca3" prot="public" virt="non-virtual"><scope>steemit::app::witness_api_obj</scope><name>owner</name></member>
+      <member refid="structsteemit_1_1app_1_1witness__api__obj_1a89eecebe225fcdb94bf27faea944b1d3" prot="public" virt="non-virtual"><scope>steemit::app::witness_api_obj</scope><name>pow_worker</name></member>
+      <member refid="structsteemit_1_1app_1_1witness__api__obj_1a7f5326984feab0164ca4c4325db8d43e" prot="public" virt="non-virtual"><scope>steemit::app::witness_api_obj</scope><name>props</name></member>
+      <member refid="structsteemit_1_1app_1_1witness__api__obj_1aeea6829dff1974df3a5d694d5fdfaed1" prot="public" virt="non-virtual"><scope>steemit::app::witness_api_obj</scope><name>running_version</name></member>
+      <member refid="structsteemit_1_1app_1_1witness__api__obj_1a7ae8b69b40f4f22f7c32d10dbc24a279" prot="public" virt="non-virtual"><scope>steemit::app::witness_api_obj</scope><name>sbd_exchange_rate</name></member>
+      <member refid="structsteemit_1_1app_1_1witness__api__obj_1a5c9ed83d036c4fd0d60b63538350b726" prot="public" virt="non-virtual"><scope>steemit::app::witness_api_obj</scope><name>signing_key</name></member>
+      <member refid="structsteemit_1_1app_1_1witness__api__obj_1af3bd95ed57b4728e1a70a80b44f11e77" prot="public" virt="non-virtual"><scope>steemit::app::witness_api_obj</scope><name>total_missed</name></member>
+      <member refid="structsteemit_1_1app_1_1witness__api__obj_1a0985a3a4ec03cfe70e723838eb05ae2c" prot="public" virt="non-virtual"><scope>steemit::app::witness_api_obj</scope><name>url</name></member>
+      <member refid="structsteemit_1_1app_1_1witness__api__obj_1ae27dbb01e3089a52a81b59695eb23e41" prot="public" virt="non-virtual"><scope>steemit::app::witness_api_obj</scope><name>virtual_last_update</name></member>
+      <member refid="structsteemit_1_1app_1_1witness__api__obj_1a7fb41ab1b528245222fb60280cde9458" prot="public" virt="non-virtual"><scope>steemit::app::witness_api_obj</scope><name>virtual_position</name></member>
+      <member refid="structsteemit_1_1app_1_1witness__api__obj_1aaea99dde2438819171561c51c3409c75" prot="public" virt="non-virtual"><scope>steemit::app::witness_api_obj</scope><name>virtual_scheduled_time</name></member>
+      <member refid="structsteemit_1_1app_1_1witness__api__obj_1a4d725a239d7dd602527d1ecc872282be" prot="public" virt="non-virtual"><scope>steemit::app::witness_api_obj</scope><name>votes</name></member>
+      <member refid="structsteemit_1_1app_1_1witness__api__obj_1ac76f60cdbfa02755274e062cf3f164cb" prot="public" virt="non-virtual"><scope>steemit::app::witness_api_obj</scope><name>witness_api_obj</name></member>
+      <member refid="structsteemit_1_1app_1_1witness__api__obj_1a325eec998e9c41a7b8936b22a8213404" prot="public" virt="non-virtual"><scope>steemit::app::witness_api_obj</scope><name>witness_api_obj</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

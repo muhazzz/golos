@@ -1,0 +1,458 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="api__access_8hpp" kind="file" language="C++">
+    <compoundname>api_access.hpp</compoundname>
+    <includes local="no">fc/reflect/reflect.hpp</includes>
+    <includes local="no">map</includes>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includedby refid="application_8hpp" local="no">libraries/app/include/steemit/app/application.hpp</includedby>
+    <incdepgraph>
+      <node id="352">
+        <label>fc/reflect/reflect.hpp</label>
+      </node>
+      <node id="354">
+        <label>string</label>
+      </node>
+      <node id="353">
+        <label>map</label>
+      </node>
+      <node id="351">
+        <label>libraries/app/include/steemit/app/api_access.hpp</label>
+        <link refid="api__access_8hpp"/>
+        <childnode refid="352" relation="include">
+        </childnode>
+        <childnode refid="353" relation="include">
+        </childnode>
+        <childnode refid="354" relation="include">
+        </childnode>
+        <childnode refid="355" relation="include">
+        </childnode>
+      </node>
+      <node id="355">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="376">
+        <label>libraries/plugins/blockchain_statistics/include/steemit/blockchain_statistics/blockchain_statistics_api.hpp</label>
+        <link refid="blockchain__statistics__api_8hpp"/>
+        <childnode refid="377" relation="include">
+        </childnode>
+        <childnode refid="378" relation="include">
+        </childnode>
+      </node>
+      <node id="388">
+        <label>libraries/app/application.cpp</label>
+        <link refid="application_8cpp"/>
+      </node>
+      <node id="394">
+        <label>libraries/plugins/follow/follow_plugin.cpp</label>
+        <link refid="follow__plugin_8cpp"/>
+      </node>
+      <node id="362">
+        <label>libraries/plugins/account_by_key/account_by_key_plugin.cpp</label>
+        <link refid="account__by__key__plugin_8cpp"/>
+      </node>
+      <node id="416">
+        <label>libraries/plugins/account_by_key/account_by_key_api.cpp</label>
+        <link refid="account__by__key__api_8cpp"/>
+      </node>
+      <node id="414">
+        <label>libraries/plugins/witness/witness.cpp</label>
+        <link refid="witness_8cpp"/>
+      </node>
+      <node id="410">
+        <label>libraries/app/include/steemit/app/steem_api_objects.hpp</label>
+        <link refid="steem__api__objects_8hpp"/>
+        <childnode refid="411" relation="include">
+        </childnode>
+        <childnode refid="389" relation="include">
+        </childnode>
+        <childnode refid="395" relation="include">
+        </childnode>
+      </node>
+      <node id="383">
+        <label>libraries/plugins/delayed_node/delayed_node_plugin.cpp</label>
+        <link refid="delayed__node__plugin_8cpp"/>
+      </node>
+      <node id="377">
+        <label>libraries/plugins/blockchain_statistics/blockchain_statistics_api.cpp</label>
+        <link refid="blockchain__statistics__api_8cpp"/>
+      </node>
+      <node id="406">
+        <label>libraries/plugins/raw_block/include/steemit/plugins/raw_block/raw_block_plugin.hpp</label>
+        <link refid="raw__block__plugin_8hpp"/>
+        <childnode refid="407" relation="include">
+        </childnode>
+        <childnode refid="408" relation="include">
+        </childnode>
+      </node>
+      <node id="415">
+        <label>libraries/plugins/account_by_key/include/steemit/account_by_key/account_by_key_api.hpp</label>
+        <link refid="account__by__key__api_8hpp"/>
+        <childnode refid="391" relation="include">
+        </childnode>
+        <childnode refid="416" relation="include">
+        </childnode>
+        <childnode refid="361" relation="include">
+        </childnode>
+      </node>
+      <node id="380">
+        <label>libraries/plugins/debug_node/include/steemit/plugins/debug_node/debug_node_plugin.hpp</label>
+        <link refid="debug__node__plugin_8hpp"/>
+        <childnode refid="381" relation="include">
+        </childnode>
+        <childnode refid="379" relation="include">
+        </childnode>
+      </node>
+      <node id="407">
+        <label>libraries/plugins/raw_block/raw_block_api.cpp</label>
+        <link refid="raw__block__api_8cpp"/>
+      </node>
+      <node id="372">
+        <label>libraries/plugins/block_info/include/steemit/plugins/block_info/block_info_plugin.hpp</label>
+        <link refid="block__info__plugin_8hpp"/>
+        <childnode refid="373" relation="include">
+        </childnode>
+        <childnode refid="374" relation="include">
+        </childnode>
+      </node>
+      <node id="375">
+        <label>libraries/plugins/blockchain_statistics/include/steemit/blockchain_statistics/blockchain_statistics_plugin.hpp</label>
+        <link refid="blockchain__statistics__plugin_8hpp"/>
+        <childnode refid="376" relation="include">
+        </childnode>
+      </node>
+      <node id="409">
+        <label>libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp</label>
+        <link refid="tags__plugin_8hpp"/>
+        <childnode refid="385" relation="include">
+        </childnode>
+        <childnode refid="410" relation="include">
+        </childnode>
+        <childnode refid="412" relation="include">
+        </childnode>
+      </node>
+      <node id="366">
+        <label>libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_api.hpp</label>
+        <link refid="account__statistics__api_8hpp"/>
+        <childnode refid="367" relation="include">
+        </childnode>
+        <childnode refid="368" relation="include">
+        </childnode>
+      </node>
+      <node id="395">
+        <label>libraries/plugins/follow/include/steemit/follow/follow_api.hpp</label>
+        <link refid="follow__api_8hpp"/>
+        <childnode refid="396" relation="include">
+        </childnode>
+        <childnode refid="394" relation="include">
+        </childnode>
+        <childnode refid="384" relation="include">
+        </childnode>
+      </node>
+      <node id="360">
+        <label>libraries/app/plugin.cpp</label>
+        <link refid="plugin_8cpp"/>
+      </node>
+      <node id="405">
+        <label>libraries/plugins/private_message/private_message_plugin.cpp</label>
+        <link refid="private__message__plugin_8cpp"/>
+      </node>
+      <node id="411">
+        <label>libraries/app/include/steemit/app/state.hpp</label>
+        <link refid="state_8hpp"/>
+        <childnode refid="385" relation="include">
+        </childnode>
+      </node>
+      <node id="393">
+        <label>libraries/plugins/follow/follow_evaluators.cpp</label>
+        <link refid="follow__evaluators_8cpp"/>
+      </node>
+      <node id="363">
+        <label>libraries/plugins/account_history/include/steemit/account_history/account_history_plugin.hpp</label>
+        <link refid="account__history__plugin_8hpp"/>
+        <childnode refid="364" relation="include">
+        </childnode>
+      </node>
+      <node id="408">
+        <label>libraries/plugins/raw_block/raw_block_plugin.cpp</label>
+        <link refid="raw__block__plugin_8cpp"/>
+      </node>
+      <node id="392">
+        <label>libraries/plugins/follow/include/steemit/follow/follow_objects.hpp</label>
+        <link refid="follow__objects_8hpp"/>
+        <childnode refid="393" relation="include">
+        </childnode>
+        <childnode refid="394" relation="include">
+        </childnode>
+        <childnode refid="395" relation="include">
+        </childnode>
+      </node>
+      <node id="390">
+        <label>libraries/wallet/api_documentation_standin.cpp</label>
+        <link refid="api__documentation__standin_8cpp"/>
+      </node>
+      <node id="365">
+        <label>libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp</label>
+        <link refid="account__statistics__plugin_8hpp"/>
+        <childnode refid="366" relation="include">
+        </childnode>
+      </node>
+      <node id="356">
+        <label>libraries/app/include/steemit/app/api_access.hpp</label>
+        <link refid="api__access_8hpp"/>
+        <childnode refid="357" relation="include">
+        </childnode>
+      </node>
+      <node id="357">
+        <label>libraries/app/include/steemit/app/application.hpp</label>
+        <link refid="application_8hpp"/>
+        <childnode refid="358" relation="include">
+        </childnode>
+        <childnode refid="359" relation="include">
+        </childnode>
+        <childnode refid="415" relation="include">
+        </childnode>
+        <childnode refid="370" relation="include">
+        </childnode>
+        <childnode refid="373" relation="include">
+        </childnode>
+        <childnode refid="381" relation="include">
+        </childnode>
+        <childnode refid="379" relation="include">
+        </childnode>
+        <childnode refid="395" relation="include">
+        </childnode>
+        <childnode refid="407" relation="include">
+        </childnode>
+      </node>
+      <node id="400">
+        <label>libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp</label>
+        <link refid="market__history__api_8hpp"/>
+        <childnode refid="401" relation="include">
+        </childnode>
+        <childnode refid="402" relation="include">
+        </childnode>
+      </node>
+      <node id="369">
+        <label>libraries/plugins/auth_util/include/steemit/plugins/auth_util/auth_util_plugin.hpp</label>
+        <link refid="auth__util__plugin_8hpp"/>
+        <childnode refid="370" relation="include">
+        </childnode>
+        <childnode refid="371" relation="include">
+        </childnode>
+      </node>
+      <node id="358">
+        <label>libraries/app/database_api.cpp</label>
+        <link refid="database__api_8cpp"/>
+      </node>
+      <node id="404">
+        <label>libraries/plugins/private_message/include/steemit/private_message/private_message_evaluators.hpp</label>
+        <link refid="private__message__evaluators_8hpp"/>
+        <childnode refid="405" relation="include">
+        </childnode>
+      </node>
+      <node id="382">
+        <label>libraries/plugins/delayed_node/include/steemit/delayed_node/delayed_node_plugin.hpp</label>
+        <link refid="delayed__node__plugin_8hpp"/>
+        <childnode refid="383" relation="include">
+        </childnode>
+      </node>
+      <node id="384">
+        <label>libraries/plugins/follow/include/steemit/follow/follow_plugin.hpp</label>
+        <link refid="follow__plugin_8hpp"/>
+        <childnode refid="385" relation="include">
+        </childnode>
+        <childnode refid="389" relation="include">
+        </childnode>
+        <childnode refid="392" relation="include">
+        </childnode>
+        <childnode refid="397" relation="include">
+        </childnode>
+      </node>
+      <node id="403">
+        <label>libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp</label>
+        <link refid="private__message__plugin_8hpp"/>
+        <childnode refid="389" relation="include">
+        </childnode>
+        <childnode refid="404" relation="include">
+        </childnode>
+      </node>
+      <node id="412">
+        <label>libraries/plugins/tags/tags_plugin.cpp</label>
+        <link refid="tags__plugin_8cpp"/>
+      </node>
+      <node id="389">
+        <label>libraries/wallet/include/steemit/wallet/wallet.hpp</label>
+        <link refid="wallet_8hpp"/>
+        <childnode refid="390" relation="include">
+        </childnode>
+        <childnode refid="391" relation="include">
+        </childnode>
+      </node>
+      <node id="371">
+        <label>libraries/plugins/auth_util/auth_util_plugin.cpp</label>
+        <link refid="auth__util__plugin_8cpp"/>
+      </node>
+      <node id="399">
+        <label>libraries/plugins/market_history/include/steemit/market_history/market_history_plugin.hpp</label>
+        <link refid="market__history__plugin_8hpp"/>
+        <childnode refid="400" relation="include">
+        </childnode>
+      </node>
+      <node id="385">
+        <label>libraries/app/include/steemit/app/database_api.hpp</label>
+        <link refid="database__api_8hpp"/>
+        <childnode refid="358" relation="include">
+        </childnode>
+        <childnode refid="386" relation="include">
+        </childnode>
+      </node>
+      <node id="370">
+        <label>libraries/plugins/auth_util/auth_util_api.cpp</label>
+        <link refid="auth__util__api_8cpp"/>
+      </node>
+      <node id="374">
+        <label>libraries/plugins/block_info/block_info_plugin.cpp</label>
+        <link refid="block__info__plugin_8cpp"/>
+      </node>
+      <node id="396">
+        <label>libraries/plugins/follow/follow_api.cpp</label>
+        <link refid="follow__api_8cpp"/>
+      </node>
+      <node id="364">
+        <label>libraries/plugins/account_history/account_history_plugin.cpp</label>
+        <link refid="account__history__plugin_8cpp"/>
+      </node>
+      <node id="397">
+        <label>libraries/plugins/follow/include/steemit/follow/follow_operations.hpp</label>
+        <link refid="follow__operations_8hpp"/>
+        <childnode refid="391" relation="include">
+        </childnode>
+        <childnode refid="393" relation="include">
+        </childnode>
+        <childnode refid="398" relation="include">
+        </childnode>
+        <childnode refid="394" relation="include">
+        </childnode>
+      </node>
+      <node id="379">
+        <label>libraries/plugins/debug_node/debug_node_plugin.cpp</label>
+        <link refid="debug__node__plugin_8cpp"/>
+      </node>
+      <node id="381">
+        <label>libraries/plugins/debug_node/debug_node_api.cpp</label>
+        <link refid="debug__node__api_8cpp"/>
+      </node>
+      <node id="378">
+        <label>libraries/plugins/blockchain_statistics/blockchain_statistics_plugin.cpp</label>
+        <link refid="blockchain__statistics__plugin_8cpp"/>
+      </node>
+      <node id="391">
+        <label>libraries/wallet/wallet.cpp</label>
+        <link refid="wallet_8cpp"/>
+      </node>
+      <node id="368">
+        <label>libraries/plugins/account_statistics/account_statistics_plugin.cpp</label>
+        <link refid="account__statistics__plugin_8cpp"/>
+      </node>
+      <node id="361">
+        <label>libraries/plugins/account_by_key/include/steemit/account_by_key/account_by_key_plugin.hpp</label>
+        <link refid="account__by__key__plugin_8hpp"/>
+        <childnode refid="362" relation="include">
+        </childnode>
+      </node>
+      <node id="398">
+        <label>libraries/plugins/follow/follow_operations.cpp</label>
+        <link refid="follow__operations_8cpp"/>
+      </node>
+      <node id="402">
+        <label>libraries/plugins/market_history/market_history_plugin.cpp</label>
+        <link refid="market__history__plugin_8cpp"/>
+      </node>
+      <node id="359">
+        <label>libraries/app/include/steemit/app/plugin.hpp</label>
+        <link refid="plugin_8hpp"/>
+        <childnode refid="360" relation="include">
+        </childnode>
+        <childnode refid="361" relation="include">
+        </childnode>
+        <childnode refid="363" relation="include">
+        </childnode>
+        <childnode refid="365" relation="include">
+        </childnode>
+        <childnode refid="369" relation="include">
+        </childnode>
+        <childnode refid="372" relation="include">
+        </childnode>
+        <childnode refid="375" relation="include">
+        </childnode>
+        <childnode refid="379" relation="include">
+        </childnode>
+        <childnode refid="380" relation="include">
+        </childnode>
+        <childnode refid="382" relation="include">
+        </childnode>
+        <childnode refid="384" relation="include">
+        </childnode>
+        <childnode refid="399" relation="include">
+        </childnode>
+        <childnode refid="403" relation="include">
+        </childnode>
+        <childnode refid="406" relation="include">
+        </childnode>
+        <childnode refid="409" relation="include">
+        </childnode>
+        <childnode refid="413" relation="include">
+        </childnode>
+      </node>
+      <node id="367">
+        <label>libraries/plugins/account_statistics/account_statistics_api.cpp</label>
+        <link refid="account__statistics__api_8cpp"/>
+      </node>
+      <node id="386">
+        <label>libraries/app/include/steemit/app/api.hpp</label>
+        <link refid="api_8hpp"/>
+        <childnode refid="387" relation="include">
+        </childnode>
+        <childnode refid="388" relation="include">
+        </childnode>
+        <childnode refid="389" relation="include">
+        </childnode>
+        <childnode refid="391" relation="include">
+        </childnode>
+        <childnode refid="383" relation="include">
+        </childnode>
+      </node>
+      <node id="373">
+        <label>libraries/plugins/block_info/block_info_api.cpp</label>
+        <link refid="block__info__api_8cpp"/>
+      </node>
+      <node id="387">
+        <label>libraries/app/api.cpp</label>
+        <link refid="api_8cpp"/>
+      </node>
+      <node id="413">
+        <label>libraries/plugins/witness/include/steemit/witness/witness.hpp</label>
+        <link refid="witness_8hpp"/>
+        <childnode refid="414" relation="include">
+        </childnode>
+      </node>
+      <node id="401">
+        <label>libraries/plugins/market_history/market_history_api.cpp</label>
+        <link refid="market__history__api_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structsteemit_1_1app_1_1api__access__info" prot="public">steemit::app::api_access_info</innerclass>
+    <innerclass refid="structsteemit_1_1app_1_1api__access" prot="public">steemit::app::api_access</innerclass>
+    <innernamespace refid="namespacesteemit">steemit</innernamespace>
+    <innernamespace refid="namespacesteemit_1_1app">steemit::app</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/app/include/steemit/app/api_access.hpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_7ed717ae7f57a97701dd807ed06c8545" kind="dir">
+    <compoundname>libraries/plugins/debug_node</compoundname>
+    <innerdir refid="dir_c5cf6dd29e6b361f902f9ea1208be1a8">libraries/plugins/debug_node/include</innerdir>
+    <innerfile refid="debug__node__api_8cpp">debug_node_api.cpp</innerfile>
+    <innerfile refid="debug__node__plugin_8cpp">debug_node_plugin.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/debug_node/"/>
+  </compounddef>
+</doxygen>

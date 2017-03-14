@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacesteemit_1_1plugin_1_1raw__block" kind="namespace" language="C++">
+    <compoundname>steemit::plugin::raw_block</compoundname>
+    <innerclass refid="structsteemit_1_1plugin_1_1raw__block_1_1get__raw__block__args" prot="public">steemit::plugin::raw_block::get_raw_block_args</innerclass>
+    <innerclass refid="structsteemit_1_1plugin_1_1raw__block_1_1get__raw__block__result" prot="public">steemit::plugin::raw_block::get_raw_block_result</innerclass>
+    <innerclass refid="classsteemit_1_1plugin_1_1raw__block_1_1raw__block__api" prot="public">steemit::plugin::raw_block::raw_block_api</innerclass>
+    <innerclass refid="classsteemit_1_1plugin_1_1raw__block_1_1raw__block__plugin" prot="public">steemit::plugin::raw_block::raw_block_plugin</innerclass>
+    <innernamespace refid="namespacesteemit_1_1plugin_1_1raw__block_1_1detail">steemit::plugin::raw_block::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/raw_block/include/steemit/plugins/raw_block/raw_block_api.hpp" line="16" column="1"/>
+  </compounddef>
+</doxygen>

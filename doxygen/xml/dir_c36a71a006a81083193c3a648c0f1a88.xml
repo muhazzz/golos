@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_c36a71a006a81083193c3a648c0f1a88" kind="dir">
+    <compoundname>libraries/plugins/tags</compoundname>
+    <innerdir refid="dir_a0ea690f618bbec47c509dcc59bc6755">libraries/plugins/tags/include</innerdir>
+    <innerfile refid="tags__plugin_8cpp">tags_plugin.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/tags/"/>
+  </compounddef>
+</doxygen>

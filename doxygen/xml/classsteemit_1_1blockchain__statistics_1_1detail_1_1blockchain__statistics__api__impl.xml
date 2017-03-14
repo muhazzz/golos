@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsteemit_1_1blockchain__statistics_1_1detail_1_1blockchain__statistics__api__impl" kind="class" language="C++" prot="public">
+    <compoundname>steemit::blockchain_statistics::detail::blockchain_statistics_api_impl</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsteemit_1_1blockchain__statistics_1_1detail_1_1blockchain__statistics__api__impl_1a932ef0787f9541f3d09943f7fde95a60" prot="public" static="no" mutable="no">
+        <type><ref refid="classsteemit_1_1app_1_1application" kindref="compound">steemit::app::application</ref> &amp;</type>
+        <definition>steemit::app::application&amp; steemit::blockchain_statistics::detail::blockchain_statistics_api_impl::_app</definition>
+        <argsstring></argsstring>
+        <name>_app</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/blockchain_statistics/blockchain_statistics_api.cpp" line="19" column="1" bodyfile="libraries/plugins/blockchain_statistics/blockchain_statistics_api.cpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsteemit_1_1blockchain__statistics_1_1detail_1_1blockchain__statistics__api__impl_1a652eb4ff0f125f5ee3961f477020df8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::blockchain_statistics::detail::blockchain_statistics_api_impl::blockchain_statistics_api_impl</definition>
+        <argsstring>(steemit::app::application &amp;app)</argsstring>
+        <name>blockchain_statistics_api_impl</name>
+        <param>
+          <type><ref refid="classsteemit_1_1app_1_1application" kindref="compound">steemit::app::application</ref> &amp;</type>
+          <declname>app</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/blockchain_statistics/blockchain_statistics_api.cpp" line="9" column="1" bodyfile="libraries/plugins/blockchain_statistics/blockchain_statistics_api.cpp" bodystart="9" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1blockchain__statistics_1_1detail_1_1blockchain__statistics__api__impl_1a912eac7b05c6bd4a8b7a7cb04499deb4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structsteemit_1_1blockchain__statistics_1_1statistics" kindref="compound">statistics</ref></type>
+        <definition>statistics steemit::blockchain_statistics::detail::blockchain_statistics_api_impl::get_stats_for_time</definition>
+        <argsstring>(fc::time_point_sec open, uint32_t interval) const</argsstring>
+        <name>get_stats_for_time</name>
+        <param>
+          <type>fc::time_point_sec</type>
+          <declname>open</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>interval</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/blockchain_statistics/blockchain_statistics_api.cpp" line="13" column="1" bodyfile="libraries/plugins/blockchain_statistics/blockchain_statistics_api.cpp" bodystart="22" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1blockchain__statistics_1_1detail_1_1blockchain__statistics__api__impl_1af2288765097ad1d7aedadadded0609ff" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structsteemit_1_1blockchain__statistics_1_1statistics" kindref="compound">statistics</ref></type>
+        <definition>statistics steemit::blockchain_statistics::detail::blockchain_statistics_api_impl::get_stats_for_interval</definition>
+        <argsstring>(fc::time_point_sec start, fc::time_point_sec end) const</argsstring>
+        <name>get_stats_for_interval</name>
+        <param>
+          <type>fc::time_point_sec</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>fc::time_point_sec</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/blockchain_statistics/blockchain_statistics_api.cpp" line="15" column="1" bodyfile="libraries/plugins/blockchain_statistics/blockchain_statistics_api.cpp" bodystart="34" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1blockchain__statistics_1_1detail_1_1blockchain__statistics__api__impl_1a1b562855d714897bce752c0f1a5b9932" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structsteemit_1_1blockchain__statistics_1_1statistics" kindref="compound">statistics</ref></type>
+        <definition>statistics steemit::blockchain_statistics::detail::blockchain_statistics_api_impl::get_lifetime_stats</definition>
+        <argsstring>() const</argsstring>
+        <name>get_lifetime_stats</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/blockchain_statistics/blockchain_statistics_api.cpp" line="17" column="1" bodyfile="libraries/plugins/blockchain_statistics/blockchain_statistics_api.cpp" bodystart="61" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="233">
+        <label>steemit::blockchain_statistics::detail::blockchain_statistics_api_impl</label>
+        <link refid="classsteemit_1_1blockchain__statistics_1_1detail_1_1blockchain__statistics__api__impl"/>
+        <childnode refid="234" relation="usage">
+          <edgelabel>_app</edgelabel>
+        </childnode>
+      </node>
+      <node id="234">
+        <label>steemit::app::application</label>
+        <link refid="classsteemit_1_1app_1_1application"/>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/blockchain_statistics/blockchain_statistics_api.cpp" line="7" column="1" bodyfile="libraries/plugins/blockchain_statistics/blockchain_statistics_api.cpp" bodystart="7" bodyend="20"/>
+    <listofallmembers>
+      <member refid="classsteemit_1_1blockchain__statistics_1_1detail_1_1blockchain__statistics__api__impl_1a932ef0787f9541f3d09943f7fde95a60" prot="public" virt="non-virtual"><scope>steemit::blockchain_statistics::detail::blockchain_statistics_api_impl</scope><name>_app</name></member>
+      <member refid="classsteemit_1_1blockchain__statistics_1_1detail_1_1blockchain__statistics__api__impl_1a652eb4ff0f125f5ee3961f477020df8c" prot="public" virt="non-virtual"><scope>steemit::blockchain_statistics::detail::blockchain_statistics_api_impl</scope><name>blockchain_statistics_api_impl</name></member>
+      <member refid="classsteemit_1_1blockchain__statistics_1_1detail_1_1blockchain__statistics__api__impl_1a1b562855d714897bce752c0f1a5b9932" prot="public" virt="non-virtual"><scope>steemit::blockchain_statistics::detail::blockchain_statistics_api_impl</scope><name>get_lifetime_stats</name></member>
+      <member refid="classsteemit_1_1blockchain__statistics_1_1detail_1_1blockchain__statistics__api__impl_1af2288765097ad1d7aedadadded0609ff" prot="public" virt="non-virtual"><scope>steemit::blockchain_statistics::detail::blockchain_statistics_api_impl</scope><name>get_stats_for_interval</name></member>
+      <member refid="classsteemit_1_1blockchain__statistics_1_1detail_1_1blockchain__statistics__api__impl_1a912eac7b05c6bd4a8b7a7cb04499deb4" prot="public" virt="non-virtual"><scope>steemit::blockchain_statistics::detail::blockchain_statistics_api_impl</scope><name>get_stats_for_time</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

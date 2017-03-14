@@ -1,0 +1,525 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::account_history::detail::operation_visitor_filter</compoundname>
+    <basecompoundref refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor" prot="public" virt="non-virtual">steemit::account_history::detail::operation_visitor</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a50319b146e36ccc393fd440e6200b7ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::account_history::detail::operation_visitor_filter::operation_visitor_filter</definition>
+        <argsstring>(database &amp;db, const operation_notification &amp;note, const operation_object *&amp;n, string i)</argsstring>
+        <name>operation_visitor_filter</name>
+        <param>
+          <type><ref refid="classsteemit_1_1chain_1_1database" kindref="compound">database</ref> &amp;</type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structsteemit_1_1chain_1_1operation__notification" kindref="compound">operation_notification</ref> &amp;</type>
+          <declname>note</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classsteemit_1_1chain_1_1operation__object" kindref="compound">operation_object</ref> *&amp;</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_history/account_history_plugin.cpp" line="92" column="1" bodyfile="libraries/plugins/account_history/account_history_plugin.cpp" bodystart="92" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1aa886b81c26bd040029b05876fadef28a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::account_history::detail::operation_visitor_filter::operator()</definition>
+        <argsstring>(const comment_operation &amp;) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const comment_operation &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_history/account_history_plugin.cpp" line="96" column="1" bodyfile="libraries/plugins/account_history/account_history_plugin.cpp" bodystart="96" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a397d15a838bf000ca46068164f1fa30b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::account_history::detail::operation_visitor_filter::operator()</definition>
+        <argsstring>(const vote_operation &amp;) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const vote_operation &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_history/account_history_plugin.cpp" line="99" column="1" bodyfile="libraries/plugins/account_history/account_history_plugin.cpp" bodystart="99" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a6dbf2f31209ae2d9a236de957b89d3d3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::account_history::detail::operation_visitor_filter::operator()</definition>
+        <argsstring>(const delete_comment_operation &amp;) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const delete_comment_operation &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_history/account_history_plugin.cpp" line="102" column="1" bodyfile="libraries/plugins/account_history/account_history_plugin.cpp" bodystart="102" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a2dbfbefef0237cae09707696848930ec" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::account_history::detail::operation_visitor_filter::operator()</definition>
+        <argsstring>(const custom_json_operation &amp;) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const custom_json_operation &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_history/account_history_plugin.cpp" line="105" column="1" bodyfile="libraries/plugins/account_history/account_history_plugin.cpp" bodystart="105" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a76c7450ecc4ca5c79436d0c95da02c99" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::account_history::detail::operation_visitor_filter::operator()</definition>
+        <argsstring>(const custom_operation &amp;) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const custom_operation &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_history/account_history_plugin.cpp" line="108" column="1" bodyfile="libraries/plugins/account_history/account_history_plugin.cpp" bodystart="108" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a1db119cc67c53bdbd9462c280c2c6f8e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::account_history::detail::operation_visitor_filter::operator()</definition>
+        <argsstring>(const curation_reward_operation &amp;) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const curation_reward_operation &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_history/account_history_plugin.cpp" line="111" column="1" bodyfile="libraries/plugins/account_history/account_history_plugin.cpp" bodystart="111" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1ac019889efc94874d3b85eabe63589091" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::account_history::detail::operation_visitor_filter::operator()</definition>
+        <argsstring>(const fill_order_operation &amp;) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const fill_order_operation &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_history/account_history_plugin.cpp" line="114" column="1" bodyfile="libraries/plugins/account_history/account_history_plugin.cpp" bodystart="114" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a699faf4d5d48a4af2ac9db45202602d6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::account_history::detail::operation_visitor_filter::operator()</definition>
+        <argsstring>(const limit_order_create_operation &amp;) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const limit_order_create_operation &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_history/account_history_plugin.cpp" line="117" column="1" bodyfile="libraries/plugins/account_history/account_history_plugin.cpp" bodystart="117" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a0eb03c300cf4d9e10366246dd62f59ab" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::account_history::detail::operation_visitor_filter::operator()</definition>
+        <argsstring>(const limit_order_cancel_operation &amp;) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const limit_order_cancel_operation &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_history/account_history_plugin.cpp" line="120" column="1" bodyfile="libraries/plugins/account_history/account_history_plugin.cpp" bodystart="120" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a2617957823a79a129f178050bb36e975" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::account_history::detail::operation_visitor_filter::operator()</definition>
+        <argsstring>(const pow_operation &amp;) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const pow_operation &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_history/account_history_plugin.cpp" line="123" column="1" bodyfile="libraries/plugins/account_history/account_history_plugin.cpp" bodystart="123" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a9b446377ce9756538222507b83dd0c8c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::account_history::detail::operation_visitor_filter::operator()</definition>
+        <argsstring>(const transfer_operation &amp;op) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const transfer_operation &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_history/account_history_plugin.cpp" line="126" column="1" bodyfile="libraries/plugins/account_history/account_history_plugin.cpp" bodystart="126" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1aba8e606f53fcd2b4830a744361396541" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::account_history::detail::operation_visitor_filter::operator()</definition>
+        <argsstring>(const transfer_to_vesting_operation &amp;op) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const transfer_to_vesting_operation &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_history/account_history_plugin.cpp" line="130" column="1" bodyfile="libraries/plugins/account_history/account_history_plugin.cpp" bodystart="130" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a56fc8348e95b16a149abf4e1a907732c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::account_history::detail::operation_visitor_filter::operator()</definition>
+        <argsstring>(const account_create_operation &amp;op) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const account_create_operation &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_history/account_history_plugin.cpp" line="134" column="1" bodyfile="libraries/plugins/account_history/account_history_plugin.cpp" bodystart="134" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a13273cede0b3d94b08852790cdabb96d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::account_history::detail::operation_visitor_filter::operator()</definition>
+        <argsstring>(const account_update_operation &amp;op) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const account_update_operation &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_history/account_history_plugin.cpp" line="138" column="1" bodyfile="libraries/plugins/account_history/account_history_plugin.cpp" bodystart="138" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a16407ff73a5b9a86eb42e5080b416798" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::account_history::detail::operation_visitor_filter::operator()</definition>
+        <argsstring>(const transfer_to_savings_operation &amp;op) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const transfer_to_savings_operation &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_history/account_history_plugin.cpp" line="142" column="1" bodyfile="libraries/plugins/account_history/account_history_plugin.cpp" bodystart="142" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1ab541b6c42b413d3dbeab9d1039517bdf" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::account_history::detail::operation_visitor_filter::operator()</definition>
+        <argsstring>(const transfer_from_savings_operation &amp;op) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const transfer_from_savings_operation &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_history/account_history_plugin.cpp" line="146" column="1" bodyfile="libraries/plugins/account_history/account_history_plugin.cpp" bodystart="146" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1acd79ef517e76ff0c0154add98809ddee" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::account_history::detail::operation_visitor_filter::operator()</definition>
+        <argsstring>(const cancel_transfer_from_savings_operation &amp;op) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const cancel_transfer_from_savings_operation &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_history/account_history_plugin.cpp" line="150" column="1" bodyfile="libraries/plugins/account_history/account_history_plugin.cpp" bodystart="150" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a4061154b0abfc6e4a234ce171e6f5f62" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::account_history::detail::operation_visitor_filter::operator()</definition>
+        <argsstring>(const escrow_transfer_operation &amp;op) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const escrow_transfer_operation &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_history/account_history_plugin.cpp" line="154" column="1" bodyfile="libraries/plugins/account_history/account_history_plugin.cpp" bodystart="154" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1aea47f2500f995b68056be7e3b2e4dbd7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::account_history::detail::operation_visitor_filter::operator()</definition>
+        <argsstring>(const escrow_dispute_operation &amp;op) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const escrow_dispute_operation &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_history/account_history_plugin.cpp" line="158" column="1" bodyfile="libraries/plugins/account_history/account_history_plugin.cpp" bodystart="158" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1afb4134588ba0909e2d06d94091b38b55" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::account_history::detail::operation_visitor_filter::operator()</definition>
+        <argsstring>(const escrow_release_operation &amp;op) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const escrow_release_operation &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_history/account_history_plugin.cpp" line="162" column="1" bodyfile="libraries/plugins/account_history/account_history_plugin.cpp" bodystart="162" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a429bb37cbf6c46b13b016c3e2418f8d2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::account_history::detail::operation_visitor_filter::operator()</definition>
+        <argsstring>(const escrow_approve_operation &amp;op) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const escrow_approve_operation &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_history/account_history_plugin.cpp" line="166" column="1" bodyfile="libraries/plugins/account_history/account_history_plugin.cpp" bodystart="166" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1ae3e8214b645c435d8e6897f424206b3b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Op</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void steemit::account_history::detail::operation_visitor_filter::operator()</definition>
+        <argsstring>(Op &amp;&amp;op) const</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>Op &amp;&amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_history/account_history_plugin.cpp" line="171" column="1" bodyfile="libraries/plugins/account_history/account_history_plugin.cpp" bodystart="171" bodyend="172"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="776">
+        <label>steemit::account_history::detail::operation_visitor_filter</label>
+        <link refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter"/>
+        <childnode refid="777" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="777">
+        <label>steemit::account_history::detail::operation_visitor</label>
+        <link refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="787">
+        <label>time_point_sec</label>
+      </node>
+      <node id="783">
+        <label>steemit::chain::database</label>
+        <link refid="classsteemit_1_1chain_1_1database"/>
+        <childnode refid="784" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="788">
+        <label>string</label>
+      </node>
+      <node id="780">
+        <label>steemit::chain::operation_notification</label>
+        <link refid="structsteemit_1_1chain_1_1operation__notification"/>
+        <childnode refid="781" relation="usage">
+          <edgelabel>op</edgelabel>
+        </childnode>
+        <childnode refid="782" relation="usage">
+          <edgelabel>trx_id</edgelabel>
+        </childnode>
+      </node>
+      <node id="784">
+        <label>chainbase::database</label>
+      </node>
+      <node id="778">
+        <label>steemit::account_history::detail::operation_visitor_filter</label>
+        <link refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter"/>
+        <childnode refid="779" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="782">
+        <label>transaction_id_type</label>
+      </node>
+      <node id="779">
+        <label>steemit::account_history::detail::operation_visitor</label>
+        <link refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor"/>
+        <childnode refid="780" relation="usage">
+          <edgelabel>_note</edgelabel>
+        </childnode>
+        <childnode refid="783" relation="usage">
+          <edgelabel>_db</edgelabel>
+        </childnode>
+        <childnode refid="785" relation="usage">
+          <edgelabel>new_obj</edgelabel>
+        </childnode>
+        <childnode refid="788" relation="usage">
+          <edgelabel>item</edgelabel>
+        </childnode>
+      </node>
+      <node id="781">
+        <label>operation</label>
+      </node>
+      <node id="786">
+        <label>chainbase::object&lt; operation_object_type, operation_object &gt;</label>
+      </node>
+      <node id="785">
+        <label>steemit::chain::operation_object</label>
+        <link refid="classsteemit_1_1chain_1_1operation__object"/>
+        <childnode refid="786" relation="public-inheritance">
+        </childnode>
+        <childnode refid="787" relation="usage">
+          <edgelabel>timestamp</edgelabel>
+        </childnode>
+        <childnode refid="782" relation="usage">
+          <edgelabel>trx_id</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/account_history/account_history_plugin.cpp" line="91" column="1" bodyfile="libraries/plugins/account_history/account_history_plugin.cpp" bodystart="91" bodyend="173"/>
+    <listofallmembers>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor_1ac5af7ea327457e2c3d96be2c1fe66e08" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>_db</name></member>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor_1a1b73dd2341e5f8336114be21aadf3ffb" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>_note</name></member>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor_1a2e8c002e9d2946b88b561c793f4b5261" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>item</name></member>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor_1aba80b0b44c08a1b0e6f890d119634991" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>new_obj</name></member>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor_1a00c5c3cb6822dab8df48a2f8ced326c5" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>operation_visitor</name></member>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a50319b146e36ccc393fd440e6200b7ed" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>operation_visitor_filter</name></member>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1aa886b81c26bd040029b05876fadef28a" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a397d15a838bf000ca46068164f1fa30b" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a6dbf2f31209ae2d9a236de957b89d3d3" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a2dbfbefef0237cae09707696848930ec" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a76c7450ecc4ca5c79436d0c95da02c99" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a1db119cc67c53bdbd9462c280c2c6f8e" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1ac019889efc94874d3b85eabe63589091" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a699faf4d5d48a4af2ac9db45202602d6" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a0eb03c300cf4d9e10366246dd62f59ab" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a2617957823a79a129f178050bb36e975" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a9b446377ce9756538222507b83dd0c8c" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1aba8e606f53fcd2b4830a744361396541" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a56fc8348e95b16a149abf4e1a907732c" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a13273cede0b3d94b08852790cdabb96d" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a16407ff73a5b9a86eb42e5080b416798" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1ab541b6c42b413d3dbeab9d1039517bdf" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1acd79ef517e76ff0c0154add98809ddee" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a4061154b0abfc6e4a234ce171e6f5f62" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1aea47f2500f995b68056be7e3b2e4dbd7" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1afb4134588ba0909e2d06d94091b38b55" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1a429bb37cbf6c46b13b016c3e2418f8d2" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor__filter_1ae3e8214b645c435d8e6897f424206b3b" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>operator()</name></member>
+      <member refid="structsteemit_1_1account__history_1_1detail_1_1operation__visitor_1aeee5be2f680bffae1cbd258d39c2345c" prot="public" virt="non-virtual"><scope>steemit::account_history::detail::operation_visitor_filter</scope><name>result_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

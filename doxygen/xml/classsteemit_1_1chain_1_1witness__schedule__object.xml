@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsteemit_1_1chain_1_1witness__schedule__object" kind="class" language="C++" prot="public">
+    <compoundname>steemit::chain::witness_schedule_object</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">chainbase::object&lt; witness_schedule_object_type, witness_schedule_object &gt;</basecompoundref>
+    <includes refid="witness__objects_8hpp" local="no">witness_objects.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1witness__schedule__object_1adf07f44b2d82f48feb120e2bac94281b" prot="public" static="no" mutable="no">
+        <type>id_type</type>
+        <definition>id_type steemit::chain::witness_schedule_object::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/witness_objects.hpp" line="149" column="1" bodyfile="libraries/chain/include/steemit/chain/witness_objects.hpp" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1witness__schedule__object_1a0f7df0cab88ec7455a69fe6e8447746a" prot="public" static="no" mutable="no">
+        <type>fc::uint128</type>
+        <definition>fc::uint128 steemit::chain::witness_schedule_object::current_virtual_time</definition>
+        <argsstring></argsstring>
+        <name>current_virtual_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/witness_objects.hpp" line="151" column="1" bodyfile="libraries/chain/include/steemit/chain/witness_objects.hpp" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1witness__schedule__object_1a4f4d5b07b6c5ff72bc18adddcdeb6130" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::chain::witness_schedule_object::next_shuffle_block_num</definition>
+        <argsstring></argsstring>
+        <name>next_shuffle_block_num</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/witness_objects.hpp" line="152" column="1" bodyfile="libraries/chain/include/steemit/chain/witness_objects.hpp" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1witness__schedule__object_1aef04926d9c3dbf238a975a6ccc9544ed" prot="public" static="no" mutable="no">
+        <type>fc::array&lt; account_name_type, STEEMIT_MAX_WITNESSES &gt;</type>
+        <definition>fc::array&lt;account_name_type, STEEMIT_MAX_WITNESSES&gt; steemit::chain::witness_schedule_object::current_shuffled_witnesses</definition>
+        <argsstring></argsstring>
+        <name>current_shuffled_witnesses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/witness_objects.hpp" line="153" column="1" bodyfile="libraries/chain/include/steemit/chain/witness_objects.hpp" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1witness__schedule__object_1a2e0314020bfd58e5269a4e03fbb1e1a1" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t steemit::chain::witness_schedule_object::num_scheduled_witnesses</definition>
+        <argsstring></argsstring>
+        <name>num_scheduled_witnesses</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/witness_objects.hpp" line="154" column="1" bodyfile="libraries/chain/include/steemit/chain/witness_objects.hpp" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1witness__schedule__object_1ab25aa5e932993551f7042cfe6857f4f3" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t steemit::chain::witness_schedule_object::top19_weight</definition>
+        <argsstring></argsstring>
+        <name>top19_weight</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/witness_objects.hpp" line="155" column="1" bodyfile="libraries/chain/include/steemit/chain/witness_objects.hpp" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1witness__schedule__object_1a40a8749b6463004c19efb6df0c2d4f9a" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t steemit::chain::witness_schedule_object::timeshare_weight</definition>
+        <argsstring></argsstring>
+        <name>timeshare_weight</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/witness_objects.hpp" line="156" column="1" bodyfile="libraries/chain/include/steemit/chain/witness_objects.hpp" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1witness__schedule__object_1a9707f51009b89253d3c8bb34fe60b946" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t steemit::chain::witness_schedule_object::miner_weight</definition>
+        <argsstring></argsstring>
+        <name>miner_weight</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/witness_objects.hpp" line="157" column="1" bodyfile="libraries/chain/include/steemit/chain/witness_objects.hpp" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1witness__schedule__object_1a8a8ee1358a43d4f073691ad12342b8f5" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::chain::witness_schedule_object::witness_pay_normalization_factor</definition>
+        <argsstring></argsstring>
+        <name>witness_pay_normalization_factor</name>
+        <initializer>= 25</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/witness_objects.hpp" line="158" column="1" bodyfile="libraries/chain/include/steemit/chain/witness_objects.hpp" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1witness__schedule__object_1ada18f0815c0e2e9cc1f5674e38e52331" prot="public" static="no" mutable="no">
+        <type>chain_properties</type>
+        <definition>chain_properties steemit::chain::witness_schedule_object::median_props</definition>
+        <argsstring></argsstring>
+        <name>median_props</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/witness_objects.hpp" line="159" column="1" bodyfile="libraries/chain/include/steemit/chain/witness_objects.hpp" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1witness__schedule__object_1a81d371286edba3f9208565ed5727a412" prot="public" static="no" mutable="no">
+        <type>version</type>
+        <definition>version steemit::chain::witness_schedule_object::majority_version</definition>
+        <argsstring></argsstring>
+        <name>majority_version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/witness_objects.hpp" line="160" column="1" bodyfile="libraries/chain/include/steemit/chain/witness_objects.hpp" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1witness__schedule__object_1a1a852948cc6f2bf924c31c9874ea8120" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Constructor</type>
+          </param>
+          <param>
+            <type>typename Allocator</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>steemit::chain::witness_schedule_object::witness_schedule_object</definition>
+        <argsstring>(Constructor &amp;&amp;c, allocator&lt; Allocator &gt; a)</argsstring>
+        <name>witness_schedule_object</name>
+        <param>
+          <type>Constructor &amp;&amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>allocator&lt; Allocator &gt;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/witness_objects.hpp" line="142" column="1" bodyfile="libraries/chain/include/steemit/chain/witness_objects.hpp" bodystart="142" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1witness__schedule__object_1a4f868dc60398e7c05787b1ff3e01b5de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::chain::witness_schedule_object::witness_schedule_object</definition>
+        <argsstring>()</argsstring>
+        <name>witness_schedule_object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/witness_objects.hpp" line="146" column="1" bodyfile="libraries/chain/include/steemit/chain/witness_objects.hpp" bodystart="146" bodyend="147"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1108">
+        <label>chainbase::object&lt; witness_schedule_object_type, witness_schedule_object &gt;</label>
+      </node>
+      <node id="1107">
+        <label>steemit::chain::witness_schedule_object</label>
+        <link refid="classsteemit_1_1chain_1_1witness__schedule__object"/>
+        <childnode refid="1108" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1112">
+        <label>chain_properties</label>
+      </node>
+      <node id="1111">
+        <label>version</label>
+      </node>
+      <node id="1110">
+        <label>chainbase::object&lt; witness_schedule_object_type, witness_schedule_object &gt;</label>
+      </node>
+      <node id="1109">
+        <label>steemit::chain::witness_schedule_object</label>
+        <link refid="classsteemit_1_1chain_1_1witness__schedule__object"/>
+        <childnode refid="1110" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1111" relation="usage">
+          <edgelabel>majority_version</edgelabel>
+        </childnode>
+        <childnode refid="1112" relation="usage">
+          <edgelabel>median_props</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/chain/include/steemit/chain/witness_objects.hpp" line="139" column="1" bodyfile="libraries/chain/include/steemit/chain/witness_objects.hpp" bodystart="138" bodyend="161"/>
+    <listofallmembers>
+      <member refid="classsteemit_1_1chain_1_1witness__schedule__object_1aef04926d9c3dbf238a975a6ccc9544ed" prot="public" virt="non-virtual"><scope>steemit::chain::witness_schedule_object</scope><name>current_shuffled_witnesses</name></member>
+      <member refid="classsteemit_1_1chain_1_1witness__schedule__object_1a0f7df0cab88ec7455a69fe6e8447746a" prot="public" virt="non-virtual"><scope>steemit::chain::witness_schedule_object</scope><name>current_virtual_time</name></member>
+      <member refid="classsteemit_1_1chain_1_1witness__schedule__object_1adf07f44b2d82f48feb120e2bac94281b" prot="public" virt="non-virtual"><scope>steemit::chain::witness_schedule_object</scope><name>id</name></member>
+      <member refid="classsteemit_1_1chain_1_1witness__schedule__object_1a81d371286edba3f9208565ed5727a412" prot="public" virt="non-virtual"><scope>steemit::chain::witness_schedule_object</scope><name>majority_version</name></member>
+      <member refid="classsteemit_1_1chain_1_1witness__schedule__object_1ada18f0815c0e2e9cc1f5674e38e52331" prot="public" virt="non-virtual"><scope>steemit::chain::witness_schedule_object</scope><name>median_props</name></member>
+      <member refid="classsteemit_1_1chain_1_1witness__schedule__object_1a9707f51009b89253d3c8bb34fe60b946" prot="public" virt="non-virtual"><scope>steemit::chain::witness_schedule_object</scope><name>miner_weight</name></member>
+      <member refid="classsteemit_1_1chain_1_1witness__schedule__object_1a4f4d5b07b6c5ff72bc18adddcdeb6130" prot="public" virt="non-virtual"><scope>steemit::chain::witness_schedule_object</scope><name>next_shuffle_block_num</name></member>
+      <member refid="classsteemit_1_1chain_1_1witness__schedule__object_1a2e0314020bfd58e5269a4e03fbb1e1a1" prot="public" virt="non-virtual"><scope>steemit::chain::witness_schedule_object</scope><name>num_scheduled_witnesses</name></member>
+      <member refid="classsteemit_1_1chain_1_1witness__schedule__object_1a40a8749b6463004c19efb6df0c2d4f9a" prot="public" virt="non-virtual"><scope>steemit::chain::witness_schedule_object</scope><name>timeshare_weight</name></member>
+      <member refid="classsteemit_1_1chain_1_1witness__schedule__object_1ab25aa5e932993551f7042cfe6857f4f3" prot="public" virt="non-virtual"><scope>steemit::chain::witness_schedule_object</scope><name>top19_weight</name></member>
+      <member refid="classsteemit_1_1chain_1_1witness__schedule__object_1a8a8ee1358a43d4f073691ad12342b8f5" prot="public" virt="non-virtual"><scope>steemit::chain::witness_schedule_object</scope><name>witness_pay_normalization_factor</name></member>
+      <member refid="classsteemit_1_1chain_1_1witness__schedule__object_1a1a852948cc6f2bf924c31c9874ea8120" prot="public" virt="non-virtual"><scope>steemit::chain::witness_schedule_object</scope><name>witness_schedule_object</name></member>
+      <member refid="classsteemit_1_1chain_1_1witness__schedule__object_1a4f868dc60398e7c05787b1ff3e01b5de" prot="public" virt="non-virtual"><scope>steemit::chain::witness_schedule_object</scope><name>witness_schedule_object</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

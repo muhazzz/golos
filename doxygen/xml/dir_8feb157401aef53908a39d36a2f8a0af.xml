@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_8feb157401aef53908a39d36a2f8a0af" kind="dir">
+    <compoundname>libraries/plugins/blockchain_statistics/include/steemit</compoundname>
+    <innerdir refid="dir_abcb809831679a9fd44430125ed8968a">libraries/plugins/blockchain_statistics/include/steemit/blockchain_statistics</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/blockchain_statistics/include/steemit/"/>
+  </compounddef>
+</doxygen>

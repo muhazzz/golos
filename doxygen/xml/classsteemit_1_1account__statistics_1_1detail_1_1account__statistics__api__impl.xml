@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsteemit_1_1account__statistics_1_1detail_1_1account__statistics__api__impl" kind="class" language="C++" prot="public">
+    <compoundname>steemit::account_statistics::detail::account_statistics_api_impl</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsteemit_1_1account__statistics_1_1detail_1_1account__statistics__api__impl_1a4b70a3ba9fc66fd3566bc470846958f1" prot="public" static="no" mutable="no">
+        <type><ref refid="classsteemit_1_1app_1_1application" kindref="compound">steemit::app::application</ref> &amp;</type>
+        <definition>steemit::app::application&amp; steemit::account_statistics::detail::account_statistics_api_impl::_app</definition>
+        <argsstring></argsstring>
+        <name>_app</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/account_statistics_api.cpp" line="13" column="1" bodyfile="libraries/plugins/account_statistics/account_statistics_api.cpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsteemit_1_1account__statistics_1_1detail_1_1account__statistics__api__impl_1abcd1417038688519fa06e3ab27d54a55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::account_statistics::detail::account_statistics_api_impl::account_statistics_api_impl</definition>
+        <argsstring>(steemit::app::application &amp;app)</argsstring>
+        <name>account_statistics_api_impl</name>
+        <param>
+          <type><ref refid="classsteemit_1_1app_1_1application" kindref="compound">steemit::app::application</ref> &amp;</type>
+          <declname>app</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/account_statistics_api.cpp" line="9" column="1" bodyfile="libraries/plugins/account_statistics/account_statistics_api.cpp" bodystart="9" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="123">
+        <label>steemit::app::application</label>
+        <link refid="classsteemit_1_1app_1_1application"/>
+      </node>
+      <node id="122">
+        <label>steemit::account_statistics::detail::account_statistics_api_impl</label>
+        <link refid="classsteemit_1_1account__statistics_1_1detail_1_1account__statistics__api__impl"/>
+        <childnode refid="123" relation="usage">
+          <edgelabel>_app</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/account_statistics/account_statistics_api.cpp" line="7" column="1" bodyfile="libraries/plugins/account_statistics/account_statistics_api.cpp" bodystart="7" bodyend="14"/>
+    <listofallmembers>
+      <member refid="classsteemit_1_1account__statistics_1_1detail_1_1account__statistics__api__impl_1a4b70a3ba9fc66fd3566bc470846958f1" prot="public" virt="non-virtual"><scope>steemit::account_statistics::detail::account_statistics_api_impl</scope><name>_app</name></member>
+      <member refid="classsteemit_1_1account__statistics_1_1detail_1_1account__statistics__api__impl_1abcd1417038688519fa06e3ab27d54a55" prot="public" virt="non-virtual"><scope>steemit::account_statistics::detail::account_statistics_api_impl</scope><name>account_statistics_api_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

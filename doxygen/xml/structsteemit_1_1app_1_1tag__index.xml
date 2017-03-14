@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structsteemit_1_1app_1_1tag__index" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::app::tag_index</compoundname>
+    <includes refid="state_8hpp" local="no">state.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1tag__index_1a8aa1bb062e670166c8ada2239f60e0cc" prot="public" static="no" mutable="no">
+        <type>vector&lt; string &gt;</type>
+        <definition>vector&lt;string&gt; steemit::app::tag_index::trending</definition>
+        <argsstring></argsstring>
+        <name>trending</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="50" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1011">
+        <label>vector&lt; string &gt;</label>
+      </node>
+      <node id="1010">
+        <label>steemit::app::tag_index</label>
+        <link refid="structsteemit_1_1app_1_1tag__index"/>
+        <childnode refid="1011" relation="usage">
+          <edgelabel>trending</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/app/include/steemit/app/state.hpp" line="49" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="49" bodyend="51"/>
+    <listofallmembers>
+      <member refid="structsteemit_1_1app_1_1tag__index_1a8aa1bb062e670166c8ada2239f60e0cc" prot="public" virt="non-virtual"><scope>steemit::app::tag_index</scope><name>trending</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

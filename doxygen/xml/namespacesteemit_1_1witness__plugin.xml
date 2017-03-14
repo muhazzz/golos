@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacesteemit_1_1witness__plugin" kind="namespace" language="C++">
+    <compoundname>steemit::witness_plugin</compoundname>
+    <innerclass refid="classsteemit_1_1witness__plugin_1_1witness__plugin" prot="public">steemit::witness_plugin::witness_plugin</innerclass>
+    <innernamespace refid="namespacesteemit_1_1witness__plugin_1_1block__production__condition">steemit::witness_plugin::block_production_condition</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/witness/include/steemit/witness/witness.hpp" line="32" column="1"/>
+  </compounddef>
+</doxygen>

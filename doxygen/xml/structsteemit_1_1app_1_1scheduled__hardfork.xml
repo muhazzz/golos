@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structsteemit_1_1app_1_1scheduled__hardfork" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::app::scheduled_hardfork</compoundname>
+    <includes refid="database__api_8hpp" local="no">database_api.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1scheduled__hardfork_1a5b826022efdec8aa5ff23482af988a88" prot="public" static="no" mutable="no">
+        <type>hardfork_version</type>
+        <definition>hardfork_version steemit::app::scheduled_hardfork::hf_version</definition>
+        <argsstring></argsstring>
+        <name>hf_version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/database_api.hpp" line="50" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1scheduled__hardfork_1a4c861e31aa1df6c4e08afe7acab36009" prot="public" static="no" mutable="no">
+        <type>fc::time_point_sec</type>
+        <definition>fc::time_point_sec steemit::app::scheduled_hardfork::live_time</definition>
+        <argsstring></argsstring>
+        <name>live_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/database_api.hpp" line="51" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="939">
+        <label>time_point_sec</label>
+      </node>
+      <node id="938">
+        <label>steemit::app::scheduled_hardfork</label>
+        <link refid="structsteemit_1_1app_1_1scheduled__hardfork"/>
+        <childnode refid="939" relation="usage">
+          <edgelabel>live_time</edgelabel>
+        </childnode>
+        <childnode refid="940" relation="usage">
+          <edgelabel>hf_version</edgelabel>
+        </childnode>
+      </node>
+      <node id="940">
+        <label>hardfork_version</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/app/include/steemit/app/database_api.hpp" line="49" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="49" bodyend="52"/>
+    <listofallmembers>
+      <member refid="structsteemit_1_1app_1_1scheduled__hardfork_1a5b826022efdec8aa5ff23482af988a88" prot="public" virt="non-virtual"><scope>steemit::app::scheduled_hardfork</scope><name>hf_version</name></member>
+      <member refid="structsteemit_1_1app_1_1scheduled__hardfork_1a4c861e31aa1df6c4e08afe7acab36009" prot="public" virt="non-virtual"><scope>steemit::app::scheduled_hardfork</scope><name>live_time</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

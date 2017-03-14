@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacesteemit_1_1plugin_1_1auth__util" kind="namespace" language="C++">
+    <compoundname>steemit::plugin::auth_util</compoundname>
+    <innerclass refid="classsteemit_1_1plugin_1_1auth__util_1_1auth__util__api" prot="public">steemit::plugin::auth_util::auth_util_api</innerclass>
+    <innerclass refid="classsteemit_1_1plugin_1_1auth__util_1_1auth__util__plugin" prot="public">steemit::plugin::auth_util::auth_util_plugin</innerclass>
+    <innerclass refid="structsteemit_1_1plugin_1_1auth__util_1_1check__authority__signature__params" prot="public">steemit::plugin::auth_util::check_authority_signature_params</innerclass>
+    <innerclass refid="structsteemit_1_1plugin_1_1auth__util_1_1check__authority__signature__result" prot="public">steemit::plugin::auth_util::check_authority_signature_result</innerclass>
+    <innernamespace refid="namespacesteemit_1_1plugin_1_1auth__util_1_1detail">steemit::plugin::auth_util::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/auth_util/auth_util_api.cpp" line="14" column="1"/>
+  </compounddef>
+</doxygen>

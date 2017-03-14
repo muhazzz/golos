@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsteemit_1_1account__by__key_1_1detail_1_1account__by__key__api__impl" kind="class" language="C++" prot="public">
+    <compoundname>steemit::account_by_key::detail::account_by_key_api_impl</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsteemit_1_1account__by__key_1_1detail_1_1account__by__key__api__impl_1aa0b14d2a7f0fffd4662806cab6987e25" prot="public" static="no" mutable="no">
+        <type><ref refid="classsteemit_1_1app_1_1application" kindref="compound">steemit::app::application</ref> &amp;</type>
+        <definition>steemit::app::application&amp; steemit::account_by_key::detail::account_by_key_api_impl::_app</definition>
+        <argsstring></argsstring>
+        <name>_app</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_by_key/account_by_key_api.cpp" line="16" column="1" bodyfile="libraries/plugins/account_by_key/account_by_key_api.cpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsteemit_1_1account__by__key_1_1detail_1_1account__by__key__api__impl_1a31f0846b28e93872bf4f5933342d5ccf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::account_by_key::detail::account_by_key_api_impl::account_by_key_api_impl</definition>
+        <argsstring>(steemit::app::application &amp;app)</argsstring>
+        <name>account_by_key_api_impl</name>
+        <param>
+          <type><ref refid="classsteemit_1_1app_1_1application" kindref="compound">steemit::app::application</ref> &amp;</type>
+          <declname>app</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_by_key/account_by_key_api.cpp" line="10" column="1" bodyfile="libraries/plugins/account_by_key/account_by_key_api.cpp" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1account__by__key_1_1detail_1_1account__by__key__api__impl_1a4cec2232c0803b7567e9ead77d1e6a6a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; vector&lt; account_name_type &gt; &gt;</type>
+        <definition>vector&lt; vector&lt; account_name_type &gt; &gt; steemit::account_by_key::detail::account_by_key_api_impl::get_key_references</definition>
+        <argsstring>(vector&lt; public_key_type &gt; &amp;keys) const</argsstring>
+        <name>get_key_references</name>
+        <param>
+          <type>vector&lt; public_key_type &gt; &amp;</type>
+          <declname>keys</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_by_key/account_by_key_api.cpp" line="14" column="1" bodyfile="libraries/plugins/account_by_key/account_by_key_api.cpp" bodystart="19" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="55">
+        <label>steemit::account_by_key::detail::account_by_key_api_impl</label>
+        <link refid="classsteemit_1_1account__by__key_1_1detail_1_1account__by__key__api__impl"/>
+        <childnode refid="56" relation="usage">
+          <edgelabel>_app</edgelabel>
+        </childnode>
+      </node>
+      <node id="56">
+        <label>steemit::app::application</label>
+        <link refid="classsteemit_1_1app_1_1application"/>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/account_by_key/account_by_key_api.cpp" line="8" column="1" bodyfile="libraries/plugins/account_by_key/account_by_key_api.cpp" bodystart="8" bodyend="17"/>
+    <listofallmembers>
+      <member refid="classsteemit_1_1account__by__key_1_1detail_1_1account__by__key__api__impl_1aa0b14d2a7f0fffd4662806cab6987e25" prot="public" virt="non-virtual"><scope>steemit::account_by_key::detail::account_by_key_api_impl</scope><name>_app</name></member>
+      <member refid="classsteemit_1_1account__by__key_1_1detail_1_1account__by__key__api__impl_1a31f0846b28e93872bf4f5933342d5ccf" prot="public" virt="non-virtual"><scope>steemit::account_by_key::detail::account_by_key_api_impl</scope><name>account_by_key_api_impl</name></member>
+      <member refid="classsteemit_1_1account__by__key_1_1detail_1_1account__by__key__api__impl_1a4cec2232c0803b7567e9ead77d1e6a6a" prot="public" virt="non-virtual"><scope>steemit::account_by_key::detail::account_by_key_api_impl</scope><name>get_key_references</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

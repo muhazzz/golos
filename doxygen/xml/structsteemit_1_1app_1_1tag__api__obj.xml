@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structsteemit_1_1app_1_1tag__api__obj" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::app::tag_api_obj</compoundname>
+    <includes refid="steem__api__objects_8hpp" local="no">steem_api_objects.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1tag__api__obj_1ae5047d97d7bfcdbc29248ab1c5217b68" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string steemit::app::tag_api_obj::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="181" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1tag__api__obj_1aecf34b850bf3c71861f92e8b31c860bf" prot="public" static="no" mutable="no">
+        <type>fc::uint128_t</type>
+        <definition>fc::uint128_t steemit::app::tag_api_obj::total_children_rshares2</definition>
+        <argsstring></argsstring>
+        <name>total_children_rshares2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="182" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1tag__api__obj_1a647d11092ee174c18922a000ea9280a1" prot="public" static="no" mutable="no">
+        <type>asset</type>
+        <definition>asset steemit::app::tag_api_obj::total_payouts</definition>
+        <argsstring></argsstring>
+        <name>total_payouts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="183" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1tag__api__obj_1a27c77d33d924608d07935bb56ab6d507" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t steemit::app::tag_api_obj::net_votes</definition>
+        <argsstring></argsstring>
+        <name>net_votes</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="184" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1tag__api__obj_1aef56ce9f9a50a8fa170b1bd8a593c393" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::app::tag_api_obj::top_posts</definition>
+        <argsstring></argsstring>
+        <name>top_posts</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="185" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1tag__api__obj_1af72f4f077389f8bdd38af620b5b61be4" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::app::tag_api_obj::comments</definition>
+        <argsstring></argsstring>
+        <name>comments</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="186" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsteemit_1_1app_1_1tag__api__obj_1a92b6e67d3aa1215e3b1eefa684c4d82c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::app::tag_api_obj::tag_api_obj</definition>
+        <argsstring>(const tags::tag_stats_object &amp;o)</argsstring>
+        <name>tag_api_obj</name>
+        <param>
+          <type>const <ref refid="classsteemit_1_1tags_1_1tag__stats__object" kindref="compound">tags::tag_stats_object</ref> &amp;</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="169" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="169" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1app_1_1tag__api__obj_1aca2b1ff3738df4ff33c5aafe60037b07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::app::tag_api_obj::tag_api_obj</definition>
+        <argsstring>()</argsstring>
+        <name>tag_api_obj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="178" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="178" bodyend="179"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1006">
+        <label>asset</label>
+      </node>
+      <node id="1005">
+        <label>steemit::app::tag_api_obj</label>
+        <link refid="structsteemit_1_1app_1_1tag__api__obj"/>
+        <childnode refid="1006" relation="usage">
+          <edgelabel>total_payouts</edgelabel>
+        </childnode>
+        <childnode refid="1007" relation="usage">
+          <edgelabel>name</edgelabel>
+        </childnode>
+        <childnode refid="1008" relation="usage">
+          <edgelabel>total_children_rshares2</edgelabel>
+        </childnode>
+      </node>
+      <node id="1007">
+        <label>string</label>
+      </node>
+      <node id="1008">
+        <label>uint128_t</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="168" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="168" bodyend="187"/>
+    <listofallmembers>
+      <member refid="structsteemit_1_1app_1_1tag__api__obj_1af72f4f077389f8bdd38af620b5b61be4" prot="public" virt="non-virtual"><scope>steemit::app::tag_api_obj</scope><name>comments</name></member>
+      <member refid="structsteemit_1_1app_1_1tag__api__obj_1ae5047d97d7bfcdbc29248ab1c5217b68" prot="public" virt="non-virtual"><scope>steemit::app::tag_api_obj</scope><name>name</name></member>
+      <member refid="structsteemit_1_1app_1_1tag__api__obj_1a27c77d33d924608d07935bb56ab6d507" prot="public" virt="non-virtual"><scope>steemit::app::tag_api_obj</scope><name>net_votes</name></member>
+      <member refid="structsteemit_1_1app_1_1tag__api__obj_1a92b6e67d3aa1215e3b1eefa684c4d82c" prot="public" virt="non-virtual"><scope>steemit::app::tag_api_obj</scope><name>tag_api_obj</name></member>
+      <member refid="structsteemit_1_1app_1_1tag__api__obj_1aca2b1ff3738df4ff33c5aafe60037b07" prot="public" virt="non-virtual"><scope>steemit::app::tag_api_obj</scope><name>tag_api_obj</name></member>
+      <member refid="structsteemit_1_1app_1_1tag__api__obj_1aef56ce9f9a50a8fa170b1bd8a593c393" prot="public" virt="non-virtual"><scope>steemit::app::tag_api_obj</scope><name>top_posts</name></member>
+      <member refid="structsteemit_1_1app_1_1tag__api__obj_1aecf34b850bf3c71861f92e8b31c860bf" prot="public" virt="non-virtual"><scope>steemit::app::tag_api_obj</scope><name>total_children_rshares2</name></member>
+      <member refid="structsteemit_1_1app_1_1tag__api__obj_1a647d11092ee174c18922a000ea9280a1" prot="public" virt="non-virtual"><scope>steemit::app::tag_api_obj</scope><name>total_payouts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

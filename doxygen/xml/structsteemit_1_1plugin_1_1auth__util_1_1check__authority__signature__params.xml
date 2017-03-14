@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structsteemit_1_1plugin_1_1auth__util_1_1check__authority__signature__params" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::plugin::auth_util::check_authority_signature_params</compoundname>
+    <includes refid="auth__util__api_8hpp" local="no">auth_util_api.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsteemit_1_1plugin_1_1auth__util_1_1check__authority__signature__params_1ad64798303f5f3221eb08c45d68f1d4c0" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string steemit::plugin::auth_util::check_authority_signature_params::account_name</definition>
+        <argsstring></argsstring>
+        <name>account_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/auth_util/include/steemit/plugins/auth_util/auth_util_api.hpp" line="26" column="1" bodyfile="libraries/plugins/auth_util/include/steemit/plugins/auth_util/auth_util_api.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1plugin_1_1auth__util_1_1check__authority__signature__params_1ab7506d14fda410c2de5f24aa13f1d5a0" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string steemit::plugin::auth_util::check_authority_signature_params::level</definition>
+        <argsstring></argsstring>
+        <name>level</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/auth_util/include/steemit/plugins/auth_util/auth_util_api.hpp" line="27" column="1" bodyfile="libraries/plugins/auth_util/include/steemit/plugins/auth_util/auth_util_api.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1plugin_1_1auth__util_1_1check__authority__signature__params_1a7f2c93171b4936fa5b65d3a53f3516b9" prot="public" static="no" mutable="no">
+        <type>fc::sha256</type>
+        <definition>fc::sha256 steemit::plugin::auth_util::check_authority_signature_params::dig</definition>
+        <argsstring></argsstring>
+        <name>dig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/auth_util/include/steemit/plugins/auth_util/auth_util_api.hpp" line="28" column="1" bodyfile="libraries/plugins/auth_util/include/steemit/plugins/auth_util/auth_util_api.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1plugin_1_1auth__util_1_1check__authority__signature__params_1a57c53fe29b6ba8f1554b76cc6c2ea1a9" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; protocol::signature_type &gt;</type>
+        <definition>std::vector&lt;protocol::signature_type&gt; steemit::plugin::auth_util::check_authority_signature_params::sigs</definition>
+        <argsstring></argsstring>
+        <name>sigs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/auth_util/include/steemit/plugins/auth_util/auth_util_api.hpp" line="29" column="1" bodyfile="libraries/plugins/auth_util/include/steemit/plugins/auth_util/auth_util_api.hpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="308">
+        <label>steemit::plugin::auth_util::check_authority_signature_params</label>
+        <link refid="structsteemit_1_1plugin_1_1auth__util_1_1check__authority__signature__params"/>
+        <childnode refid="309" relation="usage">
+          <edgelabel>level</edgelabel>
+          <edgelabel>account_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="309">
+        <label>string</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/auth_util/include/steemit/plugins/auth_util/auth_util_api.hpp" line="25" column="1" bodyfile="libraries/plugins/auth_util/include/steemit/plugins/auth_util/auth_util_api.hpp" bodystart="25" bodyend="30"/>
+    <listofallmembers>
+      <member refid="structsteemit_1_1plugin_1_1auth__util_1_1check__authority__signature__params_1ad64798303f5f3221eb08c45d68f1d4c0" prot="public" virt="non-virtual"><scope>steemit::plugin::auth_util::check_authority_signature_params</scope><name>account_name</name></member>
+      <member refid="structsteemit_1_1plugin_1_1auth__util_1_1check__authority__signature__params_1a7f2c93171b4936fa5b65d3a53f3516b9" prot="public" virt="non-virtual"><scope>steemit::plugin::auth_util::check_authority_signature_params</scope><name>dig</name></member>
+      <member refid="structsteemit_1_1plugin_1_1auth__util_1_1check__authority__signature__params_1ab7506d14fda410c2de5f24aa13f1d5a0" prot="public" virt="non-virtual"><scope>steemit::plugin::auth_util::check_authority_signature_params</scope><name>level</name></member>
+      <member refid="structsteemit_1_1plugin_1_1auth__util_1_1check__authority__signature__params_1a57c53fe29b6ba8f1554b76cc6c2ea1a9" prot="public" virt="non-virtual"><scope>steemit::plugin::auth_util::check_authority_signature_params</scope><name>sigs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsteemit_1_1plugin_1_1debug__node_1_1detail_1_1debug__private__key__storage" kind="class" language="C++" prot="public">
+    <compoundname>steemit::plugin::debug_node::detail::debug_private_key_storage</compoundname>
+    <basecompoundref refid="classsteemit_1_1plugin_1_1debug__node_1_1private__key__storage" prot="public" virt="non-virtual">steemit::plugin::debug_node::private_key_storage</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsteemit_1_1plugin_1_1debug__node_1_1detail_1_1debug__private__key__storage_1a33ec72402afe6014980afc722b0fffa1" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string steemit::plugin::debug_node::detail::debug_private_key_storage::dev_key_prefix</definition>
+        <argsstring></argsstring>
+        <name>dev_key_prefix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/debug_node/debug_node_api.cpp" line="35" column="1" bodyfile="libraries/plugins/debug_node/debug_node_api.cpp" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1plugin_1_1debug__node_1_1detail_1_1debug__private__key__storage_1adb37fcfd431faa8036b2603a512a5971" prot="public" static="no" mutable="no">
+        <type>std::map&lt; steemit::chain::public_key_type, fc::ecc::private_key &gt;</type>
+        <definition>std::map&lt;steemit::chain::public_key_type, fc::ecc::private_key&gt; steemit::plugin::debug_node::detail::debug_private_key_storage::key_table</definition>
+        <argsstring></argsstring>
+        <name>key_table</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/debug_node/debug_node_api.cpp" line="36" column="1" bodyfile="libraries/plugins/debug_node/debug_node_api.cpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsteemit_1_1plugin_1_1debug__node_1_1detail_1_1debug__private__key__storage_1a77e5c2dc1572ec59246d5d4ce4fc129f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::plugin::debug_node::detail::debug_private_key_storage::debug_private_key_storage</definition>
+        <argsstring>()</argsstring>
+        <name>debug_private_key_storage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/debug_node/debug_node_api.cpp" line="23" column="1" bodyfile="libraries/plugins/debug_node/debug_node_api.cpp" bodystart="23" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1plugin_1_1debug__node_1_1detail_1_1debug__private__key__storage_1a00dab0742e4ad6d2e7a0a6251a2c8353" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual steemit::plugin::debug_node::detail::debug_private_key_storage::~debug_private_key_storage</definition>
+        <argsstring>()</argsstring>
+        <name>~debug_private_key_storage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/debug_node/debug_node_api.cpp" line="26" column="1" bodyfile="libraries/plugins/debug_node/debug_node_api.cpp" bodystart="26" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1plugin_1_1debug__node_1_1detail_1_1debug__private__key__storage_1a706b0a6ebc181243bdf1ea80457d9267" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void steemit::plugin::debug_node::detail::debug_private_key_storage::maybe_get_private_key</definition>
+        <argsstring>(fc::optional&lt; fc::ecc::private_key &gt; &amp;result, const steemit::chain::public_key_type &amp;pubkey, const std::string &amp;account_name) override</argsstring>
+        <name>maybe_get_private_key</name>
+        <reimplements refid="classsteemit_1_1plugin_1_1debug__node_1_1private__key__storage_1a87c3d0e8039d030f44df7d51aac7bc91">maybe_get_private_key</reimplements>
+        <param>
+          <type>fc::optional&lt; fc::ecc::private_key &gt; &amp;</type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>const steemit::chain::public_key_type &amp;</type>
+          <declname>pubkey</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>account_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/debug_node/debug_node_api.cpp" line="29" column="1" bodyfile="libraries/plugins/debug_node/debug_node_api.cpp" bodystart="85" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="415">
+        <label>steemit::plugin::debug_node::private_key_storage</label>
+        <link refid="classsteemit_1_1plugin_1_1debug__node_1_1private__key__storage"/>
+      </node>
+      <node id="414">
+        <label>steemit::plugin::debug_node::detail::debug_private_key_storage</label>
+        <link refid="classsteemit_1_1plugin_1_1debug__node_1_1detail_1_1debug__private__key__storage"/>
+        <childnode refid="415" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="417">
+        <label>steemit::plugin::debug_node::private_key_storage</label>
+        <link refid="classsteemit_1_1plugin_1_1debug__node_1_1private__key__storage"/>
+      </node>
+      <node id="418">
+        <label>string</label>
+      </node>
+      <node id="416">
+        <label>steemit::plugin::debug_node::detail::debug_private_key_storage</label>
+        <link refid="classsteemit_1_1plugin_1_1debug__node_1_1detail_1_1debug__private__key__storage"/>
+        <childnode refid="417" relation="public-inheritance">
+        </childnode>
+        <childnode refid="418" relation="usage">
+          <edgelabel>dev_key_prefix</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/debug_node/debug_node_api.cpp" line="21" column="1" bodyfile="libraries/plugins/debug_node/debug_node_api.cpp" bodystart="21" bodyend="37"/>
+    <listofallmembers>
+      <member refid="classsteemit_1_1plugin_1_1debug__node_1_1detail_1_1debug__private__key__storage_1a77e5c2dc1572ec59246d5d4ce4fc129f" prot="public" virt="non-virtual"><scope>steemit::plugin::debug_node::detail::debug_private_key_storage</scope><name>debug_private_key_storage</name></member>
+      <member refid="classsteemit_1_1plugin_1_1debug__node_1_1detail_1_1debug__private__key__storage_1a33ec72402afe6014980afc722b0fffa1" prot="public" virt="non-virtual"><scope>steemit::plugin::debug_node::detail::debug_private_key_storage</scope><name>dev_key_prefix</name></member>
+      <member refid="classsteemit_1_1plugin_1_1debug__node_1_1detail_1_1debug__private__key__storage_1adb37fcfd431faa8036b2603a512a5971" prot="public" virt="non-virtual"><scope>steemit::plugin::debug_node::detail::debug_private_key_storage</scope><name>key_table</name></member>
+      <member refid="classsteemit_1_1plugin_1_1debug__node_1_1detail_1_1debug__private__key__storage_1a706b0a6ebc181243bdf1ea80457d9267" prot="public" virt="virtual"><scope>steemit::plugin::debug_node::detail::debug_private_key_storage</scope><name>maybe_get_private_key</name></member>
+      <member refid="classsteemit_1_1plugin_1_1debug__node_1_1private__key__storage_1a10ead54bd48d87469323c3a5b996df04" prot="public" virt="non-virtual"><scope>steemit::plugin::debug_node::detail::debug_private_key_storage</scope><name>private_key_storage</name></member>
+      <member refid="classsteemit_1_1plugin_1_1debug__node_1_1detail_1_1debug__private__key__storage_1a00dab0742e4ad6d2e7a0a6251a2c8353" prot="public" virt="virtual"><scope>steemit::plugin::debug_node::detail::debug_private_key_storage</scope><name>~debug_private_key_storage</name></member>
+      <member refid="classsteemit_1_1plugin_1_1debug__node_1_1private__key__storage_1a1fff0affbb397da250f7b3ec17f18bb4" prot="public" virt="virtual"><scope>steemit::plugin::debug_node::detail::debug_private_key_storage</scope><name>~private_key_storage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

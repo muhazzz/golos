@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsteemit_1_1private__message_1_1private__message__api" kind="class" language="C++" prot="public">
+    <compoundname>steemit::private_message::private_message_api</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::enable_shared_from_this&lt; private_message_api &gt;</basecompoundref>
+    <includes refid="private__message__plugin_8hpp" local="no">private_message_plugin.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsteemit_1_1private__message_1_1private__message__api_1ace14396cf11354785f15f9e97b463316" prot="private" static="no" mutable="no">
+        <type><ref refid="classsteemit_1_1app_1_1application" kindref="compound">app::application</ref> *</type>
+        <definition>app::application* steemit::private_message::private_message_api::_app</definition>
+        <argsstring></argsstring>
+        <name>_app</name>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" line="214" column="1" bodyfile="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsteemit_1_1private__message_1_1private__message__api_1a8701619b477aedd5c24ff70e56bbc053" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::private_message::private_message_api::private_message_api</definition>
+        <argsstring>()</argsstring>
+        <name>private_message_api</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" line="195" column="1" bodyfile="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" bodystart="195" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1private__message_1_1private__message__api_1a900ef10d777f9eb00b35f14852626607" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::private_message::private_message_api::private_message_api</definition>
+        <argsstring>(const app::api_context &amp;ctx)</argsstring>
+        <name>private_message_api</name>
+        <param>
+          <type>const <ref refid="structsteemit_1_1app_1_1api__context" kindref="compound">app::api_context</ref> &amp;</type>
+          <declname>ctx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" line="198" column="1" bodyfile="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" bodystart="198" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1private__message_1_1private__message__api_1ad660deb29a8acfc4decb071372732f9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::private_message::private_message_api::on_api_startup</definition>
+        <argsstring>()</argsstring>
+        <name>on_api_startup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" line="202" column="1" bodyfile="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" bodystart="202" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1private__message_1_1private__message__api_1a3ba8381b53a7c377cd2505689f20d4c0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="structsteemit_1_1private__message_1_1message__api__obj" kindref="compound">message_api_obj</ref> &gt;</type>
+        <definition>vector&lt; message_api_obj &gt; steemit::private_message::private_message_api::get_inbox</definition>
+        <argsstring>(string to, time_point newest, uint16_t limit) const</argsstring>
+        <name>get_inbox</name>
+        <param>
+          <type>string</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>time_point</type>
+          <declname>newest</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" line="209" column="1" bodyfile="libraries/plugins/private_message/private_message_plugin.cpp" bodystart="134" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1private__message_1_1private__message__api_1a5520c4aa644bede0ce118a027643f469" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="structsteemit_1_1private__message_1_1message__api__obj" kindref="compound">message_api_obj</ref> &gt;</type>
+        <definition>vector&lt; message_api_obj &gt; steemit::private_message::private_message_api::get_outbox</definition>
+        <argsstring>(string from, time_point newest, uint16_t limit) const</argsstring>
+        <name>get_outbox</name>
+        <param>
+          <type>string</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>time_point</type>
+          <declname>newest</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" line="211" column="1" bodyfile="libraries/plugins/private_message/private_message_plugin.cpp" bodystart="148" bodyend="160"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="881">
+        <label>std::enable_shared_from_this&lt; private_message_api &gt;</label>
+      </node>
+      <node id="880">
+        <label>steemit::private_message::private_message_api</label>
+        <link refid="classsteemit_1_1private__message_1_1private__message__api"/>
+        <childnode refid="881" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="883">
+        <label>std::enable_shared_from_this&lt; private_message_api &gt;</label>
+      </node>
+      <node id="882">
+        <label>steemit::private_message::private_message_api</label>
+        <link refid="classsteemit_1_1private__message_1_1private__message__api"/>
+        <childnode refid="883" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" line="193" column="1" bodyfile="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" bodystart="192" bodyend="215"/>
+    <listofallmembers>
+      <member refid="classsteemit_1_1private__message_1_1private__message__api_1ace14396cf11354785f15f9e97b463316" prot="private" virt="non-virtual"><scope>steemit::private_message::private_message_api</scope><name>_app</name></member>
+      <member refid="classsteemit_1_1private__message_1_1private__message__api_1a3ba8381b53a7c377cd2505689f20d4c0" prot="public" virt="non-virtual"><scope>steemit::private_message::private_message_api</scope><name>get_inbox</name></member>
+      <member refid="classsteemit_1_1private__message_1_1private__message__api_1a5520c4aa644bede0ce118a027643f469" prot="public" virt="non-virtual"><scope>steemit::private_message::private_message_api</scope><name>get_outbox</name></member>
+      <member refid="classsteemit_1_1private__message_1_1private__message__api_1ad660deb29a8acfc4decb071372732f9e" prot="public" virt="non-virtual"><scope>steemit::private_message::private_message_api</scope><name>on_api_startup</name></member>
+      <member refid="classsteemit_1_1private__message_1_1private__message__api_1a8701619b477aedd5c24ff70e56bbc053" prot="public" virt="non-virtual"><scope>steemit::private_message::private_message_api</scope><name>private_message_api</name></member>
+      <member refid="classsteemit_1_1private__message_1_1private__message__api_1a900ef10d777f9eb00b35f14852626607" prot="public" virt="non-virtual"><scope>steemit::private_message::private_message_api</scope><name>private_message_api</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

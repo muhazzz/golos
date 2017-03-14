@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structsteemit_1_1plugin_1_1debug__node_1_1debug__mine__args" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::plugin::debug_node::debug_mine_args</compoundname>
+    <includes refid="debug__node__api_8hpp" local="no">debug_node_api.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsteemit_1_1plugin_1_1debug__node_1_1debug__mine__args_1a5a25118b6e822df0bb5cfc56e485359a" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string steemit::plugin::debug_node::debug_mine_args::worker_account</definition>
+        <argsstring></argsstring>
+        <name>worker_account</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/debug_node/include/steemit/plugins/debug_node/debug_node_api.hpp" line="39" column="1" bodyfile="libraries/plugins/debug_node/include/steemit/plugins/debug_node/debug_node_api.hpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1plugin_1_1debug__node_1_1debug__mine__args_1a2212545f7167bd2ebf63bab681e21f8a" prot="public" static="no" mutable="no">
+        <type>fc::optional&lt; chain::chain_properties &gt;</type>
+        <definition>fc::optional&lt;chain::chain_properties&gt; steemit::plugin::debug_node::debug_mine_args::props</definition>
+        <argsstring></argsstring>
+        <name>props</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/debug_node/include/steemit/plugins/debug_node/debug_node_api.hpp" line="40" column="1" bodyfile="libraries/plugins/debug_node/include/steemit/plugins/debug_node/debug_node_api.hpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="388">
+        <label>string</label>
+      </node>
+      <node id="387">
+        <label>steemit::plugin::debug_node::debug_mine_args</label>
+        <link refid="structsteemit_1_1plugin_1_1debug__node_1_1debug__mine__args"/>
+        <childnode refid="388" relation="usage">
+          <edgelabel>worker_account</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/debug_node/include/steemit/plugins/debug_node/debug_node_api.hpp" line="38" column="1" bodyfile="libraries/plugins/debug_node/include/steemit/plugins/debug_node/debug_node_api.hpp" bodystart="38" bodyend="41"/>
+    <listofallmembers>
+      <member refid="structsteemit_1_1plugin_1_1debug__node_1_1debug__mine__args_1a2212545f7167bd2ebf63bab681e21f8a" prot="public" virt="non-virtual"><scope>steemit::plugin::debug_node::debug_mine_args</scope><name>props</name></member>
+      <member refid="structsteemit_1_1plugin_1_1debug__node_1_1debug__mine__args_1a5a25118b6e822df0bb5cfc56e485359a" prot="public" virt="non-virtual"><scope>steemit::plugin::debug_node::debug_mine_args</scope><name>worker_account</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

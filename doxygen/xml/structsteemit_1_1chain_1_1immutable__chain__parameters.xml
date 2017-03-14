@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structsteemit_1_1chain_1_1immutable__chain__parameters" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::chain::immutable_chain_parameters</compoundname>
+    <includes refid="immutable__chain__parameters_8hpp" local="no">immutable_chain_parameters.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsteemit_1_1chain_1_1immutable__chain__parameters_1af63344812ceb1ecc2151b74b31506688" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t steemit::chain::immutable_chain_parameters::min_committee_member_count</definition>
+        <argsstring></argsstring>
+        <name>min_committee_member_count</name>
+        <initializer>= STEEMIT_DEFAULT_MIN_COMMITTEE_MEMBER_COUNT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/immutable_chain_parameters.hpp" line="13" column="1" bodyfile="libraries/chain/include/steemit/chain/immutable_chain_parameters.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1chain_1_1immutable__chain__parameters_1ae68751867ddcf3e8cda5d93b6cf23ac7" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t steemit::chain::immutable_chain_parameters::min_witness_count</definition>
+        <argsstring></argsstring>
+        <name>min_witness_count</name>
+        <initializer>= STEEMIT_DEFAULT_MIN_WITNESS_COUNT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/immutable_chain_parameters.hpp" line="14" column="1" bodyfile="libraries/chain/include/steemit/chain/immutable_chain_parameters.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1chain_1_1immutable__chain__parameters_1a81076ef1983d9546ba2b85612dea8c9a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::chain::immutable_chain_parameters::num_special_accounts</definition>
+        <argsstring></argsstring>
+        <name>num_special_accounts</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/immutable_chain_parameters.hpp" line="15" column="1" bodyfile="libraries/chain/include/steemit/chain/immutable_chain_parameters.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1chain_1_1immutable__chain__parameters_1ae8b0426515f476dc5b1c9b309acf5bf2" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::chain::immutable_chain_parameters::num_special_assets</definition>
+        <argsstring></argsstring>
+        <name>num_special_assets</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/immutable_chain_parameters.hpp" line="16" column="1" bodyfile="libraries/chain/include/steemit/chain/immutable_chain_parameters.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/chain/include/steemit/chain/immutable_chain_parameters.hpp" line="12" column="1" bodyfile="libraries/chain/include/steemit/chain/immutable_chain_parameters.hpp" bodystart="12" bodyend="17"/>
+    <listofallmembers>
+      <member refid="structsteemit_1_1chain_1_1immutable__chain__parameters_1af63344812ceb1ecc2151b74b31506688" prot="public" virt="non-virtual"><scope>steemit::chain::immutable_chain_parameters</scope><name>min_committee_member_count</name></member>
+      <member refid="structsteemit_1_1chain_1_1immutable__chain__parameters_1ae68751867ddcf3e8cda5d93b6cf23ac7" prot="public" virt="non-virtual"><scope>steemit::chain::immutable_chain_parameters</scope><name>min_witness_count</name></member>
+      <member refid="structsteemit_1_1chain_1_1immutable__chain__parameters_1a81076ef1983d9546ba2b85612dea8c9a" prot="public" virt="non-virtual"><scope>steemit::chain::immutable_chain_parameters</scope><name>num_special_accounts</name></member>
+      <member refid="structsteemit_1_1chain_1_1immutable__chain__parameters_1ae8b0426515f476dc5b1c9b309acf5bf2" prot="public" virt="non-virtual"><scope>steemit::chain::immutable_chain_parameters</scope><name>num_special_assets</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

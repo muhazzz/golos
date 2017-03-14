@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structsteemit_1_1chain_1_1detail_1_1pending__transactions__restorer" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::chain::detail::pending_transactions_restorer</compoundname>
+    <includes refid="db__with_8hpp" local="no">db_with.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsteemit_1_1chain_1_1detail_1_1pending__transactions__restorer_1ae723950b30bbfbfb743b6a127142c660" prot="public" static="no" mutable="no">
+        <type><ref refid="classsteemit_1_1chain_1_1database" kindref="compound">database</ref> &amp;</type>
+        <definition>database&amp; steemit::chain::detail::pending_transactions_restorer::_db</definition>
+        <argsstring></argsstring>
+        <name>_db</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/db_with.hpp" line="82" column="1" bodyfile="libraries/chain/include/steemit/chain/db_with.hpp" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1chain_1_1detail_1_1pending__transactions__restorer_1a321392b23e7c0ca552355c7218bc183f" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; signed_transaction &gt;</type>
+        <definition>std::vector&lt;signed_transaction&gt; steemit::chain::detail::pending_transactions_restorer::_pending_transactions</definition>
+        <argsstring></argsstring>
+        <name>_pending_transactions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/db_with.hpp" line="83" column="1" bodyfile="libraries/chain/include/steemit/chain/db_with.hpp" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsteemit_1_1chain_1_1detail_1_1pending__transactions__restorer_1ac9ac58676cb63111cb730c6ff5186427" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::chain::detail::pending_transactions_restorer::pending_transactions_restorer</definition>
+        <argsstring>(database &amp;db, std::vector&lt; signed_transaction &gt; &amp;&amp;pending_transactions)</argsstring>
+        <name>pending_transactions_restorer</name>
+        <param>
+          <type><ref refid="classsteemit_1_1chain_1_1database" kindref="compound">database</ref> &amp;</type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; signed_transaction &gt; &amp;&amp;</type>
+          <declname>pending_transactions</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/db_with.hpp" line="47" column="1" bodyfile="libraries/chain/include/steemit/chain/db_with.hpp" bodystart="47" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="structsteemit_1_1chain_1_1detail_1_1pending__transactions__restorer_1ae8652b6f2bde69d8b52396d92b20897d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::chain::detail::pending_transactions_restorer::~pending_transactions_restorer</definition>
+        <argsstring>()</argsstring>
+        <name>~pending_transactions_restorer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/db_with.hpp" line="53" column="1" bodyfile="libraries/chain/include/steemit/chain/db_with.hpp" bodystart="53" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class used to help the without_pending_transactions implementation.</para><para>TODO: Change the name of this class to better reflect the fact that it restores popped transactions as well as pending transactions. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="833">
+        <label>steemit::chain::database</label>
+        <link refid="classsteemit_1_1chain_1_1database"/>
+        <childnode refid="834" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="834">
+        <label>chainbase::database</label>
+      </node>
+      <node id="832">
+        <label>steemit::chain::detail::pending_transactions_restorer</label>
+        <link refid="structsteemit_1_1chain_1_1detail_1_1pending__transactions__restorer"/>
+        <childnode refid="833" relation="usage">
+          <edgelabel>_db</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/chain/include/steemit/chain/db_with.hpp" line="46" column="1" bodyfile="libraries/chain/include/steemit/chain/db_with.hpp" bodystart="46" bodyend="84"/>
+    <listofallmembers>
+      <member refid="structsteemit_1_1chain_1_1detail_1_1pending__transactions__restorer_1ae723950b30bbfbfb743b6a127142c660" prot="public" virt="non-virtual"><scope>steemit::chain::detail::pending_transactions_restorer</scope><name>_db</name></member>
+      <member refid="structsteemit_1_1chain_1_1detail_1_1pending__transactions__restorer_1a321392b23e7c0ca552355c7218bc183f" prot="public" virt="non-virtual"><scope>steemit::chain::detail::pending_transactions_restorer</scope><name>_pending_transactions</name></member>
+      <member refid="structsteemit_1_1chain_1_1detail_1_1pending__transactions__restorer_1ac9ac58676cb63111cb730c6ff5186427" prot="public" virt="non-virtual"><scope>steemit::chain::detail::pending_transactions_restorer</scope><name>pending_transactions_restorer</name></member>
+      <member refid="structsteemit_1_1chain_1_1detail_1_1pending__transactions__restorer_1ae8652b6f2bde69d8b52396d92b20897d" prot="public" virt="non-virtual"><scope>steemit::chain::detail::pending_transactions_restorer</scope><name>~pending_transactions_restorer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

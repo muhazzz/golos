@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsteemit_1_1chain_1_1convert__request__object" kind="class" language="C++" prot="public">
+    <compoundname>steemit::chain::convert_request_object</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">chainbase::object&lt; convert_request_object_type, convert_request_object &gt;</basecompoundref>
+    <includes refid="steem__objects_8hpp" local="no">steem_objects.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1convert__request__object_1a6b1b66126cf8829facda33306a73a1d8" prot="public" static="no" mutable="no">
+        <type>id_type</type>
+        <definition>id_type steemit::chain::convert_request_object::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="33" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1convert__request__object_1a389500ee874d4ca16833e188d2e4f80a" prot="public" static="no" mutable="no">
+        <type>account_name_type</type>
+        <definition>account_name_type steemit::chain::convert_request_object::owner</definition>
+        <argsstring></argsstring>
+        <name>owner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="35" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1convert__request__object_1aaab98a126ff5d4a7b9dd43258b085b67" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::chain::convert_request_object::requestid</definition>
+        <argsstring></argsstring>
+        <name>requestid</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>id set by owner, the owner,requestid pair must be unique </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="36" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1convert__request__object_1a46ae4a7f347489fad52140dd3e1a477f" prot="public" static="no" mutable="no">
+        <type>asset</type>
+        <definition>asset steemit::chain::convert_request_object::amount</definition>
+        <argsstring></argsstring>
+        <name>amount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="37" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1convert__request__object_1a4151caea3ed3bf796469e04aa80d114b" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::convert_request_object::conversion_date</definition>
+        <argsstring></argsstring>
+        <name>conversion_date</name>
+        <briefdescription>
+<para>at this time the feed_history_median_price * amount </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="38" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1convert__request__object_1ae042ba42a5d7478e5c82293b4284094b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Constructor</type>
+          </param>
+          <param>
+            <type>typename Allocator</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>steemit::chain::convert_request_object::convert_request_object</definition>
+        <argsstring>(Constructor &amp;&amp;c, allocator&lt; Allocator &gt; a)</argsstring>
+        <name>convert_request_object</name>
+        <param>
+          <type>Constructor &amp;&amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>allocator&lt; Allocator &gt;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="26" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1convert__request__object_1ae90faf6e07ed1ddf04d5d52522fa0989" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::chain::convert_request_object::convert_request_object</definition>
+        <argsstring>()</argsstring>
+        <name>convert_request_object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="30" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="30" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This object is used to track pending requests to convert sbd to steem </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="361">
+        <label>steemit::chain::convert_request_object</label>
+        <link refid="classsteemit_1_1chain_1_1convert__request__object"/>
+        <childnode refid="362" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="362">
+        <label>chainbase::object&lt; convert_request_object_type, convert_request_object &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="366">
+        <label>asset</label>
+      </node>
+      <node id="365">
+        <label>time_point_sec</label>
+      </node>
+      <node id="367">
+        <label>account_name_type</label>
+      </node>
+      <node id="363">
+        <label>steemit::chain::convert_request_object</label>
+        <link refid="classsteemit_1_1chain_1_1convert__request__object"/>
+        <childnode refid="364" relation="public-inheritance">
+        </childnode>
+        <childnode refid="365" relation="usage">
+          <edgelabel>conversion_date</edgelabel>
+        </childnode>
+        <childnode refid="366" relation="usage">
+          <edgelabel>amount</edgelabel>
+        </childnode>
+        <childnode refid="367" relation="usage">
+          <edgelabel>owner</edgelabel>
+        </childnode>
+      </node>
+      <node id="364">
+        <label>chainbase::object&lt; convert_request_object_type, convert_request_object &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="23" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="22" bodyend="39"/>
+    <listofallmembers>
+      <member refid="classsteemit_1_1chain_1_1convert__request__object_1a46ae4a7f347489fad52140dd3e1a477f" prot="public" virt="non-virtual"><scope>steemit::chain::convert_request_object</scope><name>amount</name></member>
+      <member refid="classsteemit_1_1chain_1_1convert__request__object_1a4151caea3ed3bf796469e04aa80d114b" prot="public" virt="non-virtual"><scope>steemit::chain::convert_request_object</scope><name>conversion_date</name></member>
+      <member refid="classsteemit_1_1chain_1_1convert__request__object_1ae042ba42a5d7478e5c82293b4284094b" prot="public" virt="non-virtual"><scope>steemit::chain::convert_request_object</scope><name>convert_request_object</name></member>
+      <member refid="classsteemit_1_1chain_1_1convert__request__object_1ae90faf6e07ed1ddf04d5d52522fa0989" prot="public" virt="non-virtual"><scope>steemit::chain::convert_request_object</scope><name>convert_request_object</name></member>
+      <member refid="classsteemit_1_1chain_1_1convert__request__object_1a6b1b66126cf8829facda33306a73a1d8" prot="public" virt="non-virtual"><scope>steemit::chain::convert_request_object</scope><name>id</name></member>
+      <member refid="classsteemit_1_1chain_1_1convert__request__object_1a389500ee874d4ca16833e188d2e4f80a" prot="public" virt="non-virtual"><scope>steemit::chain::convert_request_object</scope><name>owner</name></member>
+      <member refid="classsteemit_1_1chain_1_1convert__request__object_1aaab98a126ff5d4a7b9dd43258b085b67" prot="public" virt="non-virtual"><scope>steemit::chain::convert_request_object</scope><name>requestid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

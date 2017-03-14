@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacefc" kind="namespace" language="C++">
+    <compoundname>fc</compoundname>
+    <innernamespace refid="namespacefc_1_1raw">fc::raw</innernamespace>
+    <innernamespace refid="namespacefc_1_1rpc">fc::rpc</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacefc_1a0c5f71aad6390d57fab0ee9f13ce0b70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fc::to_variant</definition>
+        <argsstring>(const steemit::chain::shared_string &amp;s, variant &amp;var)</argsstring>
+        <name>to_variant</name>
+        <param>
+          <type>const <ref refid="namespacesteemit_1_1chain_1a8e2d955447720336a4deaae60ad49519" kindref="member">steemit::chain::shared_string</ref> &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>variant &amp;</type>
+          <declname>var</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_object_types.hpp" line="173" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_object_types.hpp" bodystart="173" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacefc_1a896b98971ddad77ca8a25b2e05d5fc30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fc::from_variant</definition>
+        <argsstring>(const variant &amp;var, steemit::chain::shared_string &amp;s)</argsstring>
+        <name>from_variant</name>
+        <param>
+          <type>const variant &amp;</type>
+          <declname>var</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacesteemit_1_1chain_1a8e2d955447720336a4deaae60ad49519" kindref="member">steemit::chain::shared_string</ref> &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_object_types.hpp" line="177" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_object_types.hpp" bodystart="177" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacefc_1ab727372fc52ebf031e4eab1403c01197" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void fc::to_variant</definition>
+        <argsstring>(const chainbase::oid&lt; T &gt; &amp;var, variant &amp;vo)</argsstring>
+        <name>to_variant</name>
+        <param>
+          <type>const chainbase::oid&lt; T &gt; &amp;</type>
+          <declname>var</declname>
+        </param>
+        <param>
+          <type>variant &amp;</type>
+          <declname>vo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_object_types.hpp" line="183" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_object_types.hpp" bodystart="183" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacefc_1aa49128f0633280a31dc1901f5179b6a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void fc::from_variant</definition>
+        <argsstring>(const variant &amp;vo, chainbase::oid&lt; T &gt; &amp;var)</argsstring>
+        <name>from_variant</name>
+        <param>
+          <type>const variant &amp;</type>
+          <declname>vo</declname>
+        </param>
+        <param>
+          <type>chainbase::oid&lt; T &gt; &amp;</type>
+          <declname>var</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_object_types.hpp" line="188" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_object_types.hpp" bodystart="188" bodyend="190"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/chain/include/steemit/chain/steem_object_types.hpp" line="170" column="1"/>
+  </compounddef>
+</doxygen>

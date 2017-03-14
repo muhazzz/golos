@@ -1,0 +1,25 @@
+var structsteemit_1_1app_1_1witness__api__obj =
+[
+    [ "witness_api_obj", "structsteemit_1_1app_1_1witness__api__obj.html#ac76f60cdbfa02755274e062cf3f164cb", null ],
+    [ "witness_api_obj", "structsteemit_1_1app_1_1witness__api__obj.html#a325eec998e9c41a7b8936b22a8213404", null ],
+    [ "created", "structsteemit_1_1app_1_1witness__api__obj.html#afc720c8450683673b365e45c2bcdbd3f", null ],
+    [ "hardfork_time_vote", "structsteemit_1_1app_1_1witness__api__obj.html#a9f4916d1014445c4867fb426a9e7b391", null ],
+    [ "hardfork_version_vote", "structsteemit_1_1app_1_1witness__api__obj.html#afdcf426065d043ed66a6a61321b0f2b6", null ],
+    [ "id", "structsteemit_1_1app_1_1witness__api__obj.html#ab56ae5043aeb7554597385a5054e0736", null ],
+    [ "last_aslot", "structsteemit_1_1app_1_1witness__api__obj.html#ad56fa775a7c001c96b4e6b024917bbeb", null ],
+    [ "last_confirmed_block_num", "structsteemit_1_1app_1_1witness__api__obj.html#a7eb4f80d5fdc87fe38253fbd1c4e5270", null ],
+    [ "last_sbd_exchange_update", "structsteemit_1_1app_1_1witness__api__obj.html#ac56f1c0cb972bb2e81c8349ad3f35b9b", null ],
+    [ "last_work", "structsteemit_1_1app_1_1witness__api__obj.html#ac97e0a711a576365eb267d641d2aab6a", null ],
+    [ "owner", "structsteemit_1_1app_1_1witness__api__obj.html#a00818dfd6357ef5959a881478bb4eca3", null ],
+    [ "pow_worker", "structsteemit_1_1app_1_1witness__api__obj.html#a89eecebe225fcdb94bf27faea944b1d3", null ],
+    [ "props", "structsteemit_1_1app_1_1witness__api__obj.html#a7f5326984feab0164ca4c4325db8d43e", null ],
+    [ "running_version", "structsteemit_1_1app_1_1witness__api__obj.html#aeea6829dff1974df3a5d694d5fdfaed1", null ],
+    [ "sbd_exchange_rate", "structsteemit_1_1app_1_1witness__api__obj.html#a7ae8b69b40f4f22f7c32d10dbc24a279", null ],
+    [ "signing_key", "structsteemit_1_1app_1_1witness__api__obj.html#a5c9ed83d036c4fd0d60b63538350b726", null ],
+    [ "total_missed", "structsteemit_1_1app_1_1witness__api__obj.html#af3bd95ed57b4728e1a70a80b44f11e77", null ],
+    [ "url", "structsteemit_1_1app_1_1witness__api__obj.html#a0985a3a4ec03cfe70e723838eb05ae2c", null ],
+    [ "virtual_last_update", "structsteemit_1_1app_1_1witness__api__obj.html#ae27dbb01e3089a52a81b59695eb23e41", null ],
+    [ "virtual_position", "structsteemit_1_1app_1_1witness__api__obj.html#a7fb41ab1b528245222fb60280cde9458", null ],
+    [ "virtual_scheduled_time", "structsteemit_1_1app_1_1witness__api__obj.html#aaea99dde2438819171561c51c3409c75", null ],
+    [ "votes", "structsteemit_1_1app_1_1witness__api__obj.html#a4d725a239d7dd602527d1ecc872282be", null ]
+];

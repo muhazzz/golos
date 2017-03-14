@@ -1,0 +1,798 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsteemit_1_1chain_1_1account__object" kind="class" language="C++" prot="public">
+    <compoundname>steemit::chain::account_object</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">chainbase::object&lt; account_object_type, account_object &gt;</basecompoundref>
+    <includes refid="account__object_8hpp" local="no">account_object.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1a0fce8c06bad7b35d39a6f63ec9ed609f" prot="public" static="no" mutable="no">
+        <type>id_type</type>
+        <definition>id_type steemit::chain::account_object::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="32" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1a91d529d885327e5fd39bdf1db06795db" prot="public" static="no" mutable="no">
+        <type>account_name_type</type>
+        <definition>account_name_type steemit::chain::account_object::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="34" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1aad9785a32f089982829c2576909086a0" prot="public" static="no" mutable="no">
+        <type>public_key_type</type>
+        <definition>public_key_type steemit::chain::account_object::memo_key</definition>
+        <argsstring></argsstring>
+        <name>memo_key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="35" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1a1defe80222d1bfff7f1858ab72f63fdc" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacesteemit_1_1chain_1a8e2d955447720336a4deaae60ad49519" kindref="member">shared_string</ref></type>
+        <definition>shared_string steemit::chain::account_object::json_metadata</definition>
+        <argsstring></argsstring>
+        <name>json_metadata</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="36" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1adbd7e442843bc6ed17bc1f21a761917c" prot="public" static="no" mutable="no">
+        <type>account_name_type</type>
+        <definition>account_name_type steemit::chain::account_object::proxy</definition>
+        <argsstring></argsstring>
+        <name>proxy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="37" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1a07627d89841dbf201bdd8b73cb54d8fa" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::account_object::last_account_update</definition>
+        <argsstring></argsstring>
+        <name>last_account_update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="39" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1abacc14098d38d1a596886cb4e60a4c17" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::account_object::created</definition>
+        <argsstring></argsstring>
+        <name>created</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="41" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1a9d933667560efe867753bc7f90d656e3" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool steemit::chain::account_object::mined</definition>
+        <argsstring></argsstring>
+        <name>mined</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="42" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1abd625a48bf8fbde28721e8ea6468438c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool steemit::chain::account_object::owner_challenged</definition>
+        <argsstring></argsstring>
+        <name>owner_challenged</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="43" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1a29aceaab3b9e3bb31beb620710513eb6" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool steemit::chain::account_object::active_challenged</definition>
+        <argsstring></argsstring>
+        <name>active_challenged</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="44" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1ae754eb032795e6b22d9b4a26ef847200" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::account_object::last_owner_proved</definition>
+        <argsstring></argsstring>
+        <name>last_owner_proved</name>
+        <initializer>= time_point_sec::min()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="45" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1a310445a86a184779ddb06263aba8143b" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::account_object::last_active_proved</definition>
+        <argsstring></argsstring>
+        <name>last_active_proved</name>
+        <initializer>= time_point_sec::min()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="46" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1a58ff04f8ddd0e37cbf63cea7f217e428" prot="public" static="no" mutable="no">
+        <type>account_name_type</type>
+        <definition>account_name_type steemit::chain::account_object::recovery_account</definition>
+        <argsstring></argsstring>
+        <name>recovery_account</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="47" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1abb1484bf05a19ab17e82a7d18f75be9b" prot="public" static="no" mutable="no">
+        <type>account_name_type</type>
+        <definition>account_name_type steemit::chain::account_object::reset_account</definition>
+        <argsstring></argsstring>
+        <name>reset_account</name>
+        <initializer>= STEEMIT_NULL_ACCOUNT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="48" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1aa8399e83423b33b8154c39f03975ba3c" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::account_object::last_account_recovery</definition>
+        <argsstring></argsstring>
+        <name>last_account_recovery</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="49" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1a1d53afc4465855ed431a4b9a86bef01f" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::chain::account_object::comment_count</definition>
+        <argsstring></argsstring>
+        <name>comment_count</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="50" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1a271cd31f4ce3db163e4c78ed9d80d23d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::chain::account_object::lifetime_vote_count</definition>
+        <argsstring></argsstring>
+        <name>lifetime_vote_count</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="51" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1ace2fc31327b2701e40fbb4de60faf190" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::chain::account_object::post_count</definition>
+        <argsstring></argsstring>
+        <name>post_count</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="52" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1aa2404b3775a6f2c2da7cec3edf4bed09" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool steemit::chain::account_object::can_vote</definition>
+        <argsstring></argsstring>
+        <name>can_vote</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="54" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1a353d1ebcf8965f8675544c99193eeb4a" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t steemit::chain::account_object::voting_power</definition>
+        <argsstring></argsstring>
+        <name>voting_power</name>
+        <initializer>= STEEMIT_100_PERCENT</initializer>
+        <briefdescription>
+<para>current voting power of this account, it falls after every vote </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="55" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1a4b2fd84b0060b11809f194cc0d1b570d" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::account_object::last_vote_time</definition>
+        <argsstring></argsstring>
+        <name>last_vote_time</name>
+        <briefdescription>
+<para>used to increase the voting power of this account the longer it goes without voting. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="56" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1a5f013b0ec14974a5369fd2e9eb4e9bc1" prot="public" static="no" mutable="no">
+        <type>asset</type>
+        <definition>asset steemit::chain::account_object::balance</definition>
+        <argsstring></argsstring>
+        <name>balance</name>
+        <initializer>= asset(0, STEEM_SYMBOL)</initializer>
+        <briefdescription>
+<para>total liquid shares held by this account </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="58" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1ac883841b69470b4416b95fd5eb5380aa" prot="public" static="no" mutable="no">
+        <type>asset</type>
+        <definition>asset steemit::chain::account_object::savings_balance</definition>
+        <argsstring></argsstring>
+        <name>savings_balance</name>
+        <initializer>= asset(0, STEEM_SYMBOL)</initializer>
+        <briefdescription>
+<para>total liquid shares held by this account </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="59" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__sbd__data_1ga9b2383cd407753d59866b8289d5166ff" prot="public" static="no" mutable="no">
+        <type>asset</type>
+        <definition>asset steemit::chain::account_object::sbd_balance</definition>
+        <argsstring></argsstring>
+        <name>sbd_balance</name>
+        <initializer>= asset(0, SBD_SYMBOL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="75" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__sbd__data_1ga0fd7ec90533e96b189945eba65f72663" prot="public" static="no" mutable="no">
+        <type>uint128_t</type>
+        <definition>uint128_t steemit::chain::account_object::sbd_seconds</definition>
+        <argsstring></argsstring>
+        <name>sbd_seconds</name>
+        <briefdescription>
+<para>total sbd balance </para>        </briefdescription>
+        <detaileddescription>
+<para>total sbd * how long it has been hel </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="76" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__sbd__data_1ga74b077c8c0da7d8b99fdcb11c28ade93" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::account_object::sbd_seconds_last_update</definition>
+        <argsstring></argsstring>
+        <name>sbd_seconds_last_update</name>
+        <briefdescription>
+<para>the last time the sbd_seconds was updated </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="77" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__sbd__data_1gafac9cf2a30e30621b92279e436162068" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::account_object::sbd_last_interest_payment</definition>
+        <argsstring></argsstring>
+        <name>sbd_last_interest_payment</name>
+        <briefdescription>
+<para>used to pay interest at most once per month </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="78" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__sbd__data_1gaf07ccd323f674402e63ba156dd7c1eb5" prot="public" static="no" mutable="no">
+        <type>asset</type>
+        <definition>asset steemit::chain::account_object::savings_sbd_balance</definition>
+        <argsstring></argsstring>
+        <name>savings_sbd_balance</name>
+        <initializer>= asset(0, SBD_SYMBOL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="81" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__sbd__data_1ga2df4ebab5dd493d3354aea90cc0c8ad6" prot="public" static="no" mutable="no">
+        <type>uint128_t</type>
+        <definition>uint128_t steemit::chain::account_object::savings_sbd_seconds</definition>
+        <argsstring></argsstring>
+        <name>savings_sbd_seconds</name>
+        <briefdescription>
+<para>total sbd balance </para>        </briefdescription>
+        <detaileddescription>
+<para>total sbd * how long it has been hel </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="82" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__sbd__data_1ga71cd729f78b9b44136897c608c2b02ca" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::account_object::savings_sbd_seconds_last_update</definition>
+        <argsstring></argsstring>
+        <name>savings_sbd_seconds_last_update</name>
+        <briefdescription>
+<para>the last time the sbd_seconds was updated </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="83" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__sbd__data_1ga95e1190aee36103acb31e22bcafc6964" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::account_object::savings_sbd_last_interest_payment</definition>
+        <argsstring></argsstring>
+        <name>savings_sbd_last_interest_payment</name>
+        <briefdescription>
+<para>used to pay interest at most once per month </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="84" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__sbd__data_1gad3b356052c9fde1ebc64d6a4d5ffe6cc" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t steemit::chain::account_object::savings_withdraw_requests</definition>
+        <argsstring></argsstring>
+        <name>savings_withdraw_requests</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="86" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1ad0bd7defcfd8a03bd1c57630d513ad23" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::chain::account_object::curation_rewards</definition>
+        <argsstring></argsstring>
+        <name>curation_rewards</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="89" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1a1a27ae49375847e5aa92d0098c441880" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::chain::account_object::posting_rewards</definition>
+        <argsstring></argsstring>
+        <name>posting_rewards</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="90" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1a176de677c45deaa30becf8e7b80414a3" prot="public" static="no" mutable="no">
+        <type>asset</type>
+        <definition>asset steemit::chain::account_object::vesting_shares</definition>
+        <argsstring></argsstring>
+        <name>vesting_shares</name>
+        <initializer>= asset(0, VESTS_SYMBOL)</initializer>
+        <briefdescription>
+<para>total vesting shares held by this account, controls its voting power </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="92" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1af61bf17601b6b6c9b350201b0c98c2d6" prot="public" static="no" mutable="no">
+        <type>asset</type>
+        <definition>asset steemit::chain::account_object::vesting_withdraw_rate</definition>
+        <argsstring></argsstring>
+        <name>vesting_withdraw_rate</name>
+        <initializer>= asset(0, VESTS_SYMBOL)</initializer>
+        <briefdescription>
+<para>at the time this is updated it can be at most vesting_shares/104 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="93" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1a50713a97c79d497e6d3dc0734f98e905" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::account_object::next_vesting_withdrawal</definition>
+        <argsstring></argsstring>
+        <name>next_vesting_withdrawal</name>
+        <initializer>= fc::time_point_sec::maximum()</initializer>
+        <briefdescription>
+<para>after every withdrawal this is incremented by 1 week </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="94" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1ae6dc181d3fa06fdd204b9cb4f07a6366" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::chain::account_object::withdrawn</definition>
+        <argsstring></argsstring>
+        <name>withdrawn</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="95" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1aee2a3cbaf16e69e87e6723fabdffee69" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::chain::account_object::to_withdraw</definition>
+        <argsstring></argsstring>
+        <name>to_withdraw</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Track how many shares have been withdrawn. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="96" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1a8ccc28849e7426c50bc38b032902e5f2" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t steemit::chain::account_object::withdraw_routes</definition>
+        <argsstring></argsstring>
+        <name>withdraw_routes</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Might be able to look this up with operation history. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="97" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1a500acf5814d799d86943e85fbb1242cd" prot="public" static="no" mutable="no">
+        <type>fc::array&lt; share_type, STEEMIT_MAX_PROXY_RECURSION_DEPTH &gt;</type>
+        <definition>fc::array&lt;share_type, STEEMIT_MAX_PROXY_RECURSION_DEPTH&gt; steemit::chain::account_object::proxied_vsf_votes</definition>
+        <argsstring></argsstring>
+        <name>proxied_vsf_votes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="99" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1ab93347f936bcf3c50991c13efa6c65f5" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t steemit::chain::account_object::witnesses_voted_for</definition>
+        <argsstring></argsstring>
+        <name>witnesses_voted_for</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="101" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__object_1ade8aa9b6409c7543fcd5a5559dba30ab" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::account_object::last_post</definition>
+        <argsstring></argsstring>
+        <name>last_post</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="103" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1account__object_1a30b7a5df0704140aa0730f0c51103bcd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>steemit::chain::account_object::account_object</definition>
+        <argsstring>()=delete</argsstring>
+        <name>account_object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1account__object_1a4c64856113cadd88f53daf32cae2623e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Constructor</type>
+          </param>
+          <param>
+            <type>typename Allocator</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>steemit::chain::account_object::account_object</definition>
+        <argsstring>(Constructor &amp;&amp;c, allocator&lt; Allocator &gt; a)</argsstring>
+        <name>account_object</name>
+        <param>
+          <type>Constructor &amp;&amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>allocator&lt; Allocator &gt;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="27" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1account__object_1ac8f460601a4850a57ec4d131001c0833" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>share_type</type>
+        <definition>share_type steemit::chain::account_object::witness_vote_weight</definition>
+        <argsstring>() const</argsstring>
+        <name>witness_vote_weight</name>
+        <briefdescription>
+<para>This function should be used only when the account votes for a witness directly. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="106" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="106" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1account__object_1a90e661d2ffa6d38de9f57e94d85bd907" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>share_type</type>
+        <definition>share_type steemit::chain::account_object::proxied_vsf_votes_total</definition>
+        <argsstring>() const</argsstring>
+        <name>proxied_vsf_votes_total</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="112" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="112" bodyend="116"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="93">
+        <label>chainbase::object&lt; account_object_type, account_object &gt;</label>
+      </node>
+      <node id="92">
+        <label>steemit::chain::account_object</label>
+        <link refid="classsteemit_1_1chain_1_1account__object"/>
+        <childnode refid="93" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="98">
+        <label>asset</label>
+      </node>
+      <node id="96">
+        <label>time_point_sec</label>
+      </node>
+      <node id="97">
+        <label>public_key_type</label>
+      </node>
+      <node id="99">
+        <label>account_name_type</label>
+      </node>
+      <node id="95">
+        <label>chainbase::object&lt; account_object_type, account_object &gt;</label>
+      </node>
+      <node id="101">
+        <label>share_type</label>
+      </node>
+      <node id="94">
+        <label>steemit::chain::account_object</label>
+        <link refid="classsteemit_1_1chain_1_1account__object"/>
+        <childnode refid="95" relation="public-inheritance">
+        </childnode>
+        <childnode refid="96" relation="usage">
+          <edgelabel>last_account_recovery</edgelabel>
+          <edgelabel>next_vesting_withdrawal</edgelabel>
+          <edgelabel>sbd_last_interest_payment</edgelabel>
+          <edgelabel>last_vote_time</edgelabel>
+          <edgelabel>last_owner_proved</edgelabel>
+          <edgelabel>created</edgelabel>
+          <edgelabel>last_post</edgelabel>
+          <edgelabel>sbd_seconds_last_update</edgelabel>
+          <edgelabel>last_active_proved</edgelabel>
+          <edgelabel>savings_sbd_seconds_last_update</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="97" relation="usage">
+          <edgelabel>memo_key</edgelabel>
+        </childnode>
+        <childnode refid="98" relation="usage">
+          <edgelabel>savings_sbd_balance</edgelabel>
+          <edgelabel>vesting_shares</edgelabel>
+          <edgelabel>balance</edgelabel>
+          <edgelabel>sbd_balance</edgelabel>
+          <edgelabel>savings_balance</edgelabel>
+          <edgelabel>vesting_withdraw_rate</edgelabel>
+        </childnode>
+        <childnode refid="99" relation="usage">
+          <edgelabel>reset_account</edgelabel>
+          <edgelabel>recovery_account</edgelabel>
+          <edgelabel>proxy</edgelabel>
+          <edgelabel>name</edgelabel>
+        </childnode>
+        <childnode refid="100" relation="usage">
+          <edgelabel>sbd_seconds</edgelabel>
+          <edgelabel>savings_sbd_seconds</edgelabel>
+        </childnode>
+        <childnode refid="101" relation="usage">
+          <edgelabel>to_withdraw</edgelabel>
+          <edgelabel>posting_rewards</edgelabel>
+          <edgelabel>curation_rewards</edgelabel>
+          <edgelabel>withdrawn</edgelabel>
+        </childnode>
+      </node>
+      <node id="100">
+        <label>uint128_t</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="22" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="21" bodyend="117"/>
+    <listofallmembers>
+      <member refid="classsteemit_1_1chain_1_1account__object_1a30b7a5df0704140aa0730f0c51103bcd" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>account_object</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1a4c64856113cadd88f53daf32cae2623e" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>account_object</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1a29aceaab3b9e3bb31beb620710513eb6" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>active_challenged</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1a5f013b0ec14974a5369fd2e9eb4e9bc1" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>balance</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1aa2404b3775a6f2c2da7cec3edf4bed09" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>can_vote</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1a1d53afc4465855ed431a4b9a86bef01f" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>comment_count</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1abacc14098d38d1a596886cb4e60a4c17" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>created</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1ad0bd7defcfd8a03bd1c57630d513ad23" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>curation_rewards</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1a0fce8c06bad7b35d39a6f63ec9ed609f" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>id</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1a1defe80222d1bfff7f1858ab72f63fdc" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>json_metadata</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1aa8399e83423b33b8154c39f03975ba3c" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>last_account_recovery</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1a07627d89841dbf201bdd8b73cb54d8fa" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>last_account_update</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1a310445a86a184779ddb06263aba8143b" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>last_active_proved</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1ae754eb032795e6b22d9b4a26ef847200" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>last_owner_proved</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1ade8aa9b6409c7543fcd5a5559dba30ab" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>last_post</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1a4b2fd84b0060b11809f194cc0d1b570d" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>last_vote_time</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1a271cd31f4ce3db163e4c78ed9d80d23d" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>lifetime_vote_count</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1aad9785a32f089982829c2576909086a0" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>memo_key</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1a9d933667560efe867753bc7f90d656e3" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>mined</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1a91d529d885327e5fd39bdf1db06795db" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>name</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1a50713a97c79d497e6d3dc0734f98e905" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>next_vesting_withdrawal</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1abd625a48bf8fbde28721e8ea6468438c" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>owner_challenged</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1ace2fc31327b2701e40fbb4de60faf190" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>post_count</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1a1a27ae49375847e5aa92d0098c441880" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>posting_rewards</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1a500acf5814d799d86943e85fbb1242cd" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>proxied_vsf_votes</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1a90e661d2ffa6d38de9f57e94d85bd907" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>proxied_vsf_votes_total</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1adbd7e442843bc6ed17bc1f21a761917c" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>proxy</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1a58ff04f8ddd0e37cbf63cea7f217e428" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>recovery_account</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1abb1484bf05a19ab17e82a7d18f75be9b" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>reset_account</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1ac883841b69470b4416b95fd5eb5380aa" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>savings_balance</name></member>
+      <member refid="group__sbd__data_1gaf07ccd323f674402e63ba156dd7c1eb5" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>savings_sbd_balance</name></member>
+      <member refid="group__sbd__data_1ga95e1190aee36103acb31e22bcafc6964" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>savings_sbd_last_interest_payment</name></member>
+      <member refid="group__sbd__data_1ga2df4ebab5dd493d3354aea90cc0c8ad6" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>savings_sbd_seconds</name></member>
+      <member refid="group__sbd__data_1ga71cd729f78b9b44136897c608c2b02ca" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>savings_sbd_seconds_last_update</name></member>
+      <member refid="group__sbd__data_1gad3b356052c9fde1ebc64d6a4d5ffe6cc" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>savings_withdraw_requests</name></member>
+      <member refid="group__sbd__data_1ga9b2383cd407753d59866b8289d5166ff" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>sbd_balance</name></member>
+      <member refid="group__sbd__data_1gafac9cf2a30e30621b92279e436162068" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>sbd_last_interest_payment</name></member>
+      <member refid="group__sbd__data_1ga0fd7ec90533e96b189945eba65f72663" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>sbd_seconds</name></member>
+      <member refid="group__sbd__data_1ga74b077c8c0da7d8b99fdcb11c28ade93" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>sbd_seconds_last_update</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1aee2a3cbaf16e69e87e6723fabdffee69" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>to_withdraw</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1a176de677c45deaa30becf8e7b80414a3" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>vesting_shares</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1af61bf17601b6b6c9b350201b0c98c2d6" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>vesting_withdraw_rate</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1a353d1ebcf8965f8675544c99193eeb4a" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>voting_power</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1a8ccc28849e7426c50bc38b032902e5f2" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>withdraw_routes</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1ae6dc181d3fa06fdd204b9cb4f07a6366" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>withdrawn</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1ac8f460601a4850a57ec4d131001c0833" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>witness_vote_weight</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__object_1ab93347f936bcf3c50991c13efa6c65f5" prot="public" virt="non-virtual"><scope>steemit::chain::account_object</scope><name>witnesses_voted_for</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

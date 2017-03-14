@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structsteemit_1_1app_1_1order__book" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::app::order_book</compoundname>
+    <includes refid="database__api_8hpp" local="no">database_api.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1order__book_1ac2e1e2fd0b6f0e14043d9eb9d0be6a3f" prot="public" static="no" mutable="no">
+        <type>vector&lt; <ref refid="structsteemit_1_1app_1_1order" kindref="compound">order</ref> &gt;</type>
+        <definition>vector&lt;order&gt; steemit::app::order_book::asks</definition>
+        <argsstring></argsstring>
+        <name>asks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/database_api.hpp" line="43" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1order__book_1a6e9fba0c5c1d259a70a27971ad67bf2e" prot="public" static="no" mutable="no">
+        <type>vector&lt; <ref refid="structsteemit_1_1app_1_1order" kindref="compound">order</ref> &gt;</type>
+        <definition>vector&lt;order&gt; steemit::app::order_book::bids</definition>
+        <argsstring></argsstring>
+        <name>bids</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/database_api.hpp" line="44" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="801">
+        <label>steemit::app::order_book</label>
+        <link refid="structsteemit_1_1app_1_1order__book"/>
+        <childnode refid="802" relation="usage">
+          <edgelabel>bids</edgelabel>
+          <edgelabel>asks</edgelabel>
+        </childnode>
+      </node>
+      <node id="802">
+        <label>vector&lt; steemit::app::order &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/app/include/steemit/app/database_api.hpp" line="42" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="42" bodyend="45"/>
+    <listofallmembers>
+      <member refid="structsteemit_1_1app_1_1order__book_1ac2e1e2fd0b6f0e14043d9eb9d0be6a3f" prot="public" virt="non-virtual"><scope>steemit::app::order_book</scope><name>asks</name></member>
+      <member refid="structsteemit_1_1app_1_1order__book_1a6e9fba0c5c1d259a70a27971ad67bf2e" prot="public" virt="non-virtual"><scope>steemit::app::order_book</scope><name>bids</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

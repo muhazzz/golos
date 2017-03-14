@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsteemit_1_1chain_1_1detail_1_1block__log__impl" kind="class" language="C++" prot="public">
+    <compoundname>steemit::chain::detail::block_log_impl</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1detail_1_1block__log__impl_1a8df0a31f310d3b2ffa902c03b357885f" prot="public" static="no" mutable="no">
+        <type>optional&lt; signed_block &gt;</type>
+        <definition>optional&lt;signed_block&gt; steemit::chain::detail::block_log_impl::head</definition>
+        <argsstring></argsstring>
+        <name>head</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/block_log.cpp" line="13" column="1" bodyfile="libraries/chain/block_log.cpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1detail_1_1block__log__impl_1a61225f23e7833606f7616ff88f90f527" prot="public" static="no" mutable="no">
+        <type>block_id_type</type>
+        <definition>block_id_type steemit::chain::detail::block_log_impl::head_id</definition>
+        <argsstring></argsstring>
+        <name>head_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/block_log.cpp" line="14" column="1" bodyfile="libraries/chain/block_log.cpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1detail_1_1block__log__impl_1a83403e8832a42311784f7a75a87ed93a" prot="public" static="no" mutable="no">
+        <type>std::fstream</type>
+        <definition>std::fstream steemit::chain::detail::block_log_impl::block_stream</definition>
+        <argsstring></argsstring>
+        <name>block_stream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/block_log.cpp" line="15" column="1" bodyfile="libraries/chain/block_log.cpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1detail_1_1block__log__impl_1a4d06b45a206e85c3e32d1f9abc41c978" prot="public" static="no" mutable="no">
+        <type>std::fstream</type>
+        <definition>std::fstream steemit::chain::detail::block_log_impl::index_stream</definition>
+        <argsstring></argsstring>
+        <name>index_stream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/block_log.cpp" line="16" column="1" bodyfile="libraries/chain/block_log.cpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1detail_1_1block__log__impl_1a0098e17736b0f9dcde4f4d4b3048392a" prot="public" static="no" mutable="no">
+        <type>fc::path</type>
+        <definition>fc::path steemit::chain::detail::block_log_impl::block_file</definition>
+        <argsstring></argsstring>
+        <name>block_file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/block_log.cpp" line="17" column="1" bodyfile="libraries/chain/block_log.cpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1detail_1_1block__log__impl_1af7f7aca42b8226630b7ec6a0dc8f141f" prot="public" static="no" mutable="no">
+        <type>fc::path</type>
+        <definition>fc::path steemit::chain::detail::block_log_impl::index_file</definition>
+        <argsstring></argsstring>
+        <name>index_file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/block_log.cpp" line="18" column="1" bodyfile="libraries/chain/block_log.cpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1detail_1_1block__log__impl_1ae40e8427e9ae3b795351603bec0115ce" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool steemit::chain::detail::block_log_impl::block_write</definition>
+        <argsstring></argsstring>
+        <name>block_write</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/block_log.cpp" line="19" column="1" bodyfile="libraries/chain/block_log.cpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1detail_1_1block__log__impl_1ab768892a21f5c40d97e57e5a4ec69474" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool steemit::chain::detail::block_log_impl::index_write</definition>
+        <argsstring></argsstring>
+        <name>index_write</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/block_log.cpp" line="20" column="1" bodyfile="libraries/chain/block_log.cpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1detail_1_1block__log__impl_1ac23d4a07eb204659c6e68b80f6a8a617" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::chain::detail::block_log_impl::check_block_read</definition>
+        <argsstring>()</argsstring>
+        <name>check_block_read</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/block_log.cpp" line="22" column="1" bodyfile="libraries/chain/block_log.cpp" bodystart="22" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1detail_1_1block__log__impl_1a237ddb64fc61b03f54532a8c3c2c2c1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::chain::detail::block_log_impl::check_block_write</definition>
+        <argsstring>()</argsstring>
+        <name>check_block_write</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/block_log.cpp" line="30" column="1" bodyfile="libraries/chain/block_log.cpp" bodystart="30" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1detail_1_1block__log__impl_1acfb543aa8eef172c440f0f4036379ddd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::chain::detail::block_log_impl::check_index_read</definition>
+        <argsstring>()</argsstring>
+        <name>check_index_read</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/block_log.cpp" line="38" column="1" bodyfile="libraries/chain/block_log.cpp" bodystart="38" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1detail_1_1block__log__impl_1aa62a08d1205e2de2d44bf5777cc7a537" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::chain::detail::block_log_impl::check_index_write</definition>
+        <argsstring>()</argsstring>
+        <name>check_index_write</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/block_log.cpp" line="49" column="1" bodyfile="libraries/chain/block_log.cpp" bodystart="49" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="219">
+        <label>block_id_type</label>
+      </node>
+      <node id="218">
+        <label>steemit::chain::detail::block_log_impl</label>
+        <link refid="classsteemit_1_1chain_1_1detail_1_1block__log__impl"/>
+        <childnode refid="219" relation="usage">
+          <edgelabel>head_id</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/chain/block_log.cpp" line="11" column="1" bodyfile="libraries/chain/block_log.cpp" bodystart="11" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classsteemit_1_1chain_1_1detail_1_1block__log__impl_1a0098e17736b0f9dcde4f4d4b3048392a" prot="public" virt="non-virtual"><scope>steemit::chain::detail::block_log_impl</scope><name>block_file</name></member>
+      <member refid="classsteemit_1_1chain_1_1detail_1_1block__log__impl_1a83403e8832a42311784f7a75a87ed93a" prot="public" virt="non-virtual"><scope>steemit::chain::detail::block_log_impl</scope><name>block_stream</name></member>
+      <member refid="classsteemit_1_1chain_1_1detail_1_1block__log__impl_1ae40e8427e9ae3b795351603bec0115ce" prot="public" virt="non-virtual"><scope>steemit::chain::detail::block_log_impl</scope><name>block_write</name></member>
+      <member refid="classsteemit_1_1chain_1_1detail_1_1block__log__impl_1ac23d4a07eb204659c6e68b80f6a8a617" prot="public" virt="non-virtual"><scope>steemit::chain::detail::block_log_impl</scope><name>check_block_read</name></member>
+      <member refid="classsteemit_1_1chain_1_1detail_1_1block__log__impl_1a237ddb64fc61b03f54532a8c3c2c2c1b" prot="public" virt="non-virtual"><scope>steemit::chain::detail::block_log_impl</scope><name>check_block_write</name></member>
+      <member refid="classsteemit_1_1chain_1_1detail_1_1block__log__impl_1acfb543aa8eef172c440f0f4036379ddd" prot="public" virt="non-virtual"><scope>steemit::chain::detail::block_log_impl</scope><name>check_index_read</name></member>
+      <member refid="classsteemit_1_1chain_1_1detail_1_1block__log__impl_1aa62a08d1205e2de2d44bf5777cc7a537" prot="public" virt="non-virtual"><scope>steemit::chain::detail::block_log_impl</scope><name>check_index_write</name></member>
+      <member refid="classsteemit_1_1chain_1_1detail_1_1block__log__impl_1a8df0a31f310d3b2ffa902c03b357885f" prot="public" virt="non-virtual"><scope>steemit::chain::detail::block_log_impl</scope><name>head</name></member>
+      <member refid="classsteemit_1_1chain_1_1detail_1_1block__log__impl_1a61225f23e7833606f7616ff88f90f527" prot="public" virt="non-virtual"><scope>steemit::chain::detail::block_log_impl</scope><name>head_id</name></member>
+      <member refid="classsteemit_1_1chain_1_1detail_1_1block__log__impl_1af7f7aca42b8226630b7ec6a0dc8f141f" prot="public" virt="non-virtual"><scope>steemit::chain::detail::block_log_impl</scope><name>index_file</name></member>
+      <member refid="classsteemit_1_1chain_1_1detail_1_1block__log__impl_1a4d06b45a206e85c3e32d1f9abc41c978" prot="public" virt="non-virtual"><scope>steemit::chain::detail::block_log_impl</scope><name>index_stream</name></member>
+      <member refid="classsteemit_1_1chain_1_1detail_1_1block__log__impl_1ab768892a21f5c40d97e57e5a4ec69474" prot="public" virt="non-virtual"><scope>steemit::chain::detail::block_log_impl</scope><name>index_write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

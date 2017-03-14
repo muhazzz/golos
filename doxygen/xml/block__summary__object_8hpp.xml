@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="block__summary__object_8hpp" kind="file" language="C++">
+    <compoundname>block_summary_object.hpp</compoundname>
+    <includes refid="steem__object__types_8hpp" local="no">steemit/chain/steem_object_types.hpp</includes>
+    <includedby refid="database_8cpp" local="no">libraries/chain/database.cpp</includedby>
+    <includedby refid="steem__evaluator_8cpp" local="no">libraries/chain/steem_evaluator.cpp</includedby>
+    <includedby refid="steem__api__objects_8hpp" local="no">libraries/app/include/steemit/app/steem_api_objects.hpp</includedby>
+    <incdepgraph>
+      <node id="1207">
+        <label>boost/multi_index/ordered_index.hpp</label>
+      </node>
+      <node id="1210">
+        <label>steemit/protocol/types.hpp</label>
+      </node>
+      <node id="1211">
+        <label>steemit/protocol/authority.hpp</label>
+      </node>
+      <node id="1204">
+        <label>steemit/chain/steem_object_types.hpp</label>
+        <link refid="steem__object__types_8hpp"/>
+        <childnode refid="1205" relation="include">
+        </childnode>
+        <childnode refid="1206" relation="include">
+        </childnode>
+        <childnode refid="1207" relation="include">
+        </childnode>
+        <childnode refid="1208" relation="include">
+        </childnode>
+        <childnode refid="1209" relation="include">
+        </childnode>
+        <childnode refid="1210" relation="include">
+        </childnode>
+        <childnode refid="1211" relation="include">
+        </childnode>
+      </node>
+      <node id="1209">
+        <label>chainbase/chainbase.hpp</label>
+      </node>
+      <node id="1206">
+        <label>boost/multi_index/member.hpp</label>
+      </node>
+      <node id="1205">
+        <label>boost/multi_index_container.hpp</label>
+      </node>
+      <node id="1203">
+        <label>libraries/chain/include/steemit/chain/block_summary_object.hpp</label>
+        <link refid="block__summary__object_8hpp"/>
+        <childnode refid="1204" relation="include">
+        </childnode>
+      </node>
+      <node id="1208">
+        <label>boost/multi_index/mem_fun.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1221">
+        <label>libraries/app/application.cpp</label>
+        <link refid="application_8cpp"/>
+      </node>
+      <node id="1228">
+        <label>libraries/plugins/follow/follow_plugin.cpp</label>
+        <link refid="follow__plugin_8cpp"/>
+      </node>
+      <node id="1215">
+        <label>libraries/app/include/steemit/app/steem_api_objects.hpp</label>
+        <link refid="steem__api__objects_8hpp"/>
+        <childnode refid="1216" relation="include">
+        </childnode>
+        <childnode refid="1222" relation="include">
+        </childnode>
+        <childnode refid="1226" relation="include">
+        </childnode>
+      </node>
+      <node id="1225">
+        <label>libraries/plugins/delayed_node/delayed_node_plugin.cpp</label>
+        <link refid="delayed__node__plugin_8cpp"/>
+      </node>
+      <node id="1226">
+        <label>libraries/plugins/follow/include/steemit/follow/follow_api.hpp</label>
+        <link refid="follow__api_8hpp"/>
+        <childnode refid="1227" relation="include">
+        </childnode>
+        <childnode refid="1228" relation="include">
+        </childnode>
+        <childnode refid="1229" relation="include">
+        </childnode>
+      </node>
+      <node id="1216">
+        <label>libraries/app/include/steemit/app/state.hpp</label>
+        <link refid="state_8hpp"/>
+        <childnode refid="1217" relation="include">
+        </childnode>
+      </node>
+      <node id="1213">
+        <label>libraries/chain/database.cpp</label>
+        <link refid="database_8cpp"/>
+      </node>
+      <node id="1231">
+        <label>libraries/plugins/follow/follow_evaluators.cpp</label>
+        <link refid="follow__evaluators_8cpp"/>
+      </node>
+      <node id="1230">
+        <label>libraries/plugins/follow/include/steemit/follow/follow_objects.hpp</label>
+        <link refid="follow__objects_8hpp"/>
+        <childnode refid="1231" relation="include">
+        </childnode>
+        <childnode refid="1228" relation="include">
+        </childnode>
+        <childnode refid="1226" relation="include">
+        </childnode>
+      </node>
+      <node id="1214">
+        <label>libraries/chain/steem_evaluator.cpp</label>
+        <link refid="steem__evaluator_8cpp"/>
+      </node>
+      <node id="1223">
+        <label>libraries/wallet/api_documentation_standin.cpp</label>
+        <link refid="api__documentation__standin_8cpp"/>
+      </node>
+      <node id="1218">
+        <label>libraries/app/database_api.cpp</label>
+        <link refid="database__api_8cpp"/>
+      </node>
+      <node id="1229">
+        <label>libraries/plugins/follow/include/steemit/follow/follow_plugin.hpp</label>
+        <link refid="follow__plugin_8hpp"/>
+        <childnode refid="1217" relation="include">
+        </childnode>
+        <childnode refid="1222" relation="include">
+        </childnode>
+        <childnode refid="1230" relation="include">
+        </childnode>
+        <childnode refid="1232" relation="include">
+        </childnode>
+      </node>
+      <node id="1222">
+        <label>libraries/wallet/include/steemit/wallet/wallet.hpp</label>
+        <link refid="wallet_8hpp"/>
+        <childnode refid="1223" relation="include">
+        </childnode>
+        <childnode refid="1224" relation="include">
+        </childnode>
+      </node>
+      <node id="1217">
+        <label>libraries/app/include/steemit/app/database_api.hpp</label>
+        <link refid="database__api_8hpp"/>
+        <childnode refid="1218" relation="include">
+        </childnode>
+        <childnode refid="1219" relation="include">
+        </childnode>
+      </node>
+      <node id="1227">
+        <label>libraries/plugins/follow/follow_api.cpp</label>
+        <link refid="follow__api_8cpp"/>
+      </node>
+      <node id="1232">
+        <label>libraries/plugins/follow/include/steemit/follow/follow_operations.hpp</label>
+        <link refid="follow__operations_8hpp"/>
+        <childnode refid="1224" relation="include">
+        </childnode>
+        <childnode refid="1231" relation="include">
+        </childnode>
+        <childnode refid="1233" relation="include">
+        </childnode>
+        <childnode refid="1228" relation="include">
+        </childnode>
+      </node>
+      <node id="1224">
+        <label>libraries/wallet/wallet.cpp</label>
+        <link refid="wallet_8cpp"/>
+      </node>
+      <node id="1233">
+        <label>libraries/plugins/follow/follow_operations.cpp</label>
+        <link refid="follow__operations_8cpp"/>
+      </node>
+      <node id="1219">
+        <label>libraries/app/include/steemit/app/api.hpp</label>
+        <link refid="api_8hpp"/>
+        <childnode refid="1220" relation="include">
+        </childnode>
+        <childnode refid="1221" relation="include">
+        </childnode>
+        <childnode refid="1222" relation="include">
+        </childnode>
+        <childnode refid="1224" relation="include">
+        </childnode>
+        <childnode refid="1225" relation="include">
+        </childnode>
+      </node>
+      <node id="1220">
+        <label>libraries/app/api.cpp</label>
+        <link refid="api_8cpp"/>
+      </node>
+      <node id="1212">
+        <label>libraries/chain/include/steemit/chain/block_summary_object.hpp</label>
+        <link refid="block__summary__object_8hpp"/>
+        <childnode refid="1213" relation="include">
+        </childnode>
+        <childnode refid="1214" relation="include">
+        </childnode>
+        <childnode refid="1215" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classsteemit_1_1chain_1_1block__summary__object" prot="public">steemit::chain::block_summary_object</innerclass>
+    <innernamespace refid="namespacesteemit">steemit</innernamespace>
+    <innernamespace refid="namespacesteemit_1_1chain">steemit::chain</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/chain/include/steemit/chain/block_summary_object.hpp"/>
+  </compounddef>
+</doxygen>

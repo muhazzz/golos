@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsteemit_1_1market__history_1_1market__history__api" kind="class" language="C++" prot="public">
+    <compoundname>steemit::market_history::market_history_api</compoundname>
+    <includes refid="market__history__api_8hpp" local="no">market_history_api.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsteemit_1_1market__history_1_1market__history__api_1a50557ed54747bcdab23bf511319d76b1" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classsteemit_1_1market__history_1_1detail_1_1market__history__api__impl" kindref="compound">detail::market_history_api_impl</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;detail::market_history_api_impl&gt; steemit::market_history::market_history_api::my</definition>
+        <argsstring></argsstring>
+        <name>my</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" line="109" column="1" bodyfile="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsteemit_1_1market__history_1_1market__history__api_1ab9549d8b76fe8b6b9a169d9703f9686d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>steemit::market_history::market_history_api::market_history_api</definition>
+        <argsstring>(const steemit::app::api_context &amp;ctx)</argsstring>
+        <name>market_history_api</name>
+        <param>
+          <type>const <ref refid="structsteemit_1_1app_1_1api__context" kindref="compound">steemit::app::api_context</ref> &amp;</type>
+          <declname>ctx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" line="58" column="1" bodyfile="libraries/plugins/market_history/market_history_api.cpp" bodystart="192" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1market__history_1_1market__history__api_1ab47e610c26f330aef14220bd968cef0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::market_history::market_history_api::on_api_startup</definition>
+        <argsstring>()</argsstring>
+        <name>on_api_startup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" line="60" column="1" bodyfile="libraries/plugins/market_history/market_history_api.cpp" bodystart="196" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1market__history_1_1market__history__api_1ac01904bfcfa8b26c6cecb9a50dbc3653" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structsteemit_1_1market__history_1_1market__ticker" kindref="compound">market_ticker</ref></type>
+        <definition>market_ticker steemit::market_history::market_history_api::get_ticker</definition>
+        <argsstring>() const</argsstring>
+        <name>get_ticker</name>
+        <briefdescription>
+<para>Returns the market ticker for the internal SBD:STEEM market. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" line="65" column="1" bodyfile="libraries/plugins/market_history/market_history_api.cpp" bodystart="199" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1market__history_1_1market__history__api_1ac6a517754af8b5ef0301e07806632eec" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structsteemit_1_1market__history_1_1market__volume" kindref="compound">market_volume</ref></type>
+        <definition>market_volume steemit::market_history::market_history_api::get_volume</definition>
+        <argsstring>() const</argsstring>
+        <name>get_volume</name>
+        <briefdescription>
+<para>Returns the market volume for the past 24 hours. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" line="70" column="1" bodyfile="libraries/plugins/market_history/market_history_api.cpp" bodystart="205" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1market__history_1_1market__history__api_1a0022c1e07a64a72a2f574571802412d0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structsteemit_1_1market__history_1_1order__book" kindref="compound">order_book</ref></type>
+        <definition>order_book steemit::market_history::market_history_api::get_order_book</definition>
+        <argsstring>(uint32_t limit=500) const</argsstring>
+        <name>get_order_book</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>limit</declname>
+          <defval>500</defval>
+        </param>
+        <briefdescription>
+<para>Returns the current order book for the internal SBD:STEEM market. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>limit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of orders to have on each side of the order book. Maximum is 500 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" line="76" column="1" bodyfile="libraries/plugins/market_history/market_history_api.cpp" bodystart="211" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1market__history_1_1market__history__api_1a1889e5db2001885df476288e56d2f2d8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="structsteemit_1_1market__history_1_1market__trade" kindref="compound">market_trade</ref> &gt;</type>
+        <definition>std::vector&lt; market_trade &gt; steemit::market_history::market_history_api::get_trade_history</definition>
+        <argsstring>(time_point_sec start, time_point_sec end, uint32_t limit=1000) const</argsstring>
+        <name>get_trade_history</name>
+        <param>
+          <type>time_point_sec</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>time_point_sec</type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>limit</declname>
+          <defval>1000</defval>
+        </param>
+        <briefdescription>
+<para>Returns the trade history for the internal SBD:STEEM market. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>start</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The start time of the trade history. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>end</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The end time of the trade history. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>limit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of trades to return. Maximum is 1000. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A list of completed trades. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" line="85" column="1" bodyfile="libraries/plugins/market_history/market_history_api.cpp" bodystart="217" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1market__history_1_1market__history__api_1a00a4dae1395c9b04ff751e5eb8cba90e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="structsteemit_1_1market__history_1_1market__trade" kindref="compound">market_trade</ref> &gt;</type>
+        <definition>std::vector&lt; market_trade &gt; steemit::market_history::market_history_api::get_recent_trades</definition>
+        <argsstring>(uint32_t limit=1000) const</argsstring>
+        <name>get_recent_trades</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>limit</declname>
+          <defval>1000</defval>
+        </param>
+        <briefdescription>
+<para>Returns the N most recent trades for the internal SBD:STEEM market. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>limit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of recent trades to return. Maximum is 1000. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A list of completed trades. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" line="92" column="1" bodyfile="libraries/plugins/market_history/market_history_api.cpp" bodystart="223" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1market__history_1_1market__history__api_1a1eb32ffd696cf1334c0ea3c68f70d947" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="structsteemit_1_1market__history_1_1bucket__object" kindref="compound">bucket_object</ref> &gt;</type>
+        <definition>std::vector&lt; bucket_object &gt; steemit::market_history::market_history_api::get_market_history</definition>
+        <argsstring>(uint32_t bucket_seconds, time_point_sec start, time_point_sec end) const</argsstring>
+        <name>get_market_history</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>bucket_seconds</declname>
+        </param>
+        <param>
+          <type>time_point_sec</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>time_point_sec</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+<para>Returns the market history for the internal SBD:STEEM market. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bucket_seconds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The size of buckets the history is broken into. The bucket size must be configured in the plugin options. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>start</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The start time to get market history. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>end</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The end time to get market history </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A list of market history buckets. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" line="101" column="1" bodyfile="libraries/plugins/market_history/market_history_api.cpp" bodystart="229" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1market__history_1_1market__history__api_1af7d1144227656f8ff395b14b8178b094" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>flat_set&lt; uint32_t &gt;</type>
+        <definition>flat_set&lt; uint32_t &gt; steemit::market_history::market_history_api::get_market_history_buckets</definition>
+        <argsstring>() const</argsstring>
+        <name>get_market_history_buckets</name>
+        <briefdescription>
+<para>Returns the bucket seconds being tracked by the plugin. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" line="106" column="1" bodyfile="libraries/plugins/market_history/market_history_api.cpp" bodystart="235" bodyend="239"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" line="56" column="1" bodyfile="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" bodystart="56" bodyend="110"/>
+    <listofallmembers>
+      <member refid="classsteemit_1_1market__history_1_1market__history__api_1a1eb32ffd696cf1334c0ea3c68f70d947" prot="public" virt="non-virtual"><scope>steemit::market_history::market_history_api</scope><name>get_market_history</name></member>
+      <member refid="classsteemit_1_1market__history_1_1market__history__api_1af7d1144227656f8ff395b14b8178b094" prot="public" virt="non-virtual"><scope>steemit::market_history::market_history_api</scope><name>get_market_history_buckets</name></member>
+      <member refid="classsteemit_1_1market__history_1_1market__history__api_1a0022c1e07a64a72a2f574571802412d0" prot="public" virt="non-virtual"><scope>steemit::market_history::market_history_api</scope><name>get_order_book</name></member>
+      <member refid="classsteemit_1_1market__history_1_1market__history__api_1a00a4dae1395c9b04ff751e5eb8cba90e" prot="public" virt="non-virtual"><scope>steemit::market_history::market_history_api</scope><name>get_recent_trades</name></member>
+      <member refid="classsteemit_1_1market__history_1_1market__history__api_1ac01904bfcfa8b26c6cecb9a50dbc3653" prot="public" virt="non-virtual"><scope>steemit::market_history::market_history_api</scope><name>get_ticker</name></member>
+      <member refid="classsteemit_1_1market__history_1_1market__history__api_1a1889e5db2001885df476288e56d2f2d8" prot="public" virt="non-virtual"><scope>steemit::market_history::market_history_api</scope><name>get_trade_history</name></member>
+      <member refid="classsteemit_1_1market__history_1_1market__history__api_1ac6a517754af8b5ef0301e07806632eec" prot="public" virt="non-virtual"><scope>steemit::market_history::market_history_api</scope><name>get_volume</name></member>
+      <member refid="classsteemit_1_1market__history_1_1market__history__api_1ab9549d8b76fe8b6b9a169d9703f9686d" prot="public" virt="non-virtual"><scope>steemit::market_history::market_history_api</scope><name>market_history_api</name></member>
+      <member refid="classsteemit_1_1market__history_1_1market__history__api_1a50557ed54747bcdab23bf511319d76b1" prot="private" virt="non-virtual"><scope>steemit::market_history::market_history_api</scope><name>my</name></member>
+      <member refid="classsteemit_1_1market__history_1_1market__history__api_1ab47e610c26f330aef14220bd968cef0a" prot="public" virt="non-virtual"><scope>steemit::market_history::market_history_api</scope><name>on_api_startup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

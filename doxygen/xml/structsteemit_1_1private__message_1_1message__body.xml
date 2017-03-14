@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structsteemit_1_1private__message_1_1message__body" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::private_message::message_body</compoundname>
+    <includes refid="private__message__plugin_8hpp" local="no">private_message_plugin.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsteemit_1_1private__message_1_1message__body_1a56fd3e9a3374d851671f8d80c0ce7077" prot="public" static="no" mutable="no">
+        <type>fc::time_point</type>
+        <definition>fc::time_point steemit::private_message::message_body::thread_start</definition>
+        <argsstring></argsstring>
+        <name>thread_start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" line="65" column="1" bodyfile="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1private__message_1_1message__body_1ab2f72fac1b913e5e3bcac0e8d2db0528" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string steemit::private_message::message_body::subject</definition>
+        <argsstring></argsstring>
+        <name>subject</name>
+        <briefdescription>
+<para>the sent_time of the original message, if any </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" line="66" column="1" bodyfile="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1private__message_1_1message__body_1a3add4b042aa474d871b13e11d9f51c9b" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string steemit::private_message::message_body::body</definition>
+        <argsstring></argsstring>
+        <name>body</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" line="67" column="1" bodyfile="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1private__message_1_1message__body_1a5d6ebbaef90006c45a0e94d3bbf6b737" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string steemit::private_message::message_body::json_meta</definition>
+        <argsstring></argsstring>
+        <name>json_meta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" line="68" column="1" bodyfile="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1private__message_1_1message__body_1a91c6577b9d5c6686ae18effa8de006c1" prot="public" static="no" mutable="no">
+        <type>flat_set&lt; string &gt;</type>
+        <definition>flat_set&lt;string&gt; steemit::private_message::message_body::cc</definition>
+        <argsstring></argsstring>
+        <name>cc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" line="69" column="1" bodyfile="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="695">
+        <label>flat_set&lt; string &gt;</label>
+      </node>
+      <node id="696">
+        <label>string</label>
+      </node>
+      <node id="694">
+        <label>steemit::private_message::message_body</label>
+        <link refid="structsteemit_1_1private__message_1_1message__body"/>
+        <childnode refid="695" relation="usage">
+          <edgelabel>cc</edgelabel>
+        </childnode>
+        <childnode refid="696" relation="usage">
+          <edgelabel>body</edgelabel>
+          <edgelabel>json_meta</edgelabel>
+          <edgelabel>subject</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" line="64" column="1" bodyfile="libraries/plugins/private_message/include/steemit/private_message/private_message_plugin.hpp" bodystart="64" bodyend="70"/>
+    <listofallmembers>
+      <member refid="structsteemit_1_1private__message_1_1message__body_1a3add4b042aa474d871b13e11d9f51c9b" prot="public" virt="non-virtual"><scope>steemit::private_message::message_body</scope><name>body</name></member>
+      <member refid="structsteemit_1_1private__message_1_1message__body_1a91c6577b9d5c6686ae18effa8de006c1" prot="public" virt="non-virtual"><scope>steemit::private_message::message_body</scope><name>cc</name></member>
+      <member refid="structsteemit_1_1private__message_1_1message__body_1a5d6ebbaef90006c45a0e94d3bbf6b737" prot="public" virt="non-virtual"><scope>steemit::private_message::message_body</scope><name>json_meta</name></member>
+      <member refid="structsteemit_1_1private__message_1_1message__body_1ab2f72fac1b913e5e3bcac0e8d2db0528" prot="public" virt="non-virtual"><scope>steemit::private_message::message_body</scope><name>subject</name></member>
+      <member refid="structsteemit_1_1private__message_1_1message__body_1a56fd3e9a3374d851671f8d80c0ce7077" prot="public" virt="non-virtual"><scope>steemit::private_message::message_body</scope><name>thread_start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

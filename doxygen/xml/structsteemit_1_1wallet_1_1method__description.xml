@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structsteemit_1_1wallet_1_1method__description" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::wallet::method_description</compoundname>
+    <includes refid="api__documentation_8hpp" local="no">api_documentation.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsteemit_1_1wallet_1_1method__description_1a24b7ec9d43ab8583f8c1c4591b99bc9a" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string steemit::wallet::method_description::method_name</definition>
+        <argsstring></argsstring>
+        <name>method_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/api_documentation.hpp" line="38" column="1" bodyfile="libraries/wallet/include/steemit/wallet/api_documentation.hpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1wallet_1_1method__description_1afbf8bc0d6d7fcf37eba392d422eed037" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string steemit::wallet::method_description::brief_description</definition>
+        <argsstring></argsstring>
+        <name>brief_description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/api_documentation.hpp" line="39" column="1" bodyfile="libraries/wallet/include/steemit/wallet/api_documentation.hpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1wallet_1_1method__description_1a8cc950e8e064c9ce2be867b68403f1f9" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string steemit::wallet::method_description::detailed_description</definition>
+        <argsstring></argsstring>
+        <name>detailed_description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/api_documentation.hpp" line="40" column="1" bodyfile="libraries/wallet/include/steemit/wallet/api_documentation.hpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="705">
+        <label>steemit::wallet::method_description</label>
+        <link refid="structsteemit_1_1wallet_1_1method__description"/>
+        <childnode refid="706" relation="usage">
+          <edgelabel>detailed_description</edgelabel>
+          <edgelabel>brief_description</edgelabel>
+          <edgelabel>method_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="706">
+        <label>string</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/wallet/include/steemit/wallet/api_documentation.hpp" line="37" column="1" bodyfile="libraries/wallet/include/steemit/wallet/api_documentation.hpp" bodystart="37" bodyend="41"/>
+    <listofallmembers>
+      <member refid="structsteemit_1_1wallet_1_1method__description_1afbf8bc0d6d7fcf37eba392d422eed037" prot="public" virt="non-virtual"><scope>steemit::wallet::method_description</scope><name>brief_description</name></member>
+      <member refid="structsteemit_1_1wallet_1_1method__description_1a8cc950e8e064c9ce2be867b68403f1f9" prot="public" virt="non-virtual"><scope>steemit::wallet::method_description</scope><name>detailed_description</name></member>
+      <member refid="structsteemit_1_1wallet_1_1method__description_1a24b7ec9d43ab8583f8c1c4591b99bc9a" prot="public" virt="non-virtual"><scope>steemit::wallet::method_description</scope><name>method_name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

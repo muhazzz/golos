@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_6fd45dd5fdf1dfa92fa17adbbadcae50" kind="dir">
+    <compoundname>libraries/plugins/account_statistics</compoundname>
+    <innerdir refid="dir_7c6f6f3be6c928b644e29ea581d11d22">libraries/plugins/account_statistics/include</innerdir>
+    <innerfile refid="account__statistics__api_8cpp">account_statistics_api.cpp</innerfile>
+    <innerfile refid="account__statistics__plugin_8cpp">account_statistics_plugin.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/account_statistics/"/>
+  </compounddef>
+</doxygen>

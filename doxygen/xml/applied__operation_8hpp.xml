@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="applied__operation_8hpp" kind="file" language="C++">
+    <compoundname>applied_operation.hpp</compoundname>
+    <includes local="no">steemit/protocol/operations.hpp</includes>
+    <includes refid="steem__object__types_8hpp" local="no">steemit/chain/steem_object_types.hpp</includes>
+    <includedby refid="database__api_8hpp" local="no">libraries/app/include/steemit/app/database_api.hpp</includedby>
+    <includedby refid="state_8hpp" local="no">libraries/app/include/steemit/app/state.hpp</includedby>
+    <incdepgraph>
+      <node id="583">
+        <label>boost/multi_index/ordered_index.hpp</label>
+      </node>
+      <node id="578">
+        <label>libraries/app/include/steemit/app/applied_operation.hpp</label>
+        <link refid="applied__operation_8hpp"/>
+        <childnode refid="579" relation="include">
+        </childnode>
+        <childnode refid="580" relation="include">
+        </childnode>
+      </node>
+      <node id="586">
+        <label>steemit/protocol/types.hpp</label>
+      </node>
+      <node id="587">
+        <label>steemit/protocol/authority.hpp</label>
+      </node>
+      <node id="580">
+        <label>steemit/chain/steem_object_types.hpp</label>
+        <link refid="steem__object__types_8hpp"/>
+        <childnode refid="581" relation="include">
+        </childnode>
+        <childnode refid="582" relation="include">
+        </childnode>
+        <childnode refid="583" relation="include">
+        </childnode>
+        <childnode refid="584" relation="include">
+        </childnode>
+        <childnode refid="585" relation="include">
+        </childnode>
+        <childnode refid="586" relation="include">
+        </childnode>
+        <childnode refid="587" relation="include">
+        </childnode>
+      </node>
+      <node id="585">
+        <label>chainbase/chainbase.hpp</label>
+      </node>
+      <node id="579">
+        <label>steemit/protocol/operations.hpp</label>
+      </node>
+      <node id="582">
+        <label>boost/multi_index/member.hpp</label>
+      </node>
+      <node id="581">
+        <label>boost/multi_index_container.hpp</label>
+      </node>
+      <node id="584">
+        <label>boost/multi_index/mem_fun.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="593">
+        <label>libraries/app/application.cpp</label>
+        <link refid="application_8cpp"/>
+      </node>
+      <node id="588">
+        <label>libraries/app/include/steemit/app/applied_operation.hpp</label>
+        <link refid="applied__operation_8hpp"/>
+        <childnode refid="589" relation="include">
+        </childnode>
+        <childnode refid="598" relation="include">
+        </childnode>
+      </node>
+      <node id="597">
+        <label>libraries/plugins/delayed_node/delayed_node_plugin.cpp</label>
+        <link refid="delayed__node__plugin_8cpp"/>
+      </node>
+      <node id="598">
+        <label>libraries/app/include/steemit/app/state.hpp</label>
+        <link refid="state_8hpp"/>
+        <childnode refid="589" relation="include">
+        </childnode>
+      </node>
+      <node id="595">
+        <label>libraries/wallet/api_documentation_standin.cpp</label>
+        <link refid="api__documentation__standin_8cpp"/>
+      </node>
+      <node id="590">
+        <label>libraries/app/database_api.cpp</label>
+        <link refid="database__api_8cpp"/>
+      </node>
+      <node id="594">
+        <label>libraries/wallet/include/steemit/wallet/wallet.hpp</label>
+        <link refid="wallet_8hpp"/>
+        <childnode refid="595" relation="include">
+        </childnode>
+        <childnode refid="596" relation="include">
+        </childnode>
+      </node>
+      <node id="589">
+        <label>libraries/app/include/steemit/app/database_api.hpp</label>
+        <link refid="database__api_8hpp"/>
+        <childnode refid="590" relation="include">
+        </childnode>
+        <childnode refid="591" relation="include">
+        </childnode>
+      </node>
+      <node id="596">
+        <label>libraries/wallet/wallet.cpp</label>
+        <link refid="wallet_8cpp"/>
+      </node>
+      <node id="591">
+        <label>libraries/app/include/steemit/app/api.hpp</label>
+        <link refid="api_8hpp"/>
+        <childnode refid="592" relation="include">
+        </childnode>
+        <childnode refid="593" relation="include">
+        </childnode>
+        <childnode refid="594" relation="include">
+        </childnode>
+        <childnode refid="596" relation="include">
+        </childnode>
+        <childnode refid="597" relation="include">
+        </childnode>
+      </node>
+      <node id="592">
+        <label>libraries/app/api.cpp</label>
+        <link refid="api_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structsteemit_1_1app_1_1applied__operation" prot="public">steemit::app::applied_operation</innerclass>
+    <innernamespace refid="namespacesteemit">steemit</innernamespace>
+    <innernamespace refid="namespacesteemit_1_1app">steemit::app</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/app/include/steemit/app/applied_operation.hpp"/>
+  </compounddef>
+</doxygen>

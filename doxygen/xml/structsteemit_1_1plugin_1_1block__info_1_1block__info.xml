@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structsteemit_1_1plugin_1_1block__info_1_1block__info" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::plugin::block_info::block_info</compoundname>
+    <includes refid="block__info_8hpp" local="no">block_info.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsteemit_1_1plugin_1_1block__info_1_1block__info_1ada64ea3b2d2329685e1095e76d083ea8" prot="public" static="no" mutable="no">
+        <type>chain::block_id_type</type>
+        <definition>chain::block_id_type steemit::plugin::block_info::block_info::block_id</definition>
+        <argsstring></argsstring>
+        <name>block_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info.hpp" line="11" column="1" bodyfile="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1plugin_1_1block__info_1_1block__info_1a3f0f6b073f05cc51f04f22bbb71f4ce2" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::plugin::block_info::block_info::block_size</definition>
+        <argsstring></argsstring>
+        <name>block_size</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info.hpp" line="12" column="1" bodyfile="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1plugin_1_1block__info_1_1block__info_1a2c2195786b9db3f40186761f8130138f" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::plugin::block_info::block_info::average_block_size</definition>
+        <argsstring></argsstring>
+        <name>average_block_size</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info.hpp" line="13" column="1" bodyfile="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1plugin_1_1block__info_1_1block__info_1a13c94f881299790c3995e112b7d030ce" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t steemit::plugin::block_info::block_info::aslot</definition>
+        <argsstring></argsstring>
+        <name>aslot</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info.hpp" line="14" column="1" bodyfile="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1plugin_1_1block__info_1_1block__info_1a1c913aa26893d77d5dcada5cdad45828" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::plugin::block_info::block_info::last_irreversible_block_num</definition>
+        <argsstring></argsstring>
+        <name>last_irreversible_block_num</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info.hpp" line="15" column="1" bodyfile="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1plugin_1_1block__info_1_1block__info_1a0feee85f9c58bf668cb844d55733c75c" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::plugin::block_info::block_info::num_pow_witnesses</definition>
+        <argsstring></argsstring>
+        <name>num_pow_witnesses</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info.hpp" line="16" column="1" bodyfile="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="203">
+        <label>block_id_type</label>
+      </node>
+      <node id="202">
+        <label>steemit::plugin::block_info::block_info</label>
+        <link refid="structsteemit_1_1plugin_1_1block__info_1_1block__info"/>
+        <childnode refid="203" relation="usage">
+          <edgelabel>block_id</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info.hpp" line="10" column="1" bodyfile="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info.hpp" bodystart="10" bodyend="17"/>
+    <listofallmembers>
+      <member refid="structsteemit_1_1plugin_1_1block__info_1_1block__info_1a13c94f881299790c3995e112b7d030ce" prot="public" virt="non-virtual"><scope>steemit::plugin::block_info::block_info</scope><name>aslot</name></member>
+      <member refid="structsteemit_1_1plugin_1_1block__info_1_1block__info_1a2c2195786b9db3f40186761f8130138f" prot="public" virt="non-virtual"><scope>steemit::plugin::block_info::block_info</scope><name>average_block_size</name></member>
+      <member refid="structsteemit_1_1plugin_1_1block__info_1_1block__info_1ada64ea3b2d2329685e1095e76d083ea8" prot="public" virt="non-virtual"><scope>steemit::plugin::block_info::block_info</scope><name>block_id</name></member>
+      <member refid="structsteemit_1_1plugin_1_1block__info_1_1block__info_1a3f0f6b073f05cc51f04f22bbb71f4ce2" prot="public" virt="non-virtual"><scope>steemit::plugin::block_info::block_info</scope><name>block_size</name></member>
+      <member refid="structsteemit_1_1plugin_1_1block__info_1_1block__info_1a1c913aa26893d77d5dcada5cdad45828" prot="public" virt="non-virtual"><scope>steemit::plugin::block_info::block_info</scope><name>last_irreversible_block_num</name></member>
+      <member refid="structsteemit_1_1plugin_1_1block__info_1_1block__info_1a0feee85f9c58bf668cb844d55733c75c" prot="public" virt="non-virtual"><scope>steemit::plugin::block_info::block_info</scope><name>num_pow_witnesses</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

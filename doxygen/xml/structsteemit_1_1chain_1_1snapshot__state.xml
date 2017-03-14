@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structsteemit_1_1chain_1_1snapshot__state" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::chain::snapshot_state</compoundname>
+    <includes refid="snapshot__state_8hpp" local="no">snapshot_state.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsteemit_1_1chain_1_1snapshot__state_1a235e65ab8a8c17050f90948d7266c52a" prot="public" static="no" mutable="no">
+        <type>fc::time_point_sec</type>
+        <definition>fc::time_point_sec steemit::chain::snapshot_state::timestamp</definition>
+        <argsstring></argsstring>
+        <name>timestamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/snapshot_state.hpp" line="42" column="1" bodyfile="libraries/chain/include/steemit/chain/snapshot_state.hpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1chain_1_1snapshot__state_1ad7cdd637a454912260511d1ff6ed7813" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::chain::snapshot_state::head_block_num</definition>
+        <argsstring></argsstring>
+        <name>head_block_num</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/snapshot_state.hpp" line="43" column="1" bodyfile="libraries/chain/include/steemit/chain/snapshot_state.hpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1chain_1_1snapshot__state_1a5d74ff8ae2765e21b0f2de2b5781b2d4" prot="public" static="no" mutable="no">
+        <type>block_id_type</type>
+        <definition>block_id_type steemit::chain::snapshot_state::head_block_id</definition>
+        <argsstring></argsstring>
+        <name>head_block_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/snapshot_state.hpp" line="44" column="1" bodyfile="libraries/chain/include/steemit/chain/snapshot_state.hpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1chain_1_1snapshot__state_1af46ee5af3c830c3543b473d2e33792f8" prot="public" static="no" mutable="no">
+        <type>chain_id_type</type>
+        <definition>chain_id_type steemit::chain::snapshot_state::chain_id</definition>
+        <argsstring></argsstring>
+        <name>chain_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/snapshot_state.hpp" line="45" column="1" bodyfile="libraries/chain/include/steemit/chain/snapshot_state.hpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1chain_1_1snapshot__state_1a5d5ad2ecb8b671c41d8a90483def6e02" prot="public" static="no" mutable="no">
+        <type><ref refid="structsteemit_1_1chain_1_1snapshot__summary" kindref="compound">snapshot_summary</ref></type>
+        <definition>snapshot_summary steemit::chain::snapshot_state::summary</definition>
+        <argsstring></argsstring>
+        <name>summary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/snapshot_state.hpp" line="46" column="1" bodyfile="libraries/chain/include/steemit/chain/snapshot_state.hpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1chain_1_1snapshot__state_1a42ec49e27a8434b0c55b82037dc5bde4" prot="public" static="no" mutable="no">
+        <type>vector&lt; <ref refid="structsteemit_1_1chain_1_1account__summary" kindref="compound">account_summary</ref> &gt;</type>
+        <definition>vector&lt;account_summary&gt; steemit::chain::snapshot_state::accounts</definition>
+        <argsstring></argsstring>
+        <name>accounts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/snapshot_state.hpp" line="48" column="1" bodyfile="libraries/chain/include/steemit/chain/snapshot_state.hpp" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="956">
+        <label>asset</label>
+      </node>
+      <node id="957">
+        <label>time_point_sec</label>
+      </node>
+      <node id="958">
+        <label>block_id_type</label>
+      </node>
+      <node id="959">
+        <label>chain_id_type</label>
+      </node>
+      <node id="960">
+        <label>vector&lt; steemit::chain::account_summary &gt;</label>
+      </node>
+      <node id="954">
+        <label>steemit::chain::snapshot_state</label>
+        <link refid="structsteemit_1_1chain_1_1snapshot__state"/>
+        <childnode refid="955" relation="usage">
+          <edgelabel>summary</edgelabel>
+        </childnode>
+        <childnode refid="957" relation="usage">
+          <edgelabel>timestamp</edgelabel>
+        </childnode>
+        <childnode refid="958" relation="usage">
+          <edgelabel>head_block_id</edgelabel>
+        </childnode>
+        <childnode refid="959" relation="usage">
+          <edgelabel>chain_id</edgelabel>
+        </childnode>
+        <childnode refid="960" relation="usage">
+          <edgelabel>accounts</edgelabel>
+        </childnode>
+      </node>
+      <node id="955">
+        <label>steemit::chain::snapshot_summary</label>
+        <link refid="structsteemit_1_1chain_1_1snapshot__summary"/>
+        <childnode refid="956" relation="usage">
+          <edgelabel>balance</edgelabel>
+          <edgelabel>total_vesting_shares</edgelabel>
+          <edgelabel>sbd_balance</edgelabel>
+          <edgelabel>total_vesting_fund_steem</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/chain/include/steemit/chain/snapshot_state.hpp" line="41" column="1" bodyfile="libraries/chain/include/steemit/chain/snapshot_state.hpp" bodystart="41" bodyend="49"/>
+    <listofallmembers>
+      <member refid="structsteemit_1_1chain_1_1snapshot__state_1a42ec49e27a8434b0c55b82037dc5bde4" prot="public" virt="non-virtual"><scope>steemit::chain::snapshot_state</scope><name>accounts</name></member>
+      <member refid="structsteemit_1_1chain_1_1snapshot__state_1af46ee5af3c830c3543b473d2e33792f8" prot="public" virt="non-virtual"><scope>steemit::chain::snapshot_state</scope><name>chain_id</name></member>
+      <member refid="structsteemit_1_1chain_1_1snapshot__state_1a5d74ff8ae2765e21b0f2de2b5781b2d4" prot="public" virt="non-virtual"><scope>steemit::chain::snapshot_state</scope><name>head_block_id</name></member>
+      <member refid="structsteemit_1_1chain_1_1snapshot__state_1ad7cdd637a454912260511d1ff6ed7813" prot="public" virt="non-virtual"><scope>steemit::chain::snapshot_state</scope><name>head_block_num</name></member>
+      <member refid="structsteemit_1_1chain_1_1snapshot__state_1a5d5ad2ecb8b671c41d8a90483def6e02" prot="public" virt="non-virtual"><scope>steemit::chain::snapshot_state</scope><name>summary</name></member>
+      <member refid="structsteemit_1_1chain_1_1snapshot__state_1a235e65ab8a8c17050f90948d7266c52a" prot="public" virt="non-virtual"><scope>steemit::chain::snapshot_state</scope><name>timestamp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

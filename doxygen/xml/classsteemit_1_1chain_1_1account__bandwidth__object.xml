@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsteemit_1_1chain_1_1account__bandwidth__object" kind="class" language="C++" prot="public">
+    <compoundname>steemit::chain::account_bandwidth_object</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">chainbase::object&lt; account_bandwidth_object_type, account_bandwidth_object &gt;</basecompoundref>
+    <includes refid="account__object_8hpp" local="no">account_object.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__bandwidth__object_1a11a7c2e4940b6be27aef67f0b7563d3b" prot="public" static="no" mutable="no">
+        <type>id_type</type>
+        <definition>id_type steemit::chain::account_bandwidth_object::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="152" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__bandwidth__object_1a1a5a591d2ae37b03effe8c3612a3d2e8" prot="public" static="no" mutable="no">
+        <type>account_name_type</type>
+        <definition>account_name_type steemit::chain::account_bandwidth_object::account</definition>
+        <argsstring></argsstring>
+        <name>account</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="154" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__bandwidth__object_1a351f11a240c97e14775df9d1f3f1a1c9" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacesteemit_1_1chain_1aeba90a44c75a64f6f4a003ccabfea35c" kindref="member">bandwidth_type</ref></type>
+        <definition>bandwidth_type steemit::chain::account_bandwidth_object::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="155" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__bandwidth__object_1abfd7877e76eb01a6f1b02bdc30038fba" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::chain::account_bandwidth_object::average_bandwidth</definition>
+        <argsstring></argsstring>
+        <name>average_bandwidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="156" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__bandwidth__object_1a31007a78f138657683ab95b63d61f0c7" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::chain::account_bandwidth_object::lifetime_bandwidth</definition>
+        <argsstring></argsstring>
+        <name>lifetime_bandwidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="157" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsteemit_1_1chain_1_1account__bandwidth__object_1a50ed10a40002f90938c5bd9ecb3073a4" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::account_bandwidth_object::last_bandwidth_update</definition>
+        <argsstring></argsstring>
+        <name>last_bandwidth_update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="158" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1account__bandwidth__object_1a1b5248648584dc40d5f77e08809a06c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Constructor</type>
+          </param>
+          <param>
+            <type>typename Allocator</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>steemit::chain::account_bandwidth_object::account_bandwidth_object</definition>
+        <argsstring>(Constructor &amp;&amp;c, allocator&lt; Allocator &gt; a)</argsstring>
+        <name>account_bandwidth_object</name>
+        <param>
+          <type>Constructor &amp;&amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>allocator&lt; Allocator &gt;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="145" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="145" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classsteemit_1_1chain_1_1account__bandwidth__object_1a392b0cfd2d928382dacf34066ddceb99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::chain::account_bandwidth_object::account_bandwidth_object</definition>
+        <argsstring>()</argsstring>
+        <name>account_bandwidth_object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="149" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="149" bodyend="150"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="45">
+        <label>steemit::chain::account_bandwidth_object</label>
+        <link refid="classsteemit_1_1chain_1_1account__bandwidth__object"/>
+        <childnode refid="46" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>chainbase::object&lt; account_bandwidth_object_type, account_bandwidth_object &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="49">
+        <label>time_point_sec</label>
+      </node>
+      <node id="50">
+        <label>account_name_type</label>
+      </node>
+      <node id="47">
+        <label>steemit::chain::account_bandwidth_object</label>
+        <link refid="classsteemit_1_1chain_1_1account__bandwidth__object"/>
+        <childnode refid="48" relation="public-inheritance">
+        </childnode>
+        <childnode refid="49" relation="usage">
+          <edgelabel>last_bandwidth_update</edgelabel>
+        </childnode>
+        <childnode refid="50" relation="usage">
+          <edgelabel>account</edgelabel>
+        </childnode>
+        <childnode refid="51" relation="usage">
+          <edgelabel>average_bandwidth</edgelabel>
+          <edgelabel>lifetime_bandwidth</edgelabel>
+        </childnode>
+      </node>
+      <node id="48">
+        <label>chainbase::object&lt; account_bandwidth_object_type, account_bandwidth_object &gt;</label>
+      </node>
+      <node id="51">
+        <label>share_type</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="142" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="141" bodyend="159"/>
+    <listofallmembers>
+      <member refid="classsteemit_1_1chain_1_1account__bandwidth__object_1a1a5a591d2ae37b03effe8c3612a3d2e8" prot="public" virt="non-virtual"><scope>steemit::chain::account_bandwidth_object</scope><name>account</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__bandwidth__object_1a1b5248648584dc40d5f77e08809a06c8" prot="public" virt="non-virtual"><scope>steemit::chain::account_bandwidth_object</scope><name>account_bandwidth_object</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__bandwidth__object_1a392b0cfd2d928382dacf34066ddceb99" prot="public" virt="non-virtual"><scope>steemit::chain::account_bandwidth_object</scope><name>account_bandwidth_object</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__bandwidth__object_1abfd7877e76eb01a6f1b02bdc30038fba" prot="public" virt="non-virtual"><scope>steemit::chain::account_bandwidth_object</scope><name>average_bandwidth</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__bandwidth__object_1a11a7c2e4940b6be27aef67f0b7563d3b" prot="public" virt="non-virtual"><scope>steemit::chain::account_bandwidth_object</scope><name>id</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__bandwidth__object_1a50ed10a40002f90938c5bd9ecb3073a4" prot="public" virt="non-virtual"><scope>steemit::chain::account_bandwidth_object</scope><name>last_bandwidth_update</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__bandwidth__object_1a31007a78f138657683ab95b63d61f0c7" prot="public" virt="non-virtual"><scope>steemit::chain::account_bandwidth_object</scope><name>lifetime_bandwidth</name></member>
+      <member refid="classsteemit_1_1chain_1_1account__bandwidth__object_1a351f11a240c97e14775df9d1f3f1a1c9" prot="public" virt="non-virtual"><scope>steemit::chain::account_bandwidth_object</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

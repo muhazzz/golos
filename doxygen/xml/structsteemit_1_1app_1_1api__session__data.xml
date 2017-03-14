@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structsteemit_1_1app_1_1api__session__data" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::app::api_session_data</compoundname>
+    <includes refid="api__context_8hpp" local="no">api_context.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1api__session__data_1afdfd912ece84674842338158b04df819" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; fc::rpc::websocket_api_connection &gt;</type>
+        <definition>std::shared_ptr&lt;fc::rpc::websocket_api_connection&gt; steemit::app::api_session_data::wsc</definition>
+        <argsstring></argsstring>
+        <name>wsc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/api_context.hpp" line="28" column="1" bodyfile="libraries/app/include/steemit/app/api_context.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1api__session__data_1af8ac683c42372cecbe20f066ec9b87c2" prot="public" static="no" mutable="no">
+        <type>std::map&lt; std::string, fc::api_ptr &gt;</type>
+        <definition>std::map&lt;std::string, fc::api_ptr&gt; steemit::app::api_session_data::api_map</definition>
+        <argsstring></argsstring>
+        <name>api_map</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/api_context.hpp" line="29" column="1" bodyfile="libraries/app/include/steemit/app/api_context.hpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Contains state shared by all API&apos;s on the same connection. Anything in here is owned by FC and cleaned up when the connection dies. </para>    </detaileddescription>
+    <location file="libraries/app/include/steemit/app/api_context.hpp" line="27" column="1" bodyfile="libraries/app/include/steemit/app/api_context.hpp" bodystart="27" bodyend="30"/>
+    <listofallmembers>
+      <member refid="structsteemit_1_1app_1_1api__session__data_1af8ac683c42372cecbe20f066ec9b87c2" prot="public" virt="non-virtual"><scope>steemit::app::api_session_data</scope><name>api_map</name></member>
+      <member refid="structsteemit_1_1app_1_1api__session__data_1afdfd912ece84674842338158b04df819" prot="public" virt="non-virtual"><scope>steemit::app::api_session_data</scope><name>wsc</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

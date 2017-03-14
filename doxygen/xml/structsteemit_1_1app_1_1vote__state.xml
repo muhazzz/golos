@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structsteemit_1_1app_1_1vote__state" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::app::vote_state</compoundname>
+    <includes refid="state_8hpp" local="no">state.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1vote__state_1ac358fc6ce21e49bd862b8908f5fdbfa8" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string steemit::app::vote_state::voter</definition>
+        <argsstring></argsstring>
+        <name>voter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="54" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1vote__state_1a4f68213f333052766c5f639e65c768f0" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t steemit::app::vote_state::weight</definition>
+        <argsstring></argsstring>
+        <name>weight</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="55" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1vote__state_1a8f5c2bd417b674cd5601cb074a3c0233" prot="public" static="no" mutable="no">
+        <type>int64_t</type>
+        <definition>int64_t steemit::app::vote_state::rshares</definition>
+        <argsstring></argsstring>
+        <name>rshares</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="56" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1vote__state_1a8c74d49edcac51e41af057aa1f63744d" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t steemit::app::vote_state::percent</definition>
+        <argsstring></argsstring>
+        <name>percent</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="57" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1vote__state_1a897ba5ccdeb66882e15bb7edd1a09166" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::app::vote_state::reputation</definition>
+        <argsstring></argsstring>
+        <name>reputation</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="58" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1app_1_1vote__state_1ae6a89bf94936000e706f15ae8740ff99" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::app::vote_state::time</definition>
+        <argsstring></argsstring>
+        <name>time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="59" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1050">
+        <label>time_point_sec</label>
+      </node>
+      <node id="1051">
+        <label>string</label>
+      </node>
+      <node id="1048">
+        <label>steemit::app::vote_state</label>
+        <link refid="structsteemit_1_1app_1_1vote__state"/>
+        <childnode refid="1049" relation="usage">
+          <edgelabel>reputation</edgelabel>
+        </childnode>
+        <childnode refid="1050" relation="usage">
+          <edgelabel>time</edgelabel>
+        </childnode>
+        <childnode refid="1051" relation="usage">
+          <edgelabel>voter</edgelabel>
+        </childnode>
+      </node>
+      <node id="1049">
+        <label>share_type</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/app/include/steemit/app/state.hpp" line="53" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="53" bodyend="60"/>
+    <listofallmembers>
+      <member refid="structsteemit_1_1app_1_1vote__state_1a8c74d49edcac51e41af057aa1f63744d" prot="public" virt="non-virtual"><scope>steemit::app::vote_state</scope><name>percent</name></member>
+      <member refid="structsteemit_1_1app_1_1vote__state_1a897ba5ccdeb66882e15bb7edd1a09166" prot="public" virt="non-virtual"><scope>steemit::app::vote_state</scope><name>reputation</name></member>
+      <member refid="structsteemit_1_1app_1_1vote__state_1a8f5c2bd417b674cd5601cb074a3c0233" prot="public" virt="non-virtual"><scope>steemit::app::vote_state</scope><name>rshares</name></member>
+      <member refid="structsteemit_1_1app_1_1vote__state_1ae6a89bf94936000e706f15ae8740ff99" prot="public" virt="non-virtual"><scope>steemit::app::vote_state</scope><name>time</name></member>
+      <member refid="structsteemit_1_1app_1_1vote__state_1ac358fc6ce21e49bd862b8908f5fdbfa8" prot="public" virt="non-virtual"><scope>steemit::app::vote_state</scope><name>voter</name></member>
+      <member refid="structsteemit_1_1app_1_1vote__state_1a4f68213f333052766c5f639e65c768f0" prot="public" virt="non-virtual"><scope>steemit::app::vote_state</scope><name>weight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

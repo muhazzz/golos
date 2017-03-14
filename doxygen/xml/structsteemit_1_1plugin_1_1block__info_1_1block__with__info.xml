@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structsteemit_1_1plugin_1_1block__info_1_1block__with__info" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::plugin::block_info::block_with_info</compoundname>
+    <includes refid="block__info_8hpp" local="no">block_info.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsteemit_1_1plugin_1_1block__info_1_1block__with__info_1af6fc2bc5e751685beb40fab3b336fee0" prot="public" static="no" mutable="no">
+        <type>chain::signed_block</type>
+        <definition>chain::signed_block steemit::plugin::block_info::block_with_info::block</definition>
+        <argsstring></argsstring>
+        <name>block</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info.hpp" line="20" column="1" bodyfile="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsteemit_1_1plugin_1_1block__info_1_1block__with__info_1ac63033faa19c37a171df658413b1cbc8" prot="public" static="no" mutable="no">
+        <type><ref refid="structsteemit_1_1plugin_1_1block__info_1_1block__info" kindref="compound">block_info</ref></type>
+        <definition>block_info steemit::plugin::block_info::block_with_info::info</definition>
+        <argsstring></argsstring>
+        <name>info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info.hpp" line="21" column="1" bodyfile="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="228">
+        <label>block_id_type</label>
+      </node>
+      <node id="227">
+        <label>steemit::plugin::block_info::block_info</label>
+        <link refid="structsteemit_1_1plugin_1_1block__info_1_1block__info"/>
+        <childnode refid="228" relation="usage">
+          <edgelabel>block_id</edgelabel>
+        </childnode>
+      </node>
+      <node id="226">
+        <label>steemit::plugin::block_info::block_with_info</label>
+        <link refid="structsteemit_1_1plugin_1_1block__info_1_1block__with__info"/>
+        <childnode refid="227" relation="usage">
+          <edgelabel>info</edgelabel>
+        </childnode>
+        <childnode refid="229" relation="usage">
+          <edgelabel>block</edgelabel>
+        </childnode>
+      </node>
+      <node id="229">
+        <label>signed_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info.hpp" line="19" column="1" bodyfile="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info.hpp" bodystart="19" bodyend="22"/>
+    <listofallmembers>
+      <member refid="structsteemit_1_1plugin_1_1block__info_1_1block__with__info_1af6fc2bc5e751685beb40fab3b336fee0" prot="public" virt="non-virtual"><scope>steemit::plugin::block_info::block_with_info</scope><name>block</name></member>
+      <member refid="structsteemit_1_1plugin_1_1block__info_1_1block__with__info_1ac63033faa19c37a171df658413b1cbc8" prot="public" virt="non-virtual"><scope>steemit::plugin::block_info::block_with_info</scope><name>info</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
