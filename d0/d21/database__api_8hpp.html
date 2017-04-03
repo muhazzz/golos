@@ -108,8 +108,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d75/structsteemit_1_1app_1_1withdraw__route.html">steemit::app::withdraw_route</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d40/structsteemit_1_1app_1_1discussion__query.html">steemit::app::discussion_query</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="../../dd/d40/structsteemit_1_1app_1_1discussion__query.html" title="The discussion_query structure implements the RPC API param set. Defines the arguments to a query as ...">discussion_query</a> structure implements the RPC API param set. Defines the arguments to a query as a struct so it can be easily extended.  <a href="../../dd/d40/structsteemit_1_1app_1_1discussion__query.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d01/classsteemit_1_1app_1_1discussion__query.html">steemit::app::discussion_query</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="../../de/d01/classsteemit_1_1app_1_1discussion__query.html" title="The discussion_query structure implements the RPC API param set. Defines the arguments to a query as ...">discussion_query</a> structure implements the RPC API param set. Defines the arguments to a query as a struct so it can be easily extended.  <a href="../../de/d01/classsteemit_1_1app_1_1discussion__query.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dbd/classsteemit_1_1app_1_1database__api.html">steemit::app::database_api</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="../../d4/dbd/classsteemit_1_1app_1_1database__api.html" title="The database_api class implements the RPC API for the chain database. ">database_api</a> class implements the RPC API for the chain database.  <a href="../../d4/dbd/classsteemit_1_1app_1_1database__api.html#details">More...</a><br /></td></tr>
@@ -142,7 +142,7 @@ Functions</h2></td></tr>
 <tr class="separator:aa23b2a71f1bcea87f24a325781029a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c48d704d010f616d62a654b026c1ecd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d21/database__api_8hpp.html#a9c48d704d010f616d62a654b026c1ecd">FC_REFLECT</a> (<a class="el" href="../../dd/d75/structsteemit_1_1app_1_1withdraw__route.html">steemit::app::withdraw_route</a>,(from_account)(to_account)(percent)(auto_vest))</td></tr>
 <tr class="separator:a9c48d704d010f616d62a654b026c1ecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb672b5b8dfb1b64ee078c9aa05eeeb4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d21/database__api_8hpp.html#aeb672b5b8dfb1b64ee078c9aa05eeeb4">FC_REFLECT</a> (<a class="el" href="../../dd/d40/structsteemit_1_1app_1_1discussion__query.html">steemit::app::discussion_query</a>,(select_tags)(filter_tags)(select_authors)(truncate_body)(start_author)(start_permlink)(parent_author)(parent_permlink)(limit))</td></tr>
+<tr class="memitem:aeb672b5b8dfb1b64ee078c9aa05eeeb4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d21/database__api_8hpp.html#aeb672b5b8dfb1b64ee078c9aa05eeeb4">FC_REFLECT</a> (<a class="el" href="../../de/d01/classsteemit_1_1app_1_1discussion__query.html">steemit::app::discussion_query</a>,(select_tags)(filter_tags)(select_authors)(truncate_body)(start_author)(start_permlink)(parent_author)(parent_permlink)(limit))</td></tr>
 <tr class="separator:aeb672b5b8dfb1b64ee078c9aa05eeeb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe4b31e09a90d2bcd84b11dad8b2a994"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d21/database__api_8hpp.html#abe4b31e09a90d2bcd84b11dad8b2a994">FC_REFLECT_ENUM</a> (<a class="el" href="../../df/d55/namespacesteemit_1_1app.html#a169ccb6eef4850f6e45149ccd7f13e7a">steemit::app::withdraw_route_type</a>,(incoming)(outgoing)(all))</td></tr>
 <tr class="separator:abe4b31e09a90d2bcd84b11dad8b2a994"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -297,7 +297,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">FC_REFLECT </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d40/structsteemit_1_1app_1_1discussion__query.html">steemit::app::discussion_query</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../de/d01/classsteemit_1_1app_1_1discussion__query.html">steemit::app::discussion_query</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -350,7 +350,7 @@ Functions</h2></td></tr>
 <hr class="footer"/>
 <address class="footer">
     <small>
-        Generated on Mon Apr 3 2017 10:56:47 for Golos by doxygen<a href="http://www.doxygen.org/index.html">
+        Generated on Mon Apr 3 2017 22:08:05 for Golos by doxygen<a href="http://www.doxygen.org/index.html">
     </a> 1.8.13
     </small>
 </address>

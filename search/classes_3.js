@@ -17,6 +17,6 @@ var searchData=
   ['delayed_5fnode_5fplugin_5fimpl',['delayed_node_plugin_impl',['../dc/dfc/structsteemit_1_1delayed__node_1_1detail_1_1delayed__node__plugin__impl.html',1,'steemit::delayed_node::detail']]],
   ['discussion',['discussion',['../d5/d32/structsteemit_1_1app_1_1discussion.html',1,'steemit::app']]],
   ['discussion_5findex',['discussion_index',['../d7/d7b/structsteemit_1_1app_1_1discussion__index.html',1,'steemit::app']]],
-  ['discussion_5fquery',['discussion_query',['../dd/d40/structsteemit_1_1app_1_1discussion__query.html',1,'steemit::app']]],
+  ['discussion_5fquery',['discussion_query',['../de/d01/classsteemit_1_1app_1_1discussion__query.html',1,'steemit::app']]],
   ['dynamic_5fglobal_5fproperty_5fobject',['dynamic_global_property_object',['../d0/d48/classsteemit_1_1chain_1_1dynamic__global__property__object.html',1,'steemit::chain']]]
 ];

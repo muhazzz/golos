@@ -26,7 +26,7 @@ var searchData=
   ['level',['level',['../d8/d49/structsteemit_1_1plugin_1_1auth__util_1_1check__authority__signature__params.html#ab7506d14fda410c2de5f24aa13f1d5a0',1,'steemit::plugin::auth_util::check_authority_signature_params']]],
   ['lifetime_5fbandwidth',['lifetime_bandwidth',['../da/d55/structsteemit_1_1app_1_1account__api__obj.html#a6bae703437ee7207ac2fa43611602ba3',1,'steemit::app::account_api_obj::lifetime_bandwidth()'],['../d6/d91/classsteemit_1_1chain_1_1account__bandwidth__object.html#a31007a78f138657683ab95b63d61f0c7',1,'steemit::chain::account_bandwidth_object::lifetime_bandwidth()']]],
   ['lifetime_5fvote_5fcount',['lifetime_vote_count',['../da/d55/structsteemit_1_1app_1_1account__api__obj.html#ae1fa2ac6274d67e36ff5dd1740fcb835',1,'steemit::app::account_api_obj::lifetime_vote_count()'],['../d1/d66/classsteemit_1_1chain_1_1account__object.html#a271cd31f4ce3db163e4c78ed9d80d23d',1,'steemit::chain::account_object::lifetime_vote_count()']]],
-  ['limit',['limit',['../dd/d40/structsteemit_1_1app_1_1discussion__query.html#ac60bad57576798d709123e8b50661c98',1,'steemit::app::discussion_query']]],
+  ['limit',['limit',['../de/d01/classsteemit_1_1app_1_1discussion__query.html#ac60bad57576798d709123e8b50661c98',1,'steemit::app::discussion_query']]],
   ['limit_5forder_5fapi_5fobj',['limit_order_api_obj',['../df/d55/namespacesteemit_1_1app.html#a7074ea1a1aa9c971fa33ef9db6978f44',1,'steemit::app']]],
   ['limit_5forder_5fid_5ftype',['limit_order_id_type',['../d8/d9b/namespacesteemit_1_1chain.html#a595e311e8ae5962832c4102e2603a6b7',1,'steemit::chain']]],
   ['limit_5forder_5findex',['limit_order_index',['../d8/d9b/namespacesteemit_1_1chain.html#a68542de788a15ec7313c7405df4f4d8f',1,'steemit::chain']]],

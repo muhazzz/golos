@@ -73,7 +73,7 @@ var searchData=
   ['discussion',['discussion',['../d5/d32/structsteemit_1_1app_1_1discussion.html',1,'steemit::app::discussion'],['../d5/d32/structsteemit_1_1app_1_1discussion.html#ad34c960f27340c37e4210ea51d210b89',1,'steemit::app::discussion::discussion(const comment_object &amp;o)'],['../d5/d32/structsteemit_1_1app_1_1discussion.html#aa70a72277e5374c7bc1fa6d60feda9c6',1,'steemit::app::discussion::discussion()']]],
   ['discussion_5fidx',['discussion_idx',['../d0/dff/structsteemit_1_1app_1_1state.html#a684b3c6c07b0e9d757f42cc376bbbb4a',1,'steemit::app::state']]],
   ['discussion_5findex',['discussion_index',['../d7/d7b/structsteemit_1_1app_1_1discussion__index.html',1,'steemit::app']]],
-  ['discussion_5fquery',['discussion_query',['../dd/d40/structsteemit_1_1app_1_1discussion__query.html',1,'steemit::app']]],
+  ['discussion_5fquery',['discussion_query',['../de/d01/classsteemit_1_1app_1_1discussion__query.html',1,'steemit::app']]],
   ['discussions',['discussions',['../d5/da8/structsteemit_1_1app_1_1category__api__obj.html#ab825ed0dbca62b744c4f7606408431e0',1,'steemit::app::category_api_obj::discussions()'],['../d8/d14/classsteemit_1_1chain_1_1category__object.html#a309af5ace8eea1eec576e91a471fcd90',1,'steemit::chain::category_object::discussions()']]],
   ['disputed',['disputed',['../df/dd0/classsteemit_1_1chain_1_1escrow__object.html#a52ae11846d39306884a582264d8a803e',1,'steemit::chain::escrow_object']]],
   ['dollar_5fvolume',['dollar_volume',['../d0/dc1/structsteemit_1_1app_1_1candle__stick.html#ad6f701a9a7ac63b50909a432d9f219d7',1,'steemit::app::candle_stick']]],

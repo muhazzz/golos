@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="de/d01/classsteemit_1_1app_1_1discussion__query" kind="class" language="C++" prot="public">
+    <compoundname>steemit::app::discussion_query</compoundname>
+    <includes refid="d0/d21/database__api_8hpp" local="no">database_api.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="de/d01/classsteemit_1_1app_1_1discussion__query_1ac60bad57576798d709123e8b50661c98" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::app::discussion_query::limit</definition>
+        <argsstring></argsstring>
+        <name>limit</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>the discussions return amount top limit </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/database_api.hpp" line="90" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d01/classsteemit_1_1app_1_1discussion__query_1ab5dfde9a97c88eb8c341e74d5493818b" prot="public" static="no" mutable="no">
+        <type>std::set&lt; std::string &gt;</type>
+        <definition>std::set&lt;std::string&gt; steemit::app::discussion_query::select_authors</definition>
+        <argsstring></argsstring>
+        <name>select_authors</name>
+        <briefdescription>
+<para>list of authors to select </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/database_api.hpp" line="91" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d01/classsteemit_1_1app_1_1discussion__query_1abe94005ea1729b29610fd2013c743f2c" prot="public" static="no" mutable="no">
+        <type>std::set&lt; std::string &gt;</type>
+        <definition>std::set&lt;std::string&gt; steemit::app::discussion_query::select_tags</definition>
+        <argsstring></argsstring>
+        <name>select_tags</name>
+        <briefdescription>
+<para>list of tags to include, posts without these tags are filtered </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/database_api.hpp" line="92" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d01/classsteemit_1_1app_1_1discussion__query_1ae2bd66319b1d525c292f32e8333fca04" prot="public" static="no" mutable="no">
+        <type>std::set&lt; std::string &gt;</type>
+        <definition>std::set&lt;std::string&gt; steemit::app::discussion_query::filter_tags</definition>
+        <argsstring></argsstring>
+        <name>filter_tags</name>
+        <briefdescription>
+<para>list of tags to exclude, posts with these tags are filtered; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/database_api.hpp" line="93" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d01/classsteemit_1_1app_1_1discussion__query_1a9bc8e2bec3395e3c6fc9953b174614f1" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::app::discussion_query::truncate_body</definition>
+        <argsstring></argsstring>
+        <name>truncate_body</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>the amount of bytes of the post body to return, 0 for all </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/database_api.hpp" line="94" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d01/classsteemit_1_1app_1_1discussion__query_1ae910f760d96aebb238d3949b0470c2ee" prot="public" static="no" mutable="no">
+        <type>optional&lt; std::string &gt;</type>
+        <definition>optional&lt;std::string&gt; steemit::app::discussion_query::start_author</definition>
+        <argsstring></argsstring>
+        <name>start_author</name>
+        <briefdescription>
+<para>the author of discussion to start searching from </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/database_api.hpp" line="95" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d01/classsteemit_1_1app_1_1discussion__query_1a5056b550c0483b3205b9e64a39ca87e3" prot="public" static="no" mutable="no">
+        <type>optional&lt; std::string &gt;</type>
+        <definition>optional&lt;std::string&gt; steemit::app::discussion_query::start_permlink</definition>
+        <argsstring></argsstring>
+        <name>start_permlink</name>
+        <briefdescription>
+<para>the permlink of discussion to start searching from </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/database_api.hpp" line="96" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d01/classsteemit_1_1app_1_1discussion__query_1a624967527ee4bc393e812eebb88bacd1" prot="public" static="no" mutable="no">
+        <type>optional&lt; std::string &gt;</type>
+        <definition>optional&lt;std::string&gt; steemit::app::discussion_query::parent_author</definition>
+        <argsstring></argsstring>
+        <name>parent_author</name>
+        <briefdescription>
+<para>the author of parent discussion </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/database_api.hpp" line="97" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d01/classsteemit_1_1app_1_1discussion__query_1aa78836ae8ae6fc0c3e60e7ba75a4bf1e" prot="public" static="no" mutable="no">
+        <type>optional&lt; std::string &gt;</type>
+        <definition>optional&lt;std::string&gt; steemit::app::discussion_query::parent_permlink</definition>
+        <argsstring></argsstring>
+        <name>parent_permlink</name>
+        <briefdescription>
+<para>the permlink of parent discussion </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/database_api.hpp" line="98" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/d01/classsteemit_1_1app_1_1discussion__query_1abbb77dd8b2aaef71d89190b38b441777" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::app::discussion_query::validate</definition>
+        <argsstring>() const</argsstring>
+        <name>validate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/database_api.hpp" line="81" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="81" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="de/d01/classsteemit_1_1app_1_1discussion__query" kindref="compound">discussion_query</ref> structure implements the RPC API param set. Defines the arguments to a query as a struct so it can be easily extended. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/app/include/steemit/app/database_api.hpp" line="79" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="79" bodyend="99"/>
+    <listofallmembers>
+      <member refid="de/d01/classsteemit_1_1app_1_1discussion__query_1ae2bd66319b1d525c292f32e8333fca04" prot="public" virt="non-virtual"><scope>steemit::app::discussion_query</scope><name>filter_tags</name></member>
+      <member refid="de/d01/classsteemit_1_1app_1_1discussion__query_1ac60bad57576798d709123e8b50661c98" prot="public" virt="non-virtual"><scope>steemit::app::discussion_query</scope><name>limit</name></member>
+      <member refid="de/d01/classsteemit_1_1app_1_1discussion__query_1a624967527ee4bc393e812eebb88bacd1" prot="public" virt="non-virtual"><scope>steemit::app::discussion_query</scope><name>parent_author</name></member>
+      <member refid="de/d01/classsteemit_1_1app_1_1discussion__query_1aa78836ae8ae6fc0c3e60e7ba75a4bf1e" prot="public" virt="non-virtual"><scope>steemit::app::discussion_query</scope><name>parent_permlink</name></member>
+      <member refid="de/d01/classsteemit_1_1app_1_1discussion__query_1ab5dfde9a97c88eb8c341e74d5493818b" prot="public" virt="non-virtual"><scope>steemit::app::discussion_query</scope><name>select_authors</name></member>
+      <member refid="de/d01/classsteemit_1_1app_1_1discussion__query_1abe94005ea1729b29610fd2013c743f2c" prot="public" virt="non-virtual"><scope>steemit::app::discussion_query</scope><name>select_tags</name></member>
+      <member refid="de/d01/classsteemit_1_1app_1_1discussion__query_1ae910f760d96aebb238d3949b0470c2ee" prot="public" virt="non-virtual"><scope>steemit::app::discussion_query</scope><name>start_author</name></member>
+      <member refid="de/d01/classsteemit_1_1app_1_1discussion__query_1a5056b550c0483b3205b9e64a39ca87e3" prot="public" virt="non-virtual"><scope>steemit::app::discussion_query</scope><name>start_permlink</name></member>
+      <member refid="de/d01/classsteemit_1_1app_1_1discussion__query_1a9bc8e2bec3395e3c6fc9953b174614f1" prot="public" virt="non-virtual"><scope>steemit::app::discussion_query</scope><name>truncate_body</name></member>
+      <member refid="de/d01/classsteemit_1_1app_1_1discussion__query_1abbb77dd8b2aaef71d89190b38b441777" prot="public" virt="non-virtual"><scope>steemit::app::discussion_query</scope><name>validate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
