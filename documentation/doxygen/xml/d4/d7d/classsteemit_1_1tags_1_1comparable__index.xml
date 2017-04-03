@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d4/d7d/classsteemit_1_1tags_1_1comparable__index" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>steemit::tags::comparable_index</compoundname>
+    <includes refid="d1/dec/tags__plugin_8hpp" local="no">tags_plugin.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+      <param>
+        <type>typename</type>
+        <declname>C</declname>
+        <defname>C</defname>
+        <defval>std::less&lt;T&gt;</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="d4/d7d/classsteemit_1_1tags_1_1comparable__index_1acf695921df687c3842cae1a411ad6673" prot="public" static="no">
+        <type>T</type>
+        <definition>typedef T steemit::tags::comparable_index&lt; T, C &gt;::value_type</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="106" column="1" bodyfile="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/d7d/classsteemit_1_1tags_1_1comparable__index_1af53ee834d2efa3bd2d91889217ffc7a3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool steemit::tags::comparable_index&lt; T, C &gt;::operator()</definition>
+        <argsstring>(const T &amp;first, const T &amp;second) const =0</argsstring>
+        <name>operator()</name>
+        <reimplementedby refid="dc/d38/classsteemit_1_1tags_1_1by__cashout_1a1c25730c386465f19e16cfa181739cf3">operator()</reimplementedby>
+        <reimplementedby refid="dd/df9/classsteemit_1_1tags_1_1by__net__rshares_1a824e43760825a3c7a0b66aabdda196d8">operator()</reimplementedby>
+        <reimplementedby refid="da/dff/classsteemit_1_1tags_1_1by__parent__created_1a56c389742d93db4dc6ca5700c41ab123">operator()</reimplementedby>
+        <reimplementedby refid="d1/d97/classsteemit_1_1tags_1_1by__parent__active_1ad4f2678e81d475b9bfc8a579598a4d35">operator()</reimplementedby>
+        <reimplementedby refid="d8/d36/classsteemit_1_1tags_1_1by__parent__promoted_1ad1c48f2816370953184e245ff4c37d7b">operator()</reimplementedby>
+        <reimplementedby refid="d6/d14/classsteemit_1_1tags_1_1by__parent__net__rshares_1a50b86a6d5127c5cca442f02c3cd22b67">operator()</reimplementedby>
+        <reimplementedby refid="d4/d0e/classsteemit_1_1tags_1_1by__parent__net__votes_1a9ca3b553209f4061f8a188fb37539069">operator()</reimplementedby>
+        <reimplementedby refid="df/d02/classsteemit_1_1tags_1_1by__parent__children__rshares2_1a13f165fb84dcb3b75490209e53a52df4">operator()</reimplementedby>
+        <reimplementedby refid="d3/de9/classsteemit_1_1tags_1_1by__parent__children_1a49122af75b12b31804f0e3b4bfae83c5">operator()</reimplementedby>
+        <reimplementedby refid="d2/d88/classsteemit_1_1tags_1_1by__parent__hot_1ad7c76ec75d7a17588bab486402498caf">operator()</reimplementedby>
+        <reimplementedby refid="da/db4/classsteemit_1_1tags_1_1by__author__parent__created_1abb89ce2439750ea2a2ce4177c70f0f71">operator()</reimplementedby>
+        <reimplementedby refid="d2/d0e/classsteemit_1_1tags_1_1by__author__comment_1adade27763a6f7fdabd6e0872d3b66865">operator()</reimplementedby>
+        <reimplementedby refid="da/d08/classsteemit_1_1tags_1_1by__mode__parent__children__rshares2_1abb5767369736de83916f9551e601af0b">operator()</reimplementedby>
+        <param>
+          <type>const T &amp;</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="108" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="104" column="1" bodyfile="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" bodystart="104" bodyend="109"/>
+    <listofallmembers>
+      <member refid="d4/d7d/classsteemit_1_1tags_1_1comparable__index_1af53ee834d2efa3bd2d91889217ffc7a3" prot="public" virt="pure-virtual"><scope>steemit::tags::comparable_index</scope><name>operator()</name></member>
+      <member refid="d4/d7d/classsteemit_1_1tags_1_1comparable__index_1acf695921df687c3842cae1a411ad6673" prot="public" virt="non-virtual"><scope>steemit::tags::comparable_index</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

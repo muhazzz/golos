@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="df/d9f/classsteemit_1_1follow_1_1detail_1_1follow__api__impl" kind="class" language="C++" prot="public">
+    <compoundname>steemit::follow::detail::follow_api_impl</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="df/d9f/classsteemit_1_1follow_1_1detail_1_1follow__api__impl_1a5b9cc44c16283c000089388cddda82db" prot="public" static="no" mutable="no">
+        <type><ref refid="de/d5e/classsteemit_1_1app_1_1application" kindref="compound">steemit::app::application</ref> &amp;</type>
+        <definition>steemit::app::application&amp; steemit::follow::detail::follow_api_impl::app</definition>
+        <argsstring></argsstring>
+        <name>app</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/follow/follow_api.cpp" line="41" column="1" bodyfile="libraries/plugins/follow/follow_api.cpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/d9f/classsteemit_1_1follow_1_1detail_1_1follow__api__impl_1ab914bd743d823dd94f6765a4596de861" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::follow::detail::follow_api_impl::follow_api_impl</definition>
+        <argsstring>(steemit::app::application &amp;_app)</argsstring>
+        <name>follow_api_impl</name>
+        <param>
+          <type><ref refid="de/d5e/classsteemit_1_1app_1_1application" kindref="compound">steemit::app::application</ref> &amp;</type>
+          <declname>_app</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/follow/follow_api.cpp" line="21" column="1" bodyfile="libraries/plugins/follow/follow_api.cpp" bodystart="21" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d9f/classsteemit_1_1follow_1_1detail_1_1follow__api__impl_1a53363d529096d7442a74decdc01f3570" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="d1/d9d/structsteemit_1_1follow_1_1follow__api__obj" kindref="compound">follow_api_obj</ref> &gt;</type>
+        <definition>vector&lt; follow_api_obj &gt; steemit::follow::detail::follow_api_impl::get_followers</definition>
+        <argsstring>(string following, string start_follower, follow_type type, uint16_t limit) const</argsstring>
+        <name>get_followers</name>
+        <param>
+          <type>string</type>
+          <declname>following</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>start_follower</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/d38/namespacesteemit_1_1follow_1aacb5f04391918d7b1d97155bebd0c3c4" kindref="member">follow_type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/follow/follow_api.cpp" line="25" column="1" bodyfile="libraries/plugins/follow/follow_api.cpp" bodystart="44" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d9f/classsteemit_1_1follow_1_1detail_1_1follow__api__impl_1a0b8e4f56ef7ab51ae397d9ad6eb6f239" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="d1/d9d/structsteemit_1_1follow_1_1follow__api__obj" kindref="compound">follow_api_obj</ref> &gt;</type>
+        <definition>vector&lt; follow_api_obj &gt; steemit::follow::detail::follow_api_impl::get_following</definition>
+        <argsstring>(string follower, string start_following, follow_type type, uint16_t limit) const</argsstring>
+        <name>get_following</name>
+        <param>
+          <type>string</type>
+          <declname>follower</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>start_following</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/d38/namespacesteemit_1_1follow_1aacb5f04391918d7b1d97155bebd0c3c4" kindref="member">follow_type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/follow/follow_api.cpp" line="27" column="1" bodyfile="libraries/plugins/follow/follow_api.cpp" bodystart="68" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d9f/classsteemit_1_1follow_1_1detail_1_1follow__api__impl_1ab52b235da190e04f24f3ea6206024559" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d9/d02/structsteemit_1_1follow_1_1follow__count__api__obj" kindref="compound">follow_count_api_obj</ref></type>
+        <definition>follow_count_api_obj steemit::follow::detail::follow_api_impl::get_follow_count</definition>
+        <argsstring>(string &amp;account) const</argsstring>
+        <name>get_follow_count</name>
+        <param>
+          <type>string &amp;</type>
+          <declname>account</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/follow/follow_api.cpp" line="29" column="1" bodyfile="libraries/plugins/follow/follow_api.cpp" bodystart="89" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d9f/classsteemit_1_1follow_1_1detail_1_1follow__api__impl_1ae9f7195803273ec529e40f3a72c863e0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="db/d79/structsteemit_1_1follow_1_1feed__entry" kindref="compound">feed_entry</ref> &gt;</type>
+        <definition>vector&lt; feed_entry &gt; steemit::follow::detail::follow_api_impl::get_feed_entries</definition>
+        <argsstring>(string account, uint32_t entry_id, uint16_t limit) const</argsstring>
+        <name>get_feed_entries</name>
+        <param>
+          <type>string</type>
+          <declname>account</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>entry_id</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/follow/follow_api.cpp" line="31" column="1" bodyfile="libraries/plugins/follow/follow_api.cpp" bodystart="102" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d9f/classsteemit_1_1follow_1_1detail_1_1follow__api__impl_1aa72f2344e14a3adc860d8b13232cd07d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="de/dea/structsteemit_1_1follow_1_1comment__feed__entry" kindref="compound">comment_feed_entry</ref> &gt;</type>
+        <definition>vector&lt; comment_feed_entry &gt; steemit::follow::detail::follow_api_impl::get_feed</definition>
+        <argsstring>(string account, uint32_t entry_id, uint16_t limit) const</argsstring>
+        <name>get_feed</name>
+        <param>
+          <type>string</type>
+          <declname>account</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>entry_id</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/follow/follow_api.cpp" line="33" column="1" bodyfile="libraries/plugins/follow/follow_api.cpp" bodystart="140" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d9f/classsteemit_1_1follow_1_1detail_1_1follow__api__impl_1ad12d56cae4e4cb72d483dd7280edfa9b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="dc/df0/structsteemit_1_1follow_1_1blog__entry" kindref="compound">blog_entry</ref> &gt;</type>
+        <definition>vector&lt; blog_entry &gt; steemit::follow::detail::follow_api_impl::get_blog_entries</definition>
+        <argsstring>(string account, uint32_t entry_id, uint16_t limit) const</argsstring>
+        <name>get_blog_entries</name>
+        <param>
+          <type>string</type>
+          <declname>account</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>entry_id</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/follow/follow_api.cpp" line="35" column="1" bodyfile="libraries/plugins/follow/follow_api.cpp" bodystart="177" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d9f/classsteemit_1_1follow_1_1detail_1_1follow__api__impl_1a8263e9108e58fbb5f244c310af19dfb5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="de/de4/structsteemit_1_1follow_1_1comment__blog__entry" kindref="compound">comment_blog_entry</ref> &gt;</type>
+        <definition>vector&lt; comment_blog_entry &gt; steemit::follow::detail::follow_api_impl::get_blog</definition>
+        <argsstring>(string account, uint32_t entry_id, uint16_t limit) const</argsstring>
+        <name>get_blog</name>
+        <param>
+          <type>string</type>
+          <declname>account</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>entry_id</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/follow/follow_api.cpp" line="37" column="1" bodyfile="libraries/plugins/follow/follow_api.cpp" bodystart="210" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d9f/classsteemit_1_1follow_1_1detail_1_1follow__api__impl_1a6b83d0d9c01a18b51721c7df5ae83607" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; <ref refid="dc/da6/structsteemit_1_1follow_1_1account__reputation" kindref="compound">account_reputation</ref> &gt;</type>
+        <definition>vector&lt; account_reputation &gt; steemit::follow::detail::follow_api_impl::get_account_reputations</definition>
+        <argsstring>(string lower_bound_name, uint32_t limit) const</argsstring>
+        <name>get_account_reputations</name>
+        <param>
+          <type>string</type>
+          <declname>lower_bound_name</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/follow/follow_api.cpp" line="39" column="1" bodyfile="libraries/plugins/follow/follow_api.cpp" bodystart="242" bodyend="267"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="600">
+        <label>steemit::follow::detail::follow_api_impl</label>
+        <link refid="df/d9f/classsteemit_1_1follow_1_1detail_1_1follow__api__impl"/>
+        <childnode refid="601" relation="usage">
+          <edgelabel>app</edgelabel>
+        </childnode>
+      </node>
+      <node id="601">
+        <label>steemit::app::application</label>
+        <link refid="de/d5e/classsteemit_1_1app_1_1application"/>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/follow/follow_api.cpp" line="19" column="1" bodyfile="libraries/plugins/follow/follow_api.cpp" bodystart="19" bodyend="42"/>
+    <listofallmembers>
+      <member refid="df/d9f/classsteemit_1_1follow_1_1detail_1_1follow__api__impl_1a5b9cc44c16283c000089388cddda82db" prot="public" virt="non-virtual"><scope>steemit::follow::detail::follow_api_impl</scope><name>app</name></member>
+      <member refid="df/d9f/classsteemit_1_1follow_1_1detail_1_1follow__api__impl_1ab914bd743d823dd94f6765a4596de861" prot="public" virt="non-virtual"><scope>steemit::follow::detail::follow_api_impl</scope><name>follow_api_impl</name></member>
+      <member refid="df/d9f/classsteemit_1_1follow_1_1detail_1_1follow__api__impl_1a6b83d0d9c01a18b51721c7df5ae83607" prot="public" virt="non-virtual"><scope>steemit::follow::detail::follow_api_impl</scope><name>get_account_reputations</name></member>
+      <member refid="df/d9f/classsteemit_1_1follow_1_1detail_1_1follow__api__impl_1a8263e9108e58fbb5f244c310af19dfb5" prot="public" virt="non-virtual"><scope>steemit::follow::detail::follow_api_impl</scope><name>get_blog</name></member>
+      <member refid="df/d9f/classsteemit_1_1follow_1_1detail_1_1follow__api__impl_1ad12d56cae4e4cb72d483dd7280edfa9b" prot="public" virt="non-virtual"><scope>steemit::follow::detail::follow_api_impl</scope><name>get_blog_entries</name></member>
+      <member refid="df/d9f/classsteemit_1_1follow_1_1detail_1_1follow__api__impl_1aa72f2344e14a3adc860d8b13232cd07d" prot="public" virt="non-virtual"><scope>steemit::follow::detail::follow_api_impl</scope><name>get_feed</name></member>
+      <member refid="df/d9f/classsteemit_1_1follow_1_1detail_1_1follow__api__impl_1ae9f7195803273ec529e40f3a72c863e0" prot="public" virt="non-virtual"><scope>steemit::follow::detail::follow_api_impl</scope><name>get_feed_entries</name></member>
+      <member refid="df/d9f/classsteemit_1_1follow_1_1detail_1_1follow__api__impl_1ab52b235da190e04f24f3ea6206024559" prot="public" virt="non-virtual"><scope>steemit::follow::detail::follow_api_impl</scope><name>get_follow_count</name></member>
+      <member refid="df/d9f/classsteemit_1_1follow_1_1detail_1_1follow__api__impl_1a53363d529096d7442a74decdc01f3570" prot="public" virt="non-virtual"><scope>steemit::follow::detail::follow_api_impl</scope><name>get_followers</name></member>
+      <member refid="df/d9f/classsteemit_1_1follow_1_1detail_1_1follow__api__impl_1a0b8e4f56ef7ab51ae397d9ad6eb6f239" prot="public" virt="non-virtual"><scope>steemit::follow::detail::follow_api_impl</scope><name>get_following</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

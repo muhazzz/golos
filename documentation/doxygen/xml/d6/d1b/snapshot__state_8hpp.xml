@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d6/d1b/snapshot__state_8hpp" kind="file" language="C++">
+    <compoundname>snapshot_state.hpp</compoundname>
+    <includes local="no">fc/time.hpp</includes>
+    <includedby refid="da/d7b/database_8cpp" local="no">libraries/chain/database.cpp</includedby>
+    <incdepgraph>
+      <node id="1855">
+        <label>fc/time.hpp</label>
+      </node>
+      <node id="1854">
+        <label>libraries/chain/include/steemit/chain/snapshot_state.hpp</label>
+        <link refid="d6/d1b/snapshot__state_8hpp"/>
+        <childnode refid="1855" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1857">
+        <label>libraries/chain/database.cpp</label>
+        <link refid="da/d7b/database_8cpp"/>
+      </node>
+      <node id="1856">
+        <label>libraries/chain/include/steemit/chain/snapshot_state.hpp</label>
+        <link refid="d6/d1b/snapshot__state_8hpp"/>
+        <childnode refid="1857" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d8/d6c/structsteemit_1_1chain_1_1account__keys" prot="public">steemit::chain::account_keys</innerclass>
+    <innerclass refid="d4/d73/structsteemit_1_1chain_1_1account__balances" prot="public">steemit::chain::account_balances</innerclass>
+    <innerclass refid="d3/da6/structsteemit_1_1chain_1_1snapshot__summary" prot="public">steemit::chain::snapshot_summary</innerclass>
+    <innerclass refid="d8/dc2/structsteemit_1_1chain_1_1account__summary" prot="public">steemit::chain::account_summary</innerclass>
+    <innerclass refid="d0/df9/structsteemit_1_1chain_1_1snapshot__state" prot="public">steemit::chain::snapshot_state</innerclass>
+    <innernamespace refid="d9/d75/namespacesteemit">steemit</innernamespace>
+    <innernamespace refid="d8/d9b/namespacesteemit_1_1chain">steemit::chain</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/chain/include/steemit/chain/snapshot_state.hpp"/>
+  </compounddef>
+</doxygen>

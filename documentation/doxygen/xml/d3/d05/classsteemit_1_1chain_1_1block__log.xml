@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d3/d05/classsteemit_1_1chain_1_1block__log" kind="class" language="C++" prot="public">
+    <compoundname>steemit::chain::block_log</compoundname>
+    <includes refid="db/dfa/block__log_8hpp" local="no">block_log.hpp</includes>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="d3/d05/classsteemit_1_1chain_1_1block__log_1a604b91eeb70aeed81e274e9629400cf1" prot="public" static="yes" mutable="no">
+        <type>const uint64_t</type>
+        <definition>const uint64_t steemit::chain::block_log::npos</definition>
+        <argsstring></argsstring>
+        <name>npos</name>
+        <initializer>= std::numeric_limits&lt;uint64_t&gt;::max()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/block_log.hpp" line="67" column="1" bodyfile="libraries/chain/include/steemit/chain/block_log.hpp" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d3/d05/classsteemit_1_1chain_1_1block__log_1a639f8fff8fe8c8cd95563f61465acef5" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="d7/da2/classsteemit_1_1chain_1_1detail_1_1block__log__impl" kindref="compound">detail::block_log_impl</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;detail::block_log_impl&gt; steemit::chain::block_log::my</definition>
+        <argsstring></argsstring>
+        <name>my</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/block_log.hpp" line="72" column="1" bodyfile="libraries/chain/include/steemit/chain/block_log.hpp" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d05/classsteemit_1_1chain_1_1block__log_1a8cbe5400908d202ddc031d06553be3f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>steemit::chain::block_log::block_log</definition>
+        <argsstring>()</argsstring>
+        <name>block_log</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/block_log.hpp" line="40" column="1" bodyfile="libraries/chain/block_log.cpp" bodystart="59" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d05/classsteemit_1_1chain_1_1block__log_1aa7326cccb6ddb8d30430d8265250b22f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>steemit::chain::block_log::~block_log</definition>
+        <argsstring>()</argsstring>
+        <name>~block_log</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/block_log.hpp" line="42" column="1" bodyfile="libraries/chain/block_log.cpp" bodystart="67" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d05/classsteemit_1_1chain_1_1block__log_1a6b103bc7650800b5cab1361fa804de6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::chain::block_log::open</definition>
+        <argsstring>(const fc::path &amp;file)</argsstring>
+        <name>open</name>
+        <param>
+          <type>const fc::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/block_log.hpp" line="44" column="1" bodyfile="libraries/chain/block_log.cpp" bodystart="71" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d05/classsteemit_1_1chain_1_1block__log_1a6406357b7c7d3fef328d01d09096b6cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::chain::block_log::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/block_log.hpp" line="46" column="1" bodyfile="libraries/chain/block_log.cpp" bodystart="146" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d05/classsteemit_1_1chain_1_1block__log_1a7f086eeca920fb473b5d30427070314a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool steemit::chain::block_log::is_open</definition>
+        <argsstring>() const</argsstring>
+        <name>is_open</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/block_log.hpp" line="48" column="1" bodyfile="libraries/chain/block_log.cpp" bodystart="150" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d05/classsteemit_1_1chain_1_1block__log_1a2ec5def2357daf3a5004f89306e34733" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>uint64_t steemit::chain::block_log::append</definition>
+        <argsstring>(const signed_block &amp;b)</argsstring>
+        <name>append</name>
+        <param>
+          <type>const signed_block &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/block_log.hpp" line="50" column="1" bodyfile="libraries/chain/block_log.cpp" bodystart="154" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d05/classsteemit_1_1chain_1_1block__log_1a47b509cd6a9867ae3610e24abbe68075" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::chain::block_log::flush</definition>
+        <argsstring>()</argsstring>
+        <name>flush</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/block_log.hpp" line="52" column="1" bodyfile="libraries/chain/block_log.cpp" bodystart="176" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d05/classsteemit_1_1chain_1_1block__log_1a82f7185e942b14bec475f0d8918d4dd8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::pair&lt; signed_block, uint64_t &gt;</type>
+        <definition>std::pair&lt; signed_block, uint64_t &gt; steemit::chain::block_log::read_block</definition>
+        <argsstring>(uint64_t file_pos) const</argsstring>
+        <name>read_block</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>file_pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/block_log.hpp" line="54" column="1" bodyfile="libraries/chain/block_log.cpp" bodystart="181" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d05/classsteemit_1_1chain_1_1block__log_1ac06fc624b2d9fc1104b0d870f51892fe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>optional&lt; signed_block &gt;</type>
+        <definition>optional&lt; signed_block &gt; steemit::chain::block_log::read_block_by_num</definition>
+        <argsstring>(uint32_t block_num) const</argsstring>
+        <name>read_block_by_num</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>block_num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/block_log.hpp" line="56" column="1" bodyfile="libraries/chain/block_log.cpp" bodystart="191" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d05/classsteemit_1_1chain_1_1block__log_1ad6d1d89bf57bda93a41e45b5035f2430" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>uint64_t steemit::chain::block_log::get_block_pos</definition>
+        <argsstring>(uint32_t block_num) const</argsstring>
+        <name>get_block_pos</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>block_num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return offset of block in file, or <ref refid="d3/d05/classsteemit_1_1chain_1_1block__log_1a604b91eeb70aeed81e274e9629400cf1" kindref="member">block_log::npos</ref> if it does not exist. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/block_log.hpp" line="61" column="1" bodyfile="libraries/chain/block_log.cpp" bodystart="205" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d05/classsteemit_1_1chain_1_1block__log_1a095f2f702a822e098eb6c99214b7bd74" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>signed_block</type>
+        <definition>signed_block steemit::chain::block_log::read_head</definition>
+        <argsstring>() const</argsstring>
+        <name>read_head</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/block_log.hpp" line="63" column="1" bodyfile="libraries/chain/block_log.cpp" bodystart="219" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d05/classsteemit_1_1chain_1_1block__log_1a3373835b50c8b499c3cfefd90ed2f718" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const optional&lt; signed_block &gt; &amp;</type>
+        <definition>const optional&lt; signed_block &gt; &amp; steemit::chain::block_log::head</definition>
+        <argsstring>() const</argsstring>
+        <name>head</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/block_log.hpp" line="65" column="1" bodyfile="libraries/chain/block_log.cpp" bodystart="228" bodyend="230"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d3/d05/classsteemit_1_1chain_1_1block__log_1a70a27acb3618ccc4d96f74b945e09ed3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::chain::block_log::construct_index</definition>
+        <argsstring>()</argsstring>
+        <name>construct_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/block_log.hpp" line="70" column="1" bodyfile="libraries/chain/block_log.cpp" bodystart="232" bodyend="254"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/chain/include/steemit/chain/block_log.hpp" line="38" column="1" bodyfile="libraries/chain/include/steemit/chain/block_log.hpp" bodystart="38" bodyend="73"/>
+    <listofallmembers>
+      <member refid="d3/d05/classsteemit_1_1chain_1_1block__log_1a2ec5def2357daf3a5004f89306e34733" prot="public" virt="non-virtual"><scope>steemit::chain::block_log</scope><name>append</name></member>
+      <member refid="d3/d05/classsteemit_1_1chain_1_1block__log_1a8cbe5400908d202ddc031d06553be3f7" prot="public" virt="non-virtual"><scope>steemit::chain::block_log</scope><name>block_log</name></member>
+      <member refid="d3/d05/classsteemit_1_1chain_1_1block__log_1a6406357b7c7d3fef328d01d09096b6cb" prot="public" virt="non-virtual"><scope>steemit::chain::block_log</scope><name>close</name></member>
+      <member refid="d3/d05/classsteemit_1_1chain_1_1block__log_1a70a27acb3618ccc4d96f74b945e09ed3" prot="private" virt="non-virtual"><scope>steemit::chain::block_log</scope><name>construct_index</name></member>
+      <member refid="d3/d05/classsteemit_1_1chain_1_1block__log_1a47b509cd6a9867ae3610e24abbe68075" prot="public" virt="non-virtual"><scope>steemit::chain::block_log</scope><name>flush</name></member>
+      <member refid="d3/d05/classsteemit_1_1chain_1_1block__log_1ad6d1d89bf57bda93a41e45b5035f2430" prot="public" virt="non-virtual"><scope>steemit::chain::block_log</scope><name>get_block_pos</name></member>
+      <member refid="d3/d05/classsteemit_1_1chain_1_1block__log_1a3373835b50c8b499c3cfefd90ed2f718" prot="public" virt="non-virtual"><scope>steemit::chain::block_log</scope><name>head</name></member>
+      <member refid="d3/d05/classsteemit_1_1chain_1_1block__log_1a7f086eeca920fb473b5d30427070314a" prot="public" virt="non-virtual"><scope>steemit::chain::block_log</scope><name>is_open</name></member>
+      <member refid="d3/d05/classsteemit_1_1chain_1_1block__log_1a639f8fff8fe8c8cd95563f61465acef5" prot="private" virt="non-virtual"><scope>steemit::chain::block_log</scope><name>my</name></member>
+      <member refid="d3/d05/classsteemit_1_1chain_1_1block__log_1a604b91eeb70aeed81e274e9629400cf1" prot="public" virt="non-virtual"><scope>steemit::chain::block_log</scope><name>npos</name></member>
+      <member refid="d3/d05/classsteemit_1_1chain_1_1block__log_1a6b103bc7650800b5cab1361fa804de6e" prot="public" virt="non-virtual"><scope>steemit::chain::block_log</scope><name>open</name></member>
+      <member refid="d3/d05/classsteemit_1_1chain_1_1block__log_1a82f7185e942b14bec475f0d8918d4dd8" prot="public" virt="non-virtual"><scope>steemit::chain::block_log</scope><name>read_block</name></member>
+      <member refid="d3/d05/classsteemit_1_1chain_1_1block__log_1ac06fc624b2d9fc1104b0d870f51892fe" prot="public" virt="non-virtual"><scope>steemit::chain::block_log</scope><name>read_block_by_num</name></member>
+      <member refid="d3/d05/classsteemit_1_1chain_1_1block__log_1a095f2f702a822e098eb6c99214b7bd74" prot="public" virt="non-virtual"><scope>steemit::chain::block_log</scope><name>read_head</name></member>
+      <member refid="d3/d05/classsteemit_1_1chain_1_1block__log_1aa7326cccb6ddb8d30430d8265250b22f" prot="public" virt="non-virtual"><scope>steemit::chain::block_log</scope><name>~block_log</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

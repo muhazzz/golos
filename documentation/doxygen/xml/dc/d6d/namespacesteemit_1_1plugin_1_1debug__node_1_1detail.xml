@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dc/d6d/namespacesteemit_1_1plugin_1_1debug__node_1_1detail" kind="namespace" language="C++">
+    <compoundname>steemit::plugin::debug_node::detail</compoundname>
+    <innerclass refid="d0/d60/classsteemit_1_1plugin_1_1debug__node_1_1detail_1_1debug__node__api__impl" prot="public">steemit::plugin::debug_node::detail::debug_node_api_impl</innerclass>
+    <innerclass refid="d0/d28/classsteemit_1_1plugin_1_1debug__node_1_1detail_1_1debug__node__plugin__impl" prot="public">steemit::plugin::debug_node::detail::debug_node_plugin_impl</innerclass>
+    <innerclass refid="da/da6/classsteemit_1_1plugin_1_1debug__node_1_1detail_1_1debug__private__key__storage" prot="public">steemit::plugin::debug_node::detail::debug_private_key_storage</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/debug_node/debug_node_api.cpp" line="19" column="1"/>
+  </compounddef>
+</doxygen>

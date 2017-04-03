@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d4/dc6/classsteemit_1_1plugin_1_1block__info_1_1block__info__api" kind="class" language="C++" prot="public">
+    <compoundname>steemit::plugin::block_info::block_info_api</compoundname>
+    <includes refid="d8/d72/block__info__api_8hpp" local="no">block_info_api.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d4/dc6/classsteemit_1_1plugin_1_1block__info_1_1block__info__api_1a9b96ec910403342bb6730257e373df3a" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="d2/d8e/classsteemit_1_1plugin_1_1block__info_1_1detail_1_1block__info__api__impl" kindref="compound">detail::block_info_api_impl</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;detail::block_info_api_impl&gt; steemit::plugin::block_info::block_info_api::my</definition>
+        <argsstring></argsstring>
+        <name>my</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info_api.hpp" line="38" column="1" bodyfile="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info_api.hpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/dc6/classsteemit_1_1plugin_1_1block__info_1_1block__info__api_1a5684fcdd8784a05073328db824a25cf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>steemit::plugin::block_info::block_info_api::block_info_api</definition>
+        <argsstring>(const steemit::app::api_context &amp;ctx)</argsstring>
+        <name>block_info_api</name>
+        <param>
+          <type>const <ref refid="d1/d23/structsteemit_1_1app_1_1api__context" kindref="compound">steemit::app::api_context</ref> &amp;</type>
+          <declname>ctx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info_api.hpp" line="29" column="1" bodyfile="libraries/plugins/block_info/block_info_api.cpp" bodystart="76" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dc6/classsteemit_1_1plugin_1_1block__info_1_1block__info__api_1aa685c06f2856df28d33b47446d0add45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::plugin::block_info::block_info_api::on_api_startup</definition>
+        <argsstring>()</argsstring>
+        <name>on_api_startup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info_api.hpp" line="31" column="1" bodyfile="libraries/plugins/block_info/block_info_api.cpp" bodystart="92" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dc6/classsteemit_1_1plugin_1_1block__info_1_1block__info__api_1abf39ed8be5e1110a5c0a496741775903" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="dd/d47/structsteemit_1_1plugin_1_1block__info_1_1block__info" kindref="compound">block_info</ref> &gt;</type>
+        <definition>std::vector&lt; block_info &gt; steemit::plugin::block_info::block_info_api::get_block_info</definition>
+        <argsstring>(get_block_info_args args)</argsstring>
+        <name>get_block_info</name>
+        <param>
+          <type><ref refid="d6/dc2/structsteemit_1_1plugin_1_1block__info_1_1get__block__info__args" kindref="compound">get_block_info_args</ref></type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info_api.hpp" line="33" column="1" bodyfile="libraries/plugins/block_info/block_info_api.cpp" bodystart="80" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dc6/classsteemit_1_1plugin_1_1block__info_1_1block__info__api_1a3d7f33cb2bc79136e5842b9dca3a907d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="d2/daa/structsteemit_1_1plugin_1_1block__info_1_1block__with__info" kindref="compound">block_with_info</ref> &gt;</type>
+        <definition>std::vector&lt; block_with_info &gt; steemit::plugin::block_info::block_info_api::get_blocks_with_info</definition>
+        <argsstring>(get_block_info_args args)</argsstring>
+        <name>get_blocks_with_info</name>
+        <param>
+          <type><ref refid="d6/dc2/structsteemit_1_1plugin_1_1block__info_1_1get__block__info__args" kindref="compound">get_block_info_args</ref></type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info_api.hpp" line="35" column="1" bodyfile="libraries/plugins/block_info/block_info_api.cpp" bodystart="86" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info_api.hpp" line="27" column="1" bodyfile="libraries/plugins/block_info/include/steemit/plugins/block_info/block_info_api.hpp" bodystart="27" bodyend="39"/>
+    <listofallmembers>
+      <member refid="d4/dc6/classsteemit_1_1plugin_1_1block__info_1_1block__info__api_1a5684fcdd8784a05073328db824a25cf8" prot="public" virt="non-virtual"><scope>steemit::plugin::block_info::block_info_api</scope><name>block_info_api</name></member>
+      <member refid="d4/dc6/classsteemit_1_1plugin_1_1block__info_1_1block__info__api_1abf39ed8be5e1110a5c0a496741775903" prot="public" virt="non-virtual"><scope>steemit::plugin::block_info::block_info_api</scope><name>get_block_info</name></member>
+      <member refid="d4/dc6/classsteemit_1_1plugin_1_1block__info_1_1block__info__api_1a3d7f33cb2bc79136e5842b9dca3a907d" prot="public" virt="non-virtual"><scope>steemit::plugin::block_info::block_info_api</scope><name>get_blocks_with_info</name></member>
+      <member refid="d4/dc6/classsteemit_1_1plugin_1_1block__info_1_1block__info__api_1a9b96ec910403342bb6730257e373df3a" prot="private" virt="non-virtual"><scope>steemit::plugin::block_info::block_info_api</scope><name>my</name></member>
+      <member refid="d4/dc6/classsteemit_1_1plugin_1_1block__info_1_1block__info__api_1aa685c06f2856df28d33b47446d0add45" prot="public" virt="non-virtual"><scope>steemit::plugin::block_info::block_info_api</scope><name>on_api_startup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d8/d36/classsteemit_1_1tags_1_1by__parent__promoted" kind="class" language="C++" prot="public">
+    <compoundname>steemit::tags::by_parent_promoted</compoundname>
+    <basecompoundref refid="d4/d7d/classsteemit_1_1tags_1_1comparable__index" prot="public" virt="non-virtual">steemit::tags::comparable_index&lt; tag_object &gt;</basecompoundref>
+    <includes refid="d1/dec/tags__plugin_8hpp" local="no">tags_plugin.hpp</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/d36/classsteemit_1_1tags_1_1by__parent__promoted_1ad1c48f2816370953184e245ff4c37d7b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool steemit::tags::by_parent_promoted::operator()</definition>
+        <argsstring>(const tag_object &amp;first, const tag_object &amp;second) const override</argsstring>
+        <name>operator()</name>
+        <reimplements refid="d4/d7d/classsteemit_1_1tags_1_1comparable__index_1af53ee834d2efa3bd2d91889217ffc7a3">operator()</reimplements>
+        <param>
+          <type>const <ref refid="d9/dc8/classsteemit_1_1tags_1_1tag__object" kindref="compound">tag_object</ref> &amp;</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d9/dc8/classsteemit_1_1tags_1_1tag__object" kindref="compound">tag_object</ref> &amp;</type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="148" column="1" bodyfile="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" bodystart="148" bodyend="152"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="329">
+        <label>steemit::tags::by_parent_promoted</label>
+        <link refid="d8/d36/classsteemit_1_1tags_1_1by__parent__promoted"/>
+        <childnode refid="330" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="330">
+        <label>steemit::tags::comparable_index&lt; tag_object &gt;</label>
+        <link refid="d4/d7d/classsteemit_1_1tags_1_1comparable__index"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="331">
+        <label>steemit::tags::by_parent_promoted</label>
+        <link refid="d8/d36/classsteemit_1_1tags_1_1by__parent__promoted"/>
+        <childnode refid="332" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="332">
+        <label>steemit::tags::comparable_index&lt; tag_object &gt;</label>
+        <link refid="d4/d7d/classsteemit_1_1tags_1_1comparable__index"/>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="146" column="1" bodyfile="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" bodystart="146" bodyend="153"/>
+    <listofallmembers>
+      <member refid="d8/d36/classsteemit_1_1tags_1_1by__parent__promoted_1ad1c48f2816370953184e245ff4c37d7b" prot="public" virt="virtual"><scope>steemit::tags::by_parent_promoted</scope><name>operator()</name></member>
+      <member refid="d4/d7d/classsteemit_1_1tags_1_1comparable__index_1acf695921df687c3842cae1a411ad6673" prot="public" virt="non-virtual"><scope>steemit::tags::by_parent_promoted</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

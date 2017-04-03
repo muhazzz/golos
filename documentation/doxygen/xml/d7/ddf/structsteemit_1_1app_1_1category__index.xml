@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d7/ddf/structsteemit_1_1app_1_1category__index" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::app::category_index</compoundname>
+    <includes refid="da/d3b/state_8hpp" local="no">state.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d7/ddf/structsteemit_1_1app_1_1category__index_1a813bafd8de330f3765a50bf1cdd4d78a" prot="public" static="no" mutable="no">
+        <type>vector&lt; string &gt;</type>
+        <definition>vector&lt;string&gt; steemit::app::category_index::active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="44" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/ddf/structsteemit_1_1app_1_1category__index_1ad0ed5aee639fa86c72906665efb56165" prot="public" static="no" mutable="no">
+        <type>vector&lt; string &gt;</type>
+        <definition>vector&lt;string&gt; steemit::app::category_index::recent</definition>
+        <argsstring></argsstring>
+        <name>recent</name>
+        <briefdescription>
+<para>recent activity </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="45" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/ddf/structsteemit_1_1app_1_1category__index_1aafd3e9c6296901aefff619de661f8f0a" prot="public" static="no" mutable="no">
+        <type>vector&lt; string &gt;</type>
+        <definition>vector&lt;string&gt; steemit::app::category_index::best</definition>
+        <argsstring></argsstring>
+        <name>best</name>
+        <briefdescription>
+<para>recently created </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="46" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="344">
+        <label>steemit::app::category_index</label>
+        <link refid="d7/ddf/structsteemit_1_1app_1_1category__index"/>
+        <childnode refid="345" relation="usage">
+          <edgelabel>best</edgelabel>
+          <edgelabel>active</edgelabel>
+          <edgelabel>recent</edgelabel>
+        </childnode>
+      </node>
+      <node id="345">
+        <label>vector&lt; string &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/app/include/steemit/app/state.hpp" line="43" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="43" bodyend="47"/>
+    <listofallmembers>
+      <member refid="d7/ddf/structsteemit_1_1app_1_1category__index_1a813bafd8de330f3765a50bf1cdd4d78a" prot="public" virt="non-virtual"><scope>steemit::app::category_index</scope><name>active</name></member>
+      <member refid="d7/ddf/structsteemit_1_1app_1_1category__index_1aafd3e9c6296901aefff619de661f8f0a" prot="public" virt="non-virtual"><scope>steemit::app::category_index</scope><name>best</name></member>
+      <member refid="d7/ddf/structsteemit_1_1app_1_1category__index_1ad0ed5aee639fa86c72906665efb56165" prot="public" virt="non-virtual"><scope>steemit::app::category_index</scope><name>recent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d3/d81/group__sbd__data" kind="group">
+    <compoundname>sbd_data</compoundname>
+    <title>SBD Balance Data</title>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="d3/d81/group__sbd__data_1ga9b2383cd407753d59866b8289d5166ff" prot="public" static="no" mutable="no">
+        <type>asset</type>
+        <definition>asset steemit::chain::account_object::sbd_balance</definition>
+        <argsstring></argsstring>
+        <name>sbd_balance</name>
+        <initializer>= asset(0, SBD_SYMBOL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="75" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d81/group__sbd__data_1ga0fd7ec90533e96b189945eba65f72663" prot="public" static="no" mutable="no">
+        <type>uint128_t</type>
+        <definition>uint128_t steemit::chain::account_object::sbd_seconds</definition>
+        <argsstring></argsstring>
+        <name>sbd_seconds</name>
+        <briefdescription>
+<para>total sbd balance </para>        </briefdescription>
+        <detaileddescription>
+<para>total sbd * how long it has been hel </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="76" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d81/group__sbd__data_1ga74b077c8c0da7d8b99fdcb11c28ade93" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::account_object::sbd_seconds_last_update</definition>
+        <argsstring></argsstring>
+        <name>sbd_seconds_last_update</name>
+        <briefdescription>
+<para>the last time the sbd_seconds was updated </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="77" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d81/group__sbd__data_1gafac9cf2a30e30621b92279e436162068" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::account_object::sbd_last_interest_payment</definition>
+        <argsstring></argsstring>
+        <name>sbd_last_interest_payment</name>
+        <briefdescription>
+<para>used to pay interest at most once per month </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="78" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d81/group__sbd__data_1gaf07ccd323f674402e63ba156dd7c1eb5" prot="public" static="no" mutable="no">
+        <type>asset</type>
+        <definition>asset steemit::chain::account_object::savings_sbd_balance</definition>
+        <argsstring></argsstring>
+        <name>savings_sbd_balance</name>
+        <initializer>= asset(0, SBD_SYMBOL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="81" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d81/group__sbd__data_1ga2df4ebab5dd493d3354aea90cc0c8ad6" prot="public" static="no" mutable="no">
+        <type>uint128_t</type>
+        <definition>uint128_t steemit::chain::account_object::savings_sbd_seconds</definition>
+        <argsstring></argsstring>
+        <name>savings_sbd_seconds</name>
+        <briefdescription>
+<para>total sbd balance </para>        </briefdescription>
+        <detaileddescription>
+<para>total sbd * how long it has been hel </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="82" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d81/group__sbd__data_1ga71cd729f78b9b44136897c608c2b02ca" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::account_object::savings_sbd_seconds_last_update</definition>
+        <argsstring></argsstring>
+        <name>savings_sbd_seconds_last_update</name>
+        <briefdescription>
+<para>the last time the sbd_seconds was updated </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="83" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d81/group__sbd__data_1ga95e1190aee36103acb31e22bcafc6964" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::account_object::savings_sbd_last_interest_payment</definition>
+        <argsstring></argsstring>
+        <name>savings_sbd_last_interest_payment</name>
+        <briefdescription>
+<para>used to pay interest at most once per month </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="84" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d81/group__sbd__data_1gad3b356052c9fde1ebc64d6a4d5ffe6cc" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t steemit::chain::account_object::savings_withdraw_requests</definition>
+        <argsstring></argsstring>
+        <name>savings_withdraw_requests</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/account_object.hpp" line="86" column="1" bodyfile="libraries/chain/include/steemit/chain/account_object.hpp" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>SBD Deposits pay interest based upon the interest rate set by witnesses. The purpose of these fields is to track the total (time * sbd_balance) that it is held. Then at the appointed time interest can be paid using the following equation:</para><para>interest = interest_rate * sbd_seconds / seconds_per_year</para><para>Every time the sbd_balance is updated the sbd_seconds is also updated. If at least STEEMIT_MIN_COMPOUNDING_INTERVAL_SECONDS has past since sbd_last_interest_payment then interest is added to sbd_balance. </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

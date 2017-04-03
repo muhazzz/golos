@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d5/d51/impacted_8cpp" kind="file" language="C++">
+    <compoundname>impacted.cpp</compoundname>
+    <includes local="no">steemit/protocol/authority.hpp</includes>
+    <includes refid="df/d43/impacted_8hpp" local="no">steemit/app/impacted.hpp</includes>
+    <incdepgraph>
+      <node id="263">
+        <label>boost/multi_index/ordered_index.hpp</label>
+      </node>
+      <node id="266">
+        <label>steemit/protocol/types.hpp</label>
+      </node>
+      <node id="255">
+        <label>steemit/protocol/authority.hpp</label>
+      </node>
+      <node id="260">
+        <label>steemit/chain/steem_object_types.hpp</label>
+        <link refid="d6/dd8/steem__object__types_8hpp"/>
+        <childnode refid="261" relation="include">
+        </childnode>
+        <childnode refid="262" relation="include">
+        </childnode>
+        <childnode refid="263" relation="include">
+        </childnode>
+        <childnode refid="264" relation="include">
+        </childnode>
+        <childnode refid="265" relation="include">
+        </childnode>
+        <childnode refid="266" relation="include">
+        </childnode>
+        <childnode refid="255" relation="include">
+        </childnode>
+      </node>
+      <node id="265">
+        <label>chainbase/chainbase.hpp</label>
+      </node>
+      <node id="258">
+        <label>steemit/protocol/operations.hpp</label>
+      </node>
+      <node id="259">
+        <label>steemit/protocol/transaction.hpp</label>
+      </node>
+      <node id="257">
+        <label>fc/container/flat.hpp</label>
+      </node>
+      <node id="256">
+        <label>steemit/app/impacted.hpp</label>
+        <link refid="df/d43/impacted_8hpp"/>
+        <childnode refid="257" relation="include">
+        </childnode>
+        <childnode refid="258" relation="include">
+        </childnode>
+        <childnode refid="259" relation="include">
+        </childnode>
+        <childnode refid="260" relation="include">
+        </childnode>
+        <childnode refid="267" relation="include">
+        </childnode>
+      </node>
+      <node id="262">
+        <label>boost/multi_index/member.hpp</label>
+      </node>
+      <node id="261">
+        <label>boost/multi_index_container.hpp</label>
+      </node>
+      <node id="254">
+        <label>libraries/app/impacted.cpp</label>
+        <link refid="d5/d51/impacted_8cpp"/>
+        <childnode refid="255" relation="include">
+        </childnode>
+        <childnode refid="256" relation="include">
+        </childnode>
+      </node>
+      <node id="267">
+        <label>fc/string.hpp</label>
+      </node>
+      <node id="264">
+        <label>boost/multi_index/mem_fun.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="d5/d90/structsteemit_1_1app_1_1get__impacted__account__visitor" prot="public">steemit::app::get_impacted_account_visitor</innerclass>
+    <innernamespace refid="d9/d75/namespacesteemit">steemit</innernamespace>
+    <innernamespace refid="df/d55/namespacesteemit_1_1app">steemit::app</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/app/impacted.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d8/d53/classsteemit_1_1chain_1_1limit__order__object" kind="class" language="C++" prot="public">
+    <compoundname>steemit::chain::limit_order_object</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">chainbase::object&lt; limit_order_object_type, limit_order_object &gt;</basecompoundref>
+    <derivedcompoundref refid="d3/d1d/structsteemit_1_1app_1_1extended__limit__order" prot="public" virt="non-virtual">steemit::app::extended_limit_order</derivedcompoundref>
+    <includes refid="da/d8c/steem__objects_8hpp" local="no">steem_objects.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d8/d53/classsteemit_1_1chain_1_1limit__order__object_1aaa709c34f427089155116af4c95fbd02" prot="public" static="no" mutable="no">
+        <type>id_type</type>
+        <definition>id_type steemit::chain::limit_order_object::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="185" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d53/classsteemit_1_1chain_1_1limit__order__object_1a7e5817ebfc851278de571364e4d1a523" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::limit_order_object::created</definition>
+        <argsstring></argsstring>
+        <name>created</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="187" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d53/classsteemit_1_1chain_1_1limit__order__object_1a5f6fdcb2fb0088bde92a6a5d07b0a1cd" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::limit_order_object::expiration</definition>
+        <argsstring></argsstring>
+        <name>expiration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="188" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d53/classsteemit_1_1chain_1_1limit__order__object_1a4054c728ac720c53f659c2d592b96414" prot="public" static="no" mutable="no">
+        <type>account_name_type</type>
+        <definition>account_name_type steemit::chain::limit_order_object::seller</definition>
+        <argsstring></argsstring>
+        <name>seller</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="189" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d53/classsteemit_1_1chain_1_1limit__order__object_1a11a1b400e2f0db3967ba2c0ca970baa4" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::chain::limit_order_object::orderid</definition>
+        <argsstring></argsstring>
+        <name>orderid</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="190" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d53/classsteemit_1_1chain_1_1limit__order__object_1a49345e8098a0aa94b710070b7c9a1d6e" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::chain::limit_order_object::for_sale</definition>
+        <argsstring></argsstring>
+        <name>for_sale</name>
+        <briefdescription>
+<para>asset id is sell_price.base.symbol </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="191" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d53/classsteemit_1_1chain_1_1limit__order__object_1aab9fc5dcaf62c1c82b1624fc4f7c96d8" prot="public" static="no" mutable="no">
+        <type>price</type>
+        <definition>price steemit::chain::limit_order_object::sell_price</definition>
+        <argsstring></argsstring>
+        <name>sell_price</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="192" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/d53/classsteemit_1_1chain_1_1limit__order__object_1a29dd330b73900c545ef61f4b89f5f743" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Constructor</type>
+          </param>
+          <param>
+            <type>typename Allocator</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>steemit::chain::limit_order_object::limit_order_object</definition>
+        <argsstring>(Constructor &amp;&amp;c, allocator&lt; Allocator &gt; a)</argsstring>
+        <name>limit_order_object</name>
+        <param>
+          <type>Constructor &amp;&amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>allocator&lt; Allocator &gt;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="178" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="178" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d53/classsteemit_1_1chain_1_1limit__order__object_1af4b8adedeca6197a6241090a83ba4d72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::chain::limit_order_object::limit_order_object</definition>
+        <argsstring>()</argsstring>
+        <name>limit_order_object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="182" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="182" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d53/classsteemit_1_1chain_1_1limit__order__object_1a66342ad1b6d27e20c27ab240da4c8022" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>pair&lt; asset_symbol_type, asset_symbol_type &gt;</type>
+        <definition>pair&lt;asset_symbol_type, asset_symbol_type&gt; steemit::chain::limit_order_object::get_market</definition>
+        <argsstring>() const</argsstring>
+        <name>get_market</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="194" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="194" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d53/classsteemit_1_1chain_1_1limit__order__object_1a3d29fb44bffe2f4c13a96586b949e2d3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>asset</type>
+        <definition>asset steemit::chain::limit_order_object::amount_for_sale</definition>
+        <argsstring>() const</argsstring>
+        <name>amount_for_sale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="201" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="201" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d53/classsteemit_1_1chain_1_1limit__order__object_1a207b02192fb917f7a6aa99b0e86b7886" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>asset</type>
+        <definition>asset steemit::chain::limit_order_object::amount_to_receive</definition>
+        <argsstring>() const</argsstring>
+        <name>amount_to_receive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="205" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="205" bodyend="207"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>an offer to sell a amount of a asset at a specified exchange rate by a certain time</para><para>This limit_order_objects are indexed by <ref refid="d8/d53/classsteemit_1_1chain_1_1limit__order__object_1a5f6fdcb2fb0088bde92a6a5d07b0a1cd" kindref="member">expiration</ref> and is automatically deleted on the first block after expiration. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="681">
+        <label>chainbase::object&lt; limit_order_object_type, limit_order_object &gt;</label>
+      </node>
+      <node id="682">
+        <label>steemit::app::extended_limit_order</label>
+        <link refid="d3/d1d/structsteemit_1_1app_1_1extended__limit__order"/>
+        <childnode refid="680" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="680">
+        <label>steemit::chain::limit_order_object</label>
+        <link refid="d8/d53/classsteemit_1_1chain_1_1limit__order__object"/>
+        <childnode refid="681" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="685">
+        <label>time_point_sec</label>
+      </node>
+      <node id="684">
+        <label>chainbase::object&lt; limit_order_object_type, limit_order_object &gt;</label>
+      </node>
+      <node id="686">
+        <label>account_name_type</label>
+      </node>
+      <node id="683">
+        <label>steemit::chain::limit_order_object</label>
+        <link refid="d8/d53/classsteemit_1_1chain_1_1limit__order__object"/>
+        <childnode refid="684" relation="public-inheritance">
+        </childnode>
+        <childnode refid="685" relation="usage">
+          <edgelabel>created</edgelabel>
+          <edgelabel>expiration</edgelabel>
+        </childnode>
+        <childnode refid="686" relation="usage">
+          <edgelabel>seller</edgelabel>
+        </childnode>
+        <childnode refid="687" relation="usage">
+          <edgelabel>sell_price</edgelabel>
+        </childnode>
+        <childnode refid="688" relation="usage">
+          <edgelabel>for_sale</edgelabel>
+        </childnode>
+      </node>
+      <node id="687">
+        <label>price</label>
+      </node>
+      <node id="688">
+        <label>share_type</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/chain/include/steemit/chain/steem_objects.hpp" line="175" column="1" bodyfile="libraries/chain/include/steemit/chain/steem_objects.hpp" bodystart="174" bodyend="208"/>
+    <listofallmembers>
+      <member refid="d8/d53/classsteemit_1_1chain_1_1limit__order__object_1a3d29fb44bffe2f4c13a96586b949e2d3" prot="public" virt="non-virtual"><scope>steemit::chain::limit_order_object</scope><name>amount_for_sale</name></member>
+      <member refid="d8/d53/classsteemit_1_1chain_1_1limit__order__object_1a207b02192fb917f7a6aa99b0e86b7886" prot="public" virt="non-virtual"><scope>steemit::chain::limit_order_object</scope><name>amount_to_receive</name></member>
+      <member refid="d8/d53/classsteemit_1_1chain_1_1limit__order__object_1a7e5817ebfc851278de571364e4d1a523" prot="public" virt="non-virtual"><scope>steemit::chain::limit_order_object</scope><name>created</name></member>
+      <member refid="d8/d53/classsteemit_1_1chain_1_1limit__order__object_1a5f6fdcb2fb0088bde92a6a5d07b0a1cd" prot="public" virt="non-virtual"><scope>steemit::chain::limit_order_object</scope><name>expiration</name></member>
+      <member refid="d8/d53/classsteemit_1_1chain_1_1limit__order__object_1a49345e8098a0aa94b710070b7c9a1d6e" prot="public" virt="non-virtual"><scope>steemit::chain::limit_order_object</scope><name>for_sale</name></member>
+      <member refid="d8/d53/classsteemit_1_1chain_1_1limit__order__object_1a66342ad1b6d27e20c27ab240da4c8022" prot="public" virt="non-virtual"><scope>steemit::chain::limit_order_object</scope><name>get_market</name></member>
+      <member refid="d8/d53/classsteemit_1_1chain_1_1limit__order__object_1aaa709c34f427089155116af4c95fbd02" prot="public" virt="non-virtual"><scope>steemit::chain::limit_order_object</scope><name>id</name></member>
+      <member refid="d8/d53/classsteemit_1_1chain_1_1limit__order__object_1a29dd330b73900c545ef61f4b89f5f743" prot="public" virt="non-virtual"><scope>steemit::chain::limit_order_object</scope><name>limit_order_object</name></member>
+      <member refid="d8/d53/classsteemit_1_1chain_1_1limit__order__object_1af4b8adedeca6197a6241090a83ba4d72" prot="public" virt="non-virtual"><scope>steemit::chain::limit_order_object</scope><name>limit_order_object</name></member>
+      <member refid="d8/d53/classsteemit_1_1chain_1_1limit__order__object_1a11a1b400e2f0db3967ba2c0ca970baa4" prot="public" virt="non-virtual"><scope>steemit::chain::limit_order_object</scope><name>orderid</name></member>
+      <member refid="d8/d53/classsteemit_1_1chain_1_1limit__order__object_1aab9fc5dcaf62c1c82b1624fc4f7c96d8" prot="public" virt="non-virtual"><scope>steemit::chain::limit_order_object</scope><name>sell_price</name></member>
+      <member refid="d8/d53/classsteemit_1_1chain_1_1limit__order__object_1a4054c728ac720c53f659c2d592b96414" prot="public" virt="non-virtual"><scope>steemit::chain::limit_order_object</scope><name>seller</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

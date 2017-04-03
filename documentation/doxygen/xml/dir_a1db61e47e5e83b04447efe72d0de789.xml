@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_a1db61e47e5e83b04447efe72d0de789" kind="dir">
+    <compoundname>libraries/chain/include/steemit/chain</compoundname>
+    <innerfile refid="d3/df9/account__object_8hpp">account_object.hpp</innerfile>
+    <innerfile refid="db/dfa/block__log_8hpp">block_log.hpp</innerfile>
+    <innerfile refid="d1/dfa/block__summary__object_8hpp">block_summary_object.hpp</innerfile>
+    <innerfile refid="d3/d98/comment__object_8hpp">comment_object.hpp</innerfile>
+    <innerfile refid="d7/dfe/compound_8hpp">compound.hpp</innerfile>
+    <innerfile refid="dd/d9e/custom__operation__interpreter_8hpp">custom_operation_interpreter.hpp</innerfile>
+    <innerfile refid="df/da2/database_8hpp">database.hpp</innerfile>
+    <innerfile refid="da/dc1/database__exceptions_8hpp">database_exceptions.hpp</innerfile>
+    <innerfile refid="d5/db5/db__with_8hpp">db_with.hpp</innerfile>
+    <innerfile refid="d0/da6/evaluator_8hpp">evaluator.hpp</innerfile>
+    <innerfile refid="d4/df2/evaluator__registry_8hpp">evaluator_registry.hpp</innerfile>
+    <innerfile refid="d2/d8c/fork__database_8hpp">fork_database.hpp</innerfile>
+    <innerfile refid="d3/db4/generic__custom__operation__interpreter_8hpp">generic_custom_operation_interpreter.hpp</innerfile>
+    <innerfile refid="d2/d78/global__property__object_8hpp">global_property_object.hpp</innerfile>
+    <innerfile refid="d2/deb/history__object_8hpp">history_object.hpp</innerfile>
+    <innerfile refid="df/dee/immutable__chain__parameters_8hpp">immutable_chain_parameters.hpp</innerfile>
+    <innerfile refid="d0/d1c/index_8hpp">index.hpp</innerfile>
+    <innerfile refid="d0/d72/node__property__object_8hpp">node_property_object.hpp</innerfile>
+    <innerfile refid="d5/d9c/operation__notification_8hpp">operation_notification.hpp</innerfile>
+    <innerfile refid="df/dd8/shared__authority_8hpp">shared_authority.hpp</innerfile>
+    <innerfile refid="de/d98/shared__db__merkle_8hpp">shared_db_merkle.hpp</innerfile>
+    <innerfile refid="d6/d1b/snapshot__state_8hpp">snapshot_state.hpp</innerfile>
+    <innerfile refid="df/d6e/steem__evaluator_8hpp">steem_evaluator.hpp</innerfile>
+    <innerfile refid="d6/dd8/steem__object__types_8hpp">steem_object_types.hpp</innerfile>
+    <innerfile refid="da/d8c/steem__objects_8hpp">steem_objects.hpp</innerfile>
+    <innerfile refid="dc/d89/transaction__object_8hpp">transaction_object.hpp</innerfile>
+    <innerfile refid="de/d8f/witness__objects_8hpp">witness_objects.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/chain/include/steemit/chain/"/>
+  </compounddef>
+</doxygen>

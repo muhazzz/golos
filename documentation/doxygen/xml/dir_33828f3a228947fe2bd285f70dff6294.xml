@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_33828f3a228947fe2bd285f70dff6294" kind="dir">
+    <compoundname>libraries/plugins/market_history/include/steemit/market_history</compoundname>
+    <innerfile refid="d5/d95/market__history__api_8hpp">market_history_api.hpp</innerfile>
+    <innerfile refid="db/d6f/market__history__plugin_8hpp">market_history_plugin.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/market_history/include/steemit/market_history/"/>
+  </compounddef>
+</doxygen>

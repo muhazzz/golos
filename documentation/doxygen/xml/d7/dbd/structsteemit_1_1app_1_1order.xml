@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d7/dbd/structsteemit_1_1app_1_1order" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::app::order</compoundname>
+    <includes refid="d0/d21/database__api_8hpp" local="no">database_api.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d7/dbd/structsteemit_1_1app_1_1order_1aa8208524becea4c3d67324ba3065b770" prot="public" static="no" mutable="no">
+        <type>price</type>
+        <definition>price steemit::app::order::order_price</definition>
+        <argsstring></argsstring>
+        <name>order_price</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/database_api.hpp" line="34" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/dbd/structsteemit_1_1app_1_1order_1af97c9949ea14985d464aad2ccaf7fd6d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double steemit::app::order::real_price</definition>
+        <argsstring></argsstring>
+        <name>real_price</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/database_api.hpp" line="35" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/dbd/structsteemit_1_1app_1_1order_1afffce508bc39c012297d7948425abc09" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::app::order::steem</definition>
+        <argsstring></argsstring>
+        <name>steem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/database_api.hpp" line="36" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/dbd/structsteemit_1_1app_1_1order_1a478e51600dec923f7f060628d8061713" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::app::order::sbd</definition>
+        <argsstring></argsstring>
+        <name>sbd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/database_api.hpp" line="37" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/dbd/structsteemit_1_1app_1_1order_1a65a2cbe1e92a6eab0645bea569913b0d" prot="public" static="no" mutable="no">
+        <type>fc::time_point_sec</type>
+        <definition>fc::time_point_sec steemit::app::order::created</definition>
+        <argsstring></argsstring>
+        <name>created</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/database_api.hpp" line="38" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="848">
+        <label>time_point_sec</label>
+      </node>
+      <node id="846">
+        <label>steemit::app::order</label>
+        <link refid="d7/dbd/structsteemit_1_1app_1_1order"/>
+        <childnode refid="847" relation="usage">
+          <edgelabel>steem</edgelabel>
+          <edgelabel>sbd</edgelabel>
+        </childnode>
+        <childnode refid="848" relation="usage">
+          <edgelabel>created</edgelabel>
+        </childnode>
+        <childnode refid="849" relation="usage">
+          <edgelabel>order_price</edgelabel>
+        </childnode>
+      </node>
+      <node id="849">
+        <label>price</label>
+      </node>
+      <node id="847">
+        <label>share_type</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/app/include/steemit/app/database_api.hpp" line="33" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="33" bodyend="39"/>
+    <listofallmembers>
+      <member refid="d7/dbd/structsteemit_1_1app_1_1order_1a65a2cbe1e92a6eab0645bea569913b0d" prot="public" virt="non-virtual"><scope>steemit::app::order</scope><name>created</name></member>
+      <member refid="d7/dbd/structsteemit_1_1app_1_1order_1aa8208524becea4c3d67324ba3065b770" prot="public" virt="non-virtual"><scope>steemit::app::order</scope><name>order_price</name></member>
+      <member refid="d7/dbd/structsteemit_1_1app_1_1order_1af97c9949ea14985d464aad2ccaf7fd6d" prot="public" virt="non-virtual"><scope>steemit::app::order</scope><name>real_price</name></member>
+      <member refid="d7/dbd/structsteemit_1_1app_1_1order_1a478e51600dec923f7f060628d8061713" prot="public" virt="non-virtual"><scope>steemit::app::order</scope><name>sbd</name></member>
+      <member refid="d7/dbd/structsteemit_1_1app_1_1order_1afffce508bc39c012297d7948425abc09" prot="public" virt="non-virtual"><scope>steemit::app::order</scope><name>steem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

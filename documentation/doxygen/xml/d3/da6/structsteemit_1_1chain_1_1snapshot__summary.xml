@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d3/da6/structsteemit_1_1chain_1_1snapshot__summary" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::chain::snapshot_summary</compoundname>
+    <includes refid="d6/d1b/snapshot__state_8hpp" local="no">snapshot_state.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d3/da6/structsteemit_1_1chain_1_1snapshot__summary_1afde8acabed64b53955629ebe639c8fec" prot="public" static="no" mutable="no">
+        <type>asset</type>
+        <definition>asset steemit::chain::snapshot_summary::balance</definition>
+        <argsstring></argsstring>
+        <name>balance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/snapshot_state.hpp" line="20" column="1" bodyfile="libraries/chain/include/steemit/chain/snapshot_state.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/da6/structsteemit_1_1chain_1_1snapshot__summary_1a8373b1a4493cacdac974a860a426ec7f" prot="public" static="no" mutable="no">
+        <type>asset</type>
+        <definition>asset steemit::chain::snapshot_summary::sbd_balance</definition>
+        <argsstring></argsstring>
+        <name>sbd_balance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/snapshot_state.hpp" line="21" column="1" bodyfile="libraries/chain/include/steemit/chain/snapshot_state.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/da6/structsteemit_1_1chain_1_1snapshot__summary_1ad92e78c0ba1a8884772a517acc1aee65" prot="public" static="no" mutable="no">
+        <type>asset</type>
+        <definition>asset steemit::chain::snapshot_summary::total_vesting_shares</definition>
+        <argsstring></argsstring>
+        <name>total_vesting_shares</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/snapshot_state.hpp" line="22" column="1" bodyfile="libraries/chain/include/steemit/chain/snapshot_state.hpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/da6/structsteemit_1_1chain_1_1snapshot__summary_1ac077ffd509e422e98f7586e6bb4cdf3d" prot="public" static="no" mutable="no">
+        <type>asset</type>
+        <definition>asset steemit::chain::snapshot_summary::total_vesting_fund_steem</definition>
+        <argsstring></argsstring>
+        <name>total_vesting_fund_steem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/snapshot_state.hpp" line="23" column="1" bodyfile="libraries/chain/include/steemit/chain/snapshot_state.hpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/da6/structsteemit_1_1chain_1_1snapshot__summary_1a1d65292eab5130ffd8fa84cfc7fd2302" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::chain::snapshot_summary::accounts_count</definition>
+        <argsstring></argsstring>
+        <name>accounts_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/snapshot_state.hpp" line="24" column="1" bodyfile="libraries/chain/include/steemit/chain/snapshot_state.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1015">
+        <label>asset</label>
+      </node>
+      <node id="1014">
+        <label>steemit::chain::snapshot_summary</label>
+        <link refid="d3/da6/structsteemit_1_1chain_1_1snapshot__summary"/>
+        <childnode refid="1015" relation="usage">
+          <edgelabel>balance</edgelabel>
+          <edgelabel>total_vesting_shares</edgelabel>
+          <edgelabel>sbd_balance</edgelabel>
+          <edgelabel>total_vesting_fund_steem</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/chain/include/steemit/chain/snapshot_state.hpp" line="19" column="1" bodyfile="libraries/chain/include/steemit/chain/snapshot_state.hpp" bodystart="19" bodyend="25"/>
+    <listofallmembers>
+      <member refid="d3/da6/structsteemit_1_1chain_1_1snapshot__summary_1a1d65292eab5130ffd8fa84cfc7fd2302" prot="public" virt="non-virtual"><scope>steemit::chain::snapshot_summary</scope><name>accounts_count</name></member>
+      <member refid="d3/da6/structsteemit_1_1chain_1_1snapshot__summary_1afde8acabed64b53955629ebe639c8fec" prot="public" virt="non-virtual"><scope>steemit::chain::snapshot_summary</scope><name>balance</name></member>
+      <member refid="d3/da6/structsteemit_1_1chain_1_1snapshot__summary_1a8373b1a4493cacdac974a860a426ec7f" prot="public" virt="non-virtual"><scope>steemit::chain::snapshot_summary</scope><name>sbd_balance</name></member>
+      <member refid="d3/da6/structsteemit_1_1chain_1_1snapshot__summary_1ac077ffd509e422e98f7586e6bb4cdf3d" prot="public" virt="non-virtual"><scope>steemit::chain::snapshot_summary</scope><name>total_vesting_fund_steem</name></member>
+      <member refid="d3/da6/structsteemit_1_1chain_1_1snapshot__summary_1ad92e78c0ba1a8884772a517acc1aee65" prot="public" virt="non-virtual"><scope>steemit::chain::snapshot_summary</scope><name>total_vesting_shares</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="da/d72/structsteemit_1_1account__statistics_1_1account__activity__bucket__object" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::account_statistics::account_activity_bucket_object</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">chainbase::object&lt; account_activity_bucket_object_type, account_activity_bucket_object &gt;</basecompoundref>
+    <includes refid="dd/d82/account__statistics__plugin_8hpp" local="no">account_statistics_plugin.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="da/d72/structsteemit_1_1account__statistics_1_1account__activity__bucket__object_1aebfa8abd755327b87661dc4dd2434d7e" prot="public" static="no" mutable="no">
+        <type>id_type</type>
+        <definition>id_type steemit::account_statistics::account_activity_bucket_object::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="124" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d72/structsteemit_1_1account__statistics_1_1account__activity__bucket__object_1a26337dad04a79dbafc2362e6261b793b" prot="public" static="no" mutable="no">
+        <type>fc::time_point_sec</type>
+        <definition>fc::time_point_sec steemit::account_statistics::account_activity_bucket_object::open</definition>
+        <argsstring></argsstring>
+        <name>open</name>
+        <briefdescription>
+<para>Open time for the bucket. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="126" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d72/structsteemit_1_1account__statistics_1_1account__activity__bucket__object_1a3df153118c913a34640137c2f6bae622" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_activity_bucket_object::seconds</definition>
+        <argsstring></argsstring>
+        <name>seconds</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Seconds accounted for in the bucket. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="127" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d72/structsteemit_1_1account__statistics_1_1account__activity__bucket__object_1aa28c468f631912870d3e489644d9657e" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_activity_bucket_object::active_market_accounts</definition>
+        <argsstring></argsstring>
+        <name>active_market_accounts</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Active market accounts in the bucket. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="128" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d72/structsteemit_1_1account__statistics_1_1account__activity__bucket__object_1a6a17e7c641725a3e99aedc5a84be4abc" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_activity_bucket_object::active_forum_accounts</definition>
+        <argsstring></argsstring>
+        <name>active_forum_accounts</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Active forum accounts in the bucket. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="129" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d72/structsteemit_1_1account__statistics_1_1account__activity__bucket__object_1a5bfbd03430b7f4e741012ec2fb997d2e" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::account_activity_bucket_object::active_market_and_forum_accounts</definition>
+        <argsstring></argsstring>
+        <name>active_market_and_forum_accounts</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Active accounts in both the market and the forum. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="130" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d72/structsteemit_1_1account__statistics_1_1account__activity__bucket__object_1af6ae8e1ba80152aca25cd43d9b2fdb84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Constructor</type>
+          </param>
+          <param>
+            <type>typename Allocator</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>steemit::account_statistics::account_activity_bucket_object::account_activity_bucket_object</definition>
+        <argsstring>(Constructor &amp;&amp;c, allocator&lt; Allocator &gt; a)</argsstring>
+        <name>account_activity_bucket_object</name>
+        <param>
+          <type>Constructor &amp;&amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>allocator&lt; Allocator &gt;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="117" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="117" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d72/structsteemit_1_1account__statistics_1_1account__activity__bucket__object_1a7ff43c3fcc0a516f936b0a0ac4872202" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::account_statistics::account_activity_bucket_object::account_activity_bucket_object</definition>
+        <argsstring>()</argsstring>
+        <name>account_activity_bucket_object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="121" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="121" bodyend="122"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="18">
+        <label>chainbase::object&lt; account_activity_bucket_object_type, account_activity_bucket_object &gt;</label>
+      </node>
+      <node id="17">
+        <label>steemit::account_statistics::account_activity_bucket_object</label>
+        <link refid="da/d72/structsteemit_1_1account__statistics_1_1account__activity__bucket__object"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="21">
+        <label>time_point_sec</label>
+      </node>
+      <node id="20">
+        <label>chainbase::object&lt; account_activity_bucket_object_type, account_activity_bucket_object &gt;</label>
+      </node>
+      <node id="19">
+        <label>steemit::account_statistics::account_activity_bucket_object</label>
+        <link refid="da/d72/structsteemit_1_1account__statistics_1_1account__activity__bucket__object"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+        <childnode refid="21" relation="usage">
+          <edgelabel>open</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="115" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="114" bodyend="131"/>
+    <listofallmembers>
+      <member refid="da/d72/structsteemit_1_1account__statistics_1_1account__activity__bucket__object_1af6ae8e1ba80152aca25cd43d9b2fdb84" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_activity_bucket_object</scope><name>account_activity_bucket_object</name></member>
+      <member refid="da/d72/structsteemit_1_1account__statistics_1_1account__activity__bucket__object_1a7ff43c3fcc0a516f936b0a0ac4872202" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_activity_bucket_object</scope><name>account_activity_bucket_object</name></member>
+      <member refid="da/d72/structsteemit_1_1account__statistics_1_1account__activity__bucket__object_1a6a17e7c641725a3e99aedc5a84be4abc" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_activity_bucket_object</scope><name>active_forum_accounts</name></member>
+      <member refid="da/d72/structsteemit_1_1account__statistics_1_1account__activity__bucket__object_1aa28c468f631912870d3e489644d9657e" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_activity_bucket_object</scope><name>active_market_accounts</name></member>
+      <member refid="da/d72/structsteemit_1_1account__statistics_1_1account__activity__bucket__object_1a5bfbd03430b7f4e741012ec2fb997d2e" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_activity_bucket_object</scope><name>active_market_and_forum_accounts</name></member>
+      <member refid="da/d72/structsteemit_1_1account__statistics_1_1account__activity__bucket__object_1aebfa8abd755327b87661dc4dd2434d7e" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_activity_bucket_object</scope><name>id</name></member>
+      <member refid="da/d72/structsteemit_1_1account__statistics_1_1account__activity__bucket__object_1a26337dad04a79dbafc2362e6261b793b" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_activity_bucket_object</scope><name>open</name></member>
+      <member refid="da/d72/structsteemit_1_1account__statistics_1_1account__activity__bucket__object_1a3df153118c913a34640137c2f6bae622" prot="public" virt="non-virtual"><scope>steemit::account_statistics::account_activity_bucket_object</scope><name>seconds</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

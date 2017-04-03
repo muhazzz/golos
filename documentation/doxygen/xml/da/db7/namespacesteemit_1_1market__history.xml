@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="da/db7/namespacesteemit_1_1market__history" kind="namespace" language="C++">
+    <compoundname>steemit::market_history</compoundname>
+    <innerclass refid="d0/da4/structsteemit_1_1market__history_1_1bucket__object" prot="public">steemit::market_history::bucket_object</innerclass>
+    <innerclass refid="dd/d7f/classsteemit_1_1market__history_1_1market__history__api" prot="public">steemit::market_history::market_history_api</innerclass>
+    <innerclass refid="dc/d3e/classsteemit_1_1market__history_1_1market__history__plugin" prot="public">steemit::market_history::market_history_plugin</innerclass>
+    <innerclass refid="dd/d3c/structsteemit_1_1market__history_1_1market__ticker" prot="public">steemit::market_history::market_ticker</innerclass>
+    <innerclass refid="d4/de0/structsteemit_1_1market__history_1_1market__trade" prot="public">steemit::market_history::market_trade</innerclass>
+    <innerclass refid="dc/dd7/structsteemit_1_1market__history_1_1market__volume" prot="public">steemit::market_history::market_volume</innerclass>
+    <innerclass refid="db/d57/structsteemit_1_1market__history_1_1order" prot="public">steemit::market_history::order</innerclass>
+    <innerclass refid="d1/d20/structsteemit_1_1market__history_1_1order__book" prot="public">steemit::market_history::order_book</innerclass>
+    <innerclass refid="d6/df0/structsteemit_1_1market__history_1_1order__history__object" prot="public">steemit::market_history::order_history_object</innerclass>
+    <innernamespace refid="dc/ddb/namespacesteemit_1_1market__history_1_1detail">steemit::market_history::detail</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="da/db7/namespacesteemit_1_1market__history_1aada2345983d996e5635f6bcb2f28c5fe" prot="public" static="no">
+        <name>market_history_object_types</name>
+        <enumvalue id="da/db7/namespacesteemit_1_1market__history_1aada2345983d996e5635f6bcb2f28c5feab376a9192e98d03a8831de146db44cef" prot="public">
+          <name>bucket_object_type</name>
+          <initializer>= (MARKET_HISTORY_SPACE_ID &lt;&lt; 8)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/db7/namespacesteemit_1_1market__history_1aada2345983d996e5635f6bcb2f28c5fea434f330b4b5961991165ccb24aacd7b1" prot="public">
+          <name>order_history_object_type</name>
+          <initializer>= (MARKET_HISTORY_SPACE_ID &lt;&lt; 8) + 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_plugin.hpp" line="34" column="1" bodyfile="libraries/plugins/market_history/include/steemit/market_history/market_history_plugin.hpp" bodystart="34" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="da/db7/namespacesteemit_1_1market__history_1a8de75a543eb586b6c7205f5e1df9a3ea" prot="public" static="no">
+        <type>oid&lt; <ref refid="d0/da4/structsteemit_1_1market__history_1_1bucket__object" kindref="compound">bucket_object</ref> &gt;</type>
+        <definition>typedef oid&lt;bucket_object&gt; steemit::market_history::bucket_id_type</definition>
+        <argsstring></argsstring>
+        <name>bucket_id_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_plugin.hpp" line="104" column="1" bodyfile="libraries/plugins/market_history/include/steemit/market_history/market_history_plugin.hpp" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="da/db7/namespacesteemit_1_1market__history_1a20f727735f90436497445f1232556258" prot="public" static="no">
+        <type>oid&lt; <ref refid="d6/df0/structsteemit_1_1market__history_1_1order__history__object" kindref="compound">order_history_object</ref> &gt;</type>
+        <definition>typedef oid&lt;order_history_object&gt; steemit::market_history::order_history_id_type</definition>
+        <argsstring></argsstring>
+        <name>order_history_id_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_plugin.hpp" line="120" column="1" bodyfile="libraries/plugins/market_history/include/steemit/market_history/market_history_plugin.hpp" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="da/db7/namespacesteemit_1_1market__history_1ab4a61ff812ca350281476ad34e7a727c" prot="public" static="no">
+        <type>multi_index_container&lt; <ref refid="d0/da4/structsteemit_1_1market__history_1_1bucket__object" kindref="compound">bucket_object</ref>, indexed_by&lt; ordered_unique&lt; tag&lt; by_id &gt;, member&lt; <ref refid="d0/da4/structsteemit_1_1market__history_1_1bucket__object" kindref="compound">bucket_object</ref>, <ref refid="da/db7/namespacesteemit_1_1market__history_1a8de75a543eb586b6c7205f5e1df9a3ea" kindref="member">bucket_id_type</ref>, &amp;<ref refid="d0/da4/structsteemit_1_1market__history_1_1bucket__object_1a8fbdbdec7e9c579e6db8a34f2410bd20" kindref="member">bucket_object::id</ref> &gt; &gt;, ordered_unique&lt; tag&lt; by_bucket &gt;, composite_key&lt; <ref refid="d0/da4/structsteemit_1_1market__history_1_1bucket__object" kindref="compound">bucket_object</ref>, member&lt; <ref refid="d0/da4/structsteemit_1_1market__history_1_1bucket__object" kindref="compound">bucket_object</ref>, uint32_t, &amp;<ref refid="d0/da4/structsteemit_1_1market__history_1_1bucket__object_1abcde3a411b893d2c43ef321f77c2005d" kindref="member">bucket_object::seconds</ref> &gt;, member&lt; <ref refid="d0/da4/structsteemit_1_1market__history_1_1bucket__object" kindref="compound">bucket_object</ref>, fc::time_point_sec, &amp;<ref refid="d0/da4/structsteemit_1_1market__history_1_1bucket__object_1a5ff07fc94d4216c0ee190ef4df5d6397" kindref="member">bucket_object::open</ref> &gt; &gt;, composite_key_compare&lt; std::less&lt; uint32_t &gt;, std::less&lt; fc::time_point_sec &gt; &gt; &gt; &gt;, allocator&lt; <ref refid="d0/da4/structsteemit_1_1market__history_1_1bucket__object" kindref="compound">bucket_object</ref> &gt; &gt;</type>
+        <definition>typedef multi_index_container&lt; bucket_object, indexed_by&lt; ordered_unique&lt;tag&lt;by_id&gt;, member&lt;bucket_object, bucket_id_type, &amp;bucket_object::id&gt; &gt;, ordered_unique&lt;tag&lt;by_bucket&gt;, composite_key&lt;bucket_object, member&lt;bucket_object, uint32_t, &amp;bucket_object::seconds&gt;, member&lt;bucket_object, fc::time_point_sec, &amp;bucket_object::open&gt; &gt;, composite_key_compare&lt;std::less&lt;uint32_t&gt;, std::less&lt;fc::time_point_sec&gt; &gt; &gt; &gt;, allocator&lt;bucket_object&gt; &gt; steemit::market_history::bucket_index</definition>
+        <argsstring></argsstring>
+        <name>bucket_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_plugin.hpp" line="137" column="1" bodyfile="libraries/plugins/market_history/include/steemit/market_history/market_history_plugin.hpp" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="da/db7/namespacesteemit_1_1market__history_1ac12e141a169d18ff660d7ef64c7a55c3" prot="public" static="no">
+        <type>multi_index_container&lt; <ref refid="d6/df0/structsteemit_1_1market__history_1_1order__history__object" kindref="compound">order_history_object</ref>, indexed_by&lt; ordered_unique&lt; tag&lt; by_id &gt;, member&lt; <ref refid="d6/df0/structsteemit_1_1market__history_1_1order__history__object" kindref="compound">order_history_object</ref>, <ref refid="da/db7/namespacesteemit_1_1market__history_1a20f727735f90436497445f1232556258" kindref="member">order_history_id_type</ref>, &amp;<ref refid="d6/df0/structsteemit_1_1market__history_1_1order__history__object_1a1cf0fd936adaf8e2d8892afcc185d3d5" kindref="member">order_history_object::id</ref> &gt; &gt;, ordered_non_unique&lt; tag&lt; by_time &gt;, member&lt; <ref refid="d6/df0/structsteemit_1_1market__history_1_1order__history__object" kindref="compound">order_history_object</ref>, time_point_sec, &amp;<ref refid="d6/df0/structsteemit_1_1market__history_1_1order__history__object_1add6be8608310867b589c972fa8b5bdb9" kindref="member">order_history_object::time</ref> &gt; &gt; &gt;, allocator&lt; <ref refid="d6/df0/structsteemit_1_1market__history_1_1order__history__object" kindref="compound">order_history_object</ref> &gt; &gt;</type>
+        <definition>typedef multi_index_container&lt; order_history_object, indexed_by&lt; ordered_unique&lt;tag&lt;by_id&gt;, member&lt;order_history_object, order_history_id_type, &amp;order_history_object::id&gt; &gt;, ordered_non_unique&lt;tag&lt;by_time&gt;, member&lt;order_history_object, time_point_sec, &amp;order_history_object::time&gt; &gt; &gt;, allocator&lt;order_history_object&gt; &gt; steemit::market_history::order_history_index</definition>
+        <argsstring></argsstring>
+        <name>order_history_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_plugin.hpp" line="147" column="1" bodyfile="libraries/plugins/market_history/include/steemit/market_history/market_history_plugin.hpp" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" line="16" column="1"/>
+  </compounddef>
+</doxygen>

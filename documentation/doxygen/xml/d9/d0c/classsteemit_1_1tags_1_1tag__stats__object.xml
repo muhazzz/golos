@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d9/d0c/classsteemit_1_1tags_1_1tag__stats__object" kind="class" language="C++" prot="public">
+    <compoundname>steemit::tags::tag_stats_object</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">chainbase::object&lt; tag_stats_object_type, tag_stats_object &gt;</basecompoundref>
+    <includes refid="d1/dec/tags__plugin_8hpp" local="no">tags_plugin.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d9/d0c/classsteemit_1_1tags_1_1tag__stats__object_1af18fa7946cbdaa2bc0bcd4c2d98c4bba" prot="public" static="no" mutable="no">
+        <type>id_type</type>
+        <definition>id_type steemit::tags::tag_stats_object::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="372" column="1" bodyfile="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" bodystart="372" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d0c/classsteemit_1_1tags_1_1tag__stats__object_1a970c02254f35c5d3ce3a62f4c8bfc16c" prot="public" static="no" mutable="no">
+        <type><ref refid="d8/d58/namespacesteemit_1_1tags_1a7ee1c11245b697eca23b79aff8487d0b" kindref="member">tag_name_type</ref></type>
+        <definition>tag_name_type steemit::tags::tag_stats_object::tag</definition>
+        <argsstring></argsstring>
+        <name>tag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="374" column="1" bodyfile="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" bodystart="374" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d0c/classsteemit_1_1tags_1_1tag__stats__object_1a9930daa11f84c073b7e785b54f67ee4a" prot="public" static="no" mutable="no">
+        <type>fc::uint128_t</type>
+        <definition>fc::uint128_t steemit::tags::tag_stats_object::total_children_rshares2</definition>
+        <argsstring></argsstring>
+        <name>total_children_rshares2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="375" column="1" bodyfile="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" bodystart="375" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d0c/classsteemit_1_1tags_1_1tag__stats__object_1acdf2fc9e5ee5488d046f7f5de886ecd5" prot="public" static="no" mutable="no">
+        <type>asset</type>
+        <definition>asset steemit::tags::tag_stats_object::total_payout</definition>
+        <argsstring></argsstring>
+        <name>total_payout</name>
+        <initializer>= asset(0, SBD_SYMBOL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="376" column="1" bodyfile="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" bodystart="376" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d0c/classsteemit_1_1tags_1_1tag__stats__object_1a59222c84fd93d7fa8cdd8716dfd7c6c0" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t steemit::tags::tag_stats_object::net_votes</definition>
+        <argsstring></argsstring>
+        <name>net_votes</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="377" column="1" bodyfile="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" bodystart="377" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d0c/classsteemit_1_1tags_1_1tag__stats__object_1ae1b76a8fbbdb1f9694ebbf1c5908c0ea" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::tags::tag_stats_object::top_posts</definition>
+        <argsstring></argsstring>
+        <name>top_posts</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="378" column="1" bodyfile="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" bodystart="378" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d0c/classsteemit_1_1tags_1_1tag__stats__object_1a7bf3bbbf0a5cf6885632a8eb76a38585" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::tags::tag_stats_object::comments</definition>
+        <argsstring></argsstring>
+        <name>comments</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="379" column="1" bodyfile="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" bodystart="379" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d0c/classsteemit_1_1tags_1_1tag__stats__object_1a506ca879076c68c4419199b568079e21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Constructor</type>
+          </param>
+          <param>
+            <type>typename Allocator</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>steemit::tags::tag_stats_object::tag_stats_object</definition>
+        <argsstring>(Constructor &amp;&amp;c, allocator&lt; Allocator &gt;)</argsstring>
+        <name>tag_stats_object</name>
+        <param>
+          <type>Constructor &amp;&amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>allocator&lt; Allocator &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="365" column="1" bodyfile="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" bodystart="365" bodyend="367"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d0c/classsteemit_1_1tags_1_1tag__stats__object_1a1d48cf912e1d75960ddcf93df94d5ae2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::tags::tag_stats_object::tag_stats_object</definition>
+        <argsstring>()</argsstring>
+        <name>tag_stats_object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="369" column="1" bodyfile="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" bodystart="369" bodyend="370"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The purpose of this index is to quickly identify how popular various tags by maintaining various sums over all posts under a particular tag </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1074">
+        <label>chainbase::object&lt; tag_stats_object_type, tag_stats_object &gt;</label>
+      </node>
+      <node id="1073">
+        <label>steemit::tags::tag_stats_object</label>
+        <link refid="d9/d0c/classsteemit_1_1tags_1_1tag__stats__object"/>
+        <childnode refid="1074" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1077">
+        <label>asset</label>
+      </node>
+      <node id="1076">
+        <label>chainbase::object&lt; tag_stats_object_type, tag_stats_object &gt;</label>
+      </node>
+      <node id="1078">
+        <label>uint128_t</label>
+      </node>
+      <node id="1075">
+        <label>steemit::tags::tag_stats_object</label>
+        <link refid="d9/d0c/classsteemit_1_1tags_1_1tag__stats__object"/>
+        <childnode refid="1076" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1077" relation="usage">
+          <edgelabel>total_payout</edgelabel>
+        </childnode>
+        <childnode refid="1078" relation="usage">
+          <edgelabel>total_children_rshares2</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="362" column="1" bodyfile="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" bodystart="361" bodyend="380"/>
+    <listofallmembers>
+      <member refid="d9/d0c/classsteemit_1_1tags_1_1tag__stats__object_1a7bf3bbbf0a5cf6885632a8eb76a38585" prot="public" virt="non-virtual"><scope>steemit::tags::tag_stats_object</scope><name>comments</name></member>
+      <member refid="d9/d0c/classsteemit_1_1tags_1_1tag__stats__object_1af18fa7946cbdaa2bc0bcd4c2d98c4bba" prot="public" virt="non-virtual"><scope>steemit::tags::tag_stats_object</scope><name>id</name></member>
+      <member refid="d9/d0c/classsteemit_1_1tags_1_1tag__stats__object_1a59222c84fd93d7fa8cdd8716dfd7c6c0" prot="public" virt="non-virtual"><scope>steemit::tags::tag_stats_object</scope><name>net_votes</name></member>
+      <member refid="d9/d0c/classsteemit_1_1tags_1_1tag__stats__object_1a970c02254f35c5d3ce3a62f4c8bfc16c" prot="public" virt="non-virtual"><scope>steemit::tags::tag_stats_object</scope><name>tag</name></member>
+      <member refid="d9/d0c/classsteemit_1_1tags_1_1tag__stats__object_1a506ca879076c68c4419199b568079e21" prot="public" virt="non-virtual"><scope>steemit::tags::tag_stats_object</scope><name>tag_stats_object</name></member>
+      <member refid="d9/d0c/classsteemit_1_1tags_1_1tag__stats__object_1a1d48cf912e1d75960ddcf93df94d5ae2" prot="public" virt="non-virtual"><scope>steemit::tags::tag_stats_object</scope><name>tag_stats_object</name></member>
+      <member refid="d9/d0c/classsteemit_1_1tags_1_1tag__stats__object_1ae1b76a8fbbdb1f9694ebbf1c5908c0ea" prot="public" virt="non-virtual"><scope>steemit::tags::tag_stats_object</scope><name>top_posts</name></member>
+      <member refid="d9/d0c/classsteemit_1_1tags_1_1tag__stats__object_1a9930daa11f84c073b7e785b54f67ee4a" prot="public" virt="non-virtual"><scope>steemit::tags::tag_stats_object</scope><name>total_children_rshares2</name></member>
+      <member refid="d9/d0c/classsteemit_1_1tags_1_1tag__stats__object_1acdf2fc9e5ee5488d046f7f5de886ecd5" prot="public" virt="non-virtual"><scope>steemit::tags::tag_stats_object</scope><name>total_payout</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

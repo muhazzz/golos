@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="db/d33/namespacesteemit_1_1follow_1_1detail" kind="namespace" language="C++">
+    <compoundname>steemit::follow::detail</compoundname>
+    <innerclass refid="df/d9f/classsteemit_1_1follow_1_1detail_1_1follow__api__impl" prot="public">steemit::follow::detail::follow_api_impl</innerclass>
+    <innerclass refid="d8/d73/classsteemit_1_1follow_1_1detail_1_1follow__plugin__impl" prot="public">steemit::follow::detail::follow_plugin_impl</innerclass>
+    <innerclass refid="d6/d52/structsteemit_1_1follow_1_1detail_1_1post__operation__visitor" prot="public">steemit::follow::detail::post_operation_visitor</innerclass>
+    <innerclass refid="d2/d8e/structsteemit_1_1follow_1_1detail_1_1pre__operation__visitor" prot="public">steemit::follow::detail::pre_operation_visitor</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="db/d33/namespacesteemit_1_1follow_1_1detail_1a9d5ac83b8335edb4e249dc0b73ab5551" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::follow::detail::set_what</definition>
+        <argsstring>(vector&lt; follow_type &gt; &amp;what, uint16_t bitmask)</argsstring>
+        <name>set_what</name>
+        <param>
+          <type>vector&lt; <ref refid="d0/d38/namespacesteemit_1_1follow_1aacb5f04391918d7b1d97155bebd0c3c4" kindref="member">follow_type</ref> &gt; &amp;</type>
+          <declname>what</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>bitmask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/follow/follow_api.cpp" line="10" column="1" bodyfile="libraries/plugins/follow/follow_api.cpp" bodystart="10" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/follow/follow_api.cpp" line="8" column="1"/>
+  </compounddef>
+</doxygen>

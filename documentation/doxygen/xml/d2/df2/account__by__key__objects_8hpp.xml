@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d2/df2/account__by__key__objects_8hpp" kind="file" language="C++">
+    <compoundname>account_by_key_objects.hpp</compoundname>
+    <includes refid="d6/dd8/steem__object__types_8hpp" local="no">steemit/chain/steem_object_types.hpp</includes>
+    <includes local="no">boost/multi_index/composite_key.hpp</includes>
+    <includedby refid="d5/d97/account__by__key__api_8hpp" local="no">libraries/plugins/account_by_key/include/steemit/account_by_key/account_by_key_api.hpp</includedby>
+    <incdepgraph>
+      <node id="2296">
+        <label>boost/multi_index/ordered_index.hpp</label>
+      </node>
+      <node id="2299">
+        <label>steemit/protocol/types.hpp</label>
+      </node>
+      <node id="2300">
+        <label>steemit/protocol/authority.hpp</label>
+      </node>
+      <node id="2293">
+        <label>steemit/chain/steem_object_types.hpp</label>
+        <link refid="d6/dd8/steem__object__types_8hpp"/>
+        <childnode refid="2294" relation="include">
+        </childnode>
+        <childnode refid="2295" relation="include">
+        </childnode>
+        <childnode refid="2296" relation="include">
+        </childnode>
+        <childnode refid="2297" relation="include">
+        </childnode>
+        <childnode refid="2298" relation="include">
+        </childnode>
+        <childnode refid="2299" relation="include">
+        </childnode>
+        <childnode refid="2300" relation="include">
+        </childnode>
+      </node>
+      <node id="2298">
+        <label>chainbase/chainbase.hpp</label>
+      </node>
+      <node id="2301">
+        <label>boost/multi_index/composite_key.hpp</label>
+      </node>
+      <node id="2292">
+        <label>libraries/plugins/account_by_key/include/steemit/account_by_key/account_by_key_objects.hpp</label>
+        <link refid="d2/df2/account__by__key__objects_8hpp"/>
+        <childnode refid="2293" relation="include">
+        </childnode>
+        <childnode refid="2301" relation="include">
+        </childnode>
+      </node>
+      <node id="2295">
+        <label>boost/multi_index/member.hpp</label>
+      </node>
+      <node id="2294">
+        <label>boost/multi_index_container.hpp</label>
+      </node>
+      <node id="2297">
+        <label>boost/multi_index/mem_fun.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2307">
+        <label>libraries/plugins/account_by_key/account_by_key_plugin.cpp</label>
+        <link refid="d7/dec/account__by__key__plugin_8cpp"/>
+      </node>
+      <node id="2305">
+        <label>libraries/plugins/account_by_key/account_by_key_api.cpp</label>
+        <link refid="dc/d9f/account__by__key__api_8cpp"/>
+      </node>
+      <node id="2303">
+        <label>libraries/plugins/account_by_key/include/steemit/account_by_key/account_by_key_api.hpp</label>
+        <link refid="d5/d97/account__by__key__api_8hpp"/>
+        <childnode refid="2304" relation="include">
+        </childnode>
+        <childnode refid="2305" relation="include">
+        </childnode>
+        <childnode refid="2306" relation="include">
+        </childnode>
+      </node>
+      <node id="2302">
+        <label>libraries/plugins/account_by_key/include/steemit/account_by_key/account_by_key_objects.hpp</label>
+        <link refid="d2/df2/account__by__key__objects_8hpp"/>
+        <childnode refid="2303" relation="include">
+        </childnode>
+      </node>
+      <node id="2304">
+        <label>libraries/wallet/wallet.cpp</label>
+        <link refid="d7/de1/wallet_8cpp"/>
+      </node>
+      <node id="2306">
+        <label>libraries/plugins/account_by_key/include/steemit/account_by_key/account_by_key_plugin.hpp</label>
+        <link refid="d0/d60/account__by__key__plugin_8hpp"/>
+        <childnode refid="2307" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d4/d80/classsteemit_1_1account__by__key_1_1key__lookup__object" prot="public">steemit::account_by_key::key_lookup_object</innerclass>
+    <innernamespace refid="d9/d75/namespacesteemit">steemit</innernamespace>
+    <innernamespace refid="d2/d14/namespacesteemit_1_1account__by__key">steemit::account_by_key</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="d2/df2/account__by__key__objects_8hpp_1a5c4c1a9168ba74cf3ae0ed6d4c21b4b3" prot="public" static="no">
+        <name>ACCOUNT_BY_KEY_SPACE_ID</name>
+        <initializer>11</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_by_key/include/steemit/account_by_key/account_by_key_objects.hpp" line="14" column="9" bodyfile="libraries/plugins/account_by_key/include/steemit/account_by_key/account_by_key_objects.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/account_by_key/include/steemit/account_by_key/account_by_key_objects.hpp"/>
+  </compounddef>
+</doxygen>

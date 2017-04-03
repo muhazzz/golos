@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="da/d52/classsteemit_1_1chain_1_1witness__vote__object" kind="class" language="C++" prot="public">
+    <compoundname>steemit::chain::witness_vote_object</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">chainbase::object&lt; witness_vote_object_type, witness_vote_object &gt;</basecompoundref>
+    <includes refid="de/d8f/witness__objects_8hpp" local="no">witness_objects.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="da/d52/classsteemit_1_1chain_1_1witness__vote__object_1a4763a7d47ac809ae63427bce5b506458" prot="public" static="no" mutable="no">
+        <type>id_type</type>
+        <definition>id_type steemit::chain::witness_vote_object::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/witness_objects.hpp" line="132" column="1" bodyfile="libraries/chain/include/steemit/chain/witness_objects.hpp" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d52/classsteemit_1_1chain_1_1witness__vote__object_1acb329de33607019db5e4bcd7b171f880" prot="public" static="no" mutable="no">
+        <type><ref refid="d8/d9b/namespacesteemit_1_1chain_1aa0f93539a0ca722847f4c0aac79bd9a6" kindref="member">witness_id_type</ref></type>
+        <definition>witness_id_type steemit::chain::witness_vote_object::witness</definition>
+        <argsstring></argsstring>
+        <name>witness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/witness_objects.hpp" line="134" column="1" bodyfile="libraries/chain/include/steemit/chain/witness_objects.hpp" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d52/classsteemit_1_1chain_1_1witness__vote__object_1a646ce6ec1f01fba071fb4d14699683f6" prot="public" static="no" mutable="no">
+        <type><ref refid="d8/d9b/namespacesteemit_1_1chain_1aa381fbe5f22b4abc90a719e5f59c842f" kindref="member">account_id_type</ref></type>
+        <definition>account_id_type steemit::chain::witness_vote_object::account</definition>
+        <argsstring></argsstring>
+        <name>account</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/witness_objects.hpp" line="135" column="1" bodyfile="libraries/chain/include/steemit/chain/witness_objects.hpp" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d52/classsteemit_1_1chain_1_1witness__vote__object_1a152418952de6dfc4f6419e334cefcc5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Constructor</type>
+          </param>
+          <param>
+            <type>typename Allocator</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>steemit::chain::witness_vote_object::witness_vote_object</definition>
+        <argsstring>(Constructor &amp;&amp;c, allocator&lt; Allocator &gt; a)</argsstring>
+        <name>witness_vote_object</name>
+        <param>
+          <type>Constructor &amp;&amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>allocator&lt; Allocator &gt;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/witness_objects.hpp" line="125" column="1" bodyfile="libraries/chain/include/steemit/chain/witness_objects.hpp" bodystart="125" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d52/classsteemit_1_1chain_1_1witness__vote__object_1a444a95e254e4fe52979567488aa883da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::chain::witness_vote_object::witness_vote_object</definition>
+        <argsstring>()</argsstring>
+        <name>witness_vote_object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/witness_objects.hpp" line="129" column="1" bodyfile="libraries/chain/include/steemit/chain/witness_objects.hpp" bodystart="129" bodyend="130"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1165">
+        <label>steemit::chain::witness_vote_object</label>
+        <link refid="da/d52/classsteemit_1_1chain_1_1witness__vote__object"/>
+        <childnode refid="1166" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1166">
+        <label>chainbase::object&lt; witness_vote_object_type, witness_vote_object &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1167">
+        <label>steemit::chain::witness_vote_object</label>
+        <link refid="da/d52/classsteemit_1_1chain_1_1witness__vote__object"/>
+        <childnode refid="1168" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1169" relation="usage">
+          <edgelabel>account</edgelabel>
+        </childnode>
+        <childnode refid="1170" relation="usage">
+          <edgelabel>witness</edgelabel>
+        </childnode>
+      </node>
+      <node id="1168">
+        <label>chainbase::object&lt; witness_vote_object_type, witness_vote_object &gt;</label>
+      </node>
+      <node id="1170">
+        <label>oid&lt; witness_object &gt;</label>
+      </node>
+      <node id="1169">
+        <label>oid&lt; account_object &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/chain/include/steemit/chain/witness_objects.hpp" line="122" column="1" bodyfile="libraries/chain/include/steemit/chain/witness_objects.hpp" bodystart="121" bodyend="136"/>
+    <listofallmembers>
+      <member refid="da/d52/classsteemit_1_1chain_1_1witness__vote__object_1a646ce6ec1f01fba071fb4d14699683f6" prot="public" virt="non-virtual"><scope>steemit::chain::witness_vote_object</scope><name>account</name></member>
+      <member refid="da/d52/classsteemit_1_1chain_1_1witness__vote__object_1a4763a7d47ac809ae63427bce5b506458" prot="public" virt="non-virtual"><scope>steemit::chain::witness_vote_object</scope><name>id</name></member>
+      <member refid="da/d52/classsteemit_1_1chain_1_1witness__vote__object_1acb329de33607019db5e4bcd7b171f880" prot="public" virt="non-virtual"><scope>steemit::chain::witness_vote_object</scope><name>witness</name></member>
+      <member refid="da/d52/classsteemit_1_1chain_1_1witness__vote__object_1a152418952de6dfc4f6419e334cefcc5a" prot="public" virt="non-virtual"><scope>steemit::chain::witness_vote_object</scope><name>witness_vote_object</name></member>
+      <member refid="da/d52/classsteemit_1_1chain_1_1witness__vote__object_1a444a95e254e4fe52979567488aa883da" prot="public" virt="non-virtual"><scope>steemit::chain::witness_vote_object</scope><name>witness_vote_object</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d1/d23/structsteemit_1_1app_1_1api__context" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::app::api_context</compoundname>
+    <includes refid="d9/d64/api__context_8hpp" local="no">api_context.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d1/d23/structsteemit_1_1app_1_1api__context_1a30af8686c7f692b66dffce7f3bd6aaff" prot="public" static="no" mutable="no">
+        <type><ref refid="de/d5e/classsteemit_1_1app_1_1application" kindref="compound">application</ref> &amp;</type>
+        <definition>application&amp; steemit::app::api_context::app</definition>
+        <argsstring></argsstring>
+        <name>app</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/api_context.hpp" line="39" column="1" bodyfile="libraries/app/include/steemit/app/api_context.hpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d23/structsteemit_1_1app_1_1api__context_1a9adb72ff067cb73e3f1933cff2c08dd4" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string steemit::app::api_context::api_name</definition>
+        <argsstring></argsstring>
+        <name>api_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/api_context.hpp" line="40" column="1" bodyfile="libraries/app/include/steemit/app/api_context.hpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d23/structsteemit_1_1app_1_1api__context_1a71a38f962c4c89a7d14aae81970e3749" prot="public" static="no" mutable="no">
+        <type>std::weak_ptr&lt; <ref refid="d6/db1/structsteemit_1_1app_1_1api__session__data" kindref="compound">api_session_data</ref> &gt;</type>
+        <definition>std::weak_ptr&lt;api_session_data&gt; steemit::app::api_context::session</definition>
+        <argsstring></argsstring>
+        <name>session</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/api_context.hpp" line="41" column="1" bodyfile="libraries/app/include/steemit/app/api_context.hpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d23/structsteemit_1_1app_1_1api__context_1adb62c0f23b72c9e95fe623369af944ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>steemit::app::api_context::api_context</definition>
+        <argsstring>(application &amp;_app, const std::string &amp;_api_name, std::weak_ptr&lt; api_session_data &gt; _session)</argsstring>
+        <name>api_context</name>
+        <param>
+          <type><ref refid="de/d5e/classsteemit_1_1app_1_1application" kindref="compound">application</ref> &amp;</type>
+          <declname>_app</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>_api_name</declname>
+        </param>
+        <param>
+          <type>std::weak_ptr&lt; <ref refid="d6/db1/structsteemit_1_1app_1_1api__session__data" kindref="compound">api_session_data</ref> &gt;</type>
+          <declname>_session</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/api_context.hpp" line="37" column="1" bodyfile="libraries/app/application.cpp" bodystart="63" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Contains information needed by API class constructors. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="164">
+        <label>steemit::app::api_context</label>
+        <link refid="d1/d23/structsteemit_1_1app_1_1api__context"/>
+        <childnode refid="165" relation="usage">
+          <edgelabel>app</edgelabel>
+        </childnode>
+        <childnode refid="166" relation="usage">
+          <edgelabel>api_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="166">
+        <label>string</label>
+      </node>
+      <node id="165">
+        <label>steemit::app::application</label>
+        <link refid="de/d5e/classsteemit_1_1app_1_1application"/>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/app/include/steemit/app/api_context.hpp" line="36" column="1" bodyfile="libraries/app/include/steemit/app/api_context.hpp" bodystart="36" bodyend="42"/>
+    <listofallmembers>
+      <member refid="d1/d23/structsteemit_1_1app_1_1api__context_1adb62c0f23b72c9e95fe623369af944ac" prot="public" virt="non-virtual"><scope>steemit::app::api_context</scope><name>api_context</name></member>
+      <member refid="d1/d23/structsteemit_1_1app_1_1api__context_1a9adb72ff067cb73e3f1933cff2c08dd4" prot="public" virt="non-virtual"><scope>steemit::app::api_context</scope><name>api_name</name></member>
+      <member refid="d1/d23/structsteemit_1_1app_1_1api__context_1a30af8686c7f692b66dffce7f3bd6aaff" prot="public" virt="non-virtual"><scope>steemit::app::api_context</scope><name>app</name></member>
+      <member refid="d1/d23/structsteemit_1_1app_1_1api__context_1a71a38f962c4c89a7d14aae81970e3749" prot="public" virt="non-virtual"><scope>steemit::app::api_context</scope><name>session</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="df/dd8/shared__authority_8hpp" kind="file" language="C++">
+    <compoundname>shared_authority.hpp</compoundname>
+    <includes local="no">steemit/protocol/authority.hpp</includes>
+    <includes local="no">boost/interprocess/managed_mapped_file.hpp</includes>
+    <includedby refid="d3/df9/account__object_8hpp" local="no">libraries/chain/include/steemit/chain/account_object.hpp</includedby>
+    <includedby refid="d2/d9f/shared__authority_8cpp" local="no">libraries/chain/shared_authority.cpp</includedby>
+    <incdepgraph>
+      <node id="1813">
+        <label>libraries/chain/include/steemit/chain/shared_authority.hpp</label>
+        <link refid="df/dd8/shared__authority_8hpp"/>
+        <childnode refid="1814" relation="include">
+        </childnode>
+        <childnode refid="1815" relation="include">
+        </childnode>
+      </node>
+      <node id="1815">
+        <label>boost/interprocess/managed_mapped_file.hpp</label>
+      </node>
+      <node id="1814">
+        <label>steemit/protocol/authority.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1823">
+        <label>libraries/app/application.cpp</label>
+        <link refid="df/d7b/application_8cpp"/>
+      </node>
+      <node id="1831">
+        <label>libraries/plugins/follow/follow_plugin.cpp</label>
+        <link refid="de/d56/follow__plugin_8cpp"/>
+      </node>
+      <node id="1843">
+        <label>libraries/plugins/account_by_key/account_by_key_plugin.cpp</label>
+        <link refid="d7/dec/account__by__key__plugin_8cpp"/>
+      </node>
+      <node id="1816">
+        <label>libraries/chain/include/steemit/chain/shared_authority.hpp</label>
+        <link refid="df/dd8/shared__authority_8hpp"/>
+        <childnode refid="1817" relation="include">
+        </childnode>
+        <childnode refid="1849" relation="include">
+        </childnode>
+      </node>
+      <node id="1842">
+        <label>libraries/plugins/witness/witness.cpp</label>
+        <link refid="dc/d2c/witness_8cpp"/>
+      </node>
+      <node id="1828">
+        <label>libraries/app/include/steemit/app/steem_api_objects.hpp</label>
+        <link refid="d1/d06/steem__api__objects_8hpp"/>
+        <childnode refid="1818" relation="include">
+        </childnode>
+        <childnode refid="1824" relation="include">
+        </childnode>
+        <childnode refid="1829" relation="include">
+        </childnode>
+      </node>
+      <node id="1827">
+        <label>libraries/plugins/delayed_node/delayed_node_plugin.cpp</label>
+        <link refid="da/d6c/delayed__node__plugin_8cpp"/>
+      </node>
+      <node id="1829">
+        <label>libraries/plugins/follow/include/steemit/follow/follow_api.hpp</label>
+        <link refid="da/dcd/follow__api_8hpp"/>
+        <childnode refid="1830" relation="include">
+        </childnode>
+        <childnode refid="1831" relation="include">
+        </childnode>
+        <childnode refid="1832" relation="include">
+        </childnode>
+      </node>
+      <node id="1818">
+        <label>libraries/app/include/steemit/app/state.hpp</label>
+        <link refid="da/d3b/state_8hpp"/>
+        <childnode refid="1819" relation="include">
+        </childnode>
+      </node>
+      <node id="1838">
+        <label>libraries/chain/database.cpp</label>
+        <link refid="da/d7b/database_8cpp"/>
+      </node>
+      <node id="1834">
+        <label>libraries/plugins/follow/follow_evaluators.cpp</label>
+        <link refid="d6/df5/follow__evaluators_8cpp"/>
+      </node>
+      <node id="1817">
+        <label>libraries/chain/include/steemit/chain/account_object.hpp</label>
+        <link refid="d3/df9/account__object_8hpp"/>
+        <childnode refid="1818" relation="include">
+        </childnode>
+        <childnode refid="1828" relation="include">
+        </childnode>
+        <childnode refid="1837" relation="include">
+        </childnode>
+        <childnode refid="1843" relation="include">
+        </childnode>
+        <childnode refid="1844" relation="include">
+        </childnode>
+        <childnode refid="1845" relation="include">
+        </childnode>
+        <childnode refid="1846" relation="include">
+        </childnode>
+        <childnode refid="1847" relation="include">
+        </childnode>
+        <childnode refid="1830" relation="include">
+        </childnode>
+        <childnode refid="1834" relation="include">
+        </childnode>
+        <childnode refid="1831" relation="include">
+        </childnode>
+        <childnode refid="1848" relation="include">
+        </childnode>
+        <childnode refid="1842" relation="include">
+        </childnode>
+      </node>
+      <node id="1833">
+        <label>libraries/plugins/follow/include/steemit/follow/follow_objects.hpp</label>
+        <link refid="db/d30/follow__objects_8hpp"/>
+        <childnode refid="1834" relation="include">
+        </childnode>
+        <childnode refid="1831" relation="include">
+        </childnode>
+        <childnode refid="1829" relation="include">
+        </childnode>
+      </node>
+      <node id="1839">
+        <label>libraries/chain/steem_evaluator.cpp</label>
+        <link refid="df/da1/steem__evaluator_8cpp"/>
+      </node>
+      <node id="1825">
+        <label>libraries/wallet/api_documentation_standin.cpp</label>
+        <link refid="d3/d0b/api__documentation__standin_8cpp"/>
+      </node>
+      <node id="1849">
+        <label>libraries/chain/shared_authority.cpp</label>
+        <link refid="d2/d9f/shared__authority_8cpp"/>
+      </node>
+      <node id="1820">
+        <label>libraries/app/database_api.cpp</label>
+        <link refid="da/d2c/database__api_8cpp"/>
+      </node>
+      <node id="1840">
+        <label>libraries/plugins/delayed_node/include/steemit/delayed_node/delayed_node_plugin.hpp</label>
+        <link refid="d8/dd4/delayed__node__plugin_8hpp"/>
+        <childnode refid="1827" relation="include">
+        </childnode>
+      </node>
+      <node id="1832">
+        <label>libraries/plugins/follow/include/steemit/follow/follow_plugin.hpp</label>
+        <link refid="d9/d98/follow__plugin_8hpp"/>
+        <childnode refid="1819" relation="include">
+        </childnode>
+        <childnode refid="1824" relation="include">
+        </childnode>
+        <childnode refid="1833" relation="include">
+        </childnode>
+        <childnode refid="1835" relation="include">
+        </childnode>
+      </node>
+      <node id="1848">
+        <label>libraries/plugins/tags/tags_plugin.cpp</label>
+        <link refid="d0/d79/tags__plugin_8cpp"/>
+      </node>
+      <node id="1824">
+        <label>libraries/wallet/include/steemit/wallet/wallet.hpp</label>
+        <link refid="d4/dc7/wallet_8hpp"/>
+        <childnode refid="1825" relation="include">
+        </childnode>
+        <childnode refid="1826" relation="include">
+        </childnode>
+      </node>
+      <node id="1819">
+        <label>libraries/app/include/steemit/app/database_api.hpp</label>
+        <link refid="d0/d21/database__api_8hpp"/>
+        <childnode refid="1820" relation="include">
+        </childnode>
+        <childnode refid="1821" relation="include">
+        </childnode>
+      </node>
+      <node id="1845">
+        <label>libraries/plugins/auth_util/auth_util_api.cpp</label>
+        <link refid="d9/d22/auth__util__api_8cpp"/>
+      </node>
+      <node id="1830">
+        <label>libraries/plugins/follow/follow_api.cpp</label>
+        <link refid="d0/dbb/follow__api_8cpp"/>
+      </node>
+      <node id="1835">
+        <label>libraries/plugins/follow/include/steemit/follow/follow_operations.hpp</label>
+        <link refid="d2/d3c/follow__operations_8hpp"/>
+        <childnode refid="1826" relation="include">
+        </childnode>
+        <childnode refid="1834" relation="include">
+        </childnode>
+        <childnode refid="1836" relation="include">
+        </childnode>
+        <childnode refid="1831" relation="include">
+        </childnode>
+      </node>
+      <node id="1847">
+        <label>libraries/plugins/debug_node/debug_node_api.cpp</label>
+        <link refid="d6/de3/debug__node__api_8cpp"/>
+      </node>
+      <node id="1846">
+        <label>libraries/plugins/blockchain_statistics/blockchain_statistics_plugin.cpp</label>
+        <link refid="d0/daa/blockchain__statistics__plugin_8cpp"/>
+      </node>
+      <node id="1826">
+        <label>libraries/wallet/wallet.cpp</label>
+        <link refid="d7/de1/wallet_8cpp"/>
+      </node>
+      <node id="1844">
+        <label>libraries/plugins/account_statistics/account_statistics_plugin.cpp</label>
+        <link refid="d4/da5/account__statistics__plugin_8cpp"/>
+      </node>
+      <node id="1836">
+        <label>libraries/plugins/follow/follow_operations.cpp</label>
+        <link refid="d1/d06/follow__operations_8cpp"/>
+      </node>
+      <node id="1837">
+        <label>libraries/chain/include/steemit/chain/steem_objects.hpp</label>
+        <link refid="da/d8c/steem__objects_8hpp"/>
+        <childnode refid="1819" relation="include">
+        </childnode>
+        <childnode refid="1818" relation="include">
+        </childnode>
+        <childnode refid="1828" relation="include">
+        </childnode>
+        <childnode refid="1838" relation="include">
+        </childnode>
+        <childnode refid="1839" relation="include">
+        </childnode>
+        <childnode refid="1840" relation="include">
+        </childnode>
+        <childnode refid="1841" relation="include">
+        </childnode>
+        <childnode refid="1842" relation="include">
+        </childnode>
+      </node>
+      <node id="1821">
+        <label>libraries/app/include/steemit/app/api.hpp</label>
+        <link refid="d4/df0/api_8hpp"/>
+        <childnode refid="1822" relation="include">
+        </childnode>
+        <childnode refid="1823" relation="include">
+        </childnode>
+        <childnode refid="1824" relation="include">
+        </childnode>
+        <childnode refid="1826" relation="include">
+        </childnode>
+        <childnode refid="1827" relation="include">
+        </childnode>
+      </node>
+      <node id="1822">
+        <label>libraries/app/api.cpp</label>
+        <link refid="d5/d48/api_8cpp"/>
+      </node>
+      <node id="1841">
+        <label>libraries/plugins/market_history/market_history_api.cpp</label>
+        <link refid="df/d69/market__history__api_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="db/d70/structsteemit_1_1chain_1_1shared__authority" prot="public">steemit::chain::shared_authority</innerclass>
+    <innernamespace refid="d9/d75/namespacesteemit">steemit</innernamespace>
+    <innernamespace refid="d8/d9b/namespacesteemit_1_1chain">steemit::chain</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/chain/include/steemit/chain/shared_authority.hpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d2/da3/debug__node__api_8hpp" kind="file" language="C++">
+    <compoundname>debug_node_api.hpp</compoundname>
+    <includes local="no">memory</includes>
+    <includes local="no">string</includes>
+    <includes local="no">fc/api.hpp</includes>
+    <includes local="no">fc/optional.hpp</includes>
+    <includes local="no">fc/variant_object.hpp</includes>
+    <includes local="no">steemit/protocol/block.hpp</includes>
+    <includes refid="de/d8f/witness__objects_8hpp" local="no">steemit/chain/witness_objects.hpp</includes>
+    <includedby refid="d6/de3/debug__node__api_8cpp" local="no">libraries/plugins/debug_node/debug_node_api.cpp</includedby>
+    <includedby refid="d8/dcc/debug__node__plugin_8cpp" local="no">libraries/plugins/debug_node/debug_node_plugin.cpp</includedby>
+    <incdepgraph>
+      <node id="3353">
+        <label>boost/multi_index/ordered_index.hpp</label>
+      </node>
+      <node id="3346">
+        <label>steemit/protocol/block.hpp</label>
+      </node>
+      <node id="3356">
+        <label>steemit/protocol/types.hpp</label>
+      </node>
+      <node id="3344">
+        <label>fc/optional.hpp</label>
+      </node>
+      <node id="3348">
+        <label>steemit/protocol/authority.hpp</label>
+      </node>
+      <node id="3342">
+        <label>string</label>
+      </node>
+      <node id="3350">
+        <label>steemit/chain/steem_object_types.hpp</label>
+        <link refid="d6/dd8/steem__object__types_8hpp"/>
+        <childnode refid="3351" relation="include">
+        </childnode>
+        <childnode refid="3352" relation="include">
+        </childnode>
+        <childnode refid="3353" relation="include">
+        </childnode>
+        <childnode refid="3354" relation="include">
+        </childnode>
+        <childnode refid="3355" relation="include">
+        </childnode>
+        <childnode refid="3356" relation="include">
+        </childnode>
+        <childnode refid="3348" relation="include">
+        </childnode>
+      </node>
+      <node id="3340">
+        <label>libraries/plugins/debug_node/include/steemit/plugins/debug_node/debug_node_api.hpp</label>
+        <link refid="d2/da3/debug__node__api_8hpp"/>
+        <childnode refid="3341" relation="include">
+        </childnode>
+        <childnode refid="3342" relation="include">
+        </childnode>
+        <childnode refid="3343" relation="include">
+        </childnode>
+        <childnode refid="3344" relation="include">
+        </childnode>
+        <childnode refid="3345" relation="include">
+        </childnode>
+        <childnode refid="3346" relation="include">
+        </childnode>
+        <childnode refid="3347" relation="include">
+        </childnode>
+      </node>
+      <node id="3349">
+        <label>steemit/protocol/steem_operations.hpp</label>
+      </node>
+      <node id="3347">
+        <label>steemit/chain/witness_objects.hpp</label>
+        <link refid="de/d8f/witness__objects_8hpp"/>
+        <childnode refid="3348" relation="include">
+        </childnode>
+        <childnode refid="3349" relation="include">
+        </childnode>
+        <childnode refid="3350" relation="include">
+        </childnode>
+        <childnode refid="3357" relation="include">
+        </childnode>
+      </node>
+      <node id="3355">
+        <label>chainbase/chainbase.hpp</label>
+      </node>
+      <node id="3345">
+        <label>fc/variant_object.hpp</label>
+      </node>
+      <node id="3357">
+        <label>boost/multi_index/composite_key.hpp</label>
+      </node>
+      <node id="3352">
+        <label>boost/multi_index/member.hpp</label>
+      </node>
+      <node id="3351">
+        <label>boost/multi_index_container.hpp</label>
+      </node>
+      <node id="3354">
+        <label>boost/multi_index/mem_fun.hpp</label>
+      </node>
+      <node id="3341">
+        <label>memory</label>
+      </node>
+      <node id="3343">
+        <label>fc/api.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3358">
+        <label>libraries/plugins/debug_node/include/steemit/plugins/debug_node/debug_node_api.hpp</label>
+        <link refid="d2/da3/debug__node__api_8hpp"/>
+        <childnode refid="3359" relation="include">
+        </childnode>
+        <childnode refid="3360" relation="include">
+        </childnode>
+      </node>
+      <node id="3360">
+        <label>libraries/plugins/debug_node/debug_node_plugin.cpp</label>
+        <link refid="d8/dcc/debug__node__plugin_8cpp"/>
+      </node>
+      <node id="3359">
+        <label>libraries/plugins/debug_node/debug_node_api.cpp</label>
+        <link refid="d6/de3/debug__node__api_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d6/d18/structsteemit_1_1plugin_1_1debug__node_1_1get__dev__key__args" prot="public">steemit::plugin::debug_node::get_dev_key_args</innerclass>
+    <innerclass refid="dd/d22/structsteemit_1_1plugin_1_1debug__node_1_1get__dev__key__result" prot="public">steemit::plugin::debug_node::get_dev_key_result</innerclass>
+    <innerclass refid="d3/d8a/structsteemit_1_1plugin_1_1debug__node_1_1debug__mine__args" prot="public">steemit::plugin::debug_node::debug_mine_args</innerclass>
+    <innerclass refid="df/d21/structsteemit_1_1plugin_1_1debug__node_1_1debug__mine__result" prot="public">steemit::plugin::debug_node::debug_mine_result</innerclass>
+    <innerclass refid="d5/d70/classsteemit_1_1plugin_1_1debug__node_1_1debug__node__api" prot="public">steemit::plugin::debug_node::debug_node_api</innerclass>
+    <innernamespace refid="d9/d75/namespacesteemit">steemit</innernamespace>
+    <innernamespace refid="df/d55/namespacesteemit_1_1app">steemit::app</innernamespace>
+    <innernamespace refid="df/db1/namespacesteemit_1_1plugin">steemit::plugin</innernamespace>
+    <innernamespace refid="dd/d78/namespacesteemit_1_1plugin_1_1debug__node">steemit::plugin::debug_node</innernamespace>
+    <innernamespace refid="dc/d6d/namespacesteemit_1_1plugin_1_1debug__node_1_1detail">steemit::plugin::debug_node::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/debug_node/include/steemit/plugins/debug_node/debug_node_api.hpp"/>
+  </compounddef>
+</doxygen>

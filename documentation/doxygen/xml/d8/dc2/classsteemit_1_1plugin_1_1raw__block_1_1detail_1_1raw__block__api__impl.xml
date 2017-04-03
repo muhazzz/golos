@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d8/dc2/classsteemit_1_1plugin_1_1raw__block_1_1detail_1_1raw__block__api__impl" kind="class" language="C++" prot="public">
+    <compoundname>steemit::plugin::raw_block::detail::raw_block_api_impl</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d8/dc2/classsteemit_1_1plugin_1_1raw__block_1_1detail_1_1raw__block__api__impl_1ac21cc717eb97884bb484970d76b0c9f9" prot="public" static="no" mutable="no">
+        <type><ref refid="de/d5e/classsteemit_1_1app_1_1application" kindref="compound">steemit::app::application</ref> &amp;</type>
+        <definition>steemit::app::application&amp; steemit::plugin::raw_block::detail::raw_block_api_impl::app</definition>
+        <argsstring></argsstring>
+        <name>app</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/raw_block/raw_block_api.cpp" line="20" column="1" bodyfile="libraries/plugins/raw_block/raw_block_api.cpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/dc2/classsteemit_1_1plugin_1_1raw__block_1_1detail_1_1raw__block__api__impl_1a5cf931489391fdd2bae1f6645afc4f20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>steemit::plugin::raw_block::detail::raw_block_api_impl::raw_block_api_impl</definition>
+        <argsstring>(steemit::app::application &amp;_app)</argsstring>
+        <name>raw_block_api_impl</name>
+        <param>
+          <type><ref refid="de/d5e/classsteemit_1_1app_1_1application" kindref="compound">steemit::app::application</ref> &amp;</type>
+          <declname>_app</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/raw_block/raw_block_api.cpp" line="16" column="1" bodyfile="libraries/plugins/raw_block/raw_block_api.cpp" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dc2/classsteemit_1_1plugin_1_1raw__block_1_1detail_1_1raw__block__api__impl_1ae46d6525f542f0fe529b0936dd407681" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="d0/d7c/classsteemit_1_1plugin_1_1raw__block_1_1raw__block__plugin" kindref="compound">steemit::plugin::raw_block::raw_block_plugin</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; steemit::plugin::raw_block::raw_block_plugin &gt; steemit::plugin::raw_block::detail::raw_block_api_impl::get_plugin</definition>
+        <argsstring>()</argsstring>
+        <name>get_plugin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/raw_block/raw_block_api.cpp" line="18" column="1" bodyfile="libraries/plugins/raw_block/raw_block_api.cpp" bodystart="27" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="955">
+        <label>steemit::plugin::raw_block::detail::raw_block_api_impl</label>
+        <link refid="d8/dc2/classsteemit_1_1plugin_1_1raw__block_1_1detail_1_1raw__block__api__impl"/>
+        <childnode refid="956" relation="usage">
+          <edgelabel>app</edgelabel>
+        </childnode>
+      </node>
+      <node id="956">
+        <label>steemit::app::application</label>
+        <link refid="de/d5e/classsteemit_1_1app_1_1application"/>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/raw_block/raw_block_api.cpp" line="14" column="1" bodyfile="libraries/plugins/raw_block/raw_block_api.cpp" bodystart="14" bodyend="21"/>
+    <listofallmembers>
+      <member refid="d8/dc2/classsteemit_1_1plugin_1_1raw__block_1_1detail_1_1raw__block__api__impl_1ac21cc717eb97884bb484970d76b0c9f9" prot="public" virt="non-virtual"><scope>steemit::plugin::raw_block::detail::raw_block_api_impl</scope><name>app</name></member>
+      <member refid="d8/dc2/classsteemit_1_1plugin_1_1raw__block_1_1detail_1_1raw__block__api__impl_1ae46d6525f542f0fe529b0936dd407681" prot="public" virt="non-virtual"><scope>steemit::plugin::raw_block::detail::raw_block_api_impl</scope><name>get_plugin</name></member>
+      <member refid="d8/dc2/classsteemit_1_1plugin_1_1raw__block_1_1detail_1_1raw__block__api__impl_1a5cf931489391fdd2bae1f6645afc4f20" prot="public" virt="non-virtual"><scope>steemit::plugin::raw_block::detail::raw_block_api_impl</scope><name>raw_block_api_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dd/d6e/steem__objects_8cpp" kind="file" language="C++">
+    <compoundname>steem_objects.cpp</compoundname>
+    <innernamespace refid="d9/d75/namespacesteemit">steemit</innernamespace>
+    <innernamespace refid="d8/d9b/namespacesteemit_1_1chain">steemit::chain</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/chain/steem_objects.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d8/db7/structsteemit_1_1app_1_1account__history__api__obj" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::app::account_history_api_obj</compoundname>
+    <includes refid="d1/d06/steem__api__objects_8hpp" local="no">steem_api_objects.hpp</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="390" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="390" bodyend="392"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

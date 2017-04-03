@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d9/d3c/classsteemit_1_1market__history_1_1detail_1_1market__history__plugin__impl" kind="class" language="C++" prot="public">
+    <compoundname>steemit::market_history::detail::market_history_plugin_impl</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d9/d3c/classsteemit_1_1market__history_1_1detail_1_1market__history__plugin__impl_1a7073967874a998375a3b0e4f2c1fdf7b" prot="public" static="no" mutable="no">
+        <type><ref refid="dc/d3e/classsteemit_1_1market__history_1_1market__history__plugin" kindref="compound">market_history_plugin</ref> &amp;</type>
+        <definition>market_history_plugin&amp; steemit::market_history::detail::market_history_plugin_impl::_self</definition>
+        <argsstring></argsstring>
+        <name>_self</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/market_history_plugin.cpp" line="28" column="1" bodyfile="libraries/plugins/market_history/market_history_plugin.cpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d3c/classsteemit_1_1market__history_1_1detail_1_1market__history__plugin__impl_1a8d58b90f43288cadedef016f7c5f32d9" prot="public" static="no" mutable="no">
+        <type>flat_set&lt; uint32_t &gt;</type>
+        <definition>flat_set&lt;uint32_t&gt; steemit::market_history::detail::market_history_plugin_impl::_tracked_buckets</definition>
+        <argsstring></argsstring>
+        <name>_tracked_buckets</name>
+        <initializer>= flat_set&lt;uint32_t&gt;  {15,
+                                                                           60,
+                                                                           300,
+                                                                           3600,
+                                                                           86400
+                }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/market_history_plugin.cpp" line="29" column="1" bodyfile="libraries/plugins/market_history/market_history_plugin.cpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d3c/classsteemit_1_1market__history_1_1detail_1_1market__history__plugin__impl_1a3222bdf39749b3417deb9326d7578f16" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t steemit::market_history::detail::market_history_plugin_impl::_maximum_history_per_bucket_size</definition>
+        <argsstring></argsstring>
+        <name>_maximum_history_per_bucket_size</name>
+        <initializer>= 1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/market_history_plugin.cpp" line="35" column="1" bodyfile="libraries/plugins/market_history/market_history_plugin.cpp" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d3c/classsteemit_1_1market__history_1_1detail_1_1market__history__plugin__impl_1ae3526e81c6b80e7aac25de2bcf661f97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::market_history::detail::market_history_plugin_impl::market_history_plugin_impl</definition>
+        <argsstring>(market_history_plugin &amp;plugin)</argsstring>
+        <name>market_history_plugin_impl</name>
+        <param>
+          <type><ref refid="dc/d3e/classsteemit_1_1market__history_1_1market__history__plugin" kindref="compound">market_history_plugin</ref> &amp;</type>
+          <declname>plugin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/market_history_plugin.cpp" line="15" column="1" bodyfile="libraries/plugins/market_history/market_history_plugin.cpp" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d3c/classsteemit_1_1market__history_1_1detail_1_1market__history__plugin__impl_1a7dfd62a0f7e61736c35b2b36c7bfeb48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual steemit::market_history::detail::market_history_plugin_impl::~market_history_plugin_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~market_history_plugin_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/market_history_plugin.cpp" line="19" column="1" bodyfile="libraries/plugins/market_history/market_history_plugin.cpp" bodystart="19" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d3c/classsteemit_1_1market__history_1_1detail_1_1market__history__plugin__impl_1ae24f39329790dc483430f0b9818d5a26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::market_history::detail::market_history_plugin_impl::update_market_histories</definition>
+        <argsstring>(const operation_notification &amp;o)</argsstring>
+        <name>update_market_histories</name>
+        <param>
+          <type>const <ref refid="dc/dc3/structsteemit_1_1chain_1_1operation__notification" kindref="compound">operation_notification</ref> &amp;</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method is called as a callback after a block is applied and will process/index all operations that were applied in the block. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/market_history_plugin.cpp" line="26" column="1" bodyfile="libraries/plugins/market_history/market_history_plugin.cpp" bodystart="38" bodyend="150"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="721">
+        <label>steemit::market_history::market_history_plugin</label>
+        <link refid="dc/d3e/classsteemit_1_1market__history_1_1market__history__plugin"/>
+        <childnode refid="722" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="724">
+        <label>flat_set&lt; uint32_t &gt;</label>
+      </node>
+      <node id="723">
+        <label>steemit::app::abstract_plugin</label>
+        <link refid="dc/d57/classsteemit_1_1app_1_1abstract__plugin"/>
+      </node>
+      <node id="720">
+        <label>steemit::market_history::detail::market_history_plugin_impl</label>
+        <link refid="d9/d3c/classsteemit_1_1market__history_1_1detail_1_1market__history__plugin__impl"/>
+        <childnode refid="721" relation="usage">
+          <edgelabel>_self</edgelabel>
+        </childnode>
+        <childnode refid="724" relation="usage">
+          <edgelabel>_tracked_buckets</edgelabel>
+        </childnode>
+      </node>
+      <node id="722">
+        <label>steemit::app::plugin</label>
+        <link refid="d8/daa/classsteemit_1_1app_1_1plugin"/>
+        <childnode refid="723" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/market_history/market_history_plugin.cpp" line="13" column="1" bodyfile="libraries/plugins/market_history/market_history_plugin.cpp" bodystart="13" bodyend="36"/>
+    <listofallmembers>
+      <member refid="d9/d3c/classsteemit_1_1market__history_1_1detail_1_1market__history__plugin__impl_1a3222bdf39749b3417deb9326d7578f16" prot="public" virt="non-virtual"><scope>steemit::market_history::detail::market_history_plugin_impl</scope><name>_maximum_history_per_bucket_size</name></member>
+      <member refid="d9/d3c/classsteemit_1_1market__history_1_1detail_1_1market__history__plugin__impl_1a7073967874a998375a3b0e4f2c1fdf7b" prot="public" virt="non-virtual"><scope>steemit::market_history::detail::market_history_plugin_impl</scope><name>_self</name></member>
+      <member refid="d9/d3c/classsteemit_1_1market__history_1_1detail_1_1market__history__plugin__impl_1a8d58b90f43288cadedef016f7c5f32d9" prot="public" virt="non-virtual"><scope>steemit::market_history::detail::market_history_plugin_impl</scope><name>_tracked_buckets</name></member>
+      <member refid="d9/d3c/classsteemit_1_1market__history_1_1detail_1_1market__history__plugin__impl_1ae3526e81c6b80e7aac25de2bcf661f97" prot="public" virt="non-virtual"><scope>steemit::market_history::detail::market_history_plugin_impl</scope><name>market_history_plugin_impl</name></member>
+      <member refid="d9/d3c/classsteemit_1_1market__history_1_1detail_1_1market__history__plugin__impl_1ae24f39329790dc483430f0b9818d5a26" prot="public" virt="non-virtual"><scope>steemit::market_history::detail::market_history_plugin_impl</scope><name>update_market_histories</name></member>
+      <member refid="d9/d3c/classsteemit_1_1market__history_1_1detail_1_1market__history__plugin__impl_1a7dfd62a0f7e61736c35b2b36c7bfeb48" prot="public" virt="virtual"><scope>steemit::market_history::detail::market_history_plugin_impl</scope><name>~market_history_plugin_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

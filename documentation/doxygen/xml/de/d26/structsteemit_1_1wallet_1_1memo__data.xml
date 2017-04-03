@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="de/d26/structsteemit_1_1wallet_1_1memo__data" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::wallet::memo_data</compoundname>
+    <includes refid="d4/dc7/wallet_8hpp" local="no">wallet.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="de/d26/structsteemit_1_1wallet_1_1memo__data_1a721f09e1af9aef32514c4978bab2e5ee" prot="public" static="no" mutable="no">
+        <type>public_key_type</type>
+        <definition>public_key_type steemit::wallet::memo_data::from</definition>
+        <argsstring></argsstring>
+        <name>from</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="41" column="1" bodyfile="libraries/wallet/include/steemit/wallet/wallet.hpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d26/structsteemit_1_1wallet_1_1memo__data_1a1864ee8c0d01f7509442c2a4db9b44a0" prot="public" static="no" mutable="no">
+        <type>public_key_type</type>
+        <definition>public_key_type steemit::wallet::memo_data::to</definition>
+        <argsstring></argsstring>
+        <name>to</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="42" column="1" bodyfile="libraries/wallet/include/steemit/wallet/wallet.hpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d26/structsteemit_1_1wallet_1_1memo__data_1ab709021ac4265cc88bb887d80827cf10" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t steemit::wallet::memo_data::nonce</definition>
+        <argsstring></argsstring>
+        <name>nonce</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="43" column="1" bodyfile="libraries/wallet/include/steemit/wallet/wallet.hpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d26/structsteemit_1_1wallet_1_1memo__data_1ab31e1792dfb14ca798ae61a30d7e9ee7" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::wallet::memo_data::check</definition>
+        <argsstring></argsstring>
+        <name>check</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="44" column="1" bodyfile="libraries/wallet/include/steemit/wallet/wallet.hpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d26/structsteemit_1_1wallet_1_1memo__data_1a08087740c02bc9b673a78b98349d0c50" prot="public" static="no" mutable="no">
+        <type>vector&lt; char &gt;</type>
+        <definition>vector&lt;char&gt; steemit::wallet::memo_data::encrypted</definition>
+        <argsstring></argsstring>
+        <name>encrypted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="45" column="1" bodyfile="libraries/wallet/include/steemit/wallet/wallet.hpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="de/d26/structsteemit_1_1wallet_1_1memo__data_1a233a426a809231ca896cb5ab6a37c52f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>optional&lt; <ref refid="de/d26/structsteemit_1_1wallet_1_1memo__data" kindref="compound">memo_data</ref> &gt;</type>
+        <definition>static optional&lt;memo_data&gt; steemit::wallet::memo_data::from_string</definition>
+        <argsstring>(string str)</argsstring>
+        <name>from_string</name>
+        <param>
+          <type>string</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="28" column="1" bodyfile="libraries/wallet/include/steemit/wallet/wallet.hpp" bodystart="28" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/d26/structsteemit_1_1wallet_1_1memo__data_1a0a157f94bd45cba07233fea1665568f1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::wallet::memo_data::operator string</definition>
+        <argsstring>() const</argsstring>
+        <name>operator string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="47" column="1" bodyfile="libraries/wallet/include/steemit/wallet/wallet.hpp" bodystart="47" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="738">
+        <label>vector&lt; char &gt;</label>
+      </node>
+      <node id="737">
+        <label>public_key_type</label>
+      </node>
+      <node id="736">
+        <label>steemit::wallet::memo_data</label>
+        <link refid="de/d26/structsteemit_1_1wallet_1_1memo__data"/>
+        <childnode refid="737" relation="usage">
+          <edgelabel>from</edgelabel>
+          <edgelabel>to</edgelabel>
+        </childnode>
+        <childnode refid="738" relation="usage">
+          <edgelabel>encrypted</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/wallet/include/steemit/wallet/wallet.hpp" line="26" column="1" bodyfile="libraries/wallet/include/steemit/wallet/wallet.hpp" bodystart="26" bodyend="52"/>
+    <listofallmembers>
+      <member refid="de/d26/structsteemit_1_1wallet_1_1memo__data_1ab31e1792dfb14ca798ae61a30d7e9ee7" prot="public" virt="non-virtual"><scope>steemit::wallet::memo_data</scope><name>check</name></member>
+      <member refid="de/d26/structsteemit_1_1wallet_1_1memo__data_1a08087740c02bc9b673a78b98349d0c50" prot="public" virt="non-virtual"><scope>steemit::wallet::memo_data</scope><name>encrypted</name></member>
+      <member refid="de/d26/structsteemit_1_1wallet_1_1memo__data_1a721f09e1af9aef32514c4978bab2e5ee" prot="public" virt="non-virtual"><scope>steemit::wallet::memo_data</scope><name>from</name></member>
+      <member refid="de/d26/structsteemit_1_1wallet_1_1memo__data_1a233a426a809231ca896cb5ab6a37c52f" prot="public" virt="non-virtual"><scope>steemit::wallet::memo_data</scope><name>from_string</name></member>
+      <member refid="de/d26/structsteemit_1_1wallet_1_1memo__data_1ab709021ac4265cc88bb887d80827cf10" prot="public" virt="non-virtual"><scope>steemit::wallet::memo_data</scope><name>nonce</name></member>
+      <member refid="de/d26/structsteemit_1_1wallet_1_1memo__data_1a0a157f94bd45cba07233fea1665568f1" prot="public" virt="non-virtual"><scope>steemit::wallet::memo_data</scope><name>operator string</name></member>
+      <member refid="de/d26/structsteemit_1_1wallet_1_1memo__data_1a1864ee8c0d01f7509442c2a4db9b44a0" prot="public" virt="non-virtual"><scope>steemit::wallet::memo_data</scope><name>to</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

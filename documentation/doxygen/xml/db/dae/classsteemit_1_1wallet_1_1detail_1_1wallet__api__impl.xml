@@ -1,0 +1,875 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl" kind="class" language="C++" prot="public">
+    <compoundname>steemit::wallet::detail::wallet_api_impl</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a3373eefabfb2035b62f90f7c36eb031e" prot="public" static="no" mutable="no">
+        <type><ref refid="d3/d0c/classsteemit_1_1wallet_1_1api__documentation" kindref="compound">api_documentation</ref></type>
+        <definition>api_documentation steemit::wallet::detail::wallet_api_impl::method_documentation</definition>
+        <argsstring></argsstring>
+        <name>method_documentation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="239" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a8eea558eb6d65f4004e5ad02a2d1d2d6" prot="public" static="no" mutable="no">
+        <type><ref refid="d4/d2e/classsteemit_1_1wallet_1_1wallet__api" kindref="compound">wallet_api</ref> &amp;</type>
+        <definition>wallet_api&amp; steemit::wallet::detail::wallet_api_impl::self</definition>
+        <argsstring></argsstring>
+        <name>self</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="263" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="263" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a52f0f48313b6c12ce25322fe7821627c" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string steemit::wallet::detail::wallet_api_impl::_wallet_filename</definition>
+        <argsstring></argsstring>
+        <name>_wallet_filename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="1004" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1004" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a7c391ea8ec318519f12cc36f931db729" prot="public" static="no" mutable="no">
+        <type><ref refid="dd/d85/structsteemit_1_1wallet_1_1wallet__data" kindref="compound">wallet_data</ref></type>
+        <definition>wallet_data steemit::wallet::detail::wallet_api_impl::_wallet</definition>
+        <argsstring></argsstring>
+        <name>_wallet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="1005" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1005" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1aea4aa8d1ec0e4034d954df01e9eed64d" prot="public" static="no" mutable="no">
+        <type>map&lt; public_key_type, string &gt;</type>
+        <definition>map&lt;public_key_type, string&gt; steemit::wallet::detail::wallet_api_impl::_keys</definition>
+        <argsstring></argsstring>
+        <name>_keys</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="1007" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1007" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a4a5e826186b0e67e49804f4a0427c5ca" prot="public" static="no" mutable="no">
+        <type>fc::sha512</type>
+        <definition>fc::sha512 steemit::wallet::detail::wallet_api_impl::_checksum</definition>
+        <argsstring></argsstring>
+        <name>_checksum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="1008" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1008" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a5ceefefd97ad34f162216f0fbb64681c" prot="public" static="no" mutable="no">
+        <type>fc::api&lt; <ref refid="d3/df0/classsteemit_1_1app_1_1login__api" kindref="compound">login_api</ref> &gt;</type>
+        <definition>fc::api&lt;login_api&gt; steemit::wallet::detail::wallet_api_impl::_remote_api</definition>
+        <argsstring></argsstring>
+        <name>_remote_api</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="1009" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1009" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a26a9519828b8bc972a2f5431824042f0" prot="public" static="no" mutable="no">
+        <type>fc::api&lt; <ref refid="d4/dbd/classsteemit_1_1app_1_1database__api" kindref="compound">database_api</ref> &gt;</type>
+        <definition>fc::api&lt;database_api&gt; steemit::wallet::detail::wallet_api_impl::_remote_db</definition>
+        <argsstring></argsstring>
+        <name>_remote_db</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="1010" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1010" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a1dc6fa063a484cce6215ae05a13ddf9b" prot="public" static="no" mutable="no">
+        <type>fc::api&lt; <ref refid="df/d95/classsteemit_1_1app_1_1network__broadcast__api" kindref="compound">network_broadcast_api</ref> &gt;</type>
+        <definition>fc::api&lt;network_broadcast_api&gt; steemit::wallet::detail::wallet_api_impl::_remote_net_broadcast</definition>
+        <argsstring></argsstring>
+        <name>_remote_net_broadcast</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="1011" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1011" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a9b51787eac66c03b2c4305fb26770839" prot="public" static="no" mutable="no">
+        <type>optional&lt; fc::api&lt; <ref refid="d6/d4b/classsteemit_1_1app_1_1network__node__api" kindref="compound">network_node_api</ref> &gt; &gt;</type>
+        <definition>optional&lt;fc::api&lt;network_node_api&gt; &gt; steemit::wallet::detail::wallet_api_impl::_remote_net_node</definition>
+        <argsstring></argsstring>
+        <name>_remote_net_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="1012" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1012" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1aa555294832b3ab2b44c6f60de5bc5eea" prot="public" static="no" mutable="no">
+        <type>optional&lt; fc::api&lt; <ref refid="d0/d0f/classsteemit_1_1account__by__key_1_1account__by__key__api" kindref="compound">account_by_key::account_by_key_api</ref> &gt; &gt;</type>
+        <definition>optional&lt;fc::api&lt;account_by_key::account_by_key_api&gt; &gt; steemit::wallet::detail::wallet_api_impl::_remote_account_by_key_api</definition>
+        <argsstring></argsstring>
+        <name>_remote_account_by_key_api</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="1013" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1013" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1ae353534a1f83ed05961bc163dbc9de5e" prot="public" static="no" mutable="no">
+        <type>optional&lt; fc::api&lt; <ref refid="dd/d85/classsteemit_1_1private__message_1_1private__message__api" kindref="compound">private_message_api</ref> &gt; &gt;</type>
+        <definition>optional&lt;fc::api&lt;private_message_api&gt; &gt; steemit::wallet::detail::wallet_api_impl::_remote_message_api</definition>
+        <argsstring></argsstring>
+        <name>_remote_message_api</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="1014" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1014" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a14adcaa2b7b580273e7ae8d897b8baad" prot="public" static="no" mutable="no">
+        <type>optional&lt; fc::api&lt; <ref refid="df/d07/classsteemit_1_1follow_1_1follow__api" kindref="compound">follow::follow_api</ref> &gt; &gt;</type>
+        <definition>optional&lt;fc::api&lt;follow::follow_api&gt; &gt; steemit::wallet::detail::wallet_api_impl::_remote_follow_api</definition>
+        <argsstring></argsstring>
+        <name>_remote_follow_api</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="1015" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1015" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a4a041529dcf4dac7707b00a20f117d29" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::wallet::detail::wallet_api_impl::_tx_expiration_seconds</definition>
+        <argsstring></argsstring>
+        <name>_tx_expiration_seconds</name>
+        <initializer>= 30</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="1016" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1016" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1ad778036fb200ed496cf4f7fc08982392" prot="public" static="no" mutable="no">
+        <type>flat_map&lt; string, operation &gt;</type>
+        <definition>flat_map&lt;string, operation&gt; steemit::wallet::detail::wallet_api_impl::_prototype_ops</definition>
+        <argsstring></argsstring>
+        <name>_prototype_ops</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="1018" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1018" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a277f8b2a903af5f6f3d92c495152733e" prot="public" static="no" mutable="no">
+        <type><ref refid="d0/d2f/structsteemit_1_1wallet_1_1static__variant__map" kindref="compound">static_variant_map</ref></type>
+        <definition>static_variant_map steemit::wallet::detail::wallet_api_impl::_operation_which_map</definition>
+        <argsstring></argsstring>
+        <name>_operation_which_map</name>
+        <initializer>= <ref refid="d1/dc6/namespacesteemit_1_1wallet_1ab278f5aa65e9f9c463d7ab5200841fa9" kindref="member">create_static_variant_map</ref>&lt;operation&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="1020" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1020" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a4e93b0d7d2ae08bca5e537dceb10ffdb" prot="public" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string steemit::wallet::detail::wallet_api_impl::_wallet_filename_extension</definition>
+        <argsstring></argsstring>
+        <name>_wallet_filename_extension</name>
+        <initializer>= &quot;.wallet&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="1025" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="1025" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a4e0ab8893a40ae54ffd500464fb92f49" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::wallet::detail::wallet_api_impl::enable_umask_protection</definition>
+        <argsstring>()</argsstring>
+        <name>enable_umask_protection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="241" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="241" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1aba63bba9406dfacd3972054c0415e000" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::wallet::detail::wallet_api_impl::disable_umask_protection</definition>
+        <argsstring>()</argsstring>
+        <name>disable_umask_protection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="247" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="247" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a8d19bb5f2b4a1e7ce065df7465111b86" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::wallet::detail::wallet_api_impl::init_prototype_ops</definition>
+        <argsstring>()</argsstring>
+        <name>init_prototype_ops</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="253" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="253" bodyend="260"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1aee6c1c54416c1ee588bfd15af7a816ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::wallet::detail::wallet_api_impl::wallet_api_impl</definition>
+        <argsstring>(wallet_api &amp;s, const wallet_data &amp;initial_data, fc::api&lt; login_api &gt; rapi)</argsstring>
+        <name>wallet_api_impl</name>
+        <param>
+          <type><ref refid="d4/d2e/classsteemit_1_1wallet_1_1wallet__api" kindref="compound">wallet_api</ref> &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>const <ref refid="dd/d85/structsteemit_1_1wallet_1_1wallet__data" kindref="compound">wallet_data</ref> &amp;</type>
+          <declname>initial_data</declname>
+        </param>
+        <param>
+          <type>fc::api&lt; <ref refid="d3/df0/classsteemit_1_1app_1_1login__api" kindref="compound">login_api</ref> &gt;</type>
+          <declname>rapi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="265" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="265" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a6ac50f46e809d65b95a919f2df198e54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual steemit::wallet::detail::wallet_api_impl::~wallet_api_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~wallet_api_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="277" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="277" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a97e5749415315e2cd2fe578fce8a6c4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::wallet::detail::wallet_api_impl::encrypt_keys</definition>
+        <argsstring>()</argsstring>
+        <name>encrypt_keys</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="280" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="280" bodyend="288"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1ab994bd357d34ec32a7ee0d9145766ba0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool steemit::wallet::detail::wallet_api_impl::copy_wallet_file</definition>
+        <argsstring>(string destination_filename)</argsstring>
+        <name>copy_wallet_file</name>
+        <param>
+          <type>string</type>
+          <declname>destination_filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="290" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="290" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a93a72ca9d81c7e9491e5e81ced948ec7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool steemit::wallet::detail::wallet_api_impl::is_locked</definition>
+        <argsstring>() const</argsstring>
+        <name>is_locked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="324" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="324" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a2ffe80dc16b850fb1006639b0533be23" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>variant</type>
+        <definition>variant steemit::wallet::detail::wallet_api_impl::info</definition>
+        <argsstring>() const</argsstring>
+        <name>info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="328" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="328" bodyend="344"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1aa1500c0190401fa283fad17ef792c1df" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>variant_object</type>
+        <definition>variant_object steemit::wallet::detail::wallet_api_impl::about</definition>
+        <argsstring>() const</argsstring>
+        <name>about</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="346" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="346" bodyend="392"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a6c1b22ccf0a432977097624fdfb6fe2a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="da/d55/structsteemit_1_1app_1_1account__api__obj" kindref="compound">account_api_obj</ref></type>
+        <definition>account_api_obj steemit::wallet::detail::wallet_api_impl::get_account</definition>
+        <argsstring>(string account_name) const</argsstring>
+        <name>get_account</name>
+        <param>
+          <type>string</type>
+          <declname>account_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="394" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="394" bodyend="398"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a2416926bd8fb5a8115ad9263e9816c59" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string steemit::wallet::detail::wallet_api_impl::get_wallet_filename</definition>
+        <argsstring>() const</argsstring>
+        <name>get_wallet_filename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="400" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="400" bodyend="402"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a19ae38eb970ac99f636484ba7edb892c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>optional&lt; fc::ecc::private_key &gt;</type>
+        <definition>optional&lt;fc::ecc::private_key&gt; steemit::wallet::detail::wallet_api_impl::try_get_private_key</definition>
+        <argsstring>(const public_key_type &amp;id) const</argsstring>
+        <name>try_get_private_key</name>
+        <param>
+          <type>const public_key_type &amp;</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="404" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="404" bodyend="410"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a607a28851178d4ea13f28926f8845bc5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>fc::ecc::private_key</type>
+        <definition>fc::ecc::private_key steemit::wallet::detail::wallet_api_impl::get_private_key</definition>
+        <argsstring>(const public_key_type &amp;id) const</argsstring>
+        <name>get_private_key</name>
+        <param>
+          <type>const public_key_type &amp;</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="412" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="412" bodyend="416"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1abdc2a730e96bc62530aabe0e87d42dca" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>fc::ecc::private_key</type>
+        <definition>fc::ecc::private_key steemit::wallet::detail::wallet_api_impl::get_private_key_for_account</definition>
+        <argsstring>(const account_api_obj &amp;account) const</argsstring>
+        <name>get_private_key_for_account</name>
+        <param>
+          <type>const <ref refid="da/d55/structsteemit_1_1app_1_1account__api__obj" kindref="compound">account_api_obj</ref> &amp;</type>
+          <declname>account</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="419" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="419" bodyend="424"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a18a52ba62a8f0a99d4dbfa774850e611" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool steemit::wallet::detail::wallet_api_impl::import_key</definition>
+        <argsstring>(string wif_key)</argsstring>
+        <name>import_key</name>
+        <param>
+          <type>string</type>
+          <declname>wif_key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="430" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="430" bodyend="438"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a10ad402d8fabc829d8e832653383000e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool steemit::wallet::detail::wallet_api_impl::load_wallet_file</definition>
+        <argsstring>(string wallet_filename=&quot;&quot;)</argsstring>
+        <name>load_wallet_file</name>
+        <param>
+          <type>string</type>
+          <declname>wallet_filename</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="440" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="440" bodyend="454"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a31e2485e6dc1a26e429a8e97cee1b649" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::wallet::detail::wallet_api_impl::save_wallet_file</definition>
+        <argsstring>(string wallet_filename=&quot;&quot;)</argsstring>
+        <name>save_wallet_file</name>
+        <param>
+          <type>string</type>
+          <declname>wallet_filename</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="456" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="456" bodyend="491"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1aab8372f58c9cef3ace5747430df57473" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int steemit::wallet::detail::wallet_api_impl::find_first_unused_derived_key_index</definition>
+        <argsstring>(const fc::ecc::private_key &amp;parent_key)</argsstring>
+        <name>find_first_unused_derived_key_index</name>
+        <param>
+          <type>const fc::ecc::private_key &amp;</type>
+          <declname>parent_key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="497" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="497" bodyend="519"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a8ffe840121cf84ca63f98b0f84c5b6b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>signed_transaction</type>
+        <definition>signed_transaction steemit::wallet::detail::wallet_api_impl::create_account_with_private_key</definition>
+        <argsstring>(fc::ecc::private_key owner_privkey, string account_name, string creator_account_name, bool broadcast=false, bool save_wallet=true)</argsstring>
+        <name>create_account_with_private_key</name>
+        <param>
+          <type>fc::ecc::private_key</type>
+          <declname>owner_privkey</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>account_name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>creator_account_name</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>save_wallet</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="521" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="521" bodyend="560"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1afd89623e116dead0aab29d1e5e77aaf7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>signed_transaction</type>
+        <definition>signed_transaction steemit::wallet::detail::wallet_api_impl::set_voting_proxy</definition>
+        <argsstring>(string account_to_modify, string proxy, bool broadcast)</argsstring>
+        <name>set_voting_proxy</name>
+        <param>
+          <type>string</type>
+          <declname>account_to_modify</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>proxy</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="562" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="562" bodyend="574"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1adca0d870f7009ba50659cc81cac48ccb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>optional&lt; <ref refid="d9/d84/structsteemit_1_1app_1_1witness__api__obj" kindref="compound">witness_api_obj</ref> &gt;</type>
+        <definition>optional&lt;witness_api_obj&gt; steemit::wallet::detail::wallet_api_impl::get_witness</definition>
+        <argsstring>(string owner_account)</argsstring>
+        <name>get_witness</name>
+        <param>
+          <type>string</type>
+          <declname>owner_account</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="576" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="576" bodyend="578"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1adc171551290c4c194233d23ef8c5be5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::wallet::detail::wallet_api_impl::set_transaction_expiration</definition>
+        <argsstring>(uint32_t tx_expiration_seconds)</argsstring>
+        <name>set_transaction_expiration</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>tx_expiration_seconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="580" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="580" bodyend="584"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1ae9b2fd901bce36cfd4bedfc1385d4cb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>annotated_signed_transaction</type>
+        <definition>annotated_signed_transaction steemit::wallet::detail::wallet_api_impl::sign_transaction</definition>
+        <argsstring>(signed_transaction tx, bool broadcast=false)</argsstring>
+        <name>sign_transaction</name>
+        <param>
+          <type>signed_transaction</type>
+          <declname>tx</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>broadcast</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>TODO: fetch the accounts specified via other_auths as well.</para><para>TODO: recursively check one layer deeper in the authority tree for keys </para>        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="586" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="586" bodyend="735"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a4b73e9c49aafaf9d62ea82c68250b15c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::map&lt; string, std::function&lt; string(fc::variant, const fc::variants &amp;)&gt; &gt;</type>
+        <definition>std::map&lt;string, std::function&lt;string(fc::variant, const fc::variants &amp;)&gt; &gt; steemit::wallet::detail::wallet_api_impl::get_result_formatters</definition>
+        <argsstring>() const</argsstring>
+        <name>get_result_formatters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="737" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="737" bodyend="920"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1aea53e9f473be7a8434b8fedfc37c7ffc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::wallet::detail::wallet_api_impl::use_network_node_api</definition>
+        <argsstring>()</argsstring>
+        <name>use_network_node_api</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="922" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="922" bodyend="933"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a33a7422c2676b1df7098a1fe9ba0d864" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::wallet::detail::wallet_api_impl::use_remote_message_api</definition>
+        <argsstring>()</argsstring>
+        <name>use_remote_message_api</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="935" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="935" bodyend="947"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a9e10777494edbc268ff70746c383a3e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::wallet::detail::wallet_api_impl::use_follow_api</definition>
+        <argsstring>()</argsstring>
+        <name>use_follow_api</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="949" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="949" bodyend="961"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1aefc4de76bec8a360a8bf0c6ed5ff7f60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::wallet::detail::wallet_api_impl::use_remote_account_by_key_api</definition>
+        <argsstring>()</argsstring>
+        <name>use_remote_account_by_key_api</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="963" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="963" bodyend="975"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a3e7b8238f2d0fcfbedc2cd1cbd15968f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::wallet::detail::wallet_api_impl::network_add_nodes</definition>
+        <argsstring>(const vector&lt; string &gt; &amp;nodes)</argsstring>
+        <name>network_add_nodes</name>
+        <param>
+          <type>const vector&lt; string &gt; &amp;</type>
+          <declname>nodes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="977" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="977" bodyend="982"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1af2922d12805af896f2c4078e8c660de6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>vector&lt; variant &gt;</type>
+        <definition>vector&lt;variant&gt; steemit::wallet::detail::wallet_api_impl::network_get_connected_peers</definition>
+        <argsstring>()</argsstring>
+        <name>network_get_connected_peers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="984" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="984" bodyend="995"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1ae80809804950bd998e97302991c7ee50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>operation</type>
+        <definition>operation steemit::wallet::detail::wallet_api_impl::get_prototype_operation</definition>
+        <argsstring>(string operation_name)</argsstring>
+        <name>get_prototype_operation</name>
+        <param>
+          <type>string</type>
+          <declname>operation_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/wallet/wallet.cpp" line="997" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="997" bodyend="1002"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1109">
+        <label>vector&lt; string &gt;</label>
+      </node>
+      <node id="1113">
+        <label>vector&lt; char &gt;</label>
+      </node>
+      <node id="1108">
+        <label>steemit::wallet::static_variant_map</label>
+        <link refid="d0/d2f/structsteemit_1_1wallet_1_1static__variant__map"/>
+        <childnode refid="1109" relation="usage">
+          <edgelabel>which_to_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="1110">
+        <label>steemit::wallet::wallet_api</label>
+        <link refid="d4/d2e/classsteemit_1_1wallet_1_1wallet__api"/>
+      </node>
+      <node id="1114">
+        <label>string</label>
+      </node>
+      <node id="1111">
+        <label>steemit::wallet::api_documentation</label>
+        <link refid="d3/d0c/classsteemit_1_1wallet_1_1api__documentation"/>
+      </node>
+      <node id="1112">
+        <label>steemit::wallet::wallet_data</label>
+        <link refid="dd/d85/structsteemit_1_1wallet_1_1wallet__data"/>
+        <childnode refid="1113" relation="usage">
+          <edgelabel>cipher_keys</edgelabel>
+        </childnode>
+        <childnode refid="1114" relation="usage">
+          <edgelabel>ws_password</edgelabel>
+          <edgelabel>ws_server</edgelabel>
+          <edgelabel>ws_user</edgelabel>
+        </childnode>
+      </node>
+      <node id="1107">
+        <label>steemit::wallet::detail::wallet_api_impl</label>
+        <link refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl"/>
+        <childnode refid="1108" relation="usage">
+          <edgelabel>_operation_which_map</edgelabel>
+        </childnode>
+        <childnode refid="1110" relation="usage">
+          <edgelabel>self</edgelabel>
+        </childnode>
+        <childnode refid="1111" relation="usage">
+          <edgelabel>method_documentation</edgelabel>
+        </childnode>
+        <childnode refid="1112" relation="usage">
+          <edgelabel>_wallet</edgelabel>
+        </childnode>
+        <childnode refid="1114" relation="usage">
+          <edgelabel>_wallet_filename_extension</edgelabel>
+          <edgelabel>_wallet_filename</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/wallet/wallet.cpp" line="237" column="1" bodyfile="libraries/wallet/wallet.cpp" bodystart="237" bodyend="1026"/>
+    <listofallmembers>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a4a5e826186b0e67e49804f4a0427c5ca" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>_checksum</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1aea4aa8d1ec0e4034d954df01e9eed64d" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>_keys</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a277f8b2a903af5f6f3d92c495152733e" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>_operation_which_map</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1ad778036fb200ed496cf4f7fc08982392" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>_prototype_ops</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1aa555294832b3ab2b44c6f60de5bc5eea" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>_remote_account_by_key_api</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a5ceefefd97ad34f162216f0fbb64681c" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>_remote_api</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a26a9519828b8bc972a2f5431824042f0" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>_remote_db</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a14adcaa2b7b580273e7ae8d897b8baad" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>_remote_follow_api</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1ae353534a1f83ed05961bc163dbc9de5e" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>_remote_message_api</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a1dc6fa063a484cce6215ae05a13ddf9b" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>_remote_net_broadcast</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a9b51787eac66c03b2c4305fb26770839" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>_remote_net_node</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a4a041529dcf4dac7707b00a20f117d29" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>_tx_expiration_seconds</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a7c391ea8ec318519f12cc36f931db729" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>_wallet</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a52f0f48313b6c12ce25322fe7821627c" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>_wallet_filename</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a4e93b0d7d2ae08bca5e537dceb10ffdb" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>_wallet_filename_extension</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1aa1500c0190401fa283fad17ef792c1df" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>about</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1ab994bd357d34ec32a7ee0d9145766ba0" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>copy_wallet_file</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a8ffe840121cf84ca63f98b0f84c5b6b3" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>create_account_with_private_key</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1aba63bba9406dfacd3972054c0415e000" prot="private" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>disable_umask_protection</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a4e0ab8893a40ae54ffd500464fb92f49" prot="private" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>enable_umask_protection</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a97e5749415315e2cd2fe578fce8a6c4c" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>encrypt_keys</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1aab8372f58c9cef3ace5747430df57473" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>find_first_unused_derived_key_index</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a6c1b22ccf0a432977097624fdfb6fe2a" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>get_account</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a607a28851178d4ea13f28926f8845bc5" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>get_private_key</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1abdc2a730e96bc62530aabe0e87d42dca" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>get_private_key_for_account</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1ae80809804950bd998e97302991c7ee50" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>get_prototype_operation</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a4b73e9c49aafaf9d62ea82c68250b15c" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>get_result_formatters</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a2416926bd8fb5a8115ad9263e9816c59" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>get_wallet_filename</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1adca0d870f7009ba50659cc81cac48ccb" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>get_witness</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a18a52ba62a8f0a99d4dbfa774850e611" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>import_key</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a2ffe80dc16b850fb1006639b0533be23" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>info</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a8d19bb5f2b4a1e7ce065df7465111b86" prot="private" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>init_prototype_ops</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a93a72ca9d81c7e9491e5e81ced948ec7" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>is_locked</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a10ad402d8fabc829d8e832653383000e" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>load_wallet_file</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a3373eefabfb2035b62f90f7c36eb031e" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>method_documentation</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a3e7b8238f2d0fcfbedc2cd1cbd15968f" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>network_add_nodes</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1af2922d12805af896f2c4078e8c660de6" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>network_get_connected_peers</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a31e2485e6dc1a26e429a8e97cee1b649" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>save_wallet_file</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a8eea558eb6d65f4004e5ad02a2d1d2d6" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>self</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1adc171551290c4c194233d23ef8c5be5a" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>set_transaction_expiration</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1afd89623e116dead0aab29d1e5e77aaf7" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>set_voting_proxy</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1ae9b2fd901bce36cfd4bedfc1385d4cb3" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>sign_transaction</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a19ae38eb970ac99f636484ba7edb892c" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>try_get_private_key</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a9e10777494edbc268ff70746c383a3e7" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>use_follow_api</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1aea53e9f473be7a8434b8fedfc37c7ffc" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>use_network_node_api</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1aefc4de76bec8a360a8bf0c6ed5ff7f60" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>use_remote_account_by_key_api</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a33a7422c2676b1df7098a1fe9ba0d864" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>use_remote_message_api</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1aee6c1c54416c1ee588bfd15af7a816ec" prot="public" virt="non-virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>wallet_api_impl</name></member>
+      <member refid="db/dae/classsteemit_1_1wallet_1_1detail_1_1wallet__api__impl_1a6ac50f46e809d65b95a919f2df198e54" prot="public" virt="virtual"><scope>steemit::wallet::detail::wallet_api_impl</scope><name>~wallet_api_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

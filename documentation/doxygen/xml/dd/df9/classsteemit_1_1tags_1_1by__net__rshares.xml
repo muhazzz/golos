@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dd/df9/classsteemit_1_1tags_1_1by__net__rshares" kind="class" language="C++" prot="public">
+    <compoundname>steemit::tags::by_net_rshares</compoundname>
+    <basecompoundref refid="d4/d7d/classsteemit_1_1tags_1_1comparable__index" prot="public" virt="non-virtual">steemit::tags::comparable_index&lt; tag_object &gt;</basecompoundref>
+    <includes refid="d1/dec/tags__plugin_8hpp" local="no">tags_plugin.hpp</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/df9/classsteemit_1_1tags_1_1by__net__rshares_1a824e43760825a3c7a0b66aabdda196d8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool steemit::tags::by_net_rshares::operator()</definition>
+        <argsstring>(const tag_object &amp;first, const tag_object &amp;second) const override</argsstring>
+        <name>operator()</name>
+        <reimplements refid="d4/d7d/classsteemit_1_1tags_1_1comparable__index_1af53ee834d2efa3bd2d91889217ffc7a3">operator()</reimplements>
+        <param>
+          <type>const <ref refid="d9/dc8/classsteemit_1_1tags_1_1tag__object" kindref="compound">tag_object</ref> &amp;</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d9/dc8/classsteemit_1_1tags_1_1tag__object" kindref="compound">tag_object</ref> &amp;</type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="122" column="1" bodyfile="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" bodystart="122" bodyend="125"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>all posts regardless of depth </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="297">
+        <label>steemit::tags::by_net_rshares</label>
+        <link refid="dd/df9/classsteemit_1_1tags_1_1by__net__rshares"/>
+        <childnode refid="298" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="298">
+        <label>steemit::tags::comparable_index&lt; tag_object &gt;</label>
+        <link refid="d4/d7d/classsteemit_1_1tags_1_1comparable__index"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="299">
+        <label>steemit::tags::by_net_rshares</label>
+        <link refid="dd/df9/classsteemit_1_1tags_1_1by__net__rshares"/>
+        <childnode refid="300" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="300">
+        <label>steemit::tags::comparable_index&lt; tag_object &gt;</label>
+        <link refid="d4/d7d/classsteemit_1_1tags_1_1comparable__index"/>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" line="120" column="1" bodyfile="libraries/plugins/tags/include/steemit/tags/tags_plugin.hpp" bodystart="120" bodyend="126"/>
+    <listofallmembers>
+      <member refid="dd/df9/classsteemit_1_1tags_1_1by__net__rshares_1a824e43760825a3c7a0b66aabdda196d8" prot="public" virt="virtual"><scope>steemit::tags::by_net_rshares</scope><name>operator()</name></member>
+      <member refid="d4/d7d/classsteemit_1_1tags_1_1comparable__index_1acf695921df687c3842cae1a411ad6673" prot="public" virt="non-virtual"><scope>steemit::tags::by_net_rshares</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

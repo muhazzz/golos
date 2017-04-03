@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_9dd00d17ee82aad1b1ee5286332fb5e9" kind="dir">
+    <compoundname>libraries/plugins/account_statistics/include/steemit/account_statistics</compoundname>
+    <innerfile refid="d5/d5f/account__statistics__api_8hpp">account_statistics_api.hpp</innerfile>
+    <innerfile refid="dd/d82/account__statistics__plugin_8hpp">account_statistics_plugin.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/"/>
+  </compounddef>
+</doxygen>

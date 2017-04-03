@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="db/d57/structsteemit_1_1market__history_1_1order" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::market_history::order</compoundname>
+    <includes refid="d5/d95/market__history__api_8hpp" local="no">market_history_api.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="db/d57/structsteemit_1_1market__history_1_1order_1a80cf5a55b30b3ea44f175488fad81802" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double steemit::market_history::order::price</definition>
+        <argsstring></argsstring>
+        <name>price</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" line="40" column="1" bodyfile="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d57/structsteemit_1_1market__history_1_1order_1a3da0a6f1c8c450d45f78399b5a04483f" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::market_history::order::steem</definition>
+        <argsstring></argsstring>
+        <name>steem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" line="41" column="1" bodyfile="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d57/structsteemit_1_1market__history_1_1order_1a25e5a13c3f94e087763b5b67af98db81" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::market_history::order::sbd</definition>
+        <argsstring></argsstring>
+        <name>sbd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" line="42" column="1" bodyfile="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="843">
+        <label>steemit::market_history::order</label>
+        <link refid="db/d57/structsteemit_1_1market__history_1_1order"/>
+        <childnode refid="844" relation="usage">
+          <edgelabel>steem</edgelabel>
+          <edgelabel>sbd</edgelabel>
+        </childnode>
+      </node>
+      <node id="844">
+        <label>share_type</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" line="39" column="1" bodyfile="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" bodystart="39" bodyend="43"/>
+    <listofallmembers>
+      <member refid="db/d57/structsteemit_1_1market__history_1_1order_1a80cf5a55b30b3ea44f175488fad81802" prot="public" virt="non-virtual"><scope>steemit::market_history::order</scope><name>price</name></member>
+      <member refid="db/d57/structsteemit_1_1market__history_1_1order_1a25e5a13c3f94e087763b5b67af98db81" prot="public" virt="non-virtual"><scope>steemit::market_history::order</scope><name>sbd</name></member>
+      <member refid="db/d57/structsteemit_1_1market__history_1_1order_1a3da0a6f1c8c450d45f78399b5a04483f" prot="public" virt="non-virtual"><scope>steemit::market_history::order</scope><name>steem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

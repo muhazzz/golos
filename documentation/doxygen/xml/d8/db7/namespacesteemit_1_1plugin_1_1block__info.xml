@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d8/db7/namespacesteemit_1_1plugin_1_1block__info" kind="namespace" language="C++">
+    <compoundname>steemit::plugin::block_info</compoundname>
+    <innerclass refid="dd/d47/structsteemit_1_1plugin_1_1block__info_1_1block__info" prot="public">steemit::plugin::block_info::block_info</innerclass>
+    <innerclass refid="d4/dc6/classsteemit_1_1plugin_1_1block__info_1_1block__info__api" prot="public">steemit::plugin::block_info::block_info_api</innerclass>
+    <innerclass refid="da/dfc/classsteemit_1_1plugin_1_1block__info_1_1block__info__plugin" prot="public">steemit::plugin::block_info::block_info_plugin</innerclass>
+    <innerclass refid="d2/daa/structsteemit_1_1plugin_1_1block__info_1_1block__with__info" prot="public">steemit::plugin::block_info::block_with_info</innerclass>
+    <innerclass refid="d6/dc2/structsteemit_1_1plugin_1_1block__info_1_1get__block__info__args" prot="public">steemit::plugin::block_info::get_block_info_args</innerclass>
+    <innernamespace refid="de/d7d/namespacesteemit_1_1plugin_1_1block__info_1_1detail">steemit::plugin::block_info::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/block_info/block_info_api.cpp" line="10" column="1"/>
+  </compounddef>
+</doxygen>

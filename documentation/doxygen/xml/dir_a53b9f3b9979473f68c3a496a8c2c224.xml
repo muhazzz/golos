@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_a53b9f3b9979473f68c3a496a8c2c224" kind="dir">
+    <compoundname>libraries/plugins/auth_util/include/steemit</compoundname>
+    <innerdir refid="dir_974aa8b961e00ae923c11751c0edb4cc">libraries/plugins/auth_util/include/steemit/plugins</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/auth_util/include/steemit/"/>
+  </compounddef>
+</doxygen>

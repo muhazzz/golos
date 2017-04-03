@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dc/df2/classsteemit_1_1tags_1_1detail_1_1tags__plugin__impl" kind="class" language="C++" prot="public">
+    <compoundname>steemit::tags::detail::tags_plugin_impl</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="dc/df2/classsteemit_1_1tags_1_1detail_1_1tags__plugin__impl_1ad13c4983b8523267c1fe711b05e165b2" prot="public" static="no" mutable="no">
+        <type><ref refid="da/dc1/classsteemit_1_1tags_1_1tags__plugin" kindref="compound">tags_plugin</ref> &amp;</type>
+        <definition>tags_plugin&amp; steemit::tags::detail::tags_plugin_impl::_self</definition>
+        <argsstring></argsstring>
+        <name>_self</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/tags/tags_plugin.cpp" line="43" column="1" bodyfile="libraries/plugins/tags/tags_plugin.cpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/df2/classsteemit_1_1tags_1_1detail_1_1tags__plugin__impl_1a9c7b2d7656adda580562a0af1d7256c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::tags::detail::tags_plugin_impl::tags_plugin_impl</definition>
+        <argsstring>(tags_plugin &amp;_plugin)</argsstring>
+        <name>tags_plugin_impl</name>
+        <param>
+          <type><ref refid="da/dc1/classsteemit_1_1tags_1_1tags__plugin" kindref="compound">tags_plugin</ref> &amp;</type>
+          <declname>_plugin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/tags/tags_plugin.cpp" line="31" column="1" bodyfile="libraries/plugins/tags/tags_plugin.cpp" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/df2/classsteemit_1_1tags_1_1detail_1_1tags__plugin__impl_1a1654f731f47228159f5beadb55ffc4a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>steemit::tags::detail::tags_plugin_impl::~tags_plugin_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~tags_plugin_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/tags/tags_plugin.cpp" line="35" column="1" bodyfile="libraries/plugins/tags/tags_plugin.cpp" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/df2/classsteemit_1_1tags_1_1detail_1_1tags__plugin__impl_1a75c75407d481ecf6decdbd72a86c9ba7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="da/d98/classsteemit_1_1chain_1_1database" kindref="compound">steemit::chain::database</ref> &amp;</type>
+        <definition>steemit::chain::database&amp; steemit::tags::detail::tags_plugin_impl::database</definition>
+        <argsstring>()</argsstring>
+        <name>database</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/tags/tags_plugin.cpp" line="37" column="1" bodyfile="libraries/plugins/tags/tags_plugin.cpp" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/df2/classsteemit_1_1tags_1_1detail_1_1tags__plugin__impl_1a07f0798ff1f3a7749ab170928776659a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::tags::detail::tags_plugin_impl::on_operation</definition>
+        <argsstring>(const operation_notification &amp;note)</argsstring>
+        <name>on_operation</name>
+        <param>
+          <type>const <ref refid="dc/dc3/structsteemit_1_1chain_1_1operation__notification" kindref="compound">operation_notification</ref> &amp;</type>
+          <declname>note</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>plugins shouldn&apos;t ever throw </para>        </inbodydescription>
+        <location file="libraries/plugins/tags/tags_plugin.cpp" line="41" column="1" bodyfile="libraries/plugins/tags/tags_plugin.cpp" bodystart="419" bodyend="430"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1087">
+        <label>steemit::tags::tags_plugin</label>
+        <link refid="da/dc1/classsteemit_1_1tags_1_1tags__plugin"/>
+        <childnode refid="1088" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1089">
+        <label>steemit::app::abstract_plugin</label>
+        <link refid="dc/d57/classsteemit_1_1app_1_1abstract__plugin"/>
+      </node>
+      <node id="1088">
+        <label>steemit::app::plugin</label>
+        <link refid="d8/daa/classsteemit_1_1app_1_1plugin"/>
+        <childnode refid="1089" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1086">
+        <label>steemit::tags::detail::tags_plugin_impl</label>
+        <link refid="dc/df2/classsteemit_1_1tags_1_1detail_1_1tags__plugin__impl"/>
+        <childnode refid="1087" relation="usage">
+          <edgelabel>_self</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/tags/tags_plugin.cpp" line="29" column="1" bodyfile="libraries/plugins/tags/tags_plugin.cpp" bodystart="29" bodyend="44"/>
+    <listofallmembers>
+      <member refid="dc/df2/classsteemit_1_1tags_1_1detail_1_1tags__plugin__impl_1ad13c4983b8523267c1fe711b05e165b2" prot="public" virt="non-virtual"><scope>steemit::tags::detail::tags_plugin_impl</scope><name>_self</name></member>
+      <member refid="dc/df2/classsteemit_1_1tags_1_1detail_1_1tags__plugin__impl_1a75c75407d481ecf6decdbd72a86c9ba7" prot="public" virt="non-virtual"><scope>steemit::tags::detail::tags_plugin_impl</scope><name>database</name></member>
+      <member refid="dc/df2/classsteemit_1_1tags_1_1detail_1_1tags__plugin__impl_1a07f0798ff1f3a7749ab170928776659a" prot="public" virt="non-virtual"><scope>steemit::tags::detail::tags_plugin_impl</scope><name>on_operation</name></member>
+      <member refid="dc/df2/classsteemit_1_1tags_1_1detail_1_1tags__plugin__impl_1a9c7b2d7656adda580562a0af1d7256c9" prot="public" virt="non-virtual"><scope>steemit::tags::detail::tags_plugin_impl</scope><name>tags_plugin_impl</name></member>
+      <member refid="dc/df2/classsteemit_1_1tags_1_1detail_1_1tags__plugin__impl_1a1654f731f47228159f5beadb55ffc4a4" prot="public" virt="virtual"><scope>steemit::tags::detail::tags_plugin_impl</scope><name>~tags_plugin_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

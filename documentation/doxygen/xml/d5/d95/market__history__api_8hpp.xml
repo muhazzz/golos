@@ -1,0 +1,434 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d5/d95/market__history__api_8hpp" kind="file" language="C++">
+    <compoundname>market_history_api.hpp</compoundname>
+    <includes refid="db/d6f/market__history__plugin_8hpp" local="no">steemit/market_history/market_history_plugin.hpp</includes>
+    <includes local="no">steemit/protocol/types.hpp</includes>
+    <includes local="no">fc/api.hpp</includes>
+    <includedby refid="df/d69/market__history__api_8cpp" local="no">libraries/plugins/market_history/market_history_api.cpp</includedby>
+    <includedby refid="de/df4/market__history__plugin_8cpp" local="no">libraries/plugins/market_history/market_history_plugin.cpp</includedby>
+    <incdepgraph>
+      <node id="4174">
+        <label>boost/multi_index/ordered_index.hpp</label>
+      </node>
+      <node id="4183">
+        <label>steemit/protocol/block.hpp</label>
+      </node>
+      <node id="4165">
+        <label>steemit/app/api_context.hpp</label>
+        <link refid="d9/d64/api__context_8hpp"/>
+        <childnode refid="4162" relation="include">
+        </childnode>
+        <childnode refid="4163" relation="include">
+        </childnode>
+        <childnode refid="4166" relation="include">
+        </childnode>
+        <childnode refid="4167" relation="include">
+        </childnode>
+      </node>
+      <node id="4161">
+        <label>fc/reflect/reflect.hpp</label>
+      </node>
+      <node id="4187">
+        <label>steemit/protocol/protocol.hpp</label>
+      </node>
+      <node id="4197">
+        <label>fc/io/json.hpp</label>
+      </node>
+      <node id="4181">
+        <label>steemit/chain/node_property_object.hpp</label>
+        <link refid="d0/d72/node__property__object_8hpp"/>
+      </node>
+      <node id="4177">
+        <label>steemit/protocol/types.hpp</label>
+      </node>
+      <node id="4178">
+        <label>steemit/protocol/authority.hpp</label>
+      </node>
+      <node id="4199">
+        <label>fc/unique_ptr.hpp</label>
+      </node>
+      <node id="4185">
+        <label>steemit/chain/block_log.hpp</label>
+        <link refid="db/dfa/block__log_8hpp"/>
+        <childnode refid="4186" relation="include">
+        </childnode>
+        <childnode refid="4183" relation="include">
+        </childnode>
+      </node>
+      <node id="4188">
+        <label>fc/signals.hpp</label>
+      </node>
+      <node id="4163">
+        <label>string</label>
+      </node>
+      <node id="4162">
+        <label>map</label>
+      </node>
+      <node id="4192">
+        <label>fc/rpc/websocket_api.hpp</label>
+      </node>
+      <node id="4180">
+        <label>steemit/chain/hardfork.hpp</label>
+      </node>
+      <node id="4186">
+        <label>fc/filesystem.hpp</label>
+      </node>
+      <node id="4171">
+        <label>steemit/chain/steem_object_types.hpp</label>
+        <link refid="d6/dd8/steem__object__types_8hpp"/>
+        <childnode refid="4172" relation="include">
+        </childnode>
+        <childnode refid="4173" relation="include">
+        </childnode>
+        <childnode refid="4174" relation="include">
+        </childnode>
+        <childnode refid="4175" relation="include">
+        </childnode>
+        <childnode refid="4176" relation="include">
+        </childnode>
+        <childnode refid="4177" relation="include">
+        </childnode>
+        <childnode refid="4178" relation="include">
+        </childnode>
+      </node>
+      <node id="4182">
+        <label>steemit/chain/fork_database.hpp</label>
+        <link refid="d2/d8c/fork__database_8hpp"/>
+        <childnode refid="4183" relation="include">
+        </childnode>
+        <childnode refid="4172" relation="include">
+        </childnode>
+        <childnode refid="4173" relation="include">
+        </childnode>
+        <childnode refid="4174" relation="include">
+        </childnode>
+        <childnode refid="4184" relation="include">
+        </childnode>
+        <childnode refid="4175" relation="include">
+        </childnode>
+      </node>
+      <node id="4193">
+        <label>boost/program_options.hpp</label>
+      </node>
+      <node id="4176">
+        <label>chainbase/chainbase.hpp</label>
+      </node>
+      <node id="4189">
+        <label>fc/log/logger.hpp</label>
+      </node>
+      <node id="4196">
+        <label>steemit/protocol/operations.hpp</label>
+      </node>
+      <node id="4198">
+        <label>fc/static_variant.hpp</label>
+      </node>
+      <node id="4200">
+        <label>fc/vector.hpp</label>
+      </node>
+      <node id="4190">
+        <label>graphene/net/node.hpp</label>
+      </node>
+      <node id="4160">
+        <label>steemit/app/api_access.hpp</label>
+        <link refid="db/d81/api__access_8hpp"/>
+        <childnode refid="4161" relation="include">
+        </childnode>
+        <childnode refid="4162" relation="include">
+        </childnode>
+        <childnode refid="4163" relation="include">
+        </childnode>
+        <childnode refid="4164" relation="include">
+        </childnode>
+      </node>
+      <node id="4159">
+        <label>steemit/app/application.hpp</label>
+        <link refid="d4/d01/application_8hpp"/>
+        <childnode refid="4160" relation="include">
+        </childnode>
+        <childnode refid="4165" relation="include">
+        </childnode>
+        <childnode refid="4168" relation="include">
+        </childnode>
+        <childnode refid="4190" relation="include">
+        </childnode>
+        <childnode refid="4167" relation="include">
+        </childnode>
+        <childnode refid="4191" relation="include">
+        </childnode>
+        <childnode refid="4192" relation="include">
+        </childnode>
+        <childnode refid="4193" relation="include">
+        </childnode>
+      </node>
+      <node id="4194">
+        <label>steemit/chain/evaluator.hpp</label>
+        <link refid="d0/da6/evaluator_8hpp"/>
+        <childnode refid="4195" relation="include">
+        </childnode>
+        <childnode refid="4196" relation="include">
+        </childnode>
+      </node>
+      <node id="4156">
+        <label>libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp</label>
+        <link refid="d5/d95/market__history__api_8hpp"/>
+        <childnode refid="4157" relation="include">
+        </childnode>
+        <childnode refid="4177" relation="include">
+        </childnode>
+        <childnode refid="4167" relation="include">
+        </childnode>
+      </node>
+      <node id="4164">
+        <label>vector</label>
+      </node>
+      <node id="4169">
+        <label>steemit/chain/global_property_object.hpp</label>
+        <link refid="d2/d78/global__property__object_8hpp"/>
+        <childnode refid="4170" relation="include">
+        </childnode>
+        <childnode refid="4171" relation="include">
+        </childnode>
+        <childnode refid="4179" relation="include">
+        </childnode>
+      </node>
+      <node id="4179">
+        <label>steemit/protocol/asset.hpp</label>
+      </node>
+      <node id="4166">
+        <label>utility</label>
+      </node>
+      <node id="4184">
+        <label>boost/multi_index/hashed_index.hpp</label>
+      </node>
+      <node id="4202">
+        <label>boost/multi_index/composite_key.hpp</label>
+      </node>
+      <node id="4157">
+        <label>steemit/market_history/market_history_plugin.hpp</label>
+        <link refid="db/d6f/market__history__plugin_8hpp"/>
+        <childnode refid="4158" relation="include">
+        </childnode>
+        <childnode refid="4171" relation="include">
+        </childnode>
+        <childnode refid="4202" relation="include">
+        </childnode>
+      </node>
+      <node id="4173">
+        <label>boost/multi_index/member.hpp</label>
+      </node>
+      <node id="4172">
+        <label>boost/multi_index_container.hpp</label>
+      </node>
+      <node id="4191">
+        <label>fc/rpc/api_connection.hpp</label>
+      </node>
+      <node id="4158">
+        <label>steemit/app/plugin.hpp</label>
+        <link refid="d1/dab/plugin_8hpp"/>
+        <childnode refid="4159" relation="include">
+        </childnode>
+        <childnode refid="4194" relation="include">
+        </childnode>
+        <childnode refid="4193" relation="include">
+        </childnode>
+        <childnode refid="4197" relation="include">
+        </childnode>
+        <childnode refid="4198" relation="include">
+        </childnode>
+        <childnode refid="4199" relation="include">
+        </childnode>
+        <childnode refid="4200" relation="include">
+        </childnode>
+        <childnode refid="4201" relation="include">
+        </childnode>
+      </node>
+      <node id="4170">
+        <label>fc/uint128.hpp</label>
+      </node>
+      <node id="4175">
+        <label>boost/multi_index/mem_fun.hpp</label>
+      </node>
+      <node id="4168">
+        <label>steemit/chain/database.hpp</label>
+        <link refid="df/da2/database_8hpp"/>
+        <childnode refid="4169" relation="include">
+        </childnode>
+        <childnode refid="4180" relation="include">
+        </childnode>
+        <childnode refid="4181" relation="include">
+        </childnode>
+        <childnode refid="4182" relation="include">
+        </childnode>
+        <childnode refid="4185" relation="include">
+        </childnode>
+        <childnode refid="4187" relation="include">
+        </childnode>
+        <childnode refid="4188" relation="include">
+        </childnode>
+        <childnode refid="4189" relation="include">
+        </childnode>
+        <childnode refid="4162" relation="include">
+        </childnode>
+      </node>
+      <node id="4201">
+        <label>memory</label>
+      </node>
+      <node id="4167">
+        <label>fc/api.hpp</label>
+      </node>
+      <node id="4195">
+        <label>steemit/protocol/exceptions.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4203">
+        <label>libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp</label>
+        <link refid="d5/d95/market__history__api_8hpp"/>
+        <childnode refid="4204" relation="include">
+        </childnode>
+        <childnode refid="4205" relation="include">
+        </childnode>
+      </node>
+      <node id="4205">
+        <label>libraries/plugins/market_history/market_history_plugin.cpp</label>
+        <link refid="de/df4/market__history__plugin_8cpp"/>
+      </node>
+      <node id="4204">
+        <label>libraries/plugins/market_history/market_history_api.cpp</label>
+        <link refid="df/d69/market__history__api_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="dd/d3c/structsteemit_1_1market__history_1_1market__ticker" prot="public">steemit::market_history::market_ticker</innerclass>
+    <innerclass refid="dc/dd7/structsteemit_1_1market__history_1_1market__volume" prot="public">steemit::market_history::market_volume</innerclass>
+    <innerclass refid="db/d57/structsteemit_1_1market__history_1_1order" prot="public">steemit::market_history::order</innerclass>
+    <innerclass refid="d1/d20/structsteemit_1_1market__history_1_1order__book" prot="public">steemit::market_history::order_book</innerclass>
+    <innerclass refid="d4/de0/structsteemit_1_1market__history_1_1market__trade" prot="public">steemit::market_history::market_trade</innerclass>
+    <innerclass refid="dd/d7f/classsteemit_1_1market__history_1_1market__history__api" prot="public">steemit::market_history::market_history_api</innerclass>
+    <innernamespace refid="d9/d75/namespacesteemit">steemit</innernamespace>
+    <innernamespace refid="df/d55/namespacesteemit_1_1app">steemit::app</innernamespace>
+    <innernamespace refid="da/db7/namespacesteemit_1_1market__history">steemit::market_history</innernamespace>
+    <innernamespace refid="dc/ddb/namespacesteemit_1_1market__history_1_1detail">steemit::market_history::detail</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="d5/d95/market__history__api_8hpp_1af1a7d68c387320fd632ade9618b4373a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FC_REFLECT</definition>
+        <argsstring>(steemit::market_history::market_ticker,(latest)(lowest_ask)(highest_bid)(percent_change)(steem_volume)(sbd_volume))</argsstring>
+        <name>FC_REFLECT</name>
+        <param>
+          <type><ref refid="dd/d3c/structsteemit_1_1market__history_1_1market__ticker" kindref="compound">steemit::market_history::market_ticker</ref></type>
+        </param>
+        <param>
+          <type>(latest)(lowest_ask)(highest_bid)(percent_change)(steem_volume)(sbd_volume)</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" line="115" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d95/market__history__api_8hpp_1aa51ebce60262e24292971bd59846e9f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FC_REFLECT</definition>
+        <argsstring>(steemit::market_history::market_volume,(steem_volume)(sbd_volume))</argsstring>
+        <name>FC_REFLECT</name>
+        <param>
+          <type><ref refid="dc/dd7/structsteemit_1_1market__history_1_1market__volume" kindref="compound">steemit::market_history::market_volume</ref></type>
+        </param>
+        <param>
+          <type>(steem_volume)(sbd_volume)</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" line="117" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d95/market__history__api_8hpp_1affb0fd0918246ce8713ecc9964d3e277" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FC_REFLECT</definition>
+        <argsstring>(steemit::market_history::order,(price)(steem)(sbd))</argsstring>
+        <name>FC_REFLECT</name>
+        <param>
+          <type><ref refid="db/d57/structsteemit_1_1market__history_1_1order" kindref="compound">steemit::market_history::order</ref></type>
+        </param>
+        <param>
+          <type>(price)(steem)(sbd)</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" line="119" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d95/market__history__api_8hpp_1ae0160bb5e1d5aba57f4214ec17b5812a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FC_REFLECT</definition>
+        <argsstring>(steemit::market_history::order_book,(bids)(asks))</argsstring>
+        <name>FC_REFLECT</name>
+        <param>
+          <type><ref refid="d1/d20/structsteemit_1_1market__history_1_1order__book" kindref="compound">steemit::market_history::order_book</ref></type>
+        </param>
+        <param>
+          <type>(bids)(asks)</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" line="121" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d95/market__history__api_8hpp_1a4183e57cf410febabfd8a5c0d349c310" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FC_REFLECT</definition>
+        <argsstring>(steemit::market_history::market_trade,(date)(current_pays)(open_pays))</argsstring>
+        <name>FC_REFLECT</name>
+        <param>
+          <type><ref refid="d4/de0/structsteemit_1_1market__history_1_1market__trade" kindref="compound">steemit::market_history::market_trade</ref></type>
+        </param>
+        <param>
+          <type>(date)(current_pays)(open_pays)</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" line="123" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d95/market__history__api_8hpp_1af94f6eb429fb1c14143d32e161500d98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FC_API</definition>
+        <argsstring>(steemit::market_history::market_history_api,(get_ticker)(get_volume)(get_order_book)(get_trade_history)(get_recent_trades)(get_market_history)(get_market_history_buckets))</argsstring>
+        <name>FC_API</name>
+        <param>
+          <type><ref refid="dd/d7f/classsteemit_1_1market__history_1_1market__history__api" kindref="compound">steemit::market_history::market_history_api</ref></type>
+        </param>
+        <param>
+          <type>(get_ticker)(get_volume)(get_order_book)(get_trade_history)(get_recent_trades)(get_market_history)(get_market_history_buckets)</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" line="126" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp"/>
+  </compounddef>
+</doxygen>

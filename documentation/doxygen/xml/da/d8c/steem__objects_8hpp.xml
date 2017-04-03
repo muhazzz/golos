@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="da/d8c/steem__objects_8hpp" kind="file" language="C++">
+    <compoundname>steem_objects.hpp</compoundname>
+    <includes local="no">steemit/protocol/authority.hpp</includes>
+    <includes local="no">steemit/protocol/steem_operations.hpp</includes>
+    <includes refid="d6/dd8/steem__object__types_8hpp" local="no">steemit/chain/steem_object_types.hpp</includes>
+    <includes local="no">boost/multi_index/composite_key.hpp</includes>
+    <includes local="no">boost/multiprecision/cpp_int.hpp</includes>
+    <includes refid="d3/d98/comment__object_8hpp" local="no">steemit/chain/comment_object.hpp</includes>
+    <includes refid="d3/df9/account__object_8hpp" local="no">steemit/chain/account_object.hpp</includes>
+    <includedby refid="d0/d21/database__api_8hpp" local="no">libraries/app/include/steemit/app/database_api.hpp</includedby>
+    <includedby refid="da/d3b/state_8hpp" local="no">libraries/app/include/steemit/app/state.hpp</includedby>
+    <includedby refid="d1/d06/steem__api__objects_8hpp" local="no">libraries/app/include/steemit/app/steem_api_objects.hpp</includedby>
+    <includedby refid="da/d7b/database_8cpp" local="no">libraries/chain/database.cpp</includedby>
+    <includedby refid="df/da1/steem__evaluator_8cpp" local="no">libraries/chain/steem_evaluator.cpp</includedby>
+    <includedby refid="d8/dd4/delayed__node__plugin_8hpp" local="no">libraries/plugins/delayed_node/include/steemit/delayed_node/delayed_node_plugin.hpp</includedby>
+    <includedby refid="df/d69/market__history__api_8cpp" local="no">libraries/plugins/market_history/market_history_api.cpp</includedby>
+    <includedby refid="dc/d2c/witness_8cpp" local="no">libraries/plugins/witness/witness.cpp</includedby>
+    <incdepgraph>
+      <node id="1964">
+        <label>boost/multi_index/ordered_index.hpp</label>
+      </node>
+      <node id="1974">
+        <label>steemit/chain/shared_authority.hpp</label>
+        <link refid="df/dd8/shared__authority_8hpp"/>
+        <childnode refid="1959" relation="include">
+        </childnode>
+        <childnode refid="1975" relation="include">
+        </childnode>
+      </node>
+      <node id="1967">
+        <label>steemit/protocol/types.hpp</label>
+      </node>
+      <node id="1975">
+        <label>boost/interprocess/managed_mapped_file.hpp</label>
+      </node>
+      <node id="1959">
+        <label>steemit/protocol/authority.hpp</label>
+      </node>
+      <node id="1973">
+        <label>fc/fixed_string.hpp</label>
+      </node>
+      <node id="1969">
+        <label>boost/multiprecision/cpp_int.hpp</label>
+      </node>
+      <node id="1976">
+        <label>numeric</label>
+      </node>
+      <node id="1961">
+        <label>steemit/chain/steem_object_types.hpp</label>
+        <link refid="d6/dd8/steem__object__types_8hpp"/>
+        <childnode refid="1962" relation="include">
+        </childnode>
+        <childnode refid="1963" relation="include">
+        </childnode>
+        <childnode refid="1964" relation="include">
+        </childnode>
+        <childnode refid="1965" relation="include">
+        </childnode>
+        <childnode refid="1966" relation="include">
+        </childnode>
+        <childnode refid="1967" relation="include">
+        </childnode>
+        <childnode refid="1959" relation="include">
+        </childnode>
+      </node>
+      <node id="1960">
+        <label>steemit/protocol/steem_operations.hpp</label>
+      </node>
+      <node id="1971">
+        <label>steemit/chain/witness_objects.hpp</label>
+        <link refid="de/d8f/witness__objects_8hpp"/>
+        <childnode refid="1959" relation="include">
+        </childnode>
+        <childnode refid="1960" relation="include">
+        </childnode>
+        <childnode refid="1961" relation="include">
+        </childnode>
+        <childnode refid="1968" relation="include">
+        </childnode>
+      </node>
+      <node id="1966">
+        <label>chainbase/chainbase.hpp</label>
+      </node>
+      <node id="1972">
+        <label>steemit/chain/account_object.hpp</label>
+        <link refid="d3/df9/account__object_8hpp"/>
+        <childnode refid="1973" relation="include">
+        </childnode>
+        <childnode refid="1959" relation="include">
+        </childnode>
+        <childnode refid="1960" relation="include">
+        </childnode>
+        <childnode refid="1961" relation="include">
+        </childnode>
+        <childnode refid="1971" relation="include">
+        </childnode>
+        <childnode refid="1974" relation="include">
+        </childnode>
+        <childnode refid="1968" relation="include">
+        </childnode>
+        <childnode refid="1976" relation="include">
+        </childnode>
+      </node>
+      <node id="1968">
+        <label>boost/multi_index/composite_key.hpp</label>
+      </node>
+      <node id="1963">
+        <label>boost/multi_index/member.hpp</label>
+      </node>
+      <node id="1962">
+        <label>boost/multi_index_container.hpp</label>
+      </node>
+      <node id="1958">
+        <label>libraries/chain/include/steemit/chain/steem_objects.hpp</label>
+        <link refid="da/d8c/steem__objects_8hpp"/>
+        <childnode refid="1959" relation="include">
+        </childnode>
+        <childnode refid="1960" relation="include">
+        </childnode>
+        <childnode refid="1961" relation="include">
+        </childnode>
+        <childnode refid="1968" relation="include">
+        </childnode>
+        <childnode refid="1969" relation="include">
+        </childnode>
+        <childnode refid="1970" relation="include">
+        </childnode>
+        <childnode refid="1972" relation="include">
+        </childnode>
+      </node>
+      <node id="1970">
+        <label>steemit/chain/comment_object.hpp</label>
+        <link refid="d3/d98/comment__object_8hpp"/>
+        <childnode refid="1959" relation="include">
+        </childnode>
+        <childnode refid="1960" relation="include">
+        </childnode>
+        <childnode refid="1961" relation="include">
+        </childnode>
+        <childnode refid="1971" relation="include">
+        </childnode>
+        <childnode refid="1968" relation="include">
+        </childnode>
+      </node>
+      <node id="1965">
+        <label>boost/multi_index/mem_fun.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1982">
+        <label>libraries/app/application.cpp</label>
+        <link refid="df/d7b/application_8cpp"/>
+      </node>
+      <node id="1991">
+        <label>libraries/plugins/follow/follow_plugin.cpp</label>
+        <link refid="de/d56/follow__plugin_8cpp"/>
+      </node>
+      <node id="2001">
+        <label>libraries/plugins/witness/witness.cpp</label>
+        <link refid="dc/d2c/witness_8cpp"/>
+      </node>
+      <node id="1988">
+        <label>libraries/app/include/steemit/app/steem_api_objects.hpp</label>
+        <link refid="d1/d06/steem__api__objects_8hpp"/>
+        <childnode refid="1987" relation="include">
+        </childnode>
+        <childnode refid="1983" relation="include">
+        </childnode>
+        <childnode refid="1989" relation="include">
+        </childnode>
+      </node>
+      <node id="1986">
+        <label>libraries/plugins/delayed_node/delayed_node_plugin.cpp</label>
+        <link refid="da/d6c/delayed__node__plugin_8cpp"/>
+      </node>
+      <node id="1989">
+        <label>libraries/plugins/follow/include/steemit/follow/follow_api.hpp</label>
+        <link refid="da/dcd/follow__api_8hpp"/>
+        <childnode refid="1990" relation="include">
+        </childnode>
+        <childnode refid="1991" relation="include">
+        </childnode>
+        <childnode refid="1992" relation="include">
+        </childnode>
+      </node>
+      <node id="1987">
+        <label>libraries/app/include/steemit/app/state.hpp</label>
+        <link refid="da/d3b/state_8hpp"/>
+        <childnode refid="1978" relation="include">
+        </childnode>
+      </node>
+      <node id="1997">
+        <label>libraries/chain/database.cpp</label>
+        <link refid="da/d7b/database_8cpp"/>
+      </node>
+      <node id="1994">
+        <label>libraries/plugins/follow/follow_evaluators.cpp</label>
+        <link refid="d6/df5/follow__evaluators_8cpp"/>
+      </node>
+      <node id="1993">
+        <label>libraries/plugins/follow/include/steemit/follow/follow_objects.hpp</label>
+        <link refid="db/d30/follow__objects_8hpp"/>
+        <childnode refid="1994" relation="include">
+        </childnode>
+        <childnode refid="1991" relation="include">
+        </childnode>
+        <childnode refid="1989" relation="include">
+        </childnode>
+      </node>
+      <node id="1998">
+        <label>libraries/chain/steem_evaluator.cpp</label>
+        <link refid="df/da1/steem__evaluator_8cpp"/>
+      </node>
+      <node id="1984">
+        <label>libraries/wallet/api_documentation_standin.cpp</label>
+        <link refid="d3/d0b/api__documentation__standin_8cpp"/>
+      </node>
+      <node id="1979">
+        <label>libraries/app/database_api.cpp</label>
+        <link refid="da/d2c/database__api_8cpp"/>
+      </node>
+      <node id="1999">
+        <label>libraries/plugins/delayed_node/include/steemit/delayed_node/delayed_node_plugin.hpp</label>
+        <link refid="d8/dd4/delayed__node__plugin_8hpp"/>
+        <childnode refid="1986" relation="include">
+        </childnode>
+      </node>
+      <node id="1992">
+        <label>libraries/plugins/follow/include/steemit/follow/follow_plugin.hpp</label>
+        <link refid="d9/d98/follow__plugin_8hpp"/>
+        <childnode refid="1978" relation="include">
+        </childnode>
+        <childnode refid="1983" relation="include">
+        </childnode>
+        <childnode refid="1993" relation="include">
+        </childnode>
+        <childnode refid="1995" relation="include">
+        </childnode>
+      </node>
+      <node id="1983">
+        <label>libraries/wallet/include/steemit/wallet/wallet.hpp</label>
+        <link refid="d4/dc7/wallet_8hpp"/>
+        <childnode refid="1984" relation="include">
+        </childnode>
+        <childnode refid="1985" relation="include">
+        </childnode>
+      </node>
+      <node id="1978">
+        <label>libraries/app/include/steemit/app/database_api.hpp</label>
+        <link refid="d0/d21/database__api_8hpp"/>
+        <childnode refid="1979" relation="include">
+        </childnode>
+        <childnode refid="1980" relation="include">
+        </childnode>
+      </node>
+      <node id="1990">
+        <label>libraries/plugins/follow/follow_api.cpp</label>
+        <link refid="d0/dbb/follow__api_8cpp"/>
+      </node>
+      <node id="1995">
+        <label>libraries/plugins/follow/include/steemit/follow/follow_operations.hpp</label>
+        <link refid="d2/d3c/follow__operations_8hpp"/>
+        <childnode refid="1985" relation="include">
+        </childnode>
+        <childnode refid="1994" relation="include">
+        </childnode>
+        <childnode refid="1996" relation="include">
+        </childnode>
+        <childnode refid="1991" relation="include">
+        </childnode>
+      </node>
+      <node id="1985">
+        <label>libraries/wallet/wallet.cpp</label>
+        <link refid="d7/de1/wallet_8cpp"/>
+      </node>
+      <node id="1996">
+        <label>libraries/plugins/follow/follow_operations.cpp</label>
+        <link refid="d1/d06/follow__operations_8cpp"/>
+      </node>
+      <node id="1977">
+        <label>libraries/chain/include/steemit/chain/steem_objects.hpp</label>
+        <link refid="da/d8c/steem__objects_8hpp"/>
+        <childnode refid="1978" relation="include">
+        </childnode>
+        <childnode refid="1987" relation="include">
+        </childnode>
+        <childnode refid="1988" relation="include">
+        </childnode>
+        <childnode refid="1997" relation="include">
+        </childnode>
+        <childnode refid="1998" relation="include">
+        </childnode>
+        <childnode refid="1999" relation="include">
+        </childnode>
+        <childnode refid="2000" relation="include">
+        </childnode>
+        <childnode refid="2001" relation="include">
+        </childnode>
+      </node>
+      <node id="1980">
+        <label>libraries/app/include/steemit/app/api.hpp</label>
+        <link refid="d4/df0/api_8hpp"/>
+        <childnode refid="1981" relation="include">
+        </childnode>
+        <childnode refid="1982" relation="include">
+        </childnode>
+        <childnode refid="1983" relation="include">
+        </childnode>
+        <childnode refid="1985" relation="include">
+        </childnode>
+        <childnode refid="1986" relation="include">
+        </childnode>
+      </node>
+      <node id="1981">
+        <label>libraries/app/api.cpp</label>
+        <link refid="d5/d48/api_8cpp"/>
+      </node>
+      <node id="2000">
+        <label>libraries/plugins/market_history/market_history_api.cpp</label>
+        <link refid="df/d69/market__history__api_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d5/d62/classsteemit_1_1chain_1_1convert__request__object" prot="public">steemit::chain::convert_request_object</innerclass>
+    <innerclass refid="df/dd0/classsteemit_1_1chain_1_1escrow__object" prot="public">steemit::chain::escrow_object</innerclass>
+    <innerclass refid="d9/d04/classsteemit_1_1chain_1_1savings__withdraw__object" prot="public">steemit::chain::savings_withdraw_object</innerclass>
+    <innerclass refid="d3/d58/classsteemit_1_1chain_1_1liquidity__reward__balance__object" prot="public">steemit::chain::liquidity_reward_balance_object</innerclass>
+    <innerclass refid="d9/d87/classsteemit_1_1chain_1_1feed__history__object" prot="public">steemit::chain::feed_history_object</innerclass>
+    <innerclass refid="d8/d53/classsteemit_1_1chain_1_1limit__order__object" prot="public">steemit::chain::limit_order_object</innerclass>
+    <innerclass refid="d0/dd7/classsteemit_1_1chain_1_1withdraw__vesting__route__object" prot="public">steemit::chain::withdraw_vesting_route_object</innerclass>
+    <innerclass refid="d9/d56/classsteemit_1_1chain_1_1decline__voting__rights__request__object" prot="public">steemit::chain::decline_voting_rights_request_object</innerclass>
+    <innernamespace refid="d9/d75/namespacesteemit">steemit</innernamespace>
+    <innernamespace refid="d8/d9b/namespacesteemit_1_1chain">steemit::chain</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/chain/include/steemit/chain/steem_objects.hpp"/>
+  </compounddef>
+</doxygen>

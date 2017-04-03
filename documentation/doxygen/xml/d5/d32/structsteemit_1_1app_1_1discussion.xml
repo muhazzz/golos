@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d5/d32/structsteemit_1_1app_1_1discussion" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::app::discussion</compoundname>
+    <basecompoundref refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj" prot="public" virt="non-virtual">steemit::app::comment_api_obj</basecompoundref>
+    <includes refid="da/d3b/state_8hpp" local="no">state.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d5/d32/structsteemit_1_1app_1_1discussion_1a98781826d83708e2ac46e9c28f93d9cb" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string steemit::app::discussion::url</definition>
+        <argsstring></argsstring>
+        <name>url</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="77" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d32/structsteemit_1_1app_1_1discussion_1a6dfe04996eba6b42106c960ec1b6e234" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string steemit::app::discussion::root_title</definition>
+        <argsstring></argsstring>
+        <name>root_title</name>
+        <briefdescription>
+<para>/category//root_permlink<ref refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1a492141b34f21d65955effb3120351f73" kindref="member">author</ref>/permlink </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="78" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d32/structsteemit_1_1app_1_1discussion_1a119778fb1dfa82cea82be903b5f7c130" prot="public" static="no" mutable="no">
+        <type>asset</type>
+        <definition>asset steemit::app::discussion::pending_payout_value</definition>
+        <argsstring></argsstring>
+        <name>pending_payout_value</name>
+        <initializer>= asset(0, SBD_SYMBOL)</initializer>
+        <briefdescription>
+<para>sbd </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="79" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d32/structsteemit_1_1app_1_1discussion_1ab97cbf38ef00ba618102c8e15b1a5ad3" prot="public" static="no" mutable="no">
+        <type>asset</type>
+        <definition>asset steemit::app::discussion::total_pending_payout_value</definition>
+        <argsstring></argsstring>
+        <name>total_pending_payout_value</name>
+        <initializer>= asset(0, SBD_SYMBOL)</initializer>
+        <briefdescription>
+<para>sbd including replies </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="80" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d32/structsteemit_1_1app_1_1discussion_1a66f188128dc1a94155e503ef29709b5b" prot="public" static="no" mutable="no">
+        <type>vector&lt; <ref refid="dc/d88/structsteemit_1_1app_1_1vote__state" kindref="compound">vote_state</ref> &gt;</type>
+        <definition>vector&lt;vote_state&gt; steemit::app::discussion::active_votes</definition>
+        <argsstring></argsstring>
+        <name>active_votes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="81" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d32/structsteemit_1_1app_1_1discussion_1ad78a565360ea73b622b8eb1b33dc3c95" prot="public" static="no" mutable="no">
+        <type>vector&lt; string &gt;</type>
+        <definition>vector&lt;string&gt; steemit::app::discussion::replies</definition>
+        <argsstring></argsstring>
+        <name>replies</name>
+        <briefdescription>
+<para>author/slug mapping </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="82" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d32/structsteemit_1_1app_1_1discussion_1a0c4b24105c74dc2e88f2536899b01e12" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::app::discussion::author_reputation</definition>
+        <argsstring></argsstring>
+        <name>author_reputation</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="83" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d32/structsteemit_1_1app_1_1discussion_1acf6720d99a23d83995e3b0fc9ef7508d" prot="public" static="no" mutable="no">
+        <type>asset</type>
+        <definition>asset steemit::app::discussion::promoted</definition>
+        <argsstring></argsstring>
+        <name>promoted</name>
+        <initializer>= asset(0, SBD_SYMBOL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="84" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d32/structsteemit_1_1app_1_1discussion_1afcdc782e1f4664e015f4ee065765986d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::app::discussion::body_length</definition>
+        <argsstring></argsstring>
+        <name>body_length</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="85" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d32/structsteemit_1_1app_1_1discussion_1a3c6f6e02f9fab21600171707bd28d3d8" prot="public" static="no" mutable="no">
+        <type>vector&lt; account_name_type &gt;</type>
+        <definition>vector&lt;account_name_type&gt; steemit::app::discussion::reblogged_by</definition>
+        <argsstring></argsstring>
+        <name>reblogged_by</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="86" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d32/structsteemit_1_1app_1_1discussion_1a7bf4a90df9271fab20be2928d4b79801" prot="public" static="no" mutable="no">
+        <type>optional&lt; account_name_type &gt;</type>
+        <definition>optional&lt;account_name_type&gt; steemit::app::discussion::first_reblogged_by</definition>
+        <argsstring></argsstring>
+        <name>first_reblogged_by</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="87" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d32/structsteemit_1_1app_1_1discussion_1ab7d31f88d0d49463eedb61e0c79c72c5" prot="public" static="no" mutable="no">
+        <type>optional&lt; time_point_sec &gt;</type>
+        <definition>optional&lt;time_point_sec&gt; steemit::app::discussion::first_reblogged_on</definition>
+        <argsstring></argsstring>
+        <name>first_reblogged_on</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="88" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d32/structsteemit_1_1app_1_1discussion_1ad34c960f27340c37e4210ea51d210b89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::app::discussion::discussion</definition>
+        <argsstring>(const comment_object &amp;o)</argsstring>
+        <name>discussion</name>
+        <param>
+          <type>const <ref refid="db/d00/classsteemit_1_1chain_1_1comment__object" kindref="compound">comment_object</ref> &amp;</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="71" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="71" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d32/structsteemit_1_1app_1_1discussion_1aa70a72277e5374c7bc1fa6d60feda9c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::app::discussion::discussion</definition>
+        <argsstring>()</argsstring>
+        <name>discussion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="74" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="74" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="490">
+        <label>steemit::app::comment_api_obj</label>
+        <link refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj"/>
+      </node>
+      <node id="489">
+        <label>steemit::app::discussion</label>
+        <link refid="d5/d32/structsteemit_1_1app_1_1discussion"/>
+        <childnode refid="490" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="496">
+        <label>asset</label>
+      </node>
+      <node id="494">
+        <label>time_point_sec</label>
+      </node>
+      <node id="495">
+        <label>oid&lt; comment_object &gt;</label>
+      </node>
+      <node id="500">
+        <label>vector&lt; account_name_type &gt;</label>
+      </node>
+      <node id="502">
+        <label>vector&lt; string &gt;</label>
+      </node>
+      <node id="498">
+        <label>string</label>
+      </node>
+      <node id="497">
+        <label>account_name_type</label>
+      </node>
+      <node id="492">
+        <label>steemit::app::comment_api_obj</label>
+        <link refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj"/>
+        <childnode refid="493" relation="usage">
+          <edgelabel>children_abs_rshares</edgelabel>
+          <edgelabel>author_rewards</edgelabel>
+          <edgelabel>vote_rshares</edgelabel>
+          <edgelabel>abs_rshares</edgelabel>
+          <edgelabel>net_rshares</edgelabel>
+        </childnode>
+        <childnode refid="494" relation="usage">
+          <edgelabel>last_payout</edgelabel>
+          <edgelabel>max_cashout_time</edgelabel>
+          <edgelabel>cashout_time</edgelabel>
+          <edgelabel>last_update</edgelabel>
+          <edgelabel>created</edgelabel>
+          <edgelabel>active</edgelabel>
+        </childnode>
+        <childnode refid="495" relation="usage">
+          <edgelabel>root_comment</edgelabel>
+          <edgelabel>id</edgelabel>
+        </childnode>
+        <childnode refid="496" relation="usage">
+          <edgelabel>max_accepted_payout</edgelabel>
+          <edgelabel>curator_payout_value</edgelabel>
+          <edgelabel>total_payout_value</edgelabel>
+        </childnode>
+        <childnode refid="497" relation="usage">
+          <edgelabel>parent_author</edgelabel>
+          <edgelabel>author</edgelabel>
+        </childnode>
+        <childnode refid="498" relation="usage">
+          <edgelabel>body</edgelabel>
+          <edgelabel>json_metadata</edgelabel>
+          <edgelabel>title</edgelabel>
+          <edgelabel>category</edgelabel>
+          <edgelabel>permlink</edgelabel>
+          <edgelabel>parent_permlink</edgelabel>
+        </childnode>
+        <childnode refid="499" relation="usage">
+          <edgelabel>children_rshares2</edgelabel>
+        </childnode>
+      </node>
+      <node id="501">
+        <label>vector&lt; steemit::app::vote_state &gt;</label>
+      </node>
+      <node id="491">
+        <label>steemit::app::discussion</label>
+        <link refid="d5/d32/structsteemit_1_1app_1_1discussion"/>
+        <childnode refid="492" relation="public-inheritance">
+        </childnode>
+        <childnode refid="493" relation="usage">
+          <edgelabel>author_reputation</edgelabel>
+        </childnode>
+        <childnode refid="500" relation="usage">
+          <edgelabel>reblogged_by</edgelabel>
+        </childnode>
+        <childnode refid="501" relation="usage">
+          <edgelabel>active_votes</edgelabel>
+        </childnode>
+        <childnode refid="502" relation="usage">
+          <edgelabel>replies</edgelabel>
+        </childnode>
+        <childnode refid="496" relation="usage">
+          <edgelabel>total_pending_payout_value</edgelabel>
+          <edgelabel>promoted</edgelabel>
+          <edgelabel>pending_payout_value</edgelabel>
+        </childnode>
+        <childnode refid="498" relation="usage">
+          <edgelabel>root_title</edgelabel>
+          <edgelabel>url</edgelabel>
+        </childnode>
+      </node>
+      <node id="493">
+        <label>share_type</label>
+      </node>
+      <node id="499">
+        <label>uint128_t</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/app/include/steemit/app/state.hpp" line="70" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="70" bodyend="89"/>
+    <listofallmembers>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1a35d2d12d470f88aed9e60e76733ac6f4" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>abs_rshares</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1a02bf513cc33639a376587d56bff2106d" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>active</name></member>
+      <member refid="d5/d32/structsteemit_1_1app_1_1discussion_1a66f188128dc1a94155e503ef29709b5b" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>active_votes</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1ad823ffbb479d6d843a05059221b4249b" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>allow_curation_rewards</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1a1d92cd9b814237ad12752a392d1a13b0" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>allow_replies</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1afaedc4d6dd77c0b347fe46fe2c08ee59" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>allow_votes</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1a492141b34f21d65955effb3120351f73" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>author</name></member>
+      <member refid="d5/d32/structsteemit_1_1app_1_1discussion_1a0c4b24105c74dc2e88f2536899b01e12" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>author_reputation</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1ae880d0ac4771a48f1d550ffc69878fd3" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>author_rewards</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1a7a6269643a4b153525f31b8289c50668" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>body</name></member>
+      <member refid="d5/d32/structsteemit_1_1app_1_1discussion_1afcdc782e1f4664e015f4ee065765986d" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>body_length</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1a02e104439e53d4c2cc6bd3c9fcb4c02f" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>cashout_time</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1aaaa4bf7518ac68ae2f79e77a232fec4c" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>category</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1accf3d1e66a2a3b7a7106a6dbdbd7ec43" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>children</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1a76543ac1bfaf6a8121a10db7eabd127e" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>children_abs_rshares</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1abd8e10d798bfb6df169471355ea669db" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>children_rshares2</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1ac40110d10c46c1382a26acb39c9e1376" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>comment_api_obj</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1a249e111d4043c0fd1557f360bb59a259" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>comment_api_obj</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1ab57884f2323585a31a98bbf6e81216fc" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>created</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1ad4eb6c178f7e3624350f5f76418db656" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>curator_payout_value</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1a15784b3b5c99441cfff33c6b524ca67d" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>depth</name></member>
+      <member refid="d5/d32/structsteemit_1_1app_1_1discussion_1ad34c960f27340c37e4210ea51d210b89" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>discussion</name></member>
+      <member refid="d5/d32/structsteemit_1_1app_1_1discussion_1aa70a72277e5374c7bc1fa6d60feda9c6" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>discussion</name></member>
+      <member refid="d5/d32/structsteemit_1_1app_1_1discussion_1a7bf4a90df9271fab20be2928d4b79801" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>first_reblogged_by</name></member>
+      <member refid="d5/d32/structsteemit_1_1app_1_1discussion_1ab7d31f88d0d49463eedb61e0c79c72c5" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>first_reblogged_on</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1a471a05b0094aeb003ca303897372da2f" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>id</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1afa2f681f51a3995a4c511c13a4087811" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>json_metadata</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1a5b5f14c2f4d44a4ac0966257c4fd4f27" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>last_payout</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1a2be1fd91e06132a87e07667332089af2" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>last_update</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1a161fb99a22fffd8a1c68b28d96fe8cde" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>max_accepted_payout</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1a986c2d61086e2d0c2a92e45a10e55ace" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>max_cashout_time</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1a98a2366ef0cea1337d2742b58a25ebbe" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>mode</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1ab537261b3422dbb7e238e613a7cf653e" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>net_rshares</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1a56368dc91b22f166c9a49955db4eb015" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>net_votes</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1a3887d2a07e39f73b106ebc95f2f361ed" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>parent_author</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1a9f1540853b793da15e515467e016bfa1" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>parent_permlink</name></member>
+      <member refid="d5/d32/structsteemit_1_1app_1_1discussion_1a119778fb1dfa82cea82be903b5f7c130" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>pending_payout_value</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1a4a84a7267ab24542d13e53c35c974452" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>percent_steem_dollars</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1a96eeabbed448a5ac1736d4a0b94ca2ce" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>permlink</name></member>
+      <member refid="d5/d32/structsteemit_1_1app_1_1discussion_1acf6720d99a23d83995e3b0fc9ef7508d" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>promoted</name></member>
+      <member refid="d5/d32/structsteemit_1_1app_1_1discussion_1a3c6f6e02f9fab21600171707bd28d3d8" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>reblogged_by</name></member>
+      <member refid="d5/d32/structsteemit_1_1app_1_1discussion_1ad78a565360ea73b622b8eb1b33dc3c95" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>replies</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1a3f19e65fa18645eaa155e7f75b16c52e" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>reward_weight</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1a92375eebfac05842968ff25f16f1bc6a" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>root_comment</name></member>
+      <member refid="d5/d32/structsteemit_1_1app_1_1discussion_1a6dfe04996eba6b42106c960ec1b6e234" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>root_title</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1ac4ab706286fd8e08011a9448a2326cf2" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>title</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1a342939ae95421564be9558b4d7b4c9ee" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>total_payout_value</name></member>
+      <member refid="d5/d32/structsteemit_1_1app_1_1discussion_1ab97cbf38ef00ba618102c8e15b1a5ad3" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>total_pending_payout_value</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1aafa9a2ff206f8b5290ba7b5aba827b09" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>total_vote_weight</name></member>
+      <member refid="d5/d32/structsteemit_1_1app_1_1discussion_1a98781826d83708e2ac46e9c28f93d9cb" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>url</name></member>
+      <member refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj_1a884cb90b4f5a1de0858def84d2a8cf03" prot="public" virt="non-virtual"><scope>steemit::app::discussion</scope><name>vote_rshares</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

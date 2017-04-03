@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d1/d9d/structsteemit_1_1follow_1_1follow__api__obj" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::follow::follow_api_obj</compoundname>
+    <includes refid="da/dcd/follow__api_8hpp" local="no">follow_api.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d1/d9d/structsteemit_1_1follow_1_1follow__api__obj_1a70c244cee2534e544c20198fcd9e5884" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string steemit::follow::follow_api_obj::follower</definition>
+        <argsstring></argsstring>
+        <name>follower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/follow/include/steemit/follow/follow_api.hpp" line="53" column="1" bodyfile="libraries/plugins/follow/include/steemit/follow/follow_api.hpp" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d9d/structsteemit_1_1follow_1_1follow__api__obj_1a9756aa392b88decd00988d4477d1b417" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string steemit::follow::follow_api_obj::following</definition>
+        <argsstring></argsstring>
+        <name>following</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/follow/include/steemit/follow/follow_api.hpp" line="54" column="1" bodyfile="libraries/plugins/follow/include/steemit/follow/follow_api.hpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d9d/structsteemit_1_1follow_1_1follow__api__obj_1a439d36ef269af5bfa1807f702a976586" prot="public" static="no" mutable="no">
+        <type>vector&lt; <ref refid="d0/d38/namespacesteemit_1_1follow_1aacb5f04391918d7b1d97155bebd0c3c4" kindref="member">follow_type</ref> &gt;</type>
+        <definition>vector&lt;follow_type&gt; steemit::follow::follow_api_obj::what</definition>
+        <argsstring></argsstring>
+        <name>what</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/follow/include/steemit/follow/follow_api.hpp" line="55" column="1" bodyfile="libraries/plugins/follow/include/steemit/follow/follow_api.hpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="605">
+        <label>string</label>
+      </node>
+      <node id="603">
+        <label>steemit::follow::follow_api_obj</label>
+        <link refid="d1/d9d/structsteemit_1_1follow_1_1follow__api__obj"/>
+        <childnode refid="604" relation="usage">
+          <edgelabel>what</edgelabel>
+        </childnode>
+        <childnode refid="605" relation="usage">
+          <edgelabel>following</edgelabel>
+          <edgelabel>follower</edgelabel>
+        </childnode>
+      </node>
+      <node id="604">
+        <label>vector&lt; follow_type &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/follow/include/steemit/follow/follow_api.hpp" line="52" column="1" bodyfile="libraries/plugins/follow/include/steemit/follow/follow_api.hpp" bodystart="52" bodyend="56"/>
+    <listofallmembers>
+      <member refid="d1/d9d/structsteemit_1_1follow_1_1follow__api__obj_1a70c244cee2534e544c20198fcd9e5884" prot="public" virt="non-virtual"><scope>steemit::follow::follow_api_obj</scope><name>follower</name></member>
+      <member refid="d1/d9d/structsteemit_1_1follow_1_1follow__api__obj_1a9756aa392b88decd00988d4477d1b417" prot="public" virt="non-virtual"><scope>steemit::follow::follow_api_obj</scope><name>following</name></member>
+      <member refid="d1/d9d/structsteemit_1_1follow_1_1follow__api__obj_1a439d36ef269af5bfa1807f702a976586" prot="public" virt="non-virtual"><scope>steemit::follow::follow_api_obj</scope><name>what</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

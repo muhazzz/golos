@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_81976575ddedda923c9e46f31a54ff0e" kind="dir">
+    <compoundname>libraries/plugins/follow/include/steemit/follow</compoundname>
+    <innerfile refid="da/dcd/follow__api_8hpp">follow_api.hpp</innerfile>
+    <innerfile refid="db/d30/follow__objects_8hpp">follow_objects.hpp</innerfile>
+    <innerfile refid="d2/d3c/follow__operations_8hpp">follow_operations.hpp</innerfile>
+    <innerfile refid="d9/d98/follow__plugin_8hpp">follow_plugin.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/follow/include/steemit/follow/"/>
+  </compounddef>
+</doxygen>

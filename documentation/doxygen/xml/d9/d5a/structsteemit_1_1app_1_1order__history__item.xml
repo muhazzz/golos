@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d9/d5a/structsteemit_1_1app_1_1order__history__item" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::app::order_history_item</compoundname>
+    <includes refid="da/d3b/state_8hpp" local="no">state.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d9/d5a/structsteemit_1_1app_1_1order__history__item_1a308d3e5782875ca85d54f80b5083bb54" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::app::order_history_item::time</definition>
+        <argsstring></argsstring>
+        <name>time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="135" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d5a/structsteemit_1_1app_1_1order__history__item_1ab3227dcef01ed60e956870075ab5ac8d" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string steemit::app::order_history_item::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="136" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d5a/structsteemit_1_1app_1_1order__history__item_1a12fa73ee37c9ebb3619565455b7d3153" prot="public" static="no" mutable="no">
+        <type>asset</type>
+        <definition>asset steemit::app::order_history_item::sbd_quantity</definition>
+        <argsstring></argsstring>
+        <name>sbd_quantity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="137" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d5a/structsteemit_1_1app_1_1order__history__item_1afebbe2b592aa2b61e042f92c752cc0c8" prot="public" static="no" mutable="no">
+        <type>asset</type>
+        <definition>asset steemit::app::order_history_item::steem_quantity</definition>
+        <argsstring></argsstring>
+        <name>steem_quantity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="138" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d5a/structsteemit_1_1app_1_1order__history__item_1a64c940adf75af73e34d244bf11137138" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double steemit::app::order_history_item::real_price</definition>
+        <argsstring></argsstring>
+        <name>real_price</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="139" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="858">
+        <label>asset</label>
+      </node>
+      <node id="857">
+        <label>time_point_sec</label>
+      </node>
+      <node id="859">
+        <label>string</label>
+      </node>
+      <node id="856">
+        <label>steemit::app::order_history_item</label>
+        <link refid="d9/d5a/structsteemit_1_1app_1_1order__history__item"/>
+        <childnode refid="857" relation="usage">
+          <edgelabel>time</edgelabel>
+        </childnode>
+        <childnode refid="858" relation="usage">
+          <edgelabel>sbd_quantity</edgelabel>
+          <edgelabel>steem_quantity</edgelabel>
+        </childnode>
+        <childnode refid="859" relation="usage">
+          <edgelabel>type</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/app/include/steemit/app/state.hpp" line="134" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="134" bodyend="140"/>
+    <listofallmembers>
+      <member refid="d9/d5a/structsteemit_1_1app_1_1order__history__item_1a64c940adf75af73e34d244bf11137138" prot="public" virt="non-virtual"><scope>steemit::app::order_history_item</scope><name>real_price</name></member>
+      <member refid="d9/d5a/structsteemit_1_1app_1_1order__history__item_1a12fa73ee37c9ebb3619565455b7d3153" prot="public" virt="non-virtual"><scope>steemit::app::order_history_item</scope><name>sbd_quantity</name></member>
+      <member refid="d9/d5a/structsteemit_1_1app_1_1order__history__item_1afebbe2b592aa2b61e042f92c752cc0c8" prot="public" virt="non-virtual"><scope>steemit::app::order_history_item</scope><name>steem_quantity</name></member>
+      <member refid="d9/d5a/structsteemit_1_1app_1_1order__history__item_1a308d3e5782875ca85d54f80b5083bb54" prot="public" virt="non-virtual"><scope>steemit::app::order_history_item</scope><name>time</name></member>
+      <member refid="d9/d5a/structsteemit_1_1app_1_1order__history__item_1ab3227dcef01ed60e956870075ab5ac8d" prot="public" virt="non-virtual"><scope>steemit::app::order_history_item</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

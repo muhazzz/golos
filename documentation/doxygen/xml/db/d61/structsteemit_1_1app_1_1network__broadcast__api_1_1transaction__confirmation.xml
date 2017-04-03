@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="db/d61/structsteemit_1_1app_1_1network__broadcast__api_1_1transaction__confirmation" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::app::network_broadcast_api::transaction_confirmation</compoundname>
+    <includes refid="d4/df0/api_8hpp" local="no">api.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="db/d61/structsteemit_1_1app_1_1network__broadcast__api_1_1transaction__confirmation_1a4c0ec2f96988e4dc01396dc4f576cdee" prot="public" static="no" mutable="no">
+        <type>transaction_id_type</type>
+        <definition>transaction_id_type steemit::app::network_broadcast_api::transaction_confirmation::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/api.hpp" line="67" column="1" bodyfile="libraries/app/include/steemit/app/api.hpp" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d61/structsteemit_1_1app_1_1network__broadcast__api_1_1transaction__confirmation_1acc52bcb54f81198561a5960ff51a1a12" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t steemit::app::network_broadcast_api::transaction_confirmation::block_num</definition>
+        <argsstring></argsstring>
+        <name>block_num</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/api.hpp" line="68" column="1" bodyfile="libraries/app/include/steemit/app/api.hpp" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d61/structsteemit_1_1app_1_1network__broadcast__api_1_1transaction__confirmation_1a9b307868da398a4239c17668b1c71667" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t steemit::app::network_broadcast_api::transaction_confirmation::trx_num</definition>
+        <argsstring></argsstring>
+        <name>trx_num</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/api.hpp" line="69" column="1" bodyfile="libraries/app/include/steemit/app/api.hpp" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d61/structsteemit_1_1app_1_1network__broadcast__api_1_1transaction__confirmation_1af89380de95c529e7e78612f6fe2b385f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool steemit::app::network_broadcast_api::transaction_confirmation::expired</definition>
+        <argsstring></argsstring>
+        <name>expired</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/api.hpp" line="70" column="1" bodyfile="libraries/app/include/steemit/app/api.hpp" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d61/structsteemit_1_1app_1_1network__broadcast__api_1_1transaction__confirmation_1a8b290d52d7c70101f41e53001118b1c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::app::network_broadcast_api::transaction_confirmation::transaction_confirmation</definition>
+        <argsstring>(transaction_id_type txid, int32_t bn, int32_t tn, bool ex)</argsstring>
+        <name>transaction_confirmation</name>
+        <param>
+          <type>transaction_id_type</type>
+          <declname>txid</declname>
+        </param>
+        <param>
+          <type>int32_t</type>
+          <declname>bn</declname>
+        </param>
+        <param>
+          <type>int32_t</type>
+          <declname>tn</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/api.hpp" line="63" column="1" bodyfile="libraries/app/include/steemit/app/api.hpp" bodystart="63" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1091">
+        <label>steemit::app::network_broadcast_api::transaction_confirmation</label>
+        <link refid="db/d61/structsteemit_1_1app_1_1network__broadcast__api_1_1transaction__confirmation"/>
+        <childnode refid="1092" relation="usage">
+          <edgelabel>id</edgelabel>
+        </childnode>
+      </node>
+      <node id="1092">
+        <label>transaction_id_type</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/app/include/steemit/app/api.hpp" line="62" column="1" bodyfile="libraries/app/include/steemit/app/api.hpp" bodystart="62" bodyend="71"/>
+    <listofallmembers>
+      <member refid="db/d61/structsteemit_1_1app_1_1network__broadcast__api_1_1transaction__confirmation_1acc52bcb54f81198561a5960ff51a1a12" prot="public" virt="non-virtual"><scope>steemit::app::network_broadcast_api::transaction_confirmation</scope><name>block_num</name></member>
+      <member refid="db/d61/structsteemit_1_1app_1_1network__broadcast__api_1_1transaction__confirmation_1af89380de95c529e7e78612f6fe2b385f" prot="public" virt="non-virtual"><scope>steemit::app::network_broadcast_api::transaction_confirmation</scope><name>expired</name></member>
+      <member refid="db/d61/structsteemit_1_1app_1_1network__broadcast__api_1_1transaction__confirmation_1a4c0ec2f96988e4dc01396dc4f576cdee" prot="public" virt="non-virtual"><scope>steemit::app::network_broadcast_api::transaction_confirmation</scope><name>id</name></member>
+      <member refid="db/d61/structsteemit_1_1app_1_1network__broadcast__api_1_1transaction__confirmation_1a8b290d52d7c70101f41e53001118b1c2" prot="public" virt="non-virtual"><scope>steemit::app::network_broadcast_api::transaction_confirmation</scope><name>transaction_confirmation</name></member>
+      <member refid="db/d61/structsteemit_1_1app_1_1network__broadcast__api_1_1transaction__confirmation_1a9b307868da398a4239c17668b1c71667" prot="public" virt="non-virtual"><scope>steemit::app::network_broadcast_api::transaction_confirmation</scope><name>trx_num</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

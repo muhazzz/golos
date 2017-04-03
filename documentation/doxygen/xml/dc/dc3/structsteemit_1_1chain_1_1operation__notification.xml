@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dc/dc3/structsteemit_1_1chain_1_1operation__notification" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::chain::operation_notification</compoundname>
+    <includes refid="d5/d9c/operation__notification_8hpp" local="no">operation_notification.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="dc/dc3/structsteemit_1_1chain_1_1operation__notification_1a612adaeea421eb9bd128e0077097b900" prot="public" static="no" mutable="no">
+        <type>transaction_id_type</type>
+        <definition>transaction_id_type steemit::chain::operation_notification::trx_id</definition>
+        <argsstring></argsstring>
+        <name>trx_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/operation_notification.hpp" line="14" column="1" bodyfile="libraries/chain/include/steemit/chain/operation_notification.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/dc3/structsteemit_1_1chain_1_1operation__notification_1a48c6bfc4ba3b92bc03f4b0b110ef308f" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::chain::operation_notification::block</definition>
+        <argsstring></argsstring>
+        <name>block</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/operation_notification.hpp" line="15" column="1" bodyfile="libraries/chain/include/steemit/chain/operation_notification.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/dc3/structsteemit_1_1chain_1_1operation__notification_1a7ed44cc0c2b7edb0a5b98d1edb582533" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::chain::operation_notification::trx_in_block</definition>
+        <argsstring></argsstring>
+        <name>trx_in_block</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/operation_notification.hpp" line="16" column="1" bodyfile="libraries/chain/include/steemit/chain/operation_notification.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/dc3/structsteemit_1_1chain_1_1operation__notification_1ad052bd454fa96a360623f78f8657dc06" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t steemit::chain::operation_notification::op_in_trx</definition>
+        <argsstring></argsstring>
+        <name>op_in_trx</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/operation_notification.hpp" line="17" column="1" bodyfile="libraries/chain/include/steemit/chain/operation_notification.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/dc3/structsteemit_1_1chain_1_1operation__notification_1a498ee2e6f2df60ae561818de05298279" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t steemit::chain::operation_notification::virtual_op</definition>
+        <argsstring></argsstring>
+        <name>virtual_op</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/operation_notification.hpp" line="18" column="1" bodyfile="libraries/chain/include/steemit/chain/operation_notification.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/dc3/structsteemit_1_1chain_1_1operation__notification_1a89bc8d6e5d9feadc42fadb565c73b21b" prot="public" static="no" mutable="no">
+        <type>const operation &amp;</type>
+        <definition>const operation&amp; steemit::chain::operation_notification::op</definition>
+        <argsstring></argsstring>
+        <name>op</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/operation_notification.hpp" line="19" column="1" bodyfile="libraries/chain/include/steemit/chain/operation_notification.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/dc3/structsteemit_1_1chain_1_1operation__notification_1a93a2a45fdaac699b50226c61545e0854" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::chain::operation_notification::operation_notification</definition>
+        <argsstring>(const operation &amp;o)</argsstring>
+        <name>operation_notification</name>
+        <param>
+          <type>const operation &amp;</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/operation_notification.hpp" line="11" column="1" bodyfile="libraries/chain/include/steemit/chain/operation_notification.hpp" bodystart="11" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="774">
+        <label>steemit::chain::operation_notification</label>
+        <link refid="dc/dc3/structsteemit_1_1chain_1_1operation__notification"/>
+        <childnode refid="775" relation="usage">
+          <edgelabel>op</edgelabel>
+        </childnode>
+        <childnode refid="776" relation="usage">
+          <edgelabel>trx_id</edgelabel>
+        </childnode>
+      </node>
+      <node id="776">
+        <label>transaction_id_type</label>
+      </node>
+      <node id="775">
+        <label>operation</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/chain/include/steemit/chain/operation_notification.hpp" line="10" column="1" bodyfile="libraries/chain/include/steemit/chain/operation_notification.hpp" bodystart="10" bodyend="20"/>
+    <listofallmembers>
+      <member refid="dc/dc3/structsteemit_1_1chain_1_1operation__notification_1a48c6bfc4ba3b92bc03f4b0b110ef308f" prot="public" virt="non-virtual"><scope>steemit::chain::operation_notification</scope><name>block</name></member>
+      <member refid="dc/dc3/structsteemit_1_1chain_1_1operation__notification_1a89bc8d6e5d9feadc42fadb565c73b21b" prot="public" virt="non-virtual"><scope>steemit::chain::operation_notification</scope><name>op</name></member>
+      <member refid="dc/dc3/structsteemit_1_1chain_1_1operation__notification_1ad052bd454fa96a360623f78f8657dc06" prot="public" virt="non-virtual"><scope>steemit::chain::operation_notification</scope><name>op_in_trx</name></member>
+      <member refid="dc/dc3/structsteemit_1_1chain_1_1operation__notification_1a93a2a45fdaac699b50226c61545e0854" prot="public" virt="non-virtual"><scope>steemit::chain::operation_notification</scope><name>operation_notification</name></member>
+      <member refid="dc/dc3/structsteemit_1_1chain_1_1operation__notification_1a612adaeea421eb9bd128e0077097b900" prot="public" virt="non-virtual"><scope>steemit::chain::operation_notification</scope><name>trx_id</name></member>
+      <member refid="dc/dc3/structsteemit_1_1chain_1_1operation__notification_1a7ed44cc0c2b7edb0a5b98d1edb582533" prot="public" virt="non-virtual"><scope>steemit::chain::operation_notification</scope><name>trx_in_block</name></member>
+      <member refid="dc/dc3/structsteemit_1_1chain_1_1operation__notification_1a498ee2e6f2df60ae561818de05298279" prot="public" virt="non-virtual"><scope>steemit::chain::operation_notification</scope><name>virtual_op</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

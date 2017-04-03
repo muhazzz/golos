@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="da/d3f/classsteemit_1_1chain_1_1custom__operation__interpreter" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>steemit::chain::custom_operation_interpreter</compoundname>
+    <derivedcompoundref refid="dc/dee/classsteemit_1_1chain_1_1generic__custom__operation__interpreter" prot="public" virt="non-virtual">steemit::chain::generic_custom_operation_interpreter&lt; CustomOperationType &gt;</derivedcompoundref>
+    <includes refid="dd/d9e/custom__operation__interpreter_8hpp" local="no">custom_operation_interpreter.hpp</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d3f/classsteemit_1_1chain_1_1custom__operation__interpreter_1aca9cd871b61b1683cd9d6b39f3bfb2de" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void steemit::chain::custom_operation_interpreter::apply</definition>
+        <argsstring>(const protocol::custom_json_operation &amp;op)=0</argsstring>
+        <name>apply</name>
+        <reimplementedby refid="dc/dee/classsteemit_1_1chain_1_1generic__custom__operation__interpreter_1a70921c036cf6fa6b8d61bbe428f13b5f">apply</reimplementedby>
+        <param>
+          <type>const protocol::custom_json_operation &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/custom_operation_interpreter.hpp" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3f/classsteemit_1_1chain_1_1custom__operation__interpreter_1aa5b6247041b690d04c27c7a6fe5a3653" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void steemit::chain::custom_operation_interpreter::apply</definition>
+        <argsstring>(const protocol::custom_binary_operation &amp;op)=0</argsstring>
+        <name>apply</name>
+        <reimplementedby refid="dc/dee/classsteemit_1_1chain_1_1generic__custom__operation__interpreter_1a57dff3ba8dd05fa476ad8d590bb59887">apply</reimplementedby>
+        <param>
+          <type>const protocol::custom_binary_operation &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/custom_operation_interpreter.hpp" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3f/classsteemit_1_1chain_1_1custom__operation__interpreter_1aa8d79522a033af83368a33aaa26ac69d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::shared_ptr&lt; graphene::schema::abstract_schema &gt;</type>
+        <definition>virtual std::shared_ptr&lt;graphene::schema::abstract_schema&gt; steemit::chain::custom_operation_interpreter::get_operation_schema</definition>
+        <argsstring>()=0</argsstring>
+        <name>get_operation_schema</name>
+        <reimplementedby refid="dc/dee/classsteemit_1_1chain_1_1generic__custom__operation__interpreter_1a47e167c541a82d495c66d289e40a967c">get_operation_schema</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/custom_operation_interpreter.hpp" line="27" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="422">
+        <label>steemit::chain::custom_operation_interpreter</label>
+        <link refid="da/d3f/classsteemit_1_1chain_1_1custom__operation__interpreter"/>
+      </node>
+      <node id="423">
+        <label>steemit::chain::generic_custom_operation_interpreter&lt; CustomOperationType &gt;</label>
+        <link refid="dc/dee/classsteemit_1_1chain_1_1generic__custom__operation__interpreter"/>
+        <childnode refid="422" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="libraries/chain/include/steemit/chain/custom_operation_interpreter.hpp" line="21" column="1" bodyfile="libraries/chain/include/steemit/chain/custom_operation_interpreter.hpp" bodystart="21" bodyend="28"/>
+    <listofallmembers>
+      <member refid="da/d3f/classsteemit_1_1chain_1_1custom__operation__interpreter_1aca9cd871b61b1683cd9d6b39f3bfb2de" prot="public" virt="pure-virtual"><scope>steemit::chain::custom_operation_interpreter</scope><name>apply</name></member>
+      <member refid="da/d3f/classsteemit_1_1chain_1_1custom__operation__interpreter_1aa5b6247041b690d04c27c7a6fe5a3653" prot="public" virt="pure-virtual"><scope>steemit::chain::custom_operation_interpreter</scope><name>apply</name></member>
+      <member refid="da/d3f/classsteemit_1_1chain_1_1custom__operation__interpreter_1aa8d79522a033af83368a33aaa26ac69d" prot="public" virt="pure-virtual"><scope>steemit::chain::custom_operation_interpreter</scope><name>get_operation_schema</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

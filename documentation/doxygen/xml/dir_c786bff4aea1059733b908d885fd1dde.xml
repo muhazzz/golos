@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_c786bff4aea1059733b908d885fd1dde" kind="dir">
+    <compoundname>libraries/plugins/delayed_node/include/steemit/delayed_node</compoundname>
+    <innerfile refid="d8/dd4/delayed__node__plugin_8hpp">delayed_node_plugin.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/delayed_node/include/steemit/delayed_node/"/>
+  </compounddef>
+</doxygen>

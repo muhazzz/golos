@@ -1,0 +1,386 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="df/d69/market__history__api_8cpp" kind="file" language="C++">
+    <compoundname>market_history_api.cpp</compoundname>
+    <includes refid="d5/d95/market__history__api_8hpp" local="no">steemit/market_history/market_history_api.hpp</includes>
+    <includes refid="da/d8c/steem__objects_8hpp" local="no">steemit/chain/steem_objects.hpp</includes>
+    <incdepgraph>
+      <node id="4275">
+        <label>boost/multi_index/ordered_index.hpp</label>
+      </node>
+      <node id="4284">
+        <label>steemit/protocol/block.hpp</label>
+      </node>
+      <node id="4266">
+        <label>steemit/app/api_context.hpp</label>
+        <link refid="d9/d64/api__context_8hpp"/>
+        <childnode refid="4263" relation="include">
+        </childnode>
+        <childnode refid="4264" relation="include">
+        </childnode>
+        <childnode refid="4267" relation="include">
+        </childnode>
+        <childnode refid="4268" relation="include">
+        </childnode>
+      </node>
+      <node id="4262">
+        <label>fc/reflect/reflect.hpp</label>
+      </node>
+      <node id="4288">
+        <label>steemit/protocol/protocol.hpp</label>
+      </node>
+      <node id="4311">
+        <label>steemit/chain/shared_authority.hpp</label>
+        <link refid="df/dd8/shared__authority_8hpp"/>
+        <childnode refid="4279" relation="include">
+        </childnode>
+        <childnode refid="4312" relation="include">
+        </childnode>
+      </node>
+      <node id="4298">
+        <label>fc/io/json.hpp</label>
+      </node>
+      <node id="4282">
+        <label>steemit/chain/node_property_object.hpp</label>
+        <link refid="d0/d72/node__property__object_8hpp"/>
+      </node>
+      <node id="4278">
+        <label>steemit/protocol/types.hpp</label>
+      </node>
+      <node id="4312">
+        <label>boost/interprocess/managed_mapped_file.hpp</label>
+      </node>
+      <node id="4279">
+        <label>steemit/protocol/authority.hpp</label>
+      </node>
+      <node id="4310">
+        <label>fc/fixed_string.hpp</label>
+      </node>
+      <node id="4300">
+        <label>fc/unique_ptr.hpp</label>
+      </node>
+      <node id="4306">
+        <label>boost/multiprecision/cpp_int.hpp</label>
+      </node>
+      <node id="4313">
+        <label>numeric</label>
+      </node>
+      <node id="4286">
+        <label>steemit/chain/block_log.hpp</label>
+        <link refid="db/dfa/block__log_8hpp"/>
+        <childnode refid="4287" relation="include">
+        </childnode>
+        <childnode refid="4284" relation="include">
+        </childnode>
+      </node>
+      <node id="4289">
+        <label>fc/signals.hpp</label>
+      </node>
+      <node id="4264">
+        <label>string</label>
+      </node>
+      <node id="4263">
+        <label>map</label>
+      </node>
+      <node id="4293">
+        <label>fc/rpc/websocket_api.hpp</label>
+      </node>
+      <node id="4281">
+        <label>steemit/chain/hardfork.hpp</label>
+      </node>
+      <node id="4287">
+        <label>fc/filesystem.hpp</label>
+      </node>
+      <node id="4272">
+        <label>steemit/chain/steem_object_types.hpp</label>
+        <link refid="d6/dd8/steem__object__types_8hpp"/>
+        <childnode refid="4273" relation="include">
+        </childnode>
+        <childnode refid="4274" relation="include">
+        </childnode>
+        <childnode refid="4275" relation="include">
+        </childnode>
+        <childnode refid="4276" relation="include">
+        </childnode>
+        <childnode refid="4277" relation="include">
+        </childnode>
+        <childnode refid="4278" relation="include">
+        </childnode>
+        <childnode refid="4279" relation="include">
+        </childnode>
+      </node>
+      <node id="4283">
+        <label>steemit/chain/fork_database.hpp</label>
+        <link refid="d2/d8c/fork__database_8hpp"/>
+        <childnode refid="4284" relation="include">
+        </childnode>
+        <childnode refid="4273" relation="include">
+        </childnode>
+        <childnode refid="4274" relation="include">
+        </childnode>
+        <childnode refid="4275" relation="include">
+        </childnode>
+        <childnode refid="4285" relation="include">
+        </childnode>
+        <childnode refid="4276" relation="include">
+        </childnode>
+      </node>
+      <node id="4294">
+        <label>boost/program_options.hpp</label>
+      </node>
+      <node id="4305">
+        <label>steemit/protocol/steem_operations.hpp</label>
+      </node>
+      <node id="4308">
+        <label>steemit/chain/witness_objects.hpp</label>
+        <link refid="de/d8f/witness__objects_8hpp"/>
+        <childnode refid="4279" relation="include">
+        </childnode>
+        <childnode refid="4305" relation="include">
+        </childnode>
+        <childnode refid="4272" relation="include">
+        </childnode>
+        <childnode refid="4303" relation="include">
+        </childnode>
+      </node>
+      <node id="4277">
+        <label>chainbase/chainbase.hpp</label>
+      </node>
+      <node id="4290">
+        <label>fc/log/logger.hpp</label>
+      </node>
+      <node id="4309">
+        <label>steemit/chain/account_object.hpp</label>
+        <link refid="d3/df9/account__object_8hpp"/>
+        <childnode refid="4310" relation="include">
+        </childnode>
+        <childnode refid="4279" relation="include">
+        </childnode>
+        <childnode refid="4305" relation="include">
+        </childnode>
+        <childnode refid="4272" relation="include">
+        </childnode>
+        <childnode refid="4308" relation="include">
+        </childnode>
+        <childnode refid="4311" relation="include">
+        </childnode>
+        <childnode refid="4303" relation="include">
+        </childnode>
+        <childnode refid="4313" relation="include">
+        </childnode>
+      </node>
+      <node id="4297">
+        <label>steemit/protocol/operations.hpp</label>
+      </node>
+      <node id="4299">
+        <label>fc/static_variant.hpp</label>
+      </node>
+      <node id="4301">
+        <label>fc/vector.hpp</label>
+      </node>
+      <node id="4291">
+        <label>graphene/net/node.hpp</label>
+      </node>
+      <node id="4261">
+        <label>steemit/app/api_access.hpp</label>
+        <link refid="db/d81/api__access_8hpp"/>
+        <childnode refid="4262" relation="include">
+        </childnode>
+        <childnode refid="4263" relation="include">
+        </childnode>
+        <childnode refid="4264" relation="include">
+        </childnode>
+        <childnode refid="4265" relation="include">
+        </childnode>
+      </node>
+      <node id="4260">
+        <label>steemit/app/application.hpp</label>
+        <link refid="d4/d01/application_8hpp"/>
+        <childnode refid="4261" relation="include">
+        </childnode>
+        <childnode refid="4266" relation="include">
+        </childnode>
+        <childnode refid="4269" relation="include">
+        </childnode>
+        <childnode refid="4291" relation="include">
+        </childnode>
+        <childnode refid="4268" relation="include">
+        </childnode>
+        <childnode refid="4292" relation="include">
+        </childnode>
+        <childnode refid="4293" relation="include">
+        </childnode>
+        <childnode refid="4294" relation="include">
+        </childnode>
+      </node>
+      <node id="4295">
+        <label>steemit/chain/evaluator.hpp</label>
+        <link refid="d0/da6/evaluator_8hpp"/>
+        <childnode refid="4296" relation="include">
+        </childnode>
+        <childnode refid="4297" relation="include">
+        </childnode>
+      </node>
+      <node id="4257">
+        <label>steemit/market_history/market_history_api.hpp</label>
+        <link refid="d5/d95/market__history__api_8hpp"/>
+        <childnode refid="4258" relation="include">
+        </childnode>
+        <childnode refid="4278" relation="include">
+        </childnode>
+        <childnode refid="4268" relation="include">
+        </childnode>
+      </node>
+      <node id="4265">
+        <label>vector</label>
+      </node>
+      <node id="4270">
+        <label>steemit/chain/global_property_object.hpp</label>
+        <link refid="d2/d78/global__property__object_8hpp"/>
+        <childnode refid="4271" relation="include">
+        </childnode>
+        <childnode refid="4272" relation="include">
+        </childnode>
+        <childnode refid="4280" relation="include">
+        </childnode>
+      </node>
+      <node id="4280">
+        <label>steemit/protocol/asset.hpp</label>
+      </node>
+      <node id="4267">
+        <label>utility</label>
+      </node>
+      <node id="4285">
+        <label>boost/multi_index/hashed_index.hpp</label>
+      </node>
+      <node id="4303">
+        <label>boost/multi_index/composite_key.hpp</label>
+      </node>
+      <node id="4258">
+        <label>steemit/market_history/market_history_plugin.hpp</label>
+        <link refid="db/d6f/market__history__plugin_8hpp"/>
+        <childnode refid="4259" relation="include">
+        </childnode>
+        <childnode refid="4272" relation="include">
+        </childnode>
+        <childnode refid="4303" relation="include">
+        </childnode>
+      </node>
+      <node id="4274">
+        <label>boost/multi_index/member.hpp</label>
+      </node>
+      <node id="4273">
+        <label>boost/multi_index_container.hpp</label>
+      </node>
+      <node id="4292">
+        <label>fc/rpc/api_connection.hpp</label>
+      </node>
+      <node id="4304">
+        <label>steemit/chain/steem_objects.hpp</label>
+        <link refid="da/d8c/steem__objects_8hpp"/>
+        <childnode refid="4279" relation="include">
+        </childnode>
+        <childnode refid="4305" relation="include">
+        </childnode>
+        <childnode refid="4272" relation="include">
+        </childnode>
+        <childnode refid="4303" relation="include">
+        </childnode>
+        <childnode refid="4306" relation="include">
+        </childnode>
+        <childnode refid="4307" relation="include">
+        </childnode>
+        <childnode refid="4309" relation="include">
+        </childnode>
+      </node>
+      <node id="4307">
+        <label>steemit/chain/comment_object.hpp</label>
+        <link refid="d3/d98/comment__object_8hpp"/>
+        <childnode refid="4279" relation="include">
+        </childnode>
+        <childnode refid="4305" relation="include">
+        </childnode>
+        <childnode refid="4272" relation="include">
+        </childnode>
+        <childnode refid="4308" relation="include">
+        </childnode>
+        <childnode refid="4303" relation="include">
+        </childnode>
+      </node>
+      <node id="4259">
+        <label>steemit/app/plugin.hpp</label>
+        <link refid="d1/dab/plugin_8hpp"/>
+        <childnode refid="4260" relation="include">
+        </childnode>
+        <childnode refid="4295" relation="include">
+        </childnode>
+        <childnode refid="4294" relation="include">
+        </childnode>
+        <childnode refid="4298" relation="include">
+        </childnode>
+        <childnode refid="4299" relation="include">
+        </childnode>
+        <childnode refid="4300" relation="include">
+        </childnode>
+        <childnode refid="4301" relation="include">
+        </childnode>
+        <childnode refid="4302" relation="include">
+        </childnode>
+      </node>
+      <node id="4271">
+        <label>fc/uint128.hpp</label>
+      </node>
+      <node id="4276">
+        <label>boost/multi_index/mem_fun.hpp</label>
+      </node>
+      <node id="4269">
+        <label>steemit/chain/database.hpp</label>
+        <link refid="df/da2/database_8hpp"/>
+        <childnode refid="4270" relation="include">
+        </childnode>
+        <childnode refid="4281" relation="include">
+        </childnode>
+        <childnode refid="4282" relation="include">
+        </childnode>
+        <childnode refid="4283" relation="include">
+        </childnode>
+        <childnode refid="4286" relation="include">
+        </childnode>
+        <childnode refid="4288" relation="include">
+        </childnode>
+        <childnode refid="4289" relation="include">
+        </childnode>
+        <childnode refid="4290" relation="include">
+        </childnode>
+        <childnode refid="4263" relation="include">
+        </childnode>
+      </node>
+      <node id="4302">
+        <label>memory</label>
+      </node>
+      <node id="4256">
+        <label>libraries/plugins/market_history/market_history_api.cpp</label>
+        <link refid="df/d69/market__history__api_8cpp"/>
+        <childnode refid="4257" relation="include">
+        </childnode>
+        <childnode refid="4304" relation="include">
+        </childnode>
+      </node>
+      <node id="4268">
+        <label>fc/api.hpp</label>
+      </node>
+      <node id="4296">
+        <label>steemit/protocol/exceptions.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="d6/d37/classsteemit_1_1market__history_1_1detail_1_1market__history__api__impl" prot="public">steemit::market_history::detail::market_history_api_impl</innerclass>
+    <innernamespace refid="d9/d75/namespacesteemit">steemit</innernamespace>
+    <innernamespace refid="da/db7/namespacesteemit_1_1market__history">steemit::market_history</innernamespace>
+    <innernamespace refid="dc/ddb/namespacesteemit_1_1market__history_1_1detail">steemit::market_history::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/market_history/market_history_api.cpp"/>
+  </compounddef>
+</doxygen>

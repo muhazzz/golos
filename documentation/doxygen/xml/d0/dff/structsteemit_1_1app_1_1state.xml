@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d0/dff/structsteemit_1_1app_1_1state" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::app::state</compoundname>
+    <includes refid="da/d3b/state_8hpp" local="no">state.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d0/dff/structsteemit_1_1app_1_1state_1a4518f3a123d84bdf8decd882b4244355" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string steemit::app::state::current_route</definition>
+        <argsstring></argsstring>
+        <name>current_route</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="157" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/dff/structsteemit_1_1app_1_1state_1ae5e46ebe27412d077eccb6a7e67f6320" prot="public" static="no" mutable="no">
+        <type><ref refid="df/d55/namespacesteemit_1_1app_1ae11bc8c13f6f1de6f093122ce6a22c50" kindref="member">dynamic_global_property_api_obj</ref></type>
+        <definition>dynamic_global_property_api_obj steemit::app::state::props</definition>
+        <argsstring></argsstring>
+        <name>props</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="159" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/dff/structsteemit_1_1app_1_1state_1a77b8fdb9a14c873637d10fe2c63ab351" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/ddf/structsteemit_1_1app_1_1category__index" kindref="compound">app::category_index</ref></type>
+        <definition>app::category_index steemit::app::state::category_idx</definition>
+        <argsstring></argsstring>
+        <name>category_idx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tracks the top categories by name, any category in this index will have its full status stored in the categories map. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="165" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/dff/structsteemit_1_1app_1_1state_1a6f2cf3fb4d41c69943fdfb8f8caebf9e" prot="public" static="no" mutable="no">
+        <type><ref refid="d6/daf/structsteemit_1_1app_1_1tag__index" kindref="compound">app::tag_index</ref></type>
+        <definition>app::tag_index steemit::app::state::tag_idx</definition>
+        <argsstring></argsstring>
+        <name>tag_idx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="167" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/dff/structsteemit_1_1app_1_1state_1a684b3c6c07b0e9d757f42cc376bbbb4a" prot="public" static="no" mutable="no">
+        <type>map&lt; string, <ref refid="d7/d7b/structsteemit_1_1app_1_1discussion__index" kindref="compound">discussion_index</ref> &gt;</type>
+        <definition>map&lt;string, discussion_index&gt; steemit::app::state::discussion_idx</definition>
+        <argsstring></argsstring>
+        <name>discussion_idx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&quot;&quot; is the global discussion index, otherwise the indicies are ranked by category </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="172" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/dff/structsteemit_1_1app_1_1state_1afa80b4162d3d63c0cf040bf4ac41ca01" prot="public" static="no" mutable="no">
+        <type>map&lt; string, <ref refid="d5/da8/structsteemit_1_1app_1_1category__api__obj" kindref="compound">category_api_obj</ref> &gt;</type>
+        <definition>map&lt;string, category_api_obj&gt; steemit::app::state::categories</definition>
+        <argsstring></argsstring>
+        <name>categories</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="174" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/dff/structsteemit_1_1app_1_1state_1a8e6e7d77ebd9bd97bb84c8347356b399" prot="public" static="no" mutable="no">
+        <type>map&lt; string, <ref refid="d7/d3d/structsteemit_1_1app_1_1tag__api__obj" kindref="compound">tag_api_obj</ref> &gt;</type>
+        <definition>map&lt;string, tag_api_obj&gt; steemit::app::state::tags</definition>
+        <argsstring></argsstring>
+        <name>tags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="175" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/dff/structsteemit_1_1app_1_1state_1a5f7ec63905ac467181fa78cbe5abb754" prot="public" static="no" mutable="no">
+        <type>map&lt; string, <ref refid="d5/d32/structsteemit_1_1app_1_1discussion" kindref="compound">discussion</ref> &gt;</type>
+        <definition>map&lt;string, discussion&gt; steemit::app::state::content</definition>
+        <argsstring></argsstring>
+        <name>content</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>map from account/slug to full nested discussion </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="180" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/dff/structsteemit_1_1app_1_1state_1a33919ba3bcc835cb1c2852b9f830a108" prot="public" static="no" mutable="no">
+        <type>map&lt; string, <ref refid="d7/d2e/structsteemit_1_1app_1_1extended__account" kindref="compound">extended_account</ref> &gt;</type>
+        <definition>map&lt;string, extended_account&gt; steemit::app::state::accounts</definition>
+        <argsstring></argsstring>
+        <name>accounts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="181" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/dff/structsteemit_1_1app_1_1state_1a2e5e21aa997c4f6d4024a30b454cf684" prot="public" static="no" mutable="no">
+        <type>vector&lt; account_name_type &gt;</type>
+        <definition>vector&lt;account_name_type&gt; steemit::app::state::pow_queue</definition>
+        <argsstring></argsstring>
+        <name>pow_queue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The list of miners who are queued to produce work </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="186" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/dff/structsteemit_1_1app_1_1state_1aa13424330dd17067d6ba87ca3386f18f" prot="public" static="no" mutable="no">
+        <type>map&lt; string, <ref refid="d9/d84/structsteemit_1_1app_1_1witness__api__obj" kindref="compound">witness_api_obj</ref> &gt;</type>
+        <definition>map&lt;string, witness_api_obj&gt; steemit::app::state::witnesses</definition>
+        <argsstring></argsstring>
+        <name>witnesses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="187" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/dff/structsteemit_1_1app_1_1state_1a5e2c7c63c9c995765f58eedcd92cd018" prot="public" static="no" mutable="no">
+        <type><ref refid="df/d55/namespacesteemit_1_1app_1a1e614c3b90d24e19dcc925914b524eee" kindref="member">witness_schedule_api_obj</ref></type>
+        <definition>witness_schedule_api_obj steemit::app::state::witness_schedule</definition>
+        <argsstring></argsstring>
+        <name>witness_schedule</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="188" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/dff/structsteemit_1_1app_1_1state_1a5f226218f25173cb19f9548d23a54584" prot="public" static="no" mutable="no">
+        <type>price</type>
+        <definition>price steemit::app::state::feed_price</definition>
+        <argsstring></argsstring>
+        <name>feed_price</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="189" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/dff/structsteemit_1_1app_1_1state_1aa4059895b2a5fe6a1a3fe5ca87a09b3b" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string steemit::app::state::error</definition>
+        <argsstring></argsstring>
+        <name>error</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="190" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/dff/structsteemit_1_1app_1_1state_1ac8516f8fde4c851eb1b348c9d532f76c" prot="public" static="no" mutable="no">
+        <type>optional&lt; <ref refid="da/dae/structsteemit_1_1app_1_1market" kindref="compound">market</ref> &gt;</type>
+        <definition>optional&lt;market&gt; steemit::app::state::market_data</definition>
+        <argsstring></argsstring>
+        <name>market_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="191" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This struct is designed </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="1022">
+        <label>asset</label>
+      </node>
+      <node id="1020">
+        <label>time_point_sec</label>
+      </node>
+      <node id="1034">
+        <label>chain_properties</label>
+      </node>
+      <node id="1026">
+        <label>vector&lt; account_name_type &gt;</label>
+      </node>
+      <node id="1029">
+        <label>vector&lt; string &gt;</label>
+      </node>
+      <node id="1021">
+        <label>block_id_type</label>
+      </node>
+      <node id="1028">
+        <label>steemit::app::tag_index</label>
+        <link refid="d6/daf/structsteemit_1_1app_1_1tag__index"/>
+        <childnode refid="1029" relation="usage">
+          <edgelabel>trending</edgelabel>
+        </childnode>
+      </node>
+      <node id="1027">
+        <label>string</label>
+      </node>
+      <node id="1023">
+        <label>account_name_type</label>
+      </node>
+      <node id="1017">
+        <label>steemit::app::state</label>
+        <link refid="d0/dff/structsteemit_1_1app_1_1state"/>
+        <childnode refid="1018" relation="usage">
+          <edgelabel>props</edgelabel>
+        </childnode>
+        <childnode refid="1025" relation="usage">
+          <edgelabel>category_idx</edgelabel>
+        </childnode>
+        <childnode refid="1026" relation="usage">
+          <edgelabel>pow_queue</edgelabel>
+        </childnode>
+        <childnode refid="1027" relation="usage">
+          <edgelabel>error</edgelabel>
+          <edgelabel>current_route</edgelabel>
+        </childnode>
+        <childnode refid="1028" relation="usage">
+          <edgelabel>tag_idx</edgelabel>
+        </childnode>
+        <childnode refid="1030" relation="usage">
+          <edgelabel>feed_price</edgelabel>
+        </childnode>
+        <childnode refid="1031" relation="usage">
+          <edgelabel>witness_schedule</edgelabel>
+        </childnode>
+      </node>
+      <node id="1030">
+        <label>price</label>
+      </node>
+      <node id="1033">
+        <label>version</label>
+      </node>
+      <node id="1032">
+        <label>chainbase::object&lt; witness_schedule_object_type, witness_schedule_object &gt;</label>
+      </node>
+      <node id="1031">
+        <label>steemit::chain::witness_schedule_object</label>
+        <link refid="d5/d57/classsteemit_1_1chain_1_1witness__schedule__object"/>
+        <childnode refid="1032" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1033" relation="usage">
+          <edgelabel>majority_version</edgelabel>
+        </childnode>
+        <childnode refid="1034" relation="usage">
+          <edgelabel>median_props</edgelabel>
+        </childnode>
+      </node>
+      <node id="1025">
+        <label>multi_index_container&lt; category_object, indexed_by&lt; ordered_unique&lt; tag&lt; by_id &gt;, member&lt; category_object, category_id_type, &amp;category_object::id &gt; &gt;, ordered_unique&lt; tag&lt; by_name &gt;, member&lt; category_object, shared_string, &amp;category_object::name &gt;, strcmp_less &gt;, ordered_unique&lt; tag&lt; by_rshares &gt;, composite_key&lt; category_object, member&lt; category_object, share_type, &amp;category_object::abs_rshares &gt;, member&lt; category_object, category_id_type, &amp;category_object::id &gt; &gt;, composite_key_compare&lt; std::greater&lt; share_type &gt;, std::less&lt; category_id_type &gt; &gt; &gt;, ordered_unique&lt; tag&lt; by_total_payouts &gt;, composite_key&lt; category_object, member&lt; category_object, asset, &amp;category_object::total_payouts &gt;, member&lt; category_object, category_id_type, &amp;category_object::id &gt; &gt;, composite_key_compare&lt; std::greater&lt; asset &gt;, std::less&lt; category_id_type &gt; &gt; &gt;, ordered_unique&lt; tag&lt; by_last_update &gt;, composite_key&lt; category_object, member&lt; category_object, time_point_sec, &amp;category_object::last_update &gt;, member&lt; category_object, category_id_type, &amp;category_object::id &gt; &gt;, composite_key_compare&lt; std::greater&lt; time_point_sec &gt;, std::less&lt; category_id_type &gt; &gt; &gt; &gt;, allocator&lt; category_object &gt; &gt;</label>
+      </node>
+      <node id="1018">
+        <label>steemit::chain::dynamic_global_property_object</label>
+        <link refid="d0/d48/classsteemit_1_1chain_1_1dynamic__global__property__object"/>
+        <childnode refid="1019" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1020" relation="usage">
+          <edgelabel>time</edgelabel>
+        </childnode>
+        <childnode refid="1021" relation="usage">
+          <edgelabel>head_block_id</edgelabel>
+        </childnode>
+        <childnode refid="1022" relation="usage">
+          <edgelabel>current_sbd_supply</edgelabel>
+          <edgelabel>virtual_supply</edgelabel>
+          <edgelabel>confidential_supply</edgelabel>
+          <edgelabel>total_vesting_shares</edgelabel>
+          <edgelabel>confidential_sbd_supply</edgelabel>
+          <edgelabel>current_supply</edgelabel>
+          <edgelabel>total_reward_fund_steem</edgelabel>
+          <edgelabel>total_vesting_fund_steem</edgelabel>
+        </childnode>
+        <childnode refid="1023" relation="usage">
+          <edgelabel>current_witness</edgelabel>
+        </childnode>
+        <childnode refid="1024" relation="usage">
+          <edgelabel>recent_slots_filled</edgelabel>
+        </childnode>
+      </node>
+      <node id="1024">
+        <label>uint128_t</label>
+      </node>
+      <node id="1019">
+        <label>chainbase::object&lt; dynamic_global_property_object_type, dynamic_global_property_object &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/app/include/steemit/app/state.hpp" line="156" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="156" bodyend="192"/>
+    <listofallmembers>
+      <member refid="d0/dff/structsteemit_1_1app_1_1state_1a33919ba3bcc835cb1c2852b9f830a108" prot="public" virt="non-virtual"><scope>steemit::app::state</scope><name>accounts</name></member>
+      <member refid="d0/dff/structsteemit_1_1app_1_1state_1afa80b4162d3d63c0cf040bf4ac41ca01" prot="public" virt="non-virtual"><scope>steemit::app::state</scope><name>categories</name></member>
+      <member refid="d0/dff/structsteemit_1_1app_1_1state_1a77b8fdb9a14c873637d10fe2c63ab351" prot="public" virt="non-virtual"><scope>steemit::app::state</scope><name>category_idx</name></member>
+      <member refid="d0/dff/structsteemit_1_1app_1_1state_1a5f7ec63905ac467181fa78cbe5abb754" prot="public" virt="non-virtual"><scope>steemit::app::state</scope><name>content</name></member>
+      <member refid="d0/dff/structsteemit_1_1app_1_1state_1a4518f3a123d84bdf8decd882b4244355" prot="public" virt="non-virtual"><scope>steemit::app::state</scope><name>current_route</name></member>
+      <member refid="d0/dff/structsteemit_1_1app_1_1state_1a684b3c6c07b0e9d757f42cc376bbbb4a" prot="public" virt="non-virtual"><scope>steemit::app::state</scope><name>discussion_idx</name></member>
+      <member refid="d0/dff/structsteemit_1_1app_1_1state_1aa4059895b2a5fe6a1a3fe5ca87a09b3b" prot="public" virt="non-virtual"><scope>steemit::app::state</scope><name>error</name></member>
+      <member refid="d0/dff/structsteemit_1_1app_1_1state_1a5f226218f25173cb19f9548d23a54584" prot="public" virt="non-virtual"><scope>steemit::app::state</scope><name>feed_price</name></member>
+      <member refid="d0/dff/structsteemit_1_1app_1_1state_1ac8516f8fde4c851eb1b348c9d532f76c" prot="public" virt="non-virtual"><scope>steemit::app::state</scope><name>market_data</name></member>
+      <member refid="d0/dff/structsteemit_1_1app_1_1state_1a2e5e21aa997c4f6d4024a30b454cf684" prot="public" virt="non-virtual"><scope>steemit::app::state</scope><name>pow_queue</name></member>
+      <member refid="d0/dff/structsteemit_1_1app_1_1state_1ae5e46ebe27412d077eccb6a7e67f6320" prot="public" virt="non-virtual"><scope>steemit::app::state</scope><name>props</name></member>
+      <member refid="d0/dff/structsteemit_1_1app_1_1state_1a6f2cf3fb4d41c69943fdfb8f8caebf9e" prot="public" virt="non-virtual"><scope>steemit::app::state</scope><name>tag_idx</name></member>
+      <member refid="d0/dff/structsteemit_1_1app_1_1state_1a8e6e7d77ebd9bd97bb84c8347356b399" prot="public" virt="non-virtual"><scope>steemit::app::state</scope><name>tags</name></member>
+      <member refid="d0/dff/structsteemit_1_1app_1_1state_1a5e2c7c63c9c995765f58eedcd92cd018" prot="public" virt="non-virtual"><scope>steemit::app::state</scope><name>witness_schedule</name></member>
+      <member refid="d0/dff/structsteemit_1_1app_1_1state_1aa13424330dd17067d6ba87ca3386f18f" prot="public" virt="non-virtual"><scope>steemit::app::state</scope><name>witnesses</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

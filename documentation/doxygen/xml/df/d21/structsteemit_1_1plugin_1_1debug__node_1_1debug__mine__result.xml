@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="df/d21/structsteemit_1_1plugin_1_1debug__node_1_1debug__mine__result" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::plugin::debug_node::debug_mine_result</compoundname>
+    <includes refid="d2/da3/debug__node__api_8hpp" local="no">debug_node_api.hpp</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/debug_node/include/steemit/plugins/debug_node/debug_node_api.hpp" line="43" column="1" bodyfile="libraries/plugins/debug_node/include/steemit/plugins/debug_node/debug_node_api.hpp" bodystart="43" bodyend="44"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

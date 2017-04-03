@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d2/dd8/namespacesteemit_1_1chain_1_1detail" kind="namespace" language="C++">
+    <compoundname>steemit::chain::detail</compoundname>
+    <innerclass refid="d7/da2/classsteemit_1_1chain_1_1detail_1_1block__log__impl" prot="public">steemit::chain::detail::block_log_impl</innerclass>
+    <innerclass refid="de/de4/structsteemit_1_1chain_1_1detail_1_1pending__transactions__restorer" prot="public">steemit::chain::detail::pending_transactions_restorer</innerclass>
+    <innerclass refid="d6/da3/structsteemit_1_1chain_1_1detail_1_1skip__flags__restorer" prot="public">steemit::chain::detail::skip_flags_restorer</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="d2/dd8/namespacesteemit_1_1chain_1_1detail_1af4bdc4c1ac5d99874bb88775f6582cea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Lambda</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void steemit::chain::detail::with_skip_flags</definition>
+        <argsstring>(database &amp;db, uint32_t skip_flags, Lambda callback)</argsstring>
+        <name>with_skip_flags</name>
+        <param>
+          <type><ref refid="da/d98/classsteemit_1_1chain_1_1database" kindref="compound">database</ref> &amp;</type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>skip_flags</declname>
+        </param>
+        <param>
+          <type>Lambda</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the skip_flags to the given value, call callback, then reset skip_flags to their previous value after callback is done. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/db_with.hpp" line="92" column="1" bodyfile="libraries/chain/include/steemit/chain/db_with.hpp" bodystart="92" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dd8/namespacesteemit_1_1chain_1_1detail_1afe78c525a9ff9c5e656c9188a082dc41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Lambda</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void steemit::chain::detail::without_pending_transactions</definition>
+        <argsstring>(database &amp;db, std::vector&lt; signed_transaction &gt; &amp;&amp;pending_transactions, Lambda callback)</argsstring>
+        <name>without_pending_transactions</name>
+        <param>
+          <type><ref refid="da/d98/classsteemit_1_1chain_1_1database" kindref="compound">database</ref> &amp;</type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; signed_transaction &gt; &amp;&amp;</type>
+          <declname>pending_transactions</declname>
+        </param>
+        <param>
+          <type>Lambda</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Empty pending_transactions, call callback, then reset pending_transactions after callback is done.</para><para>Pending transactions which no longer validate will be culled. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/db_with.hpp" line="110" column="1" bodyfile="libraries/chain/include/steemit/chain/db_with.hpp" bodystart="110" bodyend="117"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/chain/block_log.cpp" line="10" column="1"/>
+  </compounddef>
+</doxygen>

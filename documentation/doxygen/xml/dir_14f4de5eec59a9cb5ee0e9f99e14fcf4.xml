@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_14f4de5eec59a9cb5ee0e9f99e14fcf4" kind="dir">
+    <compoundname>libraries/app/include/steemit/app</compoundname>
+    <innerfile refid="d4/df0/api_8hpp">api.hpp</innerfile>
+    <innerfile refid="db/d81/api__access_8hpp">api_access.hpp</innerfile>
+    <innerfile refid="d9/d64/api__context_8hpp">api_context.hpp</innerfile>
+    <innerfile refid="d4/d01/application_8hpp">application.hpp</innerfile>
+    <innerfile refid="d5/df1/applied__operation_8hpp">applied_operation.hpp</innerfile>
+    <innerfile refid="d0/d21/database__api_8hpp">database_api.hpp</innerfile>
+    <innerfile refid="df/d43/impacted_8hpp">impacted.hpp</innerfile>
+    <innerfile refid="d1/dab/plugin_8hpp">plugin.hpp</innerfile>
+    <innerfile refid="da/d3b/state_8hpp">state.hpp</innerfile>
+    <innerfile refid="d1/d06/steem__api__objects_8hpp">steem_api_objects.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/app/include/steemit/app/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,442 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="df/d55/namespacesteemit_1_1app" kind="namespace" language="C++">
+    <compoundname>steemit::app</compoundname>
+    <innerclass refid="dc/d57/classsteemit_1_1app_1_1abstract__plugin" prot="public">steemit::app::abstract_plugin</innerclass>
+    <innerclass refid="da/d55/structsteemit_1_1app_1_1account__api__obj" prot="public">steemit::app::account_api_obj</innerclass>
+    <innerclass refid="d8/db7/structsteemit_1_1app_1_1account__history__api__obj" prot="public">steemit::app::account_history_api_obj</innerclass>
+    <innerclass refid="d9/d60/structsteemit_1_1app_1_1account__recovery__request__api__obj" prot="public">steemit::app::account_recovery_request_api_obj</innerclass>
+    <innerclass refid="d0/d3b/structsteemit_1_1app_1_1account__vote" prot="public">steemit::app::account_vote</innerclass>
+    <innerclass refid="d5/de0/structsteemit_1_1app_1_1api__access" prot="public">steemit::app::api_access</innerclass>
+    <innerclass refid="df/df9/structsteemit_1_1app_1_1api__access__info" prot="public">steemit::app::api_access_info</innerclass>
+    <innerclass refid="d1/d23/structsteemit_1_1app_1_1api__context" prot="public">steemit::app::api_context</innerclass>
+    <innerclass refid="d6/db1/structsteemit_1_1app_1_1api__session__data" prot="public">steemit::app::api_session_data</innerclass>
+    <innerclass refid="de/d5e/classsteemit_1_1app_1_1application" prot="public">steemit::app::application</innerclass>
+    <innerclass refid="d8/daf/structsteemit_1_1app_1_1applied__operation" prot="public">steemit::app::applied_operation</innerclass>
+    <innerclass refid="d0/dc1/structsteemit_1_1app_1_1candle__stick" prot="public">steemit::app::candle_stick</innerclass>
+    <innerclass refid="d5/da8/structsteemit_1_1app_1_1category__api__obj" prot="public">steemit::app::category_api_obj</innerclass>
+    <innerclass refid="d7/ddf/structsteemit_1_1app_1_1category__index" prot="public">steemit::app::category_index</innerclass>
+    <innerclass refid="dc/d9e/structsteemit_1_1app_1_1comment__api__obj" prot="public">steemit::app::comment_api_obj</innerclass>
+    <innerclass refid="d4/dbd/classsteemit_1_1app_1_1database__api" prot="public">steemit::app::database_api</innerclass>
+    <innerclass refid="d9/d4c/classsteemit_1_1app_1_1database__api__impl" prot="public">steemit::app::database_api_impl</innerclass>
+    <innerclass refid="d5/d32/structsteemit_1_1app_1_1discussion" prot="public">steemit::app::discussion</innerclass>
+    <innerclass refid="d7/d7b/structsteemit_1_1app_1_1discussion__index" prot="public">steemit::app::discussion_index</innerclass>
+    <innerclass refid="dd/d40/structsteemit_1_1app_1_1discussion__query" prot="public">steemit::app::discussion_query</innerclass>
+    <innerclass refid="d7/d2e/structsteemit_1_1app_1_1extended__account" prot="public">steemit::app::extended_account</innerclass>
+    <innerclass refid="d3/d1d/structsteemit_1_1app_1_1extended__limit__order" prot="public">steemit::app::extended_limit_order</innerclass>
+    <innerclass refid="d6/d3a/structsteemit_1_1app_1_1feed__history__api__obj" prot="public">steemit::app::feed_history_api_obj</innerclass>
+    <innerclass refid="d5/d90/structsteemit_1_1app_1_1get__impacted__account__visitor" prot="public">steemit::app::get_impacted_account_visitor</innerclass>
+    <innerclass refid="d1/d3c/structsteemit_1_1app_1_1liquidity__balance" prot="public">steemit::app::liquidity_balance</innerclass>
+    <innerclass refid="d3/df0/classsteemit_1_1app_1_1login__api" prot="public">steemit::app::login_api</innerclass>
+    <innerclass refid="da/dae/structsteemit_1_1app_1_1market" prot="public">steemit::app::market</innerclass>
+    <innerclass refid="df/d95/classsteemit_1_1app_1_1network__broadcast__api" prot="public">steemit::app::network_broadcast_api</innerclass>
+    <innerclass refid="d6/d4b/classsteemit_1_1app_1_1network__node__api" prot="public">steemit::app::network_node_api</innerclass>
+    <innerclass refid="d7/dbd/structsteemit_1_1app_1_1order" prot="public">steemit::app::order</innerclass>
+    <innerclass refid="d8/d8d/structsteemit_1_1app_1_1order__book" prot="public">steemit::app::order_book</innerclass>
+    <innerclass refid="d9/d5a/structsteemit_1_1app_1_1order__history__item" prot="public">steemit::app::order_history_item</innerclass>
+    <innerclass refid="db/ddc/structsteemit_1_1app_1_1owner__authority__history__api__obj" prot="public">steemit::app::owner_authority_history_api_obj</innerclass>
+    <innerclass refid="d8/daa/classsteemit_1_1app_1_1plugin" prot="public">steemit::app::plugin</innerclass>
+    <innerclass refid="dd/d8f/structsteemit_1_1app_1_1savings__withdraw__api__obj" prot="public">steemit::app::savings_withdraw_api_obj</innerclass>
+    <innerclass refid="d9/dbf/structsteemit_1_1app_1_1scheduled__hardfork" prot="public">steemit::app::scheduled_hardfork</innerclass>
+    <innerclass refid="d0/dff/structsteemit_1_1app_1_1state" prot="public">steemit::app::state</innerclass>
+    <innerclass refid="df/d16/structsteemit_1_1app_1_1steem__version__info" prot="public">steemit::app::steem_version_info</innerclass>
+    <innerclass refid="d7/d3d/structsteemit_1_1app_1_1tag__api__obj" prot="public">steemit::app::tag_api_obj</innerclass>
+    <innerclass refid="d6/daf/structsteemit_1_1app_1_1tag__index" prot="public">steemit::app::tag_index</innerclass>
+    <innerclass refid="dc/d88/structsteemit_1_1app_1_1vote__state" prot="public">steemit::app::vote_state</innerclass>
+    <innerclass refid="dd/d75/structsteemit_1_1app_1_1withdraw__route" prot="public">steemit::app::withdraw_route</innerclass>
+    <innerclass refid="d9/d84/structsteemit_1_1app_1_1witness__api__obj" prot="public">steemit::app::witness_api_obj</innerclass>
+    <innernamespace refid="db/d34/namespacesteemit_1_1app_1_1detail">steemit::app::detail</innernamespace>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="df/d55/namespacesteemit_1_1app_1a9ee13ab1db9eafd5bc2c7aa090f9cefe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T steemit::app::dejsonify</definition>
+        <argsstring>(const string &amp;s)</argsstring>
+        <name>dejsonify</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Some useful tools for boost::program_options arguments using vectors of JSON strings </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/plugin.hpp" line="142" column="1" bodyfile="libraries/app/include/steemit/app/plugin.hpp" bodystart="142" bodyend="144"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="df/d55/namespacesteemit_1_1app_1a169ccb6eef4850f6e45149ccd7f13e7a" prot="public" static="no">
+        <name>withdraw_route_type</name>
+        <enumvalue id="df/d55/namespacesteemit_1_1app_1a169ccb6eef4850f6e45149ccd7f13e7aa3c8bb82d7c7d2987763ed22a77adb09a" prot="public">
+          <name>incoming</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="df/d55/namespacesteemit_1_1app_1a169ccb6eef4850f6e45149ccd7f13e7aa3cba2a00912b3bce4ff88b25b9dda9e6" prot="public">
+          <name>outgoing</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="df/d55/namespacesteemit_1_1app_1a169ccb6eef4850f6e45149ccd7f13e7aa9b70b6e7e5cacc84e39ef15f0500b686" prot="public">
+          <name>all</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/database_api.hpp" line="65" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="65" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="df/d55/namespacesteemit_1_1app_1a15efdd797fe18f2c5f5f4deb73851ef6" prot="public" static="no">
+        <type><ref refid="da/d5e/classsteemit_1_1chain_1_1change__recovery__account__request__object" kindref="compound">chain::change_recovery_account_request_object</ref></type>
+        <definition>typedef chain::change_recovery_account_request_object steemit::app::change_recovery_account_request_api_obj</definition>
+        <argsstring></argsstring>
+        <name>change_recovery_account_request_api_obj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="42" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="df/d55/namespacesteemit_1_1app_1a6fbcab94562ec814547ad1b98601e890" prot="public" static="no">
+        <type><ref refid="d6/d73/classsteemit_1_1chain_1_1block__summary__object" kindref="compound">chain::block_summary_object</ref></type>
+        <definition>typedef chain::block_summary_object steemit::app::block_summary_api_obj</definition>
+        <argsstring></argsstring>
+        <name>block_summary_api_obj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="43" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="df/d55/namespacesteemit_1_1app_1a95eb6aeea3a899f32e8fbdfcb94c7f74" prot="public" static="no">
+        <type><ref refid="de/d91/classsteemit_1_1chain_1_1comment__vote__object" kindref="compound">chain::comment_vote_object</ref></type>
+        <definition>typedef chain::comment_vote_object steemit::app::comment_vote_api_obj</definition>
+        <argsstring></argsstring>
+        <name>comment_vote_api_obj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="44" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="df/d55/namespacesteemit_1_1app_1ae11bc8c13f6f1de6f093122ce6a22c50" prot="public" static="no">
+        <type><ref refid="d0/d48/classsteemit_1_1chain_1_1dynamic__global__property__object" kindref="compound">chain::dynamic_global_property_object</ref></type>
+        <definition>typedef chain::dynamic_global_property_object steemit::app::dynamic_global_property_api_obj</definition>
+        <argsstring></argsstring>
+        <name>dynamic_global_property_api_obj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="45" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="df/d55/namespacesteemit_1_1app_1a3e53bb2f500c98f7090b2df885ca07fe" prot="public" static="no">
+        <type><ref refid="d5/d62/classsteemit_1_1chain_1_1convert__request__object" kindref="compound">chain::convert_request_object</ref></type>
+        <definition>typedef chain::convert_request_object steemit::app::convert_request_api_obj</definition>
+        <argsstring></argsstring>
+        <name>convert_request_api_obj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="46" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="df/d55/namespacesteemit_1_1app_1ae45197b23ba704f4f55932c27d53fcee" prot="public" static="no">
+        <type><ref refid="df/dd0/classsteemit_1_1chain_1_1escrow__object" kindref="compound">chain::escrow_object</ref></type>
+        <definition>typedef chain::escrow_object steemit::app::escrow_api_obj</definition>
+        <argsstring></argsstring>
+        <name>escrow_api_obj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="47" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="df/d55/namespacesteemit_1_1app_1a3443d0f733603e3d4fb27c9ca556a966" prot="public" static="no">
+        <type><ref refid="d3/d58/classsteemit_1_1chain_1_1liquidity__reward__balance__object" kindref="compound">chain::liquidity_reward_balance_object</ref></type>
+        <definition>typedef chain::liquidity_reward_balance_object steemit::app::liquidity_reward_balance_api_obj</definition>
+        <argsstring></argsstring>
+        <name>liquidity_reward_balance_api_obj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="48" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="df/d55/namespacesteemit_1_1app_1a7074ea1a1aa9c971fa33ef9db6978f44" prot="public" static="no">
+        <type><ref refid="d8/d53/classsteemit_1_1chain_1_1limit__order__object" kindref="compound">chain::limit_order_object</ref></type>
+        <definition>typedef chain::limit_order_object steemit::app::limit_order_api_obj</definition>
+        <argsstring></argsstring>
+        <name>limit_order_api_obj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="49" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="df/d55/namespacesteemit_1_1app_1aa7ff0253816efb5a74c709ed34074094" prot="public" static="no">
+        <type><ref refid="d0/dd7/classsteemit_1_1chain_1_1withdraw__vesting__route__object" kindref="compound">chain::withdraw_vesting_route_object</ref></type>
+        <definition>typedef chain::withdraw_vesting_route_object steemit::app::withdraw_vesting_route_api_obj</definition>
+        <argsstring></argsstring>
+        <name>withdraw_vesting_route_api_obj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="50" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="df/d55/namespacesteemit_1_1app_1ad500cd5338e6da99801bc6e9855d6770" prot="public" static="no">
+        <type><ref refid="d9/d56/classsteemit_1_1chain_1_1decline__voting__rights__request__object" kindref="compound">chain::decline_voting_rights_request_object</ref></type>
+        <definition>typedef chain::decline_voting_rights_request_object steemit::app::decline_voting_rights_request_api_obj</definition>
+        <argsstring></argsstring>
+        <name>decline_voting_rights_request_api_obj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="51" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="df/d55/namespacesteemit_1_1app_1ac18983588df9e07de9a958c1354b30d0" prot="public" static="no">
+        <type><ref refid="da/d52/classsteemit_1_1chain_1_1witness__vote__object" kindref="compound">chain::witness_vote_object</ref></type>
+        <definition>typedef chain::witness_vote_object steemit::app::witness_vote_api_obj</definition>
+        <argsstring></argsstring>
+        <name>witness_vote_api_obj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="52" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="df/d55/namespacesteemit_1_1app_1a1e614c3b90d24e19dcc925914b524eee" prot="public" static="no">
+        <type><ref refid="d5/d57/classsteemit_1_1chain_1_1witness__schedule__object" kindref="compound">chain::witness_schedule_object</ref></type>
+        <definition>typedef chain::witness_schedule_object steemit::app::witness_schedule_api_obj</definition>
+        <argsstring></argsstring>
+        <name>witness_schedule_api_obj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="53" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="df/d55/namespacesteemit_1_1app_1a3b9701fbc0430f220333bb1383468965" prot="public" static="no">
+        <type><ref refid="d6/d91/classsteemit_1_1chain_1_1account__bandwidth__object" kindref="compound">chain::account_bandwidth_object</ref></type>
+        <definition>typedef chain::account_bandwidth_object steemit::app::account_bandwidth_api_obj</definition>
+        <argsstring></argsstring>
+        <name>account_bandwidth_api_obj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="54" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="df/d55/namespacesteemit_1_1app_1ad36b1b53d4eba53dc621cabb18c3a599" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::app::find_accounts</definition>
+        <argsstring>(std::set&lt; std::string &gt; &amp;accounts, const discussion &amp;d)</argsstring>
+        <name>find_accounts</name>
+        <param>
+          <type>std::set&lt; std::string &gt; &amp;</type>
+          <declname>accounts</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d5/d32/structsteemit_1_1app_1_1discussion" kindref="compound">discussion</ref> &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/database_api.cpp" line="116" column="1" bodyfile="libraries/app/database_api.cpp" bodystart="116" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d55/namespacesteemit_1_1app_1a5ae79e0cea175345d089237f3e1036f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>u256</type>
+        <definition>u256 steemit::app::to256</definition>
+        <argsstring>(const fc::uint128 &amp;t)</argsstring>
+        <name>to256</name>
+        <param>
+          <type>const fc::uint128 &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/database_api.cpp" line="985" column="1" bodyfile="libraries/app/database_api.cpp" bodystart="985" bodyend="990"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d55/namespacesteemit_1_1app_1a8cf6f61fba3449a691f1d2ebe3a03b60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::app::operation_get_impacted_accounts</definition>
+        <argsstring>(const operation &amp;op, flat_set&lt; account_name_type &gt; &amp;result)</argsstring>
+        <name>operation_get_impacted_accounts</name>
+        <param>
+          <type>const operation &amp;</type>
+          <declname>op</declname>
+        </param>
+        <param>
+          <type>flat_set&lt; account_name_type &gt; &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/impacted.cpp" line="221" column="1" bodyfile="libraries/app/impacted.cpp" bodystart="221" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d55/namespacesteemit_1_1app_1a33c8ca0502531e724f494cfc16a3410b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::app::transaction_get_impacted_accounts</definition>
+        <argsstring>(const transaction &amp;tx, flat_set&lt; account_name_type &gt; &amp;result)</argsstring>
+        <name>transaction_get_impacted_accounts</name>
+        <param>
+          <type>const transaction &amp;</type>
+          <declname>tx</declname>
+        </param>
+        <param>
+          <type>flat_set&lt; account_name_type &gt; &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/impacted.cpp" line="226" column="1" bodyfile="libraries/app/impacted.cpp" bodystart="226" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d55/namespacesteemit_1_1app_1ab0cd16718988617750675418211d0c2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class C</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>boost::signals2::scoped_connection</type>
+        <definition>boost::signals2::scoped_connection steemit::app::connect_signal</definition>
+        <argsstring>(boost::signals2::signal&lt; void(Args...)&gt; &amp;sig, C &amp;c, void(C::*f)(Args...))</argsstring>
+        <name>connect_signal</name>
+        <param>
+          <type>boost::signals2::signal&lt; void(Args...)&gt; &amp;</type>
+          <declname>sig</declname>
+        </param>
+        <param>
+          <type>C &amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>void(C::*)(Args...)</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/application.hpp" line="152" column="1" bodyfile="libraries/app/include/steemit/app/application.hpp" bodystart="152" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d55/namespacesteemit_1_1app_1a650706084009a52c9ba31ce98d388a18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::app::operation_get_impacted_accounts</definition>
+        <argsstring>(const steemit::protocol::operation &amp;op, fc::flat_set&lt; protocol::account_name_type &gt; &amp;result)</argsstring>
+        <name>operation_get_impacted_accounts</name>
+        <param>
+          <type>const steemit::protocol::operation &amp;</type>
+          <declname>op</declname>
+        </param>
+        <param>
+          <type>fc::flat_set&lt; protocol::account_name_type &gt; &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/impacted.hpp" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d55/namespacesteemit_1_1app_1ae0dd3415b3b3c4136a31b0c21d975cf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::app::transaction_get_impacted_accounts</definition>
+        <argsstring>(const steemit::protocol::transaction &amp;tx, fc::flat_set&lt; protocol::account_name_type &gt; &amp;result)</argsstring>
+        <name>transaction_get_impacted_accounts</name>
+        <param>
+          <type>const steemit::protocol::transaction &amp;</type>
+          <declname>tx</declname>
+        </param>
+        <param>
+          <type>fc::flat_set&lt; protocol::account_name_type &gt; &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/impacted.hpp" line="42" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/app/api.cpp" line="37" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d5/da8/structsteemit_1_1app_1_1category__api__obj" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::app::category_api_obj</compoundname>
+    <includes refid="d1/d06/steem__api__objects_8hpp" local="no">steem_api_objects.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d5/da8/structsteemit_1_1app_1_1category__api__obj_1a4625b6e48b6a89b0000ee0aff30101c9" prot="public" static="no" mutable="no">
+        <type><ref refid="d8/d9b/namespacesteemit_1_1chain_1a7d51c2eaa2aad0dcde1814ebe71cf5bd" kindref="member">category_id_type</ref></type>
+        <definition>category_id_type steemit::app::category_api_obj::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="160" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/da8/structsteemit_1_1app_1_1category__api__obj_1ac9f80cdbbfca2226adb205a5a843fac5" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string steemit::app::category_api_obj::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="161" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/da8/structsteemit_1_1app_1_1category__api__obj_1ae1f7c127936527797b09c4cacc53fc18" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::app::category_api_obj::abs_rshares</definition>
+        <argsstring></argsstring>
+        <name>abs_rshares</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="162" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/da8/structsteemit_1_1app_1_1category__api__obj_1a31e8724f93aaf28b6bc5d92ebdd8a006" prot="public" static="no" mutable="no">
+        <type>asset</type>
+        <definition>asset steemit::app::category_api_obj::total_payouts</definition>
+        <argsstring></argsstring>
+        <name>total_payouts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="163" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/da8/structsteemit_1_1app_1_1category__api__obj_1ab825ed0dbca62b744c4f7606408431e0" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::app::category_api_obj::discussions</definition>
+        <argsstring></argsstring>
+        <name>discussions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="164" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/da8/structsteemit_1_1app_1_1category__api__obj_1aaf179eab9ceea6080f11858297d6d781" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::app::category_api_obj::last_update</definition>
+        <argsstring></argsstring>
+        <name>last_update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="165" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/da8/structsteemit_1_1app_1_1category__api__obj_1a8e488cf9dde800fd69a608b08adafa3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::app::category_api_obj::category_api_obj</definition>
+        <argsstring>(const chain::category_object &amp;c)</argsstring>
+        <name>category_api_obj</name>
+        <param>
+          <type>const <ref refid="d8/d14/classsteemit_1_1chain_1_1category__object" kindref="compound">chain::category_object</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="148" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="148" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/da8/structsteemit_1_1app_1_1category__api__obj_1abec4a4a0f42fa892c02db0ca778644d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::app::category_api_obj::category_api_obj</definition>
+        <argsstring>()</argsstring>
+        <name>category_api_obj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="157" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="157" bodyend="158"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="341">
+        <label>asset</label>
+      </node>
+      <node id="339">
+        <label>time_point_sec</label>
+      </node>
+      <node id="342">
+        <label>string</label>
+      </node>
+      <node id="340">
+        <label>oid&lt; category_object &gt;</label>
+      </node>
+      <node id="337">
+        <label>steemit::app::category_api_obj</label>
+        <link refid="d5/da8/structsteemit_1_1app_1_1category__api__obj"/>
+        <childnode refid="338" relation="usage">
+          <edgelabel>abs_rshares</edgelabel>
+        </childnode>
+        <childnode refid="339" relation="usage">
+          <edgelabel>last_update</edgelabel>
+        </childnode>
+        <childnode refid="340" relation="usage">
+          <edgelabel>id</edgelabel>
+        </childnode>
+        <childnode refid="341" relation="usage">
+          <edgelabel>total_payouts</edgelabel>
+        </childnode>
+        <childnode refid="342" relation="usage">
+          <edgelabel>name</edgelabel>
+        </childnode>
+      </node>
+      <node id="338">
+        <label>share_type</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="147" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="147" bodyend="166"/>
+    <listofallmembers>
+      <member refid="d5/da8/structsteemit_1_1app_1_1category__api__obj_1ae1f7c127936527797b09c4cacc53fc18" prot="public" virt="non-virtual"><scope>steemit::app::category_api_obj</scope><name>abs_rshares</name></member>
+      <member refid="d5/da8/structsteemit_1_1app_1_1category__api__obj_1a8e488cf9dde800fd69a608b08adafa3f" prot="public" virt="non-virtual"><scope>steemit::app::category_api_obj</scope><name>category_api_obj</name></member>
+      <member refid="d5/da8/structsteemit_1_1app_1_1category__api__obj_1abec4a4a0f42fa892c02db0ca778644d3" prot="public" virt="non-virtual"><scope>steemit::app::category_api_obj</scope><name>category_api_obj</name></member>
+      <member refid="d5/da8/structsteemit_1_1app_1_1category__api__obj_1ab825ed0dbca62b744c4f7606408431e0" prot="public" virt="non-virtual"><scope>steemit::app::category_api_obj</scope><name>discussions</name></member>
+      <member refid="d5/da8/structsteemit_1_1app_1_1category__api__obj_1a4625b6e48b6a89b0000ee0aff30101c9" prot="public" virt="non-virtual"><scope>steemit::app::category_api_obj</scope><name>id</name></member>
+      <member refid="d5/da8/structsteemit_1_1app_1_1category__api__obj_1aaf179eab9ceea6080f11858297d6d781" prot="public" virt="non-virtual"><scope>steemit::app::category_api_obj</scope><name>last_update</name></member>
+      <member refid="d5/da8/structsteemit_1_1app_1_1category__api__obj_1ac9f80cdbbfca2226adb205a5a843fac5" prot="public" virt="non-virtual"><scope>steemit::app::category_api_obj</scope><name>name</name></member>
+      <member refid="d5/da8/structsteemit_1_1app_1_1category__api__obj_1a31e8724f93aaf28b6bc5d92ebdd8a006" prot="public" virt="non-virtual"><scope>steemit::app::category_api_obj</scope><name>total_payouts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

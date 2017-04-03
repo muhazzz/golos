@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="db/ddc/structsteemit_1_1app_1_1owner__authority__history__api__obj" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::app::owner_authority_history_api_obj</compoundname>
+    <includes refid="d1/d06/steem__api__objects_8hpp" local="no">steem_api_objects.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="db/ddc/structsteemit_1_1app_1_1owner__authority__history__api__obj_1adefd6c447fd7f70c6a4ee80403526d68" prot="public" static="no" mutable="no">
+        <type><ref refid="d8/d9b/namespacesteemit_1_1chain_1ac0d3d8a2d88087b3d995b34ec6fdc4c6" kindref="member">owner_authority_history_id_type</ref></type>
+        <definition>owner_authority_history_id_type steemit::app::owner_authority_history_api_obj::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="365" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="365" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/ddc/structsteemit_1_1app_1_1owner__authority__history__api__obj_1a87d524db617635979b2348b4175420e0" prot="public" static="no" mutable="no">
+        <type>account_name_type</type>
+        <definition>account_name_type steemit::app::owner_authority_history_api_obj::account</definition>
+        <argsstring></argsstring>
+        <name>account</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="367" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="367" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/ddc/structsteemit_1_1app_1_1owner__authority__history__api__obj_1a2cce28a4563e30601296e48f4efb9b39" prot="public" static="no" mutable="no">
+        <type>authority</type>
+        <definition>authority steemit::app::owner_authority_history_api_obj::previous_owner_authority</definition>
+        <argsstring></argsstring>
+        <name>previous_owner_authority</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="368" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="368" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/ddc/structsteemit_1_1app_1_1owner__authority__history__api__obj_1af7d7f8a515099c6d0787cabc3b3fe5e6" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::app::owner_authority_history_api_obj::last_valid_time</definition>
+        <argsstring></argsstring>
+        <name>last_valid_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="369" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="369" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/ddc/structsteemit_1_1app_1_1owner__authority__history__api__obj_1addb9734a7626f92e0d191b721bd8da13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::app::owner_authority_history_api_obj::owner_authority_history_api_obj</definition>
+        <argsstring>(const chain::owner_authority_history_object &amp;o)</argsstring>
+        <name>owner_authority_history_api_obj</name>
+        <param>
+          <type>const <ref refid="d0/d64/classsteemit_1_1chain_1_1owner__authority__history__object" kindref="compound">chain::owner_authority_history_object</ref> &amp;</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="354" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="354" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="db/ddc/structsteemit_1_1app_1_1owner__authority__history__api__obj_1a488aa8bb6e6d5b55d874acce732eb61f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::app::owner_authority_history_api_obj::owner_authority_history_api_obj</definition>
+        <argsstring>()</argsstring>
+        <name>owner_authority_history_api_obj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="362" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="362" bodyend="363"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="867">
+        <label>time_point_sec</label>
+      </node>
+      <node id="866">
+        <label>steemit::app::owner_authority_history_api_obj</label>
+        <link refid="db/ddc/structsteemit_1_1app_1_1owner__authority__history__api__obj"/>
+        <childnode refid="867" relation="usage">
+          <edgelabel>last_valid_time</edgelabel>
+        </childnode>
+        <childnode refid="868" relation="usage">
+          <edgelabel>id</edgelabel>
+        </childnode>
+        <childnode refid="869" relation="usage">
+          <edgelabel>account</edgelabel>
+        </childnode>
+        <childnode refid="870" relation="usage">
+          <edgelabel>previous_owner_authority</edgelabel>
+        </childnode>
+      </node>
+      <node id="869">
+        <label>account_name_type</label>
+      </node>
+      <node id="868">
+        <label>oid&lt; owner_authority_history_object &gt;</label>
+      </node>
+      <node id="870">
+        <label>authority</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/app/include/steemit/app/steem_api_objects.hpp" line="353" column="1" bodyfile="libraries/app/include/steemit/app/steem_api_objects.hpp" bodystart="353" bodyend="370"/>
+    <listofallmembers>
+      <member refid="db/ddc/structsteemit_1_1app_1_1owner__authority__history__api__obj_1a87d524db617635979b2348b4175420e0" prot="public" virt="non-virtual"><scope>steemit::app::owner_authority_history_api_obj</scope><name>account</name></member>
+      <member refid="db/ddc/structsteemit_1_1app_1_1owner__authority__history__api__obj_1adefd6c447fd7f70c6a4ee80403526d68" prot="public" virt="non-virtual"><scope>steemit::app::owner_authority_history_api_obj</scope><name>id</name></member>
+      <member refid="db/ddc/structsteemit_1_1app_1_1owner__authority__history__api__obj_1af7d7f8a515099c6d0787cabc3b3fe5e6" prot="public" virt="non-virtual"><scope>steemit::app::owner_authority_history_api_obj</scope><name>last_valid_time</name></member>
+      <member refid="db/ddc/structsteemit_1_1app_1_1owner__authority__history__api__obj_1addb9734a7626f92e0d191b721bd8da13" prot="public" virt="non-virtual"><scope>steemit::app::owner_authority_history_api_obj</scope><name>owner_authority_history_api_obj</name></member>
+      <member refid="db/ddc/structsteemit_1_1app_1_1owner__authority__history__api__obj_1a488aa8bb6e6d5b55d874acce732eb61f" prot="public" virt="non-virtual"><scope>steemit::app::owner_authority_history_api_obj</scope><name>owner_authority_history_api_obj</name></member>
+      <member refid="db/ddc/structsteemit_1_1app_1_1owner__authority__history__api__obj_1a2cce28a4563e30601296e48f4efb9b39" prot="public" virt="non-virtual"><scope>steemit::app::owner_authority_history_api_obj</scope><name>previous_owner_authority</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

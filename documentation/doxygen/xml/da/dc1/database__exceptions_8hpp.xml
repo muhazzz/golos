@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="da/dc1/database__exceptions_8hpp" kind="file" language="C++">
+    <compoundname>database_exceptions.hpp</compoundname>
+    <includes local="no">steemit/protocol/exceptions.hpp</includes>
+    <includes local="no">fc/exception/exception.hpp</includes>
+    <includedby refid="df/d7b/application_8cpp" local="no">libraries/app/application.cpp</includedby>
+    <includedby refid="da/d7b/database_8cpp" local="no">libraries/chain/database.cpp</includedby>
+    <includedby refid="d5/d97/fork__database_8cpp" local="no">libraries/chain/fork_database.cpp</includedby>
+    <includedby refid="dc/d2c/witness_8cpp" local="no">libraries/plugins/witness/witness.cpp</includedby>
+    <incdepgraph>
+      <node id="1381">
+        <label>fc/exception/exception.hpp</label>
+      </node>
+      <node id="1379">
+        <label>libraries/chain/include/steemit/chain/database_exceptions.hpp</label>
+        <link refid="da/dc1/database__exceptions_8hpp"/>
+        <childnode refid="1380" relation="include">
+        </childnode>
+        <childnode refid="1381" relation="include">
+        </childnode>
+      </node>
+      <node id="1380">
+        <label>steemit/protocol/exceptions.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1383">
+        <label>libraries/app/application.cpp</label>
+        <link refid="df/d7b/application_8cpp"/>
+      </node>
+      <node id="1386">
+        <label>libraries/plugins/witness/witness.cpp</label>
+        <link refid="dc/d2c/witness_8cpp"/>
+      </node>
+      <node id="1384">
+        <label>libraries/chain/database.cpp</label>
+        <link refid="da/d7b/database_8cpp"/>
+      </node>
+      <node id="1385">
+        <label>libraries/chain/fork_database.cpp</label>
+        <link refid="d5/d97/fork__database_8cpp"/>
+      </node>
+      <node id="1382">
+        <label>libraries/chain/include/steemit/chain/database_exceptions.hpp</label>
+        <link refid="da/dc1/database__exceptions_8hpp"/>
+        <childnode refid="1383" relation="include">
+        </childnode>
+        <childnode refid="1384" relation="include">
+        </childnode>
+        <childnode refid="1385" relation="include">
+        </childnode>
+        <childnode refid="1386" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="d9/d75/namespacesteemit">steemit</innernamespace>
+    <innernamespace refid="d8/d9b/namespacesteemit_1_1chain">steemit::chain</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="da/dc1/database__exceptions_8hpp_1a62a114b58ff1c2358b5fe446e638d940" prot="public" static="no">
+        <name>STEEMIT_DECLARE_OP_BASE_EXCEPTIONS</name>
+        <param><defname>op_name</defname></param>
+        <initializer>FC_DECLARE_DERIVED_EXCEPTION(                                      \
+      op_name ## _validate_exception,                                 \
+      steemit::chain::operation_validate_exception,                  \
+      4040000 + 100 * protocol::operation::tag&lt; protocol::op_name ## _operation &gt;::value, \
+      #op_name &quot;_operation validation exception&quot;                      \
+      )                                                               \
+   FC_DECLARE_DERIVED_EXCEPTION(                                      \
+      op_name ## _evaluate_exception,                                 \
+      steemit::chain::operation_evaluate_exception,                  \
+      4050000 + 100 * protocol::operation::tag&lt; protocol::op_name ## _operation &gt;::value, \
+      #op_name &quot;_operation evaluation exception&quot;                      \
+      )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/database_exceptions.hpp" line="5" column="9" bodyfile="libraries/chain/include/steemit/chain/database_exceptions.hpp" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="da/dc1/database__exceptions_8hpp_1ad60d64c556aeb73f896248a044140c64" prot="public" static="no">
+        <name>STEEMIT_DECLARE_OP_VALIDATE_EXCEPTION</name>
+        <param><defname>exc_name</defname></param>
+        <param><defname>op_name</defname></param>
+        <param><defname>seqnum</defname></param>
+        <param><defname>msg</defname></param>
+        <initializer>FC_DECLARE_DERIVED_EXCEPTION(                                      \
+      op_name ## _ ## exc_name,                                       \
+      steemit::chain::op_name ## _validate_exception,                \
+      4040000 + 100 * protocol::operation::tag&lt; protocol::op_name ## _operation &gt;::value  \
+         + seqnum,                                                    \
+      msg                                                             \
+      )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/database_exceptions.hpp" line="19" column="9" bodyfile="libraries/chain/include/steemit/chain/database_exceptions.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="da/dc1/database__exceptions_8hpp_1ac9fc41730b09ceb035a795c1596d171c" prot="public" static="no">
+        <name>STEEMIT_DECLARE_OP_EVALUATE_EXCEPTION</name>
+        <param><defname>exc_name</defname></param>
+        <param><defname>op_name</defname></param>
+        <param><defname>seqnum</defname></param>
+        <param><defname>msg</defname></param>
+        <initializer>FC_DECLARE_DERIVED_EXCEPTION(                                      \
+      op_name ## _ ## exc_name,                                       \
+      steemit::chain::op_name ## _evaluate_exception,                \
+      4050000 + 100 * protocol::operation::tag&lt; protocol::op_name ## _operation &gt;::value  \
+         + seqnum,                                                    \
+      msg                                                             \
+      )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/database_exceptions.hpp" line="28" column="9" bodyfile="libraries/chain/include/steemit/chain/database_exceptions.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="da/dc1/database__exceptions_8hpp_1a63d4a028f9c003010db5e3103eb5a261" prot="public" static="no">
+        <name>STEEMIT_DECLARE_INTERNAL_EXCEPTION</name>
+        <param><defname>exc_name</defname></param>
+        <param><defname>seqnum</defname></param>
+        <param><defname>msg</defname></param>
+        <initializer>FC_DECLARE_DERIVED_EXCEPTION(                                      \
+      internal_ ## exc_name,                                          \
+      steemit::chain::internal_exception,                            \
+      4990000 + seqnum,                                               \
+      msg                                                             \
+      )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/database_exceptions.hpp" line="37" column="9" bodyfile="libraries/chain/include/steemit/chain/database_exceptions.hpp" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="da/dc1/database__exceptions_8hpp_1a1addbdce8acc9931abb99b54ea5d01bf" prot="public" static="no">
+        <name>STEEMIT_TRY_NOTIFY</name>
+        <param><defname>signal</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>try                                                                        \
+   {                                                                          \
+      signal( __VA_ARGS__ );                                                  \
+   }                                                                          \
+   catch( const steemit::chain::plugin_exception&amp; e )                         \
+   {                                                                          \
+      elog( &quot;Caught plugin exception: ${e}&quot;, (&quot;e&quot;, e.to_detail_string() ) );  \
+      throw;                                                                  \
+   }                                                                          \
+   catch( const fc::exception&amp; e )                                            \
+   {                                                                          \
+      elog( &quot;Caught exception in plugin: ${e}&quot;, (&quot;e&quot;, e.to_detail_string() ) ); \
+   }                                                                          \
+   catch( ... )                                                               \
+   {                                                                          \
+      wlog( &quot;Caught unexpected exception in plugin&quot; );                        \
+   }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/database_exceptions.hpp" line="45" column="9" bodyfile="libraries/chain/include/steemit/chain/database_exceptions.hpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/chain/include/steemit/chain/database_exceptions.hpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d0/d3b/structsteemit_1_1app_1_1account__vote" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::app::account_vote</compoundname>
+    <includes refid="da/d3b/state_8hpp" local="no">state.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d0/d3b/structsteemit_1_1app_1_1account__vote_1a9097daa17777910bd125ed53b109cc86" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string steemit::app::account_vote::authorperm</definition>
+        <argsstring></argsstring>
+        <name>authorperm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="63" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d3b/structsteemit_1_1app_1_1account__vote_1ac57ca2f2a5c2297342579aa1f3f3037b" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t steemit::app::account_vote::weight</definition>
+        <argsstring></argsstring>
+        <name>weight</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="64" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d3b/structsteemit_1_1app_1_1account__vote_1a1f8604fb90de091af57c0249f25412dc" prot="public" static="no" mutable="no">
+        <type>int64_t</type>
+        <definition>int64_t steemit::app::account_vote::rshares</definition>
+        <argsstring></argsstring>
+        <name>rshares</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="65" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d3b/structsteemit_1_1app_1_1account__vote_1a0d512e051f8f1edd9515c3c5f8475569" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t steemit::app::account_vote::percent</definition>
+        <argsstring></argsstring>
+        <name>percent</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="66" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d3b/structsteemit_1_1app_1_1account__vote_1a125bd24cd8a5934626e8e81aeab2f949" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::app::account_vote::time</definition>
+        <argsstring></argsstring>
+        <name>time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/state.hpp" line="67" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="156">
+        <label>time_point_sec</label>
+      </node>
+      <node id="157">
+        <label>string</label>
+      </node>
+      <node id="155">
+        <label>steemit::app::account_vote</label>
+        <link refid="d0/d3b/structsteemit_1_1app_1_1account__vote"/>
+        <childnode refid="156" relation="usage">
+          <edgelabel>time</edgelabel>
+        </childnode>
+        <childnode refid="157" relation="usage">
+          <edgelabel>authorperm</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/app/include/steemit/app/state.hpp" line="62" column="1" bodyfile="libraries/app/include/steemit/app/state.hpp" bodystart="62" bodyend="68"/>
+    <listofallmembers>
+      <member refid="d0/d3b/structsteemit_1_1app_1_1account__vote_1a9097daa17777910bd125ed53b109cc86" prot="public" virt="non-virtual"><scope>steemit::app::account_vote</scope><name>authorperm</name></member>
+      <member refid="d0/d3b/structsteemit_1_1app_1_1account__vote_1a0d512e051f8f1edd9515c3c5f8475569" prot="public" virt="non-virtual"><scope>steemit::app::account_vote</scope><name>percent</name></member>
+      <member refid="d0/d3b/structsteemit_1_1app_1_1account__vote_1a1f8604fb90de091af57c0249f25412dc" prot="public" virt="non-virtual"><scope>steemit::app::account_vote</scope><name>rshares</name></member>
+      <member refid="d0/d3b/structsteemit_1_1app_1_1account__vote_1a125bd24cd8a5934626e8e81aeab2f949" prot="public" virt="non-virtual"><scope>steemit::app::account_vote</scope><name>time</name></member>
+      <member refid="d0/d3b/structsteemit_1_1app_1_1account__vote_1ac57ca2f2a5c2297342579aa1f3f3037b" prot="public" virt="non-virtual"><scope>steemit::app::account_vote</scope><name>weight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

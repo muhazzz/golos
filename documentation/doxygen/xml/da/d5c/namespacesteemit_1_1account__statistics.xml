@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="da/d5c/namespacesteemit_1_1account__statistics" kind="namespace" language="C++">
+    <compoundname>steemit::account_statistics</compoundname>
+    <innerclass refid="da/d72/structsteemit_1_1account__statistics_1_1account__activity__bucket__object" prot="public">steemit::account_statistics::account_activity_bucket_object</innerclass>
+    <innerclass refid="dc/de3/classsteemit_1_1account__statistics_1_1account__statistics__api" prot="public">steemit::account_statistics::account_statistics_api</innerclass>
+    <innerclass refid="d6/dfb/classsteemit_1_1account__statistics_1_1account__statistics__plugin" prot="public">steemit::account_statistics::account_statistics_plugin</innerclass>
+    <innerclass refid="dd/d6a/structsteemit_1_1account__statistics_1_1account__stats__bucket__object" prot="public">steemit::account_statistics::account_stats_bucket_object</innerclass>
+    <innernamespace refid="d9/d71/namespacesteemit_1_1account__statistics_1_1detail">steemit::account_statistics::detail</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="da/d5c/namespacesteemit_1_1account__statistics_1a7c4c5d29cad2d421c7ea2d3dde3c8eec" prot="public" static="no">
+        <name>account_statistics_plugin_object_types</name>
+        <enumvalue id="da/d5c/namespacesteemit_1_1account__statistics_1a7c4c5d29cad2d421c7ea2d3dde3c8eeca69bef7500fa317811bb574ee66d3cc54" prot="public">
+          <name>account_stats_bucket_object_type</name>
+          <initializer>= (ACCOUNT_STATISTICS_SPACE_ID
+                    &lt;&lt; 8)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d5c/namespacesteemit_1_1account__statistics_1a7c4c5d29cad2d421c7ea2d3dde3c8eeca9705304a52dc8cd771b5b4c0816f37db" prot="public">
+          <name>account_activity_bucket_object_type</name>
+          <initializer>=
+            (ACCOUNT_STATISTICS_SPACE_ID &lt;&lt; 8) + 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="29" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="29" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="da/d5c/namespacesteemit_1_1account__statistics_1a6b7f713220d174dc166153e57d957720" prot="public" static="no">
+        <type>account_stats_bucket_object::id_type</type>
+        <definition>typedef account_stats_bucket_object::id_type steemit::account_statistics::account_stats_bucket_id_type</definition>
+        <argsstring></argsstring>
+        <name>account_stats_bucket_id_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="112" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="da/d5c/namespacesteemit_1_1account__statistics_1aecdf46c601e7965311b0d2e72ba731c4" prot="public" static="no">
+        <type>account_activity_bucket_object::id_type</type>
+        <definition>typedef account_activity_bucket_object::id_type steemit::account_statistics::account_activity_bucket_id_type</definition>
+        <argsstring></argsstring>
+        <name>account_activity_bucket_id_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" line="133" column="1" bodyfile="libraries/plugins/account_statistics/include/steemit/account_statistics/account_statistics_plugin.hpp" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/account_statistics/account_statistics_api.cpp" line="4" column="1"/>
+  </compounddef>
+</doxygen>

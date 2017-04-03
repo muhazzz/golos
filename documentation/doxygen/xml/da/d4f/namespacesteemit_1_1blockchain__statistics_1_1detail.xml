@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="da/d4f/namespacesteemit_1_1blockchain__statistics_1_1detail" kind="namespace" language="C++">
+    <compoundname>steemit::blockchain_statistics::detail</compoundname>
+    <innerclass refid="d7/de5/classsteemit_1_1blockchain__statistics_1_1detail_1_1blockchain__statistics__api__impl" prot="public">steemit::blockchain_statistics::detail::blockchain_statistics_api_impl</innerclass>
+    <innerclass refid="d8/dd6/classsteemit_1_1blockchain__statistics_1_1detail_1_1blockchain__statistics__plugin__impl" prot="public">steemit::blockchain_statistics::detail::blockchain_statistics_plugin_impl</innerclass>
+    <innerclass refid="d1/d51/structsteemit_1_1blockchain__statistics_1_1detail_1_1operation__process" prot="public">steemit::blockchain_statistics::detail::operation_process</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/blockchain_statistics/blockchain_statistics_api.cpp" line="6" column="1"/>
+  </compounddef>
+</doxygen>

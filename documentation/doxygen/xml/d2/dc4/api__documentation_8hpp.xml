@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d2/dc4/api__documentation_8hpp" kind="file" language="C++">
+    <compoundname>api_documentation.hpp</compoundname>
+    <includes local="no">string</includes>
+    <includes local="no">boost/multi_index_container.hpp</includes>
+    <includes local="no">boost/multi_index/ordered_index.hpp</includes>
+    <includes local="no">boost/multi_index/member.hpp</includes>
+    <includes local="no">fc/exception/exception.hpp</includes>
+    <includedby refid="d3/d0b/api__documentation__standin_8cpp" local="no">libraries/wallet/api_documentation_standin.cpp</includedby>
+    <includedby refid="d7/de1/wallet_8cpp" local="no">libraries/wallet/wallet.cpp</includedby>
+    <incdepgraph>
+      <node id="5046">
+        <label>boost/multi_index/ordered_index.hpp</label>
+      </node>
+      <node id="5044">
+        <label>string</label>
+      </node>
+      <node id="5048">
+        <label>fc/exception/exception.hpp</label>
+      </node>
+      <node id="5043">
+        <label>libraries/wallet/include/steemit/wallet/api_documentation.hpp</label>
+        <link refid="d2/dc4/api__documentation_8hpp"/>
+        <childnode refid="5044" relation="include">
+        </childnode>
+        <childnode refid="5045" relation="include">
+        </childnode>
+        <childnode refid="5046" relation="include">
+        </childnode>
+        <childnode refid="5047" relation="include">
+        </childnode>
+        <childnode refid="5048" relation="include">
+        </childnode>
+      </node>
+      <node id="5047">
+        <label>boost/multi_index/member.hpp</label>
+      </node>
+      <node id="5045">
+        <label>boost/multi_index_container.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="5050">
+        <label>libraries/wallet/api_documentation_standin.cpp</label>
+        <link refid="d3/d0b/api__documentation__standin_8cpp"/>
+      </node>
+      <node id="5049">
+        <label>libraries/wallet/include/steemit/wallet/api_documentation.hpp</label>
+        <link refid="d2/dc4/api__documentation_8hpp"/>
+        <childnode refid="5050" relation="include">
+        </childnode>
+        <childnode refid="5051" relation="include">
+        </childnode>
+      </node>
+      <node id="5051">
+        <label>libraries/wallet/wallet.cpp</label>
+        <link refid="d7/de1/wallet_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d0/df9/structsteemit_1_1wallet_1_1method__description" prot="public">steemit::wallet::method_description</innerclass>
+    <innerclass refid="d3/d0c/classsteemit_1_1wallet_1_1api__documentation" prot="public">steemit::wallet::api_documentation</innerclass>
+    <innernamespace refid="d9/d75/namespacesteemit">steemit</innernamespace>
+    <innernamespace refid="d1/dc6/namespacesteemit_1_1wallet">steemit::wallet</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/wallet/include/steemit/wallet/api_documentation.hpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d4/df2/evaluator__registry_8hpp" kind="file" language="C++">
+    <compoundname>evaluator_registry.hpp</compoundname>
+    <includes refid="d0/da6/evaluator_8hpp" local="no">steemit/chain/evaluator.hpp</includes>
+    <includedby refid="da/d7b/database_8cpp" local="no">libraries/chain/database.cpp</includedby>
+    <includedby refid="d3/db4/generic__custom__operation__interpreter_8hpp" local="no">libraries/chain/include/steemit/chain/generic_custom_operation_interpreter.hpp</includedby>
+    <incdepgraph>
+      <node id="1479">
+        <label>libraries/chain/include/steemit/chain/evaluator_registry.hpp</label>
+        <link refid="d4/df2/evaluator__registry_8hpp"/>
+        <childnode refid="1480" relation="include">
+        </childnode>
+      </node>
+      <node id="1482">
+        <label>steemit/protocol/operations.hpp</label>
+      </node>
+      <node id="1480">
+        <label>steemit/chain/evaluator.hpp</label>
+        <link refid="d0/da6/evaluator_8hpp"/>
+        <childnode refid="1481" relation="include">
+        </childnode>
+        <childnode refid="1482" relation="include">
+        </childnode>
+      </node>
+      <node id="1481">
+        <label>steemit/protocol/exceptions.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1483">
+        <label>libraries/chain/include/steemit/chain/evaluator_registry.hpp</label>
+        <link refid="d4/df2/evaluator__registry_8hpp"/>
+        <childnode refid="1484" relation="include">
+        </childnode>
+        <childnode refid="1485" relation="include">
+        </childnode>
+      </node>
+      <node id="1486">
+        <label>libraries/plugins/follow/follow_plugin.cpp</label>
+        <link refid="de/d56/follow__plugin_8cpp"/>
+      </node>
+      <node id="1487">
+        <label>libraries/plugins/private_message/private_message_plugin.cpp</label>
+        <link refid="d8/d7b/private__message__plugin_8cpp"/>
+      </node>
+      <node id="1484">
+        <label>libraries/chain/database.cpp</label>
+        <link refid="da/d7b/database_8cpp"/>
+      </node>
+      <node id="1485">
+        <label>libraries/chain/include/steemit/chain/generic_custom_operation_interpreter.hpp</label>
+        <link refid="d3/db4/generic__custom__operation__interpreter_8hpp"/>
+        <childnode refid="1486" relation="include">
+        </childnode>
+        <childnode refid="1487" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d9/d62/classsteemit_1_1chain_1_1evaluator__registry" prot="public">steemit::chain::evaluator_registry</innerclass>
+    <innernamespace refid="d9/d75/namespacesteemit">steemit</innernamespace>
+    <innernamespace refid="d8/d9b/namespacesteemit_1_1chain">steemit::chain</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/chain/include/steemit/chain/evaluator_registry.hpp"/>
+  </compounddef>
+</doxygen>

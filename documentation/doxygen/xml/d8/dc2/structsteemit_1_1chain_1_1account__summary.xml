@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d8/dc2/structsteemit_1_1chain_1_1account__summary" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::chain::account_summary</compoundname>
+    <includes refid="d6/d1b/snapshot__state_8hpp" local="no">snapshot_state.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d8/dc2/structsteemit_1_1chain_1_1account__summary_1aac0fd1170ff9e354ca15868a43ac912e" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::chain::account_summary::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/snapshot_state.hpp" line="28" column="1" bodyfile="libraries/chain/include/steemit/chain/snapshot_state.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dc2/structsteemit_1_1chain_1_1account__summary_1ae1cd3574c51e8b77c46ffb420e55f540" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string steemit::chain::account_summary::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/snapshot_state.hpp" line="29" column="1" bodyfile="libraries/chain/include/steemit/chain/snapshot_state.hpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dc2/structsteemit_1_1chain_1_1account__summary_1aa90fbe101a49be4a223d192b6f2c2c2b" prot="public" static="no" mutable="no">
+        <type><ref refid="d8/d6c/structsteemit_1_1chain_1_1account__keys" kindref="compound">account_keys</ref></type>
+        <definition>account_keys steemit::chain::account_summary::keys</definition>
+        <argsstring></argsstring>
+        <name>keys</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/snapshot_state.hpp" line="30" column="1" bodyfile="libraries/chain/include/steemit/chain/snapshot_state.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dc2/structsteemit_1_1chain_1_1account__summary_1ace3c31fc0c84fd62c59cfb88d0756359" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::chain::account_summary::posting_rewards</definition>
+        <argsstring></argsstring>
+        <name>posting_rewards</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/snapshot_state.hpp" line="31" column="1" bodyfile="libraries/chain/include/steemit/chain/snapshot_state.hpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dc2/structsteemit_1_1chain_1_1account__summary_1ae5132e0ef258b51222876ba51cee7603" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::chain::account_summary::curation_rewards</definition>
+        <argsstring></argsstring>
+        <name>curation_rewards</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/snapshot_state.hpp" line="32" column="1" bodyfile="libraries/chain/include/steemit/chain/snapshot_state.hpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dc2/structsteemit_1_1chain_1_1account__summary_1a9e946927c2a8e8eac8f3c31e0d91f1aa" prot="public" static="no" mutable="no">
+        <type><ref refid="d4/d73/structsteemit_1_1chain_1_1account__balances" kindref="compound">account_balances</ref></type>
+        <definition>account_balances steemit::chain::account_summary::balances</definition>
+        <argsstring></argsstring>
+        <name>balances</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/snapshot_state.hpp" line="33" column="1" bodyfile="libraries/chain/include/steemit/chain/snapshot_state.hpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dc2/structsteemit_1_1chain_1_1account__summary_1ae6a425be52285dd216875b2c738b4ff7" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string steemit::chain::account_summary::json_metadata</definition>
+        <argsstring></argsstring>
+        <name>json_metadata</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/snapshot_state.hpp" line="34" column="1" bodyfile="libraries/chain/include/steemit/chain/snapshot_state.hpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dc2/structsteemit_1_1chain_1_1account__summary_1a54a081d28c83ab4e155869c5b25c8cf7" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string steemit::chain::account_summary::proxy</definition>
+        <argsstring></argsstring>
+        <name>proxy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/snapshot_state.hpp" line="35" column="1" bodyfile="libraries/chain/include/steemit/chain/snapshot_state.hpp" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dc2/structsteemit_1_1chain_1_1account__summary_1a5aef3744e9e9c8532abd11bca65b419a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::chain::account_summary::post_count</definition>
+        <argsstring></argsstring>
+        <name>post_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/snapshot_state.hpp" line="36" column="1" bodyfile="libraries/chain/include/steemit/chain/snapshot_state.hpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dc2/structsteemit_1_1chain_1_1account__summary_1a7b73bcdb1561927a62e4645f21765946" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string steemit::chain::account_summary::recovery_account</definition>
+        <argsstring></argsstring>
+        <name>recovery_account</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/snapshot_state.hpp" line="37" column="1" bodyfile="libraries/chain/include/steemit/chain/snapshot_state.hpp" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dc2/structsteemit_1_1chain_1_1account__summary_1aab99607feba7609f3d7693236f5cfc87" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::chain::account_summary::reputation</definition>
+        <argsstring></argsstring>
+        <name>reputation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/snapshot_state.hpp" line="38" column="1" bodyfile="libraries/chain/include/steemit/chain/snapshot_state.hpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="150">
+        <label>string</label>
+      </node>
+      <node id="147">
+        <label>steemit::chain::account_keys</label>
+        <link refid="d8/d6c/structsteemit_1_1chain_1_1account__keys"/>
+        <childnode refid="148" relation="usage">
+          <edgelabel>memo_key</edgelabel>
+        </childnode>
+        <childnode refid="149" relation="usage">
+          <edgelabel>posting_key</edgelabel>
+          <edgelabel>active_key</edgelabel>
+          <edgelabel>owner_key</edgelabel>
+        </childnode>
+      </node>
+      <node id="148">
+        <label>public_key_type</label>
+      </node>
+      <node id="146">
+        <label>steemit::chain::account_summary</label>
+        <link refid="d8/dc2/structsteemit_1_1chain_1_1account__summary"/>
+        <childnode refid="147" relation="usage">
+          <edgelabel>keys</edgelabel>
+        </childnode>
+        <childnode refid="150" relation="usage">
+          <edgelabel>recovery_account</edgelabel>
+          <edgelabel>json_metadata</edgelabel>
+          <edgelabel>proxy</edgelabel>
+          <edgelabel>name</edgelabel>
+        </childnode>
+        <childnode refid="151" relation="usage">
+          <edgelabel>balances</edgelabel>
+        </childnode>
+        <childnode refid="153" relation="usage">
+          <edgelabel>posting_rewards</edgelabel>
+          <edgelabel>reputation</edgelabel>
+          <edgelabel>curation_rewards</edgelabel>
+        </childnode>
+      </node>
+      <node id="151">
+        <label>steemit::chain::account_balances</label>
+        <link refid="d4/d73/structsteemit_1_1chain_1_1account__balances"/>
+        <childnode refid="152" relation="usage">
+          <edgelabel>assets</edgelabel>
+        </childnode>
+      </node>
+      <node id="152">
+        <label>vector&lt; asset &gt;</label>
+      </node>
+      <node id="149">
+        <label>authority</label>
+      </node>
+      <node id="153">
+        <label>share_type</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/chain/include/steemit/chain/snapshot_state.hpp" line="27" column="1" bodyfile="libraries/chain/include/steemit/chain/snapshot_state.hpp" bodystart="27" bodyend="39"/>
+    <listofallmembers>
+      <member refid="d8/dc2/structsteemit_1_1chain_1_1account__summary_1a9e946927c2a8e8eac8f3c31e0d91f1aa" prot="public" virt="non-virtual"><scope>steemit::chain::account_summary</scope><name>balances</name></member>
+      <member refid="d8/dc2/structsteemit_1_1chain_1_1account__summary_1ae5132e0ef258b51222876ba51cee7603" prot="public" virt="non-virtual"><scope>steemit::chain::account_summary</scope><name>curation_rewards</name></member>
+      <member refid="d8/dc2/structsteemit_1_1chain_1_1account__summary_1aac0fd1170ff9e354ca15868a43ac912e" prot="public" virt="non-virtual"><scope>steemit::chain::account_summary</scope><name>id</name></member>
+      <member refid="d8/dc2/structsteemit_1_1chain_1_1account__summary_1ae6a425be52285dd216875b2c738b4ff7" prot="public" virt="non-virtual"><scope>steemit::chain::account_summary</scope><name>json_metadata</name></member>
+      <member refid="d8/dc2/structsteemit_1_1chain_1_1account__summary_1aa90fbe101a49be4a223d192b6f2c2c2b" prot="public" virt="non-virtual"><scope>steemit::chain::account_summary</scope><name>keys</name></member>
+      <member refid="d8/dc2/structsteemit_1_1chain_1_1account__summary_1ae1cd3574c51e8b77c46ffb420e55f540" prot="public" virt="non-virtual"><scope>steemit::chain::account_summary</scope><name>name</name></member>
+      <member refid="d8/dc2/structsteemit_1_1chain_1_1account__summary_1a5aef3744e9e9c8532abd11bca65b419a" prot="public" virt="non-virtual"><scope>steemit::chain::account_summary</scope><name>post_count</name></member>
+      <member refid="d8/dc2/structsteemit_1_1chain_1_1account__summary_1ace3c31fc0c84fd62c59cfb88d0756359" prot="public" virt="non-virtual"><scope>steemit::chain::account_summary</scope><name>posting_rewards</name></member>
+      <member refid="d8/dc2/structsteemit_1_1chain_1_1account__summary_1a54a081d28c83ab4e155869c5b25c8cf7" prot="public" virt="non-virtual"><scope>steemit::chain::account_summary</scope><name>proxy</name></member>
+      <member refid="d8/dc2/structsteemit_1_1chain_1_1account__summary_1a7b73bcdb1561927a62e4645f21765946" prot="public" virt="non-virtual"><scope>steemit::chain::account_summary</scope><name>recovery_account</name></member>
+      <member refid="d8/dc2/structsteemit_1_1chain_1_1account__summary_1aab99607feba7609f3d7693236f5cfc87" prot="public" virt="non-virtual"><scope>steemit::chain::account_summary</scope><name>reputation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

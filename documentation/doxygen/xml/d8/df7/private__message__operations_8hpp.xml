@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d8/df7/private__message__operations_8hpp" kind="file" language="C++">
+    <compoundname>private_message_operations.hpp</compoundname>
+    <includes local="no">steemit/protocol/base.hpp</includes>
+    <includes local="no">steemit/protocol/types.hpp</includes>
+    <includes local="no">fc/reflect/reflect.hpp</includes>
+    <includes local="no">cstdint</includes>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includedby refid="d7/de1/wallet_8cpp" local="no">libraries/wallet/wallet.cpp</includedby>
+    <includedby refid="d9/dc8/private__message__evaluators_8hpp" local="no">libraries/plugins/private_message/include/steemit/private_message/private_message_evaluators.hpp</includedby>
+    <incdepgraph>
+      <node id="4422">
+        <label>fc/reflect/reflect.hpp</label>
+      </node>
+      <node id="4419">
+        <label>libraries/plugins/private_message/include/steemit/private_message/private_message_operations.hpp</label>
+        <link refid="d8/df7/private__message__operations_8hpp"/>
+        <childnode refid="4420" relation="include">
+        </childnode>
+        <childnode refid="4421" relation="include">
+        </childnode>
+        <childnode refid="4422" relation="include">
+        </childnode>
+        <childnode refid="4423" relation="include">
+        </childnode>
+        <childnode refid="4424" relation="include">
+        </childnode>
+        <childnode refid="4425" relation="include">
+        </childnode>
+      </node>
+      <node id="4423">
+        <label>cstdint</label>
+      </node>
+      <node id="4420">
+        <label>steemit/protocol/base.hpp</label>
+      </node>
+      <node id="4421">
+        <label>steemit/protocol/types.hpp</label>
+      </node>
+      <node id="4424">
+        <label>string</label>
+      </node>
+      <node id="4425">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4426">
+        <label>libraries/plugins/private_message/include/steemit/private_message/private_message_operations.hpp</label>
+        <link refid="d8/df7/private__message__operations_8hpp"/>
+        <childnode refid="4427" relation="include">
+        </childnode>
+        <childnode refid="4428" relation="include">
+        </childnode>
+      </node>
+      <node id="4429">
+        <label>libraries/plugins/private_message/private_message_plugin.cpp</label>
+        <link refid="d8/d7b/private__message__plugin_8cpp"/>
+      </node>
+      <node id="4428">
+        <label>libraries/plugins/private_message/include/steemit/private_message/private_message_evaluators.hpp</label>
+        <link refid="d9/dc8/private__message__evaluators_8hpp"/>
+        <childnode refid="4429" relation="include">
+        </childnode>
+      </node>
+      <node id="4427">
+        <label>libraries/wallet/wallet.cpp</label>
+        <link refid="d7/de1/wallet_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d7/dbc/structsteemit_1_1private__message_1_1private__message__operation" prot="public">steemit::private_message::private_message_operation</innerclass>
+    <innernamespace refid="d9/d75/namespacesteemit">steemit</innernamespace>
+    <innernamespace refid="df/dfc/namespacesteemit_1_1private__message">steemit::private_message</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/private_message/include/steemit/private_message/private_message_operations.hpp"/>
+  </compounddef>
+</doxygen>

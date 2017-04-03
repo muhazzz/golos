@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d8/daf/structsteemit_1_1app_1_1applied__operation" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::app::applied_operation</compoundname>
+    <includes refid="d5/df1/applied__operation_8hpp" local="no">applied_operation.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d8/daf/structsteemit_1_1app_1_1applied__operation_1a1968e6fb27d85094f8823a6aaa9e86bb" prot="public" static="no" mutable="no">
+        <type>steemit::protocol::transaction_id_type</type>
+        <definition>steemit::protocol::transaction_id_type steemit::app::applied_operation::trx_id</definition>
+        <argsstring></argsstring>
+        <name>trx_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/applied_operation.hpp" line="14" column="1" bodyfile="libraries/app/include/steemit/app/applied_operation.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/daf/structsteemit_1_1app_1_1applied__operation_1a0da8559cefad58761f23239f6a18f54e" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::app::applied_operation::block</definition>
+        <argsstring></argsstring>
+        <name>block</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/applied_operation.hpp" line="15" column="1" bodyfile="libraries/app/include/steemit/app/applied_operation.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/daf/structsteemit_1_1app_1_1applied__operation_1ab662f6410c26abe5bfb0f1074bdf2a08" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::app::applied_operation::trx_in_block</definition>
+        <argsstring></argsstring>
+        <name>trx_in_block</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/applied_operation.hpp" line="16" column="1" bodyfile="libraries/app/include/steemit/app/applied_operation.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/daf/structsteemit_1_1app_1_1applied__operation_1ae8d9f5ef7913624b1b4d41e7d5d84660" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t steemit::app::applied_operation::op_in_trx</definition>
+        <argsstring></argsstring>
+        <name>op_in_trx</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/applied_operation.hpp" line="17" column="1" bodyfile="libraries/app/include/steemit/app/applied_operation.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/daf/structsteemit_1_1app_1_1applied__operation_1a51eb407db1d8c009184575337807cdbc" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t steemit::app::applied_operation::virtual_op</definition>
+        <argsstring></argsstring>
+        <name>virtual_op</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/applied_operation.hpp" line="18" column="1" bodyfile="libraries/app/include/steemit/app/applied_operation.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/daf/structsteemit_1_1app_1_1applied__operation_1adab08901e4acf1e675bb83abd3fbf7d9" prot="public" static="no" mutable="no">
+        <type>fc::time_point_sec</type>
+        <definition>fc::time_point_sec steemit::app::applied_operation::timestamp</definition>
+        <argsstring></argsstring>
+        <name>timestamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/applied_operation.hpp" line="19" column="1" bodyfile="libraries/app/include/steemit/app/applied_operation.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/daf/structsteemit_1_1app_1_1applied__operation_1adb8e29cf120b70b8ca17d5ff2272b317" prot="public" static="no" mutable="no">
+        <type>steemit::protocol::operation</type>
+        <definition>steemit::protocol::operation steemit::app::applied_operation::op</definition>
+        <argsstring></argsstring>
+        <name>op</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/applied_operation.hpp" line="20" column="1" bodyfile="libraries/app/include/steemit/app/applied_operation.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/daf/structsteemit_1_1app_1_1applied__operation_1ad5dfe733813958c4f39a198a3e14e749" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>steemit::app::applied_operation::applied_operation</definition>
+        <argsstring>()</argsstring>
+        <name>applied_operation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/applied_operation.hpp" line="10" column="1" bodyfile="libraries/app/database_api.cpp" bodystart="102" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/daf/structsteemit_1_1app_1_1applied__operation_1a68c9d14ad92c23f38692cad773fd90a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>steemit::app::applied_operation::applied_operation</definition>
+        <argsstring>(const steemit::chain::operation_object &amp;op_obj)</argsstring>
+        <name>applied_operation</name>
+        <param>
+          <type>const <ref refid="d6/d5d/classsteemit_1_1chain_1_1operation__object" kindref="compound">steemit::chain::operation_object</ref> &amp;</type>
+          <declname>op_obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/applied_operation.hpp" line="12" column="1" bodyfile="libraries/app/database_api.cpp" bodystart="105" bodyend="114"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="181">
+        <label>time_point_sec</label>
+      </node>
+      <node id="180">
+        <label>steemit::app::applied_operation</label>
+        <link refid="d8/daf/structsteemit_1_1app_1_1applied__operation"/>
+        <childnode refid="181" relation="usage">
+          <edgelabel>timestamp</edgelabel>
+        </childnode>
+        <childnode refid="182" relation="usage">
+          <edgelabel>op</edgelabel>
+        </childnode>
+        <childnode refid="183" relation="usage">
+          <edgelabel>trx_id</edgelabel>
+        </childnode>
+      </node>
+      <node id="183">
+        <label>transaction_id_type</label>
+      </node>
+      <node id="182">
+        <label>operation</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/app/include/steemit/app/applied_operation.hpp" line="9" column="1" bodyfile="libraries/app/include/steemit/app/applied_operation.hpp" bodystart="9" bodyend="21"/>
+    <listofallmembers>
+      <member refid="d8/daf/structsteemit_1_1app_1_1applied__operation_1ad5dfe733813958c4f39a198a3e14e749" prot="public" virt="non-virtual"><scope>steemit::app::applied_operation</scope><name>applied_operation</name></member>
+      <member refid="d8/daf/structsteemit_1_1app_1_1applied__operation_1a68c9d14ad92c23f38692cad773fd90a2" prot="public" virt="non-virtual"><scope>steemit::app::applied_operation</scope><name>applied_operation</name></member>
+      <member refid="d8/daf/structsteemit_1_1app_1_1applied__operation_1a0da8559cefad58761f23239f6a18f54e" prot="public" virt="non-virtual"><scope>steemit::app::applied_operation</scope><name>block</name></member>
+      <member refid="d8/daf/structsteemit_1_1app_1_1applied__operation_1adb8e29cf120b70b8ca17d5ff2272b317" prot="public" virt="non-virtual"><scope>steemit::app::applied_operation</scope><name>op</name></member>
+      <member refid="d8/daf/structsteemit_1_1app_1_1applied__operation_1ae8d9f5ef7913624b1b4d41e7d5d84660" prot="public" virt="non-virtual"><scope>steemit::app::applied_operation</scope><name>op_in_trx</name></member>
+      <member refid="d8/daf/structsteemit_1_1app_1_1applied__operation_1adab08901e4acf1e675bb83abd3fbf7d9" prot="public" virt="non-virtual"><scope>steemit::app::applied_operation</scope><name>timestamp</name></member>
+      <member refid="d8/daf/structsteemit_1_1app_1_1applied__operation_1a1968e6fb27d85094f8823a6aaa9e86bb" prot="public" virt="non-virtual"><scope>steemit::app::applied_operation</scope><name>trx_id</name></member>
+      <member refid="d8/daf/structsteemit_1_1app_1_1applied__operation_1ab662f6410c26abe5bfb0f1074bdf2a08" prot="public" virt="non-virtual"><scope>steemit::app::applied_operation</scope><name>trx_in_block</name></member>
+      <member refid="d8/daf/structsteemit_1_1app_1_1applied__operation_1a51eb407db1d8c009184575337807cdbc" prot="public" virt="non-virtual"><scope>steemit::app::applied_operation</scope><name>virtual_op</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

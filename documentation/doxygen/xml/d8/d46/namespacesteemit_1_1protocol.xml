@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d8/d46/namespacesteemit_1_1protocol" kind="namespace" language="C++">
+    <compoundname>steemit::protocol</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="d8/d46/namespacesteemit_1_1protocol_1af6ed0d0e398589926f6bc408a17de887" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>uint16_t</type>
+            <declname>percent</declname>
+            <defname>percent</defname>
+          </param>
+          <param>
+            <type>uint64_t</type>
+            <declname>multiply_constant</declname>
+            <defname>multiply_constant</defname>
+          </param>
+          <param>
+            <type>uint64_t</type>
+            <declname>shift_constant</declname>
+            <defname>shift_constant</defname>
+          </param>
+        </templateparamlist>
+        <type>share_type</type>
+        <definition>share_type steemit::protocol::calc_percent_reward</definition>
+        <argsstring>(share_type current_supply)</argsstring>
+        <name>calc_percent_reward</name>
+        <param>
+          <type>share_type</type>
+          <declname>current_supply</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/compound.hpp" line="14" column="1" bodyfile="libraries/chain/include/steemit/chain/compound.hpp" bodystart="14" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d46/namespacesteemit_1_1protocol_1ab92c21b6e9a824562c72138a9458cb6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>uint16_t</type>
+            <declname>percent</declname>
+            <defname>percent</defname>
+          </param>
+        </templateparamlist>
+        <type>share_type</type>
+        <definition>share_type steemit::protocol::calc_percent_reward_per_hour</definition>
+        <argsstring>(share_type current_supply)</argsstring>
+        <name>calc_percent_reward_per_hour</name>
+        <param>
+          <type>share_type</type>
+          <declname>current_supply</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/compound.hpp" line="38" column="1" bodyfile="libraries/chain/include/steemit/chain/compound.hpp" bodystart="38" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d46/namespacesteemit_1_1protocol_1a15ae022c41d0aa8c429fa0628f8afe22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>uint16_t</type>
+            <declname>percent</declname>
+            <defname>percent</defname>
+          </param>
+        </templateparamlist>
+        <type>share_type</type>
+        <definition>share_type steemit::protocol::calc_percent_reward_per_block</definition>
+        <argsstring>(share_type current_supply)</argsstring>
+        <name>calc_percent_reward_per_block</name>
+        <param>
+          <type>share_type</type>
+          <declname>current_supply</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/compound.hpp" line="43" column="1" bodyfile="libraries/chain/include/steemit/chain/compound.hpp" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d46/namespacesteemit_1_1protocol_1aab9832d04c14078e8786d19275159ec8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>uint16_t</type>
+            <declname>percent</declname>
+            <defname>percent</defname>
+          </param>
+        </templateparamlist>
+        <type>share_type</type>
+        <definition>share_type steemit::protocol::calc_percent_reward_per_round</definition>
+        <argsstring>(share_type current_supply)</argsstring>
+        <name>calc_percent_reward_per_round</name>
+        <param>
+          <type>share_type</type>
+          <declname>current_supply</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/compound.hpp" line="48" column="1" bodyfile="libraries/chain/include/steemit/chain/compound.hpp" bodystart="48" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/chain/include/steemit/chain/compound.hpp" line="11" column="1"/>
+  </compounddef>
+</doxygen>

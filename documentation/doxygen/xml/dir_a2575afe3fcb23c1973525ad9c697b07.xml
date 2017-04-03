@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_a2575afe3fcb23c1973525ad9c697b07" kind="dir">
+    <compoundname>libraries/wallet/include/steemit/wallet</compoundname>
+    <innerfile refid="d2/dc4/api__documentation_8hpp">api_documentation.hpp</innerfile>
+    <innerfile refid="df/d00/reflect__util_8hpp">reflect_util.hpp</innerfile>
+    <innerfile refid="d4/dc7/wallet_8hpp">wallet.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/wallet/include/steemit/wallet/"/>
+  </compounddef>
+</doxygen>

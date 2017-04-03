@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d1/d3c/structsteemit_1_1app_1_1liquidity__balance" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::app::liquidity_balance</compoundname>
+    <includes refid="d0/d21/database__api_8hpp" local="no">database_api.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d1/d3c/structsteemit_1_1app_1_1liquidity__balance_1ae7e18fea2986a991fcf27009a7610fe3" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string steemit::app::liquidity_balance::account</definition>
+        <argsstring></argsstring>
+        <name>account</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/database_api.hpp" line="54" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d3c/structsteemit_1_1app_1_1liquidity__balance_1a395d8721ab08674b92bd5f522ec62635" prot="public" static="no" mutable="no">
+        <type>fc::uint128_t</type>
+        <definition>fc::uint128_t steemit::app::liquidity_balance::weight</definition>
+        <argsstring></argsstring>
+        <name>weight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/database_api.hpp" line="55" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="690">
+        <label>steemit::app::liquidity_balance</label>
+        <link refid="d1/d3c/structsteemit_1_1app_1_1liquidity__balance"/>
+        <childnode refid="691" relation="usage">
+          <edgelabel>account</edgelabel>
+        </childnode>
+        <childnode refid="692" relation="usage">
+          <edgelabel>weight</edgelabel>
+        </childnode>
+      </node>
+      <node id="691">
+        <label>string</label>
+      </node>
+      <node id="692">
+        <label>uint128_t</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/app/include/steemit/app/database_api.hpp" line="53" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="53" bodyend="56"/>
+    <listofallmembers>
+      <member refid="d1/d3c/structsteemit_1_1app_1_1liquidity__balance_1ae7e18fea2986a991fcf27009a7610fe3" prot="public" virt="non-virtual"><scope>steemit::app::liquidity_balance</scope><name>account</name></member>
+      <member refid="d1/d3c/structsteemit_1_1app_1_1liquidity__balance_1a395d8721ab08674b92bd5f522ec62635" prot="public" virt="non-virtual"><scope>steemit::app::liquidity_balance</scope><name>weight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

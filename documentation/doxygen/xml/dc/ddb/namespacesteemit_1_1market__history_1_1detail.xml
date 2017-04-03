@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dc/ddb/namespacesteemit_1_1market__history_1_1detail" kind="namespace" language="C++">
+    <compoundname>steemit::market_history::detail</compoundname>
+    <innerclass refid="d6/d37/classsteemit_1_1market__history_1_1detail_1_1market__history__api__impl" prot="public">steemit::market_history::detail::market_history_api_impl</innerclass>
+    <innerclass refid="d9/d3c/classsteemit_1_1market__history_1_1detail_1_1market__history__plugin__impl" prot="public">steemit::market_history::detail::market_history_plugin_impl</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/market_history/include/steemit/market_history/market_history_api.hpp" line="21" column="1"/>
+  </compounddef>
+</doxygen>

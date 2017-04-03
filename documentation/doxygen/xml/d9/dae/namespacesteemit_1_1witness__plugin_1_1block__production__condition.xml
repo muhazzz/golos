@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d9/dae/namespacesteemit_1_1witness__plugin_1_1block__production__condition" kind="namespace" language="C++">
+    <compoundname>steemit::witness_plugin::block_production_condition</compoundname>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="d9/dae/namespacesteemit_1_1witness__plugin_1_1block__production__condition_1ac00d0927a92b780e8a60761ae698fdf3" prot="public" static="no">
+        <name>block_production_condition_enum</name>
+        <enumvalue id="d9/dae/namespacesteemit_1_1witness__plugin_1_1block__production__condition_1ac00d0927a92b780e8a60761ae698fdf3a4c60af564dddd75a00c8de26ba2685db" prot="public">
+          <name>produced</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dae/namespacesteemit_1_1witness__plugin_1_1block__production__condition_1ac00d0927a92b780e8a60761ae698fdf3a2e089375c81cdf807cd43cbdcd9af694" prot="public">
+          <name>not_synced</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dae/namespacesteemit_1_1witness__plugin_1_1block__production__condition_1ac00d0927a92b780e8a60761ae698fdf3af05dec6566bc51caa04f2a0ab94fc126" prot="public">
+          <name>not_my_turn</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dae/namespacesteemit_1_1witness__plugin_1_1block__production__condition_1ac00d0927a92b780e8a60761ae698fdf3a0557ccd75d9e972960cd880403e13679" prot="public">
+          <name>not_time_yet</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dae/namespacesteemit_1_1witness__plugin_1_1block__production__condition_1ac00d0927a92b780e8a60761ae698fdf3a50127e84af355b6ab8135d5c926245d4" prot="public">
+          <name>no_private_key</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dae/namespacesteemit_1_1witness__plugin_1_1block__production__condition_1ac00d0927a92b780e8a60761ae698fdf3a9a301809c02ba3cf529dafbb610924c3" prot="public">
+          <name>low_participation</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dae/namespacesteemit_1_1witness__plugin_1_1block__production__condition_1ac00d0927a92b780e8a60761ae698fdf3a56dc320c6f40513db3308006995b200a" prot="public">
+          <name>lag</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dae/namespacesteemit_1_1witness__plugin_1_1block__production__condition_1ac00d0927a92b780e8a60761ae698fdf3ae6bd114729e20045ccc2f9fb087c0d9e" prot="public">
+          <name>consecutive</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dae/namespacesteemit_1_1witness__plugin_1_1block__production__condition_1ac00d0927a92b780e8a60761ae698fdf3aa591125e83ac75dcc808347d1dd802a9" prot="public">
+          <name>wait_for_genesis</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dae/namespacesteemit_1_1witness__plugin_1_1block__production__condition_1ac00d0927a92b780e8a60761ae698fdf3a03479372c08fc2d2f92d7605778d5442" prot="public">
+          <name>exception_producing_block</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/witness/include/steemit/witness/witness.hpp" line="40" column="1" bodyfile="libraries/plugins/witness/include/steemit/witness/witness.hpp" bodystart="40" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/witness/include/steemit/witness/witness.hpp" line="39" column="1"/>
+  </compounddef>
+</doxygen>

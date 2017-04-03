@@ -1,0 +1,393 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d6/de3/debug__node__api_8cpp" kind="file" language="C++">
+    <compoundname>debug_node_api.cpp</compoundname>
+    <includes local="no">fc/filesystem.hpp</includes>
+    <includes local="no">fc/variant_object.hpp</includes>
+    <includes refid="d9/d64/api__context_8hpp" local="no">steemit/app/api_context.hpp</includes>
+    <includes refid="d4/d01/application_8hpp" local="no">steemit/app/application.hpp</includes>
+    <includes refid="d3/df9/account__object_8hpp" local="no">steemit/chain/account_object.hpp</includes>
+    <includes local="no">graphene/utilities/key_conversion.hpp</includes>
+    <includes refid="d2/da3/debug__node__api_8hpp" local="no">steemit/plugins/debug_node/debug_node_api.hpp</includes>
+    <includes refid="d7/df6/debug__node__plugin_8hpp" local="no">steemit/plugins/debug_node/debug_node_plugin.hpp</includes>
+    <incdepgraph>
+      <node id="3239">
+        <label>boost/multi_index/ordered_index.hpp</label>
+      </node>
+      <node id="3248">
+        <label>steemit/protocol/block.hpp</label>
+      </node>
+      <node id="3224">
+        <label>steemit/app/api_context.hpp</label>
+        <link refid="d9/d64/api__context_8hpp"/>
+        <childnode refid="3225" relation="include">
+        </childnode>
+        <childnode refid="3226" relation="include">
+        </childnode>
+        <childnode refid="3227" relation="include">
+        </childnode>
+        <childnode refid="3228" relation="include">
+        </childnode>
+      </node>
+      <node id="3231">
+        <label>fc/reflect/reflect.hpp</label>
+      </node>
+      <node id="3251">
+        <label>steemit/protocol/protocol.hpp</label>
+      </node>
+      <node id="3263">
+        <label>steemit/chain/shared_authority.hpp</label>
+        <link refid="df/dd8/shared__authority_8hpp"/>
+        <childnode refid="3243" relation="include">
+        </childnode>
+        <childnode refid="3264" relation="include">
+        </childnode>
+      </node>
+      <node id="3275">
+        <label>fc/io/json.hpp</label>
+      </node>
+      <node id="3266">
+        <label>graphene/utilities/key_conversion.hpp</label>
+      </node>
+      <node id="3246">
+        <label>steemit/chain/node_property_object.hpp</label>
+        <link refid="d0/d72/node__property__object_8hpp"/>
+      </node>
+      <node id="3242">
+        <label>steemit/protocol/types.hpp</label>
+      </node>
+      <node id="3264">
+        <label>boost/interprocess/managed_mapped_file.hpp</label>
+      </node>
+      <node id="3269">
+        <label>fc/optional.hpp</label>
+      </node>
+      <node id="3243">
+        <label>steemit/protocol/authority.hpp</label>
+      </node>
+      <node id="3259">
+        <label>fc/fixed_string.hpp</label>
+      </node>
+      <node id="3277">
+        <label>fc/unique_ptr.hpp</label>
+      </node>
+      <node id="3265">
+        <label>numeric</label>
+      </node>
+      <node id="3250">
+        <label>steemit/chain/block_log.hpp</label>
+        <link refid="db/dfa/block__log_8hpp"/>
+        <childnode refid="3222" relation="include">
+        </childnode>
+        <childnode refid="3248" relation="include">
+        </childnode>
+      </node>
+      <node id="3252">
+        <label>fc/signals.hpp</label>
+      </node>
+      <node id="3226">
+        <label>string</label>
+      </node>
+      <node id="3270">
+        <label>steemit/plugins/debug_node/debug_node_plugin.hpp</label>
+        <link refid="d7/df6/debug__node__plugin_8hpp"/>
+        <childnode refid="3271" relation="include">
+        </childnode>
+        <childnode refid="3223" relation="include">
+        </childnode>
+        <childnode refid="3225" relation="include">
+        </childnode>
+        <childnode refid="3279" relation="include">
+        </childnode>
+      </node>
+      <node id="3225">
+        <label>map</label>
+      </node>
+      <node id="3256">
+        <label>fc/rpc/websocket_api.hpp</label>
+      </node>
+      <node id="3245">
+        <label>steemit/chain/hardfork.hpp</label>
+      </node>
+      <node id="3236">
+        <label>steemit/chain/steem_object_types.hpp</label>
+        <link refid="d6/dd8/steem__object__types_8hpp"/>
+        <childnode refid="3237" relation="include">
+        </childnode>
+        <childnode refid="3238" relation="include">
+        </childnode>
+        <childnode refid="3239" relation="include">
+        </childnode>
+        <childnode refid="3240" relation="include">
+        </childnode>
+        <childnode refid="3241" relation="include">
+        </childnode>
+        <childnode refid="3242" relation="include">
+        </childnode>
+        <childnode refid="3243" relation="include">
+        </childnode>
+      </node>
+      <node id="3222">
+        <label>fc/filesystem.hpp</label>
+      </node>
+      <node id="3247">
+        <label>steemit/chain/fork_database.hpp</label>
+        <link refid="d2/d8c/fork__database_8hpp"/>
+        <childnode refid="3248" relation="include">
+        </childnode>
+        <childnode refid="3237" relation="include">
+        </childnode>
+        <childnode refid="3238" relation="include">
+        </childnode>
+        <childnode refid="3239" relation="include">
+        </childnode>
+        <childnode refid="3249" relation="include">
+        </childnode>
+        <childnode refid="3240" relation="include">
+        </childnode>
+      </node>
+      <node id="3267">
+        <label>steemit/plugins/debug_node/debug_node_api.hpp</label>
+        <link refid="d2/da3/debug__node__api_8hpp"/>
+        <childnode refid="3268" relation="include">
+        </childnode>
+        <childnode refid="3226" relation="include">
+        </childnode>
+        <childnode refid="3228" relation="include">
+        </childnode>
+        <childnode refid="3269" relation="include">
+        </childnode>
+        <childnode refid="3223" relation="include">
+        </childnode>
+        <childnode refid="3248" relation="include">
+        </childnode>
+        <childnode refid="3261" relation="include">
+        </childnode>
+      </node>
+      <node id="3279">
+        <label>fstream</label>
+      </node>
+      <node id="3257">
+        <label>boost/program_options.hpp</label>
+      </node>
+      <node id="3260">
+        <label>steemit/protocol/steem_operations.hpp</label>
+      </node>
+      <node id="3261">
+        <label>steemit/chain/witness_objects.hpp</label>
+        <link refid="de/d8f/witness__objects_8hpp"/>
+        <childnode refid="3243" relation="include">
+        </childnode>
+        <childnode refid="3260" relation="include">
+        </childnode>
+        <childnode refid="3236" relation="include">
+        </childnode>
+        <childnode refid="3262" relation="include">
+        </childnode>
+      </node>
+      <node id="3241">
+        <label>chainbase/chainbase.hpp</label>
+      </node>
+      <node id="3253">
+        <label>fc/log/logger.hpp</label>
+      </node>
+      <node id="3258">
+        <label>steemit/chain/account_object.hpp</label>
+        <link refid="d3/df9/account__object_8hpp"/>
+        <childnode refid="3259" relation="include">
+        </childnode>
+        <childnode refid="3243" relation="include">
+        </childnode>
+        <childnode refid="3260" relation="include">
+        </childnode>
+        <childnode refid="3236" relation="include">
+        </childnode>
+        <childnode refid="3261" relation="include">
+        </childnode>
+        <childnode refid="3263" relation="include">
+        </childnode>
+        <childnode refid="3262" relation="include">
+        </childnode>
+        <childnode refid="3265" relation="include">
+        </childnode>
+      </node>
+      <node id="3274">
+        <label>steemit/protocol/operations.hpp</label>
+      </node>
+      <node id="3276">
+        <label>fc/static_variant.hpp</label>
+      </node>
+      <node id="3278">
+        <label>fc/vector.hpp</label>
+      </node>
+      <node id="3223">
+        <label>fc/variant_object.hpp</label>
+      </node>
+      <node id="3254">
+        <label>graphene/net/node.hpp</label>
+      </node>
+      <node id="3230">
+        <label>steemit/app/api_access.hpp</label>
+        <link refid="db/d81/api__access_8hpp"/>
+        <childnode refid="3231" relation="include">
+        </childnode>
+        <childnode refid="3225" relation="include">
+        </childnode>
+        <childnode refid="3226" relation="include">
+        </childnode>
+        <childnode refid="3232" relation="include">
+        </childnode>
+      </node>
+      <node id="3229">
+        <label>steemit/app/application.hpp</label>
+        <link refid="d4/d01/application_8hpp"/>
+        <childnode refid="3230" relation="include">
+        </childnode>
+        <childnode refid="3224" relation="include">
+        </childnode>
+        <childnode refid="3233" relation="include">
+        </childnode>
+        <childnode refid="3254" relation="include">
+        </childnode>
+        <childnode refid="3228" relation="include">
+        </childnode>
+        <childnode refid="3255" relation="include">
+        </childnode>
+        <childnode refid="3256" relation="include">
+        </childnode>
+        <childnode refid="3257" relation="include">
+        </childnode>
+      </node>
+      <node id="3272">
+        <label>steemit/chain/evaluator.hpp</label>
+        <link refid="d0/da6/evaluator_8hpp"/>
+        <childnode refid="3273" relation="include">
+        </childnode>
+        <childnode refid="3274" relation="include">
+        </childnode>
+      </node>
+      <node id="3232">
+        <label>vector</label>
+      </node>
+      <node id="3234">
+        <label>steemit/chain/global_property_object.hpp</label>
+        <link refid="d2/d78/global__property__object_8hpp"/>
+        <childnode refid="3235" relation="include">
+        </childnode>
+        <childnode refid="3236" relation="include">
+        </childnode>
+        <childnode refid="3244" relation="include">
+        </childnode>
+      </node>
+      <node id="3244">
+        <label>steemit/protocol/asset.hpp</label>
+      </node>
+      <node id="3227">
+        <label>utility</label>
+      </node>
+      <node id="3249">
+        <label>boost/multi_index/hashed_index.hpp</label>
+      </node>
+      <node id="3262">
+        <label>boost/multi_index/composite_key.hpp</label>
+      </node>
+      <node id="3221">
+        <label>libraries/plugins/debug_node/debug_node_api.cpp</label>
+        <link refid="d6/de3/debug__node__api_8cpp"/>
+        <childnode refid="3222" relation="include">
+        </childnode>
+        <childnode refid="3223" relation="include">
+        </childnode>
+        <childnode refid="3224" relation="include">
+        </childnode>
+        <childnode refid="3229" relation="include">
+        </childnode>
+        <childnode refid="3258" relation="include">
+        </childnode>
+        <childnode refid="3266" relation="include">
+        </childnode>
+        <childnode refid="3267" relation="include">
+        </childnode>
+        <childnode refid="3270" relation="include">
+        </childnode>
+      </node>
+      <node id="3238">
+        <label>boost/multi_index/member.hpp</label>
+      </node>
+      <node id="3237">
+        <label>boost/multi_index_container.hpp</label>
+      </node>
+      <node id="3255">
+        <label>fc/rpc/api_connection.hpp</label>
+      </node>
+      <node id="3271">
+        <label>steemit/app/plugin.hpp</label>
+        <link refid="d1/dab/plugin_8hpp"/>
+        <childnode refid="3229" relation="include">
+        </childnode>
+        <childnode refid="3272" relation="include">
+        </childnode>
+        <childnode refid="3257" relation="include">
+        </childnode>
+        <childnode refid="3275" relation="include">
+        </childnode>
+        <childnode refid="3276" relation="include">
+        </childnode>
+        <childnode refid="3277" relation="include">
+        </childnode>
+        <childnode refid="3278" relation="include">
+        </childnode>
+        <childnode refid="3268" relation="include">
+        </childnode>
+      </node>
+      <node id="3235">
+        <label>fc/uint128.hpp</label>
+      </node>
+      <node id="3240">
+        <label>boost/multi_index/mem_fun.hpp</label>
+      </node>
+      <node id="3233">
+        <label>steemit/chain/database.hpp</label>
+        <link refid="df/da2/database_8hpp"/>
+        <childnode refid="3234" relation="include">
+        </childnode>
+        <childnode refid="3245" relation="include">
+        </childnode>
+        <childnode refid="3246" relation="include">
+        </childnode>
+        <childnode refid="3247" relation="include">
+        </childnode>
+        <childnode refid="3250" relation="include">
+        </childnode>
+        <childnode refid="3251" relation="include">
+        </childnode>
+        <childnode refid="3252" relation="include">
+        </childnode>
+        <childnode refid="3253" relation="include">
+        </childnode>
+        <childnode refid="3225" relation="include">
+        </childnode>
+      </node>
+      <node id="3268">
+        <label>memory</label>
+      </node>
+      <node id="3228">
+        <label>fc/api.hpp</label>
+      </node>
+      <node id="3273">
+        <label>steemit/protocol/exceptions.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="da/da6/classsteemit_1_1plugin_1_1debug__node_1_1detail_1_1debug__private__key__storage" prot="public">steemit::plugin::debug_node::detail::debug_private_key_storage</innerclass>
+    <innerclass refid="d0/d60/classsteemit_1_1plugin_1_1debug__node_1_1detail_1_1debug__node__api__impl" prot="public">steemit::plugin::debug_node::detail::debug_node_api_impl</innerclass>
+    <innernamespace refid="d9/d75/namespacesteemit">steemit</innernamespace>
+    <innernamespace refid="df/db1/namespacesteemit_1_1plugin">steemit::plugin</innernamespace>
+    <innernamespace refid="dd/d78/namespacesteemit_1_1plugin_1_1debug__node">steemit::plugin::debug_node</innernamespace>
+    <innernamespace refid="dc/d6d/namespacesteemit_1_1plugin_1_1debug__node_1_1detail">steemit::plugin::debug_node::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/plugins/debug_node/debug_node_api.cpp"/>
+  </compounddef>
+</doxygen>

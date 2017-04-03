@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d9/d75/namespacesteemit" kind="namespace" language="C++">
+    <compoundname>steemit</compoundname>
+    <innernamespace refid="d2/d14/namespacesteemit_1_1account__by__key">steemit::account_by_key</innernamespace>
+    <innernamespace refid="d1/dd8/namespacesteemit_1_1account__history">steemit::account_history</innernamespace>
+    <innernamespace refid="da/d5c/namespacesteemit_1_1account__statistics">steemit::account_statistics</innernamespace>
+    <innernamespace refid="df/d55/namespacesteemit_1_1app">steemit::app</innernamespace>
+    <innernamespace refid="d5/d56/namespacesteemit_1_1blockchain__statistics">steemit::blockchain_statistics</innernamespace>
+    <innernamespace refid="d8/d9b/namespacesteemit_1_1chain">steemit::chain</innernamespace>
+    <innernamespace refid="d5/da6/namespacesteemit_1_1delayed__node">steemit::delayed_node</innernamespace>
+    <innernamespace refid="d0/d38/namespacesteemit_1_1follow">steemit::follow</innernamespace>
+    <innernamespace refid="da/db7/namespacesteemit_1_1market__history">steemit::market_history</innernamespace>
+    <innernamespace refid="df/db1/namespacesteemit_1_1plugin">steemit::plugin</innernamespace>
+    <innernamespace refid="df/dfc/namespacesteemit_1_1private__message">steemit::private_message</innernamespace>
+    <innernamespace refid="d8/d46/namespacesteemit_1_1protocol">steemit::protocol</innernamespace>
+    <innernamespace refid="d8/d58/namespacesteemit_1_1tags">steemit::tags</innernamespace>
+    <innernamespace refid="d1/dc6/namespacesteemit_1_1wallet">steemit::wallet</innernamespace>
+    <innernamespace refid="d2/d63/namespacesteemit_1_1witness__plugin">steemit::witness_plugin</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/app/api.cpp" line="36" column="1"/>
+  </compounddef>
+</doxygen>

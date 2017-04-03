@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_7bacdcce371d30dc3b5c019e0d30b623" kind="dir">
+    <compoundname>libraries/app/include/steemit</compoundname>
+    <innerdir refid="dir_14f4de5eec59a9cb5ee0e9f99e14fcf4">libraries/app/include/steemit/app</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="libraries/app/include/steemit/"/>
+  </compounddef>
+</doxygen>

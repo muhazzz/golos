@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d2/d30/classsteemit_1_1account__statistics_1_1detail_1_1account__statistics__plugin__impl" kind="class" language="C++" prot="public">
+    <compoundname>steemit::account_statistics::detail::account_statistics_plugin_impl</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d2/d30/classsteemit_1_1account__statistics_1_1detail_1_1account__statistics__plugin__impl_1a8f1e530f9a5e5c516f9da5896f6f391a" prot="public" static="no" mutable="no">
+        <type><ref refid="d6/dfb/classsteemit_1_1account__statistics_1_1account__statistics__plugin" kindref="compound">account_statistics_plugin</ref> &amp;</type>
+        <definition>account_statistics_plugin&amp; steemit::account_statistics::detail::account_statistics_plugin_impl::_self</definition>
+        <argsstring></argsstring>
+        <name>_self</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/account_statistics_plugin.cpp" line="22" column="1" bodyfile="libraries/plugins/account_statistics/account_statistics_plugin.cpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d30/classsteemit_1_1account__statistics_1_1detail_1_1account__statistics__plugin__impl_1a08278aedaef4789fc5730f0f17f6f9f1" prot="public" static="no" mutable="no">
+        <type>flat_set&lt; uint32_t &gt;</type>
+        <definition>flat_set&lt;uint32_t&gt; steemit::account_statistics::detail::account_statistics_plugin_impl::_tracked_buckets</definition>
+        <argsstring></argsstring>
+        <name>_tracked_buckets</name>
+        <initializer>= {60, 3600, 21600, 86400,
+                                                       604800, 2592000
+                }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/account_statistics_plugin.cpp" line="23" column="1" bodyfile="libraries/plugins/account_statistics/account_statistics_plugin.cpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d30/classsteemit_1_1account__statistics_1_1detail_1_1account__statistics__plugin__impl_1a958a47ef570ee79cb9a9695875a7c774" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::account_statistics::detail::account_statistics_plugin_impl::_maximum_history_per_bucket_size</definition>
+        <argsstring></argsstring>
+        <name>_maximum_history_per_bucket_size</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/account_statistics_plugin.cpp" line="26" column="1" bodyfile="libraries/plugins/account_statistics/account_statistics_plugin.cpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d30/classsteemit_1_1account__statistics_1_1detail_1_1account__statistics__plugin__impl_1ab5cc8f9843ac8264867a824c05a23df3" prot="public" static="no" mutable="no">
+        <type>flat_set&lt; string &gt;</type>
+        <definition>flat_set&lt;string&gt; steemit::account_statistics::detail::account_statistics_plugin_impl::_tracked_accounts</definition>
+        <argsstring></argsstring>
+        <name>_tracked_accounts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/account_statistics_plugin.cpp" line="27" column="1" bodyfile="libraries/plugins/account_statistics/account_statistics_plugin.cpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/d30/classsteemit_1_1account__statistics_1_1detail_1_1account__statistics__plugin__impl_1aef6b68ee1d70570d14a84b42df26655d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>steemit::account_statistics::detail::account_statistics_plugin_impl::account_statistics_plugin_impl</definition>
+        <argsstring>(account_statistics_plugin &amp;plugin)</argsstring>
+        <name>account_statistics_plugin_impl</name>
+        <param>
+          <type><ref refid="d6/dfb/classsteemit_1_1account__statistics_1_1account__statistics__plugin" kindref="compound">account_statistics_plugin</ref> &amp;</type>
+          <declname>plugin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/account_statistics_plugin.cpp" line="13" column="1" bodyfile="libraries/plugins/account_statistics/account_statistics_plugin.cpp" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d30/classsteemit_1_1account__statistics_1_1detail_1_1account__statistics__plugin__impl_1a0a6424756e6e929cf489ae689936ff6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual steemit::account_statistics::detail::account_statistics_plugin_impl::~account_statistics_plugin_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~account_statistics_plugin_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/account_statistics_plugin.cpp" line="17" column="1" bodyfile="libraries/plugins/account_statistics/account_statistics_plugin.cpp" bodystart="17" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d30/classsteemit_1_1account__statistics_1_1detail_1_1account__statistics__plugin__impl_1a9da547f24e5718f65506ecc57b484295" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void steemit::account_statistics::detail::account_statistics_plugin_impl::on_operation</definition>
+        <argsstring>(const operation_notification &amp;o)</argsstring>
+        <name>on_operation</name>
+        <param>
+          <type>const <ref refid="dc/dc3/structsteemit_1_1chain_1_1operation__notification" kindref="compound">operation_notification</ref> &amp;</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/account_statistics/account_statistics_plugin.cpp" line="20" column="1" bodyfile="libraries/plugins/account_statistics/account_statistics_plugin.cpp" bodystart="48" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="133">
+        <label>steemit::account_statistics::account_statistics_plugin</label>
+        <link refid="d6/dfb/classsteemit_1_1account__statistics_1_1account__statistics__plugin"/>
+        <childnode refid="134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="132">
+        <label>flat_set&lt; string &gt;</label>
+      </node>
+      <node id="131">
+        <label>steemit::account_statistics::detail::account_statistics_plugin_impl</label>
+        <link refid="d2/d30/classsteemit_1_1account__statistics_1_1detail_1_1account__statistics__plugin__impl"/>
+        <childnode refid="132" relation="usage">
+          <edgelabel>_tracked_accounts</edgelabel>
+        </childnode>
+        <childnode refid="133" relation="usage">
+          <edgelabel>_self</edgelabel>
+        </childnode>
+        <childnode refid="136" relation="usage">
+          <edgelabel>_tracked_buckets</edgelabel>
+        </childnode>
+      </node>
+      <node id="136">
+        <label>flat_set&lt; uint32_t &gt;</label>
+      </node>
+      <node id="135">
+        <label>steemit::app::abstract_plugin</label>
+        <link refid="dc/d57/classsteemit_1_1app_1_1abstract__plugin"/>
+      </node>
+      <node id="134">
+        <label>steemit::app::plugin</label>
+        <link refid="d8/daa/classsteemit_1_1app_1_1plugin"/>
+        <childnode refid="135" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/account_statistics/account_statistics_plugin.cpp" line="11" column="1" bodyfile="libraries/plugins/account_statistics/account_statistics_plugin.cpp" bodystart="11" bodyend="28"/>
+    <listofallmembers>
+      <member refid="d2/d30/classsteemit_1_1account__statistics_1_1detail_1_1account__statistics__plugin__impl_1a958a47ef570ee79cb9a9695875a7c774" prot="public" virt="non-virtual"><scope>steemit::account_statistics::detail::account_statistics_plugin_impl</scope><name>_maximum_history_per_bucket_size</name></member>
+      <member refid="d2/d30/classsteemit_1_1account__statistics_1_1detail_1_1account__statistics__plugin__impl_1a8f1e530f9a5e5c516f9da5896f6f391a" prot="public" virt="non-virtual"><scope>steemit::account_statistics::detail::account_statistics_plugin_impl</scope><name>_self</name></member>
+      <member refid="d2/d30/classsteemit_1_1account__statistics_1_1detail_1_1account__statistics__plugin__impl_1ab5cc8f9843ac8264867a824c05a23df3" prot="public" virt="non-virtual"><scope>steemit::account_statistics::detail::account_statistics_plugin_impl</scope><name>_tracked_accounts</name></member>
+      <member refid="d2/d30/classsteemit_1_1account__statistics_1_1detail_1_1account__statistics__plugin__impl_1a08278aedaef4789fc5730f0f17f6f9f1" prot="public" virt="non-virtual"><scope>steemit::account_statistics::detail::account_statistics_plugin_impl</scope><name>_tracked_buckets</name></member>
+      <member refid="d2/d30/classsteemit_1_1account__statistics_1_1detail_1_1account__statistics__plugin__impl_1aef6b68ee1d70570d14a84b42df26655d" prot="public" virt="non-virtual"><scope>steemit::account_statistics::detail::account_statistics_plugin_impl</scope><name>account_statistics_plugin_impl</name></member>
+      <member refid="d2/d30/classsteemit_1_1account__statistics_1_1detail_1_1account__statistics__plugin__impl_1a9da547f24e5718f65506ecc57b484295" prot="public" virt="non-virtual"><scope>steemit::account_statistics::detail::account_statistics_plugin_impl</scope><name>on_operation</name></member>
+      <member refid="d2/d30/classsteemit_1_1account__statistics_1_1detail_1_1account__statistics__plugin__impl_1a0a6424756e6e929cf489ae689936ff6c" prot="public" virt="virtual"><scope>steemit::account_statistics::detail::account_statistics_plugin_impl</scope><name>~account_statistics_plugin_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dd/d75/structsteemit_1_1app_1_1withdraw__route" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::app::withdraw_route</compoundname>
+    <includes refid="d0/d21/database__api_8hpp" local="no">database_api.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="dd/d75/structsteemit_1_1app_1_1withdraw__route_1aa86d5240a2309281747f9518fda69bb1" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string steemit::app::withdraw_route::from_account</definition>
+        <argsstring></argsstring>
+        <name>from_account</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/database_api.hpp" line="59" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d75/structsteemit_1_1app_1_1withdraw__route_1a74ea528f6cf24f6956b150c712841d16" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string steemit::app::withdraw_route::to_account</definition>
+        <argsstring></argsstring>
+        <name>to_account</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/database_api.hpp" line="60" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d75/structsteemit_1_1app_1_1withdraw__route_1ae876b958260e77b4f0ad038698c61bd7" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t steemit::app::withdraw_route::percent</definition>
+        <argsstring></argsstring>
+        <name>percent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/database_api.hpp" line="61" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d75/structsteemit_1_1app_1_1withdraw__route_1ababf8c05f0e45c45b694648bfe5a1bb5" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool steemit::app::withdraw_route::auto_vest</definition>
+        <argsstring></argsstring>
+        <name>auto_vest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/app/include/steemit/app/database_api.hpp" line="62" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1121">
+        <label>string</label>
+      </node>
+      <node id="1120">
+        <label>steemit::app::withdraw_route</label>
+        <link refid="dd/d75/structsteemit_1_1app_1_1withdraw__route"/>
+        <childnode refid="1121" relation="usage">
+          <edgelabel>to_account</edgelabel>
+          <edgelabel>from_account</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/app/include/steemit/app/database_api.hpp" line="58" column="1" bodyfile="libraries/app/include/steemit/app/database_api.hpp" bodystart="58" bodyend="63"/>
+    <listofallmembers>
+      <member refid="dd/d75/structsteemit_1_1app_1_1withdraw__route_1ababf8c05f0e45c45b694648bfe5a1bb5" prot="public" virt="non-virtual"><scope>steemit::app::withdraw_route</scope><name>auto_vest</name></member>
+      <member refid="dd/d75/structsteemit_1_1app_1_1withdraw__route_1aa86d5240a2309281747f9518fda69bb1" prot="public" virt="non-virtual"><scope>steemit::app::withdraw_route</scope><name>from_account</name></member>
+      <member refid="dd/d75/structsteemit_1_1app_1_1withdraw__route_1ae876b958260e77b4f0ad038698c61bd7" prot="public" virt="non-virtual"><scope>steemit::app::withdraw_route</scope><name>percent</name></member>
+      <member refid="dd/d75/structsteemit_1_1app_1_1withdraw__route_1a74ea528f6cf24f6956b150c712841d16" prot="public" virt="non-virtual"><scope>steemit::app::withdraw_route</scope><name>to_account</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

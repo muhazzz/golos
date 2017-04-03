@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d6/d18/structsteemit_1_1plugin_1_1debug__node_1_1get__dev__key__args" kind="struct" language="C++" prot="public">
+    <compoundname>steemit::plugin::debug_node::get_dev_key_args</compoundname>
+    <includes refid="d2/da3/debug__node__api_8hpp" local="no">debug_node_api.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d6/d18/structsteemit_1_1plugin_1_1debug__node_1_1get__dev__key__args_1adadb92acf45065a2b1c33b4b926feeb4" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string steemit::plugin::debug_node::get_dev_key_args::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/plugins/debug_node/include/steemit/plugins/debug_node/debug_node_api.hpp" line="30" column="1" bodyfile="libraries/plugins/debug_node/include/steemit/plugins/debug_node/debug_node_api.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="655">
+        <label>string</label>
+      </node>
+      <node id="654">
+        <label>steemit::plugin::debug_node::get_dev_key_args</label>
+        <link refid="d6/d18/structsteemit_1_1plugin_1_1debug__node_1_1get__dev__key__args"/>
+        <childnode refid="655" relation="usage">
+          <edgelabel>name</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/plugins/debug_node/include/steemit/plugins/debug_node/debug_node_api.hpp" line="29" column="1" bodyfile="libraries/plugins/debug_node/include/steemit/plugins/debug_node/debug_node_api.hpp" bodystart="29" bodyend="31"/>
+    <listofallmembers>
+      <member refid="d6/d18/structsteemit_1_1plugin_1_1debug__node_1_1get__dev__key__args_1adadb92acf45065a2b1c33b4b926feeb4" prot="public" virt="non-virtual"><scope>steemit::plugin::debug_node::get_dev_key_args</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

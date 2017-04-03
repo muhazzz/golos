@@ -1,0 +1,631 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="db/d00/classsteemit_1_1chain_1_1comment__object" kind="class" language="C++" prot="public">
+    <compoundname>steemit::chain::comment_object</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">chainbase::object&lt; comment_object_type, comment_object &gt;</basecompoundref>
+    <includes refid="d3/d98/comment__object_8hpp" local="no">comment_object.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1a5d2d388e648de22194b5f63175309914" prot="public" static="no" mutable="no">
+        <type>id_type</type>
+        <definition>id_type steemit::chain::comment_object::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="114" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1ad960bef28e57e16dd106dc3bb029d60b" prot="public" static="no" mutable="no">
+        <type><ref refid="d8/d9b/namespacesteemit_1_1chain_1a8e2d955447720336a4deaae60ad49519" kindref="member">shared_string</ref></type>
+        <definition>shared_string steemit::chain::comment_object::category</definition>
+        <argsstring></argsstring>
+        <name>category</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="116" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1aa7e2711153e2430d7a02c10f3ea37a7d" prot="public" static="no" mutable="no">
+        <type>account_name_type</type>
+        <definition>account_name_type steemit::chain::comment_object::parent_author</definition>
+        <argsstring></argsstring>
+        <name>parent_author</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="117" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1a46dc9a9654dc5fc2f6d5568ace3c4951" prot="public" static="no" mutable="no">
+        <type><ref refid="d8/d9b/namespacesteemit_1_1chain_1a8e2d955447720336a4deaae60ad49519" kindref="member">shared_string</ref></type>
+        <definition>shared_string steemit::chain::comment_object::parent_permlink</definition>
+        <argsstring></argsstring>
+        <name>parent_permlink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="118" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1ace63e4f56c3c74a3ffe1e31930f5f5d8" prot="public" static="no" mutable="no">
+        <type>account_name_type</type>
+        <definition>account_name_type steemit::chain::comment_object::author</definition>
+        <argsstring></argsstring>
+        <name>author</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="119" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1ac742ff73503071269795a0da91c5162c" prot="public" static="no" mutable="no">
+        <type><ref refid="d8/d9b/namespacesteemit_1_1chain_1a8e2d955447720336a4deaae60ad49519" kindref="member">shared_string</ref></type>
+        <definition>shared_string steemit::chain::comment_object::permlink</definition>
+        <argsstring></argsstring>
+        <name>permlink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="120" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1a49c822f96ee55569058ebabb331e6991" prot="public" static="no" mutable="no">
+        <type><ref refid="d8/d9b/namespacesteemit_1_1chain_1a8e2d955447720336a4deaae60ad49519" kindref="member">shared_string</ref></type>
+        <definition>shared_string steemit::chain::comment_object::title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="122" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1a125bc36cfa725400027a83eaa4037a68" prot="public" static="no" mutable="no">
+        <type><ref refid="d8/d9b/namespacesteemit_1_1chain_1a8e2d955447720336a4deaae60ad49519" kindref="member">shared_string</ref></type>
+        <definition>shared_string steemit::chain::comment_object::body</definition>
+        <argsstring></argsstring>
+        <name>body</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="123" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1ac9d80cfb8b469908d5f76543fc6ef2be" prot="public" static="no" mutable="no">
+        <type><ref refid="d8/d9b/namespacesteemit_1_1chain_1a8e2d955447720336a4deaae60ad49519" kindref="member">shared_string</ref></type>
+        <definition>shared_string steemit::chain::comment_object::json_metadata</definition>
+        <argsstring></argsstring>
+        <name>json_metadata</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="124" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1acbb5f710f8ab5e492e87185a7584e0a1" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::comment_object::last_update</definition>
+        <argsstring></argsstring>
+        <name>last_update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="125" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1a952c0ed8596abb6169f90ecaab57c17b" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::comment_object::created</definition>
+        <argsstring></argsstring>
+        <name>created</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="126" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1a609ba9fce28d8786b699f13b66f2ca21" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::comment_object::active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <briefdescription>
+<para>the last time this post was &quot;touched&quot; by voting or reply </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="127" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1a68473e73d55825e3bcf86bf13217ce0a" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::comment_object::last_payout</definition>
+        <argsstring></argsstring>
+        <name>last_payout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="128" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1a44e6b52827abf3911386a0723de293d7" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t steemit::chain::comment_object::depth</definition>
+        <argsstring></argsstring>
+        <name>depth</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>used to track max nested depth </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="130" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1ae68672a3f650ee61bff3fa4542f7eb18" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t steemit::chain::comment_object::children</definition>
+        <argsstring></argsstring>
+        <name>children</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>used to track the total number of children, grandchildren, etc... </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="131" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1a162f2d70e37e01ab155222d08494ec37" prot="public" static="no" mutable="no">
+        <type>fc::uint128_t</type>
+        <definition>fc::uint128_t steemit::chain::comment_object::children_rshares2</definition>
+        <argsstring></argsstring>
+        <name>children_rshares2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Used to track the total rshares^2 of all children, this is used for indexing purposes. A discussion that has a nested comment of high value should promote the entire discussion so that the comment can be reviewed. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="138" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1a7976cf72634cd4213779ba183f8c8a93" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::chain::comment_object::net_rshares</definition>
+        <argsstring></argsstring>
+        <name>net_rshares</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>index on pending_payout for &quot;things happning now... needs moderation&quot; TRENDING = UNCLAIMED + PENDING </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="142" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1ae7fdcfae22b139f8e38c063ac89c4af5" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::chain::comment_object::abs_rshares</definition>
+        <argsstring></argsstring>
+        <name>abs_rshares</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="143" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1a2670bb1a36e90967e8473146717502a6" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::chain::comment_object::vote_rshares</definition>
+        <argsstring></argsstring>
+        <name>vote_rshares</name>
+        <briefdescription>
+<para>this is used to track the total abs(weight) of votes for the purpose of calculating cashout_time </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="144" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1a7dff7130a02fcd1ebd7eda188d1fb328" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::chain::comment_object::children_abs_rshares</definition>
+        <argsstring></argsstring>
+        <name>children_abs_rshares</name>
+        <briefdescription>
+<para>Total positive rshares from all votes. Used to calculate delta weights. Needed to handle vote changing and removal. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="146" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1a45da480e8c5464b6e08ca616f6fb2f75" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::comment_object::cashout_time</definition>
+        <argsstring></argsstring>
+        <name>cashout_time</name>
+        <briefdescription>
+<para>this is used to calculate cashout time of a discussion. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="147" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1a0e15213db4e22f7851d0110b82a923ac" prot="public" static="no" mutable="no">
+        <type>time_point_sec</type>
+        <definition>time_point_sec steemit::chain::comment_object::max_cashout_time</definition>
+        <argsstring></argsstring>
+        <name>max_cashout_time</name>
+        <briefdescription>
+<para>24 hours from the weighted average of vote time </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="148" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1a99a39d0afecc88c24ddf75b70b1a1dc1" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t steemit::chain::comment_object::total_vote_weight</definition>
+        <argsstring></argsstring>
+        <name>total_vote_weight</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="149" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1a1ef2dff762c11505050e85bf53da7afd" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t steemit::chain::comment_object::reward_weight</definition>
+        <argsstring></argsstring>
+        <name>reward_weight</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>the total weight of voting rewards, used to calculate pro-rata share of curation payouts </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="151" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1a3eadd779fe6fe97a14f34d81600f0945" prot="public" static="no" mutable="no">
+        <type>asset</type>
+        <definition>asset steemit::chain::comment_object::total_payout_value</definition>
+        <argsstring></argsstring>
+        <name>total_payout_value</name>
+        <initializer>= asset(0, SBD_SYMBOL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>tracks the total payout this comment has received over time, measured in SBD </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="154" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1aaa470f9221f83ebe42127307b14e5eff" prot="public" static="no" mutable="no">
+        <type>asset</type>
+        <definition>asset steemit::chain::comment_object::curator_payout_value</definition>
+        <argsstring></argsstring>
+        <name>curator_payout_value</name>
+        <initializer>= asset(0, SBD_SYMBOL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="155" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1ad9c7725a51179b2a8fab201f442ce98e" prot="public" static="no" mutable="no">
+        <type>share_type</type>
+        <definition>share_type steemit::chain::comment_object::author_rewards</definition>
+        <argsstring></argsstring>
+        <name>author_rewards</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="157" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1a169945e0b40d37215cd086d76ea2fad8" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t steemit::chain::comment_object::net_votes</definition>
+        <argsstring></argsstring>
+        <name>net_votes</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="159" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1a2069b5661148576354fc09b65b9ed669" prot="public" static="no" mutable="no">
+        <type>id_type</type>
+        <definition>id_type steemit::chain::comment_object::root_comment</definition>
+        <argsstring></argsstring>
+        <name>root_comment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="161" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1ad5529ac1c26c734d803a8c25b8d2a865" prot="public" static="no" mutable="no">
+        <type><ref refid="d8/d9b/namespacesteemit_1_1chain_1a704d6cfb76ba6a996acf7b854a842f94" kindref="member">comment_mode</ref></type>
+        <definition>comment_mode steemit::chain::comment_object::mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <initializer>= <ref refid="d8/d9b/namespacesteemit_1_1chain_1a704d6cfb76ba6a996acf7b854a842f94aa3d6c4154cf95857f82e592c3e39ffe6" kindref="member">first_payout</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="163" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1a5df640db483f9c945e3f6bd03b66bc52" prot="public" static="no" mutable="no">
+        <type>asset</type>
+        <definition>asset steemit::chain::comment_object::max_accepted_payout</definition>
+        <argsstring></argsstring>
+        <name>max_accepted_payout</name>
+        <initializer>= asset(1000000000, SBD_SYMBOL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="165" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1a77a0498c60889bed3956b40e3f0b6fe4" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t steemit::chain::comment_object::percent_steem_dollars</definition>
+        <argsstring></argsstring>
+        <name>percent_steem_dollars</name>
+        <initializer>= STEEMIT_100_PERCENT</initializer>
+        <briefdescription>
+<para>SBD value of the maximum payout this post will receive. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="166" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1a4b1c8475e5941b6915246f892e6239c2" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool steemit::chain::comment_object::allow_replies</definition>
+        <argsstring></argsstring>
+        <name>allow_replies</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>the percent of Golos Dollars to key, unkept amounts will be received as Golos Power </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="167" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1abb07db031a780485446a13f4f9e75578" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool steemit::chain::comment_object::allow_votes</definition>
+        <argsstring></argsstring>
+        <name>allow_votes</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>allows a post to disable replies. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="168" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d00/classsteemit_1_1chain_1_1comment__object_1a69a5220cf1ca2ae8f6ccaa227adaacda" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool steemit::chain::comment_object::allow_curation_rewards</definition>
+        <argsstring></argsstring>
+        <name>allow_curation_rewards</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>allows a post to receive votes; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="169" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d00/classsteemit_1_1chain_1_1comment__object_1a917a01fae6803c1cd0bf22ede3bf1a36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>steemit::chain::comment_object::comment_object</definition>
+        <argsstring>()=delete</argsstring>
+        <name>comment_object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="105" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d00/classsteemit_1_1chain_1_1comment__object_1adac0d65e86cc25e3066fd772abc20d87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Constructor</type>
+          </param>
+          <param>
+            <type>typename Allocator</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>steemit::chain::comment_object::comment_object</definition>
+        <argsstring>(Constructor &amp;&amp;c, allocator&lt; Allocator &gt; a)</argsstring>
+        <name>comment_object</name>
+        <param>
+          <type>Constructor &amp;&amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>allocator&lt; Allocator &gt;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="108" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="108" bodyend="112"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="397">
+        <label>steemit::chain::comment_object</label>
+        <link refid="db/d00/classsteemit_1_1chain_1_1comment__object"/>
+        <childnode refid="398" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="398">
+        <label>chainbase::object&lt; comment_object_type, comment_object &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="402">
+        <label>asset</label>
+      </node>
+      <node id="401">
+        <label>time_point_sec</label>
+      </node>
+      <node id="403">
+        <label>account_name_type</label>
+      </node>
+      <node id="399">
+        <label>steemit::chain::comment_object</label>
+        <link refid="db/d00/classsteemit_1_1chain_1_1comment__object"/>
+        <childnode refid="400" relation="public-inheritance">
+        </childnode>
+        <childnode refid="401" relation="usage">
+          <edgelabel>last_payout</edgelabel>
+          <edgelabel>max_cashout_time</edgelabel>
+          <edgelabel>cashout_time</edgelabel>
+          <edgelabel>last_update</edgelabel>
+          <edgelabel>created</edgelabel>
+          <edgelabel>active</edgelabel>
+        </childnode>
+        <childnode refid="402" relation="usage">
+          <edgelabel>max_accepted_payout</edgelabel>
+          <edgelabel>curator_payout_value</edgelabel>
+          <edgelabel>total_payout_value</edgelabel>
+        </childnode>
+        <childnode refid="403" relation="usage">
+          <edgelabel>parent_author</edgelabel>
+          <edgelabel>author</edgelabel>
+        </childnode>
+        <childnode refid="404" relation="usage">
+          <edgelabel>children_rshares2</edgelabel>
+        </childnode>
+        <childnode refid="405" relation="usage">
+          <edgelabel>children_abs_rshares</edgelabel>
+          <edgelabel>author_rewards</edgelabel>
+          <edgelabel>vote_rshares</edgelabel>
+          <edgelabel>abs_rshares</edgelabel>
+          <edgelabel>net_rshares</edgelabel>
+        </childnode>
+      </node>
+      <node id="400">
+        <label>chainbase::object&lt; comment_object_type, comment_object &gt;</label>
+      </node>
+      <node id="405">
+        <label>share_type</label>
+      </node>
+      <node id="404">
+        <label>uint128_t</label>
+      </node>
+    </collaborationgraph>
+    <location file="libraries/chain/include/steemit/chain/comment_object.hpp" line="103" column="1" bodyfile="libraries/chain/include/steemit/chain/comment_object.hpp" bodystart="102" bodyend="170"/>
+    <listofallmembers>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1ae7fdcfae22b139f8e38c063ac89c4af5" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>abs_rshares</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1a609ba9fce28d8786b699f13b66f2ca21" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>active</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1a69a5220cf1ca2ae8f6ccaa227adaacda" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>allow_curation_rewards</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1a4b1c8475e5941b6915246f892e6239c2" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>allow_replies</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1abb07db031a780485446a13f4f9e75578" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>allow_votes</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1ace63e4f56c3c74a3ffe1e31930f5f5d8" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>author</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1ad9c7725a51179b2a8fab201f442ce98e" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>author_rewards</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1a125bc36cfa725400027a83eaa4037a68" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>body</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1a45da480e8c5464b6e08ca616f6fb2f75" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>cashout_time</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1ad960bef28e57e16dd106dc3bb029d60b" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>category</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1ae68672a3f650ee61bff3fa4542f7eb18" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>children</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1a7dff7130a02fcd1ebd7eda188d1fb328" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>children_abs_rshares</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1a162f2d70e37e01ab155222d08494ec37" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>children_rshares2</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1a917a01fae6803c1cd0bf22ede3bf1a36" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>comment_object</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1adac0d65e86cc25e3066fd772abc20d87" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>comment_object</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1a952c0ed8596abb6169f90ecaab57c17b" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>created</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1aaa470f9221f83ebe42127307b14e5eff" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>curator_payout_value</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1a44e6b52827abf3911386a0723de293d7" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>depth</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1a5d2d388e648de22194b5f63175309914" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>id</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1ac9d80cfb8b469908d5f76543fc6ef2be" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>json_metadata</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1a68473e73d55825e3bcf86bf13217ce0a" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>last_payout</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1acbb5f710f8ab5e492e87185a7584e0a1" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>last_update</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1a5df640db483f9c945e3f6bd03b66bc52" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>max_accepted_payout</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1a0e15213db4e22f7851d0110b82a923ac" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>max_cashout_time</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1ad5529ac1c26c734d803a8c25b8d2a865" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>mode</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1a7976cf72634cd4213779ba183f8c8a93" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>net_rshares</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1a169945e0b40d37215cd086d76ea2fad8" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>net_votes</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1aa7e2711153e2430d7a02c10f3ea37a7d" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>parent_author</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1a46dc9a9654dc5fc2f6d5568ace3c4951" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>parent_permlink</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1a77a0498c60889bed3956b40e3f0b6fe4" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>percent_steem_dollars</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1ac742ff73503071269795a0da91c5162c" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>permlink</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1a1ef2dff762c11505050e85bf53da7afd" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>reward_weight</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1a2069b5661148576354fc09b65b9ed669" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>root_comment</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1a49c822f96ee55569058ebabb331e6991" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>title</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1a3eadd779fe6fe97a14f34d81600f0945" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>total_payout_value</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1a99a39d0afecc88c24ddf75b70b1a1dc1" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>total_vote_weight</name></member>
+      <member refid="db/d00/classsteemit_1_1chain_1_1comment__object_1a2670bb1a36e90967e8473146717502a6" prot="public" virt="non-virtual"><scope>steemit::chain::comment_object</scope><name>vote_rshares</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
