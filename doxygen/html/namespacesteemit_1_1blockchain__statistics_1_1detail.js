@@ -1,6 +1,0 @@
-var namespacesteemit_1_1blockchain__statistics_1_1detail =
-[
-    [ "blockchain_statistics_api_impl", "classsteemit_1_1blockchain__statistics_1_1detail_1_1blockchain__statistics__api__impl.html", "classsteemit_1_1blockchain__statistics_1_1detail_1_1blockchain__statistics__api__impl" ],
-    [ "blockchain_statistics_plugin_impl", "classsteemit_1_1blockchain__statistics_1_1detail_1_1blockchain__statistics__plugin__impl.html", "classsteemit_1_1blockchain__statistics_1_1detail_1_1blockchain__statistics__plugin__impl" ],
-    [ "operation_process", "structsteemit_1_1blockchain__statistics_1_1detail_1_1operation__process.html", "structsteemit_1_1blockchain__statistics_1_1detail_1_1operation__process" ]
-];
