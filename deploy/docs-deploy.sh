@@ -54,8 +54,9 @@ else
     read VAR_DEPLOY
 fi
 
-
 if [ $VAR_DEPLOY == "yes" ]; then
+
+if [[ "$TRAVIS_BRANCH" == "master" ]]; then
 
   git remote add deploy "deploy@developers.golos.io:/www"
   git config user.name "Docs_autodeploy"
@@ -64,5 +65,9 @@ if [ $VAR_DEPLOY == "yes" ]; then
   git add .
   git commit -m "Deploy"
   git push --force deploy master
+
+fi
+
+  rsync -avr . developers.golos.io:/www/${TRAVIS_BRANCH}/
 
 fi

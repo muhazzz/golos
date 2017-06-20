@@ -4,6 +4,7 @@ set -e
 
 if [ $TRAVIS_BRANCH == "master" ]; then
 
+  deploy/install-doxygen.sh
   deploy/set-ssh.sh
   deploy/docs-deploy.sh --yes
 
