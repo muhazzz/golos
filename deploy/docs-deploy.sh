@@ -8,7 +8,9 @@ set -e
 
 # git clone https://github.com/muhazzz/golos
 
-cd golos/
+pwd
+ls
+#cd golos/
 
 doxygen
 
