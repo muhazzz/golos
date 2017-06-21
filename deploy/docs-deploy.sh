@@ -4,7 +4,9 @@ set -e
 
 # blockchain
 
-git clone https://github.com/GolosChain/golos
+# git clone https://github.com/GolosChain/golos
+
+git clone https://github.com/muhazzz/golos
 
 cd golos/
 
