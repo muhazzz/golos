@@ -6,7 +6,7 @@ set -e
 
 if [[ "$TRAVIS_BRANCH" == "master" ]] || [[ "$TRAVIS_BRANCH" =~ ^golos- ]]; then
 
-#  deploy/install-doxygen.sh
+  deploy/install-doxygen.sh
   deploy/set-ssh.sh
   deploy/docs-deploy.sh --yes
 
