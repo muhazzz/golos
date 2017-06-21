@@ -6,7 +6,7 @@ set -e
 
 # git clone https://github.com/GolosChain/golos
 
-git clone https://github.com/muhazzz/golos
+# git clone https://github.com/muhazzz/golos
 
 cd golos/
 
