@@ -4,20 +4,9 @@ set -e
 
 # blockchain
 
-# git clone https://github.com/GolosChain/golos
+git clone https://github.com/GolosChain/golos
 
-# git clone https://github.com/muhazzz/golos
-
-w
-id
-pwd
-echo ----
-ls -l
-echo ----
-ls -l ..
-echo ----
-#cd golos/
-echo "Doxygen version: $(doxygen -v)"
+cd golos/
 
 doxygen
 
@@ -65,9 +54,8 @@ else
     read VAR_DEPLOY
 fi
 
-if [ $VAR_DEPLOY == "yes" ]; then
 
-if [[ "$TRAVIS_BRANCH" == "master" ]]; then
+if [ $VAR_DEPLOY == "yes" ]; then
 
   git remote add deploy "deploy@developers.golos.io:/www"
   git config user.name "Docs_autodeploy"
@@ -76,9 +64,5 @@ if [[ "$TRAVIS_BRANCH" == "master" ]]; then
   git add .
   git commit -m "Deploy"
   git push --force deploy master
-
-fi
-
-  rsync -avr . developers.golos.io:/www/${TRAVIS_BRANCH}/
 
 fi
