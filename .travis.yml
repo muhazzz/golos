@@ -22,7 +22,7 @@ script:
     else
       GOOD_TAG=$TRAVIS_TAG ;
     fi
-  - echo "GOOD_TAG: $GOOD_TAG"
+  - echo "$GOOD_TAG"
   - if [ -n "${TRAVIS_TAG}" ]; then
       docker build -t goloschain/golos:"$GOOD_TAG" . ;
     else
