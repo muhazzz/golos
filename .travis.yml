@@ -33,7 +33,7 @@ after_success:
   - if [ -n "$TRAVIS_TAG" ]; then
       GOOD_TAG="$TRAVIS_TAG" ;
       docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";
-      docker tag goloschain/golos:$TRAVIS_TAG goloschain/golos:$GOOD_TAG ;
+      docker tag goloschain/golos:$TRAVIS_TAG goloschain/golos:$GOOD_TAG;
       echo "$GOOD_TAG";
       docker push goloschain/golos:$GOOD_TAG ;
     fi
