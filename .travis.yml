@@ -33,7 +33,7 @@ after_success:
       else
           GOOD_TAG=$TRAVIS_TAG
       fi
-      docker tag goloschain/golos:"$TRAVIS_TAG" goloschain/golos:"$GOOD_TAG" ;
-      docker push goloschain/golos:"$GOOD_TAG" ;
+      docker tag goloschain/golos:"$TRAVIS_TAG" goloschain/golos:"$GOOD_TAG"
+      docker push goloschain/golos:"$GOOD_TAG"
     fi
 
